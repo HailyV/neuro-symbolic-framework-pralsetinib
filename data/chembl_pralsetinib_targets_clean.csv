@@ -1,0 +1,4 @@
+chembl_target_id,target_name,uniprot_id,accessions_raw,target_type,organism,n_compounds,n_activities,tax_id
+CHEMBL2971,Tyrosine-protein kinase JAK2,O60674,O60674,SINGLE PROTEIN,Homo sapiens,17559,56207,9606
+CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,P07949,P07949,SINGLE PROTEIN,Homo sapiens,6484,78255,9606
+CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,P36888,P36888,SINGLE PROTEIN,Homo sapiens,8546,19473,9606
