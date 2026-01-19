@@ -1,0 +1,4 @@
+ChEMBL ID,Name,Organism,Type,uniprot_id
+CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,Homo sapiens,SINGLE PROTEIN,P36888
+CHEMBL2971,Tyrosine-protein kinase JAK2,Homo sapiens,SINGLE PROTEIN,O60674
+CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens,SINGLE PROTEIN,P07949

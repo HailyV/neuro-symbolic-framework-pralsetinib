@@ -1,0 +1,4 @@
+source_id,source_type,edge_type,target_id,target_type,target_name,evidence
+CHEMBL4582651,drug,binds_or_inhibits,P36888,protein,Receptor-type tyrosine-protein kinase FLT3,ChEMBL targets export
+CHEMBL4582651,drug,binds_or_inhibits,O60674,protein,Tyrosine-protein kinase JAK2,ChEMBL targets export
+CHEMBL4582651,drug,binds_or_inhibits,P07949,protein,Proto-oncogene tyrosine-protein kinase receptor Ret,ChEMBL targets export
