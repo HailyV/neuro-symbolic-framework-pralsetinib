@@ -15,10 +15,13 @@ Edit TOP_AE to control the number of FAERS adverse-event nodes kept.
 from pathlib import Path
 import pandas as pd
 import re
+from kg_go import build_go_components
 
-CHEMBL_PATH = Path(r"data/chembl_pralsetinib_targets_clean.csv")
+CHEMBL_PATH = Path(r"data/chembl/pralsetinib_targets_clean.csv")
 OT_PATH = Path(r"data/open_targets_target_disease_long.csv")
 FAERS_PATH = Path(r"data/faers_data.xlsx")
+OUTPUT_DIR = Path("kg_files")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DRUG_NAME = "Pralsetinib"
 DRUG_CHEMBL_ID = "CHEMBL4582651"
@@ -42,16 +45,19 @@ def main():
     ot = pd.read_csv(OT_PATH, dtype={"score": float})
     faers = pd.read_excel(FAERS_PATH)
 
-    # For this project, explicitly map UniProt -> gene symbol
+    # Explicit UniProt → gene symbol mapping
     uniprot_to_symbol = {
         "P07949": "RET",
         "P36888": "FLT3",
         "O60674": "JAK2",
     }
-    sym_to_uniprot = {v:k for k,v in uniprot_to_symbol.items()}
+    sym_to_uniprot = {v: k for k, v in uniprot_to_symbol.items()}
     chembl["target_symbol"] = chembl["uniprot_id"].map(uniprot_to_symbol)
 
+    # Build nodes
     nodes = []
+
+    # Drug
     nodes.append({
         "node_id": DRUG_NODE_ID,
         "node_type": "Drug",
@@ -59,30 +65,31 @@ def main():
         "chembl_id": DRUG_CHEMBL_ID
     })
 
+    # Targets
     for _, r in chembl.iterrows():
-        sym = r.get("target_symbol") or ""
         nodes.append({
             "node_id": f"target:{r['uniprot_id']}",
             "node_type": "Target",
-            "label": sym if sym else r.get("target_name",""), 
+            "label": r.get("target_symbol") or r.get("target_name", ""),
             "uniprot_id": r["uniprot_id"],
-            "chembl_target_id": r.get("chembl_target_id",""), 
+            "chembl_target_id": r.get("chembl_target_id", ""),
         })
 
-    ot_diseases = ot[["disease_id","disease_name"]].dropna().drop_duplicates()
+    # Disease
+    ot_diseases = ot[["disease_id", "disease_name"]].dropna().drop_duplicates()
     for _, r in ot_diseases.iterrows():
-        did = str(r["disease_id"])
         nodes.append({
-            "node_id": f"disease:{did}",
+            "node_id": f"disease:{r['disease_id']}",
             "node_type": "Disease",
-            "label": str(r["disease_name"]),
-            "ontology_id": did,
+            "label": r["disease_name"],
+            "ontology_id": r["disease_id"],
         })
 
-    # FAERS adverse events (top N)
+    # FAERS
     reactions = []
     for v in faers.get("Reactions", pd.Series([], dtype=object)):
         reactions.extend(split_reactions(v))
+
     ae_counts = pd.Series(reactions).value_counts().head(TOP_AE)
 
     for ae, cnt in ae_counts.items():
@@ -93,19 +100,26 @@ def main():
             "faers_count": int(cnt),
         })
 
-    nodes_df = pd.DataFrame(nodes).drop_duplicates(subset=["node_id"]).reset_index(drop=True)
+    nodes_df = (
+        pd.DataFrame(nodes)
+        .drop_duplicates(subset=["node_id"])
+        .reset_index(drop=True)
+    )
 
+    # Build edges
     edges = []
 
+    # Drug → Target (ChEMBL)
     for _, r in chembl.iterrows():
         edges.append({
             "source": DRUG_NODE_ID,
             "edge_type": "binds_to",
             "target": f"target:{r['uniprot_id']}",
             "provenance": "ChEMBL",
-            "evidence": r.get("chembl_target_id",""), 
+            "evidence": r.get("chembl_target_id", ""),
         })
 
+    # Target → Disease (Open Targets)
     for _, r in ot.iterrows():
         unip = sym_to_uniprot.get(r.get("target_symbol", ""))
         if not unip:
@@ -118,6 +132,7 @@ def main():
             "score": float(r["score"]) if pd.notna(r["score"]) else None,
         })
 
+    # Drug → Adverse Event (FAERS)
     for ae, cnt in ae_counts.items():
         edges.append({
             "source": DRUG_NODE_ID,
@@ -127,14 +142,38 @@ def main():
             "count": int(cnt),
         })
 
-    edges_df = pd.DataFrame(edges)
+    # GO
+    GO_PATH = Path("data/raw/goa_human.gaf.gz")
+    TARGET_UNIPROTS = list(uniprot_to_symbol.keys())
 
-    out_nodes = Path("kg_nodes.csv")
-    out_edges = Path("kg_edges.csv")
+    go_nodes_df, go_edges_df = build_go_components(
+        GO_PATH,
+        TARGET_UNIPROTS
+    )
+
+    # Merge GO nodes
+    nodes_df = pd.concat(
+        [nodes_df, go_nodes_df],
+        ignore_index=True
+    ).drop_duplicates(subset=["node_id"])
+
+    # Merge GO edges
+    edges_df = pd.concat(
+        [pd.DataFrame(edges), go_edges_df],
+        ignore_index=True
+    )
+
+    # Write outputs
+    out_nodes = OUTPUT_DIR / "kg_nodes.csv"
+    out_edges = OUTPUT_DIR / "kg_edges.csv"
+
     nodes_df.to_csv(out_nodes, index=False)
     edges_df.to_csv(out_edges, index=False)
 
-    print(f"Wrote {out_nodes} ({len(nodes_df)} nodes) and {out_edges} ({len(edges_df)} edges).")
+    print(
+        f"Wrote {out_nodes} ({len(nodes_df)} nodes) "
+        f"and {out_edges} ({len(edges_df)} edges)."
+    )
 
 if __name__ == "__main__":
     main()

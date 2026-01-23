@@ -1,0 +1,415 @@
+node_id,node_type,label,chembl_id,uniprot_id,chembl_target_id,ontology_id,faers_count,go_id
+drug:CHEMBL4582651,Drug,Pralsetinib,CHEMBL4582651,,,,,
+target:P36888,Target,FLT3,,P36888,,,,
+target:O60674,Target,JAK2,,O60674,,,,
+target:P07949,Target,RET,,P07949,,,,
+disease:MONDO_0008234,Disease,multiple endocrine neoplasia type 2A,,,,MONDO_0008234,,
+disease:MONDO_0015277,Disease,medullary thyroid gland carcinoma,,,,MONDO_0015277,,
+disease:MONDO_0008082,Disease,multiple endocrine neoplasia type 2B,,,,MONDO_0008082,,
+disease:MONDO_0018309,Disease,Hirschsprung disease,,,,MONDO_0018309,,
+disease:MONDO_0008233,Disease,pheochromocytoma,,,,MONDO_0008233,,
+disease:MONDO_0007958,Disease,familial medullary thyroid carcinoma,,,,MONDO_0007958,,
+disease:EFO_0003060,Disease,non-small cell lung carcinoma,,,,EFO_0003060,,
+disease:MONDO_0017169,Disease,multiple endocrine neoplasia,,,,MONDO_0017169,,
+disease:Orphanet_661,Disease,Ondine syndrome,,,,Orphanet_661,,
+disease:MONDO_0011719,Disease,gastrointestinal stromal tumor,,,,MONDO_0011719,,
+disease:MONDO_0018470,Disease,renal agenesis,,,,MONDO_0018470,,
+disease:EFO_0000681,Disease,renal cell carcinoma,,,,EFO_0000681,,
+disease:MONDO_0024519,Disease,renal hypodysplasia/aplasia 1,,,,MONDO_0024519,,
+disease:EFO_0000616,Disease,neoplasm,,,,EFO_0000616,,
+disease:EFO_0000239,Disease,adrenal gland pheochromocytoma,,,,EFO_0000239,,
+disease:MONDO_0005575,Disease,colorectal cancer,,,,MONDO_0005575,,
+disease:EFO_0003841,Disease,thyroid neoplasm,,,,EFO_0003841,,
+disease:EFO_0002892,Disease,thyroid carcinoma,,,,EFO_0002892,,
+disease:MONDO_0019003,Disease,multiple endocrine neoplasia type 2,,,,MONDO_0019003,,
+disease:MONDO_0015356,Disease,hereditary neoplastic syndrome,,,,MONDO_0015356,,
+disease:Orphanet_140162,Disease,Inherited cancer-predisposing syndrome,,,,Orphanet_140162,,
+disease:MONDO_0002108,Disease,thyroid cancer,,,,MONDO_0002108,,
+disease:HP_0002251,Disease,Aganglionic megacolon,,,,HP_0002251,,
+disease:MONDO_0800026,Disease,"central hypoventilation syndrome, congenital, 1, with or without Hirschsprung disease",,,,MONDO_0800026,,
+disease:MONDO_0800031,Disease,"central hypoventilation syndrome, congenital",,,,MONDO_0800031,,
+disease:EFO_0000222,Disease,acute myeloid leukemia,,,,EFO_0000222,,
+disease:MONDO_0004992,Disease,cancer,,,,MONDO_0004992,,
+disease:EFO_0000220,Disease,acute lymphoblastic leukemia,,,,EFO_0000220,,
+disease:EFO_0002430,Disease,primary myelofibrosis,,,,EFO_0002430,,
+disease:EFO_0000209,Disease,T-cell acute lymphoblastic leukemia,,,,EFO_0000209,,
+disease:HP_0000924,Disease,Abnormality of the skeletal system,,,,HP_0000924,,
+disease:EFO_1001901,Disease,neuroendocrine neoplasm,,,,EFO_1001901,,
+disease:EFO_0000182,Disease,hepatocellular carcinoma,,,,EFO_0000182,,
+disease:EFO_0007359,Disease,mast-cell leukemia,,,,EFO_0007359,,
+disease:EFO_0004251,Disease,myeloproliferative disorder,,,,EFO_0004251,,
+disease:EFO_0004705,Disease,hypothyroidism,,,,EFO_0004705,,
+disease:EFO_0002429,Disease,polycythemia vera,,,,EFO_0002429,,
+disease:EFO_1000045,Disease,pancreatic neuroendocrine tumor,,,,EFO_1000045,,
+disease:EFO_1000562,Disease,Tenosynovial Giant Cell Tumor,,,,EFO_1000562,,
+disease:EFO_0000349,Disease,clear cell renal carcinoma,,,,EFO_0000349,,
+disease:EFO_0002618,Disease,pancreatic carcinoma,,,,EFO_0002618,,
+disease:EFO_0003865,Disease,kidney neoplasm,,,,EFO_0003865,,
+disease:EFO_0000389,Disease,cutaneous melanoma,,,,EFO_0000389,,
+disease:EFO_0000313,Disease,carcinoma,,,,EFO_0000313,,
+disease:MONDO_0002691,Disease,liver cancer,,,,MONDO_0002691,,
+disease:EFO_0000479,Disease,essential thrombocythemia,,,,EFO_0000479,,
+disease:HP_0001744,Disease,Splenomegaly,,,,HP_0001744,,
+disease:EFO_0005803,Disease,hematologic disease,,,,EFO_0005803,,
+disease:EFO_0000685,Disease,rheumatoid arthritis,,,,EFO_0000685,,
+disease:EFO_0000729,Disease,ulcerative colitis,,,,EFO_0000729,,
+disease:HP_0011974,Disease,Myelofibrosis,,,,HP_0011974,,
+disease:MONDO_0002243,Disease,hemorrhagic disease,,,,MONDO_0002243,,
+disease:EFO_0000384,Disease,Crohn's disease,,,,EFO_0000384,,
+disease:MONDO_0044903,Disease,myelofibrosis,,,,MONDO_0044903,,
+disease:HP_0002240,Disease,Hepatomegaly,,,,HP_0002240,,
+disease:EFO_0003778,Disease,psoriatic arthritis,,,,EFO_0003778,,
+disease:EFO_1000966,Disease,hepatic vein thrombosis,,,,EFO_1000966,,
+disease:HP_0000964,Disease,Eczematoid dermatitis,,,,HP_0000964,,
+disease:EFO_0005804,Disease,polycythemia,,,,EFO_0005804,,
+disease:MONDO_0013730,Disease,graft versus host disease,,,,MONDO_0013730,,
+disease:HP_0001873,Disease,Thrombocytopenia,,,,HP_0001873,,
+disease:EFO_0003767,Disease,inflammatory bowel disease,,,,EFO_0003767,,
+disease:EFO_0000676,Disease,psoriasis,,,,EFO_0000676,,
+disease:EFO_0003898,Disease,ankylosing spondylitis,,,,EFO_0003898,,
+ae:Product Prescribing Issue,AdverseEvent,Product Prescribing Issue,,,,,131.0,
+ae:Death,AdverseEvent,Death,,,,,81.0,
+ae:Fatigue,AdverseEvent,Fatigue,,,,,67.0,
+ae:Off Label Use,AdverseEvent,Off Label Use,,,,,65.0,
+ae:Diarrhoea,AdverseEvent,Diarrhoea,,,,,52.0,
+ae:Anaemia,AdverseEvent,Anaemia,,,,,49.0,
+ae:Asthenia,AdverseEvent,Asthenia,,,,,47.0,
+ae:Constipation,AdverseEvent,Constipation,,,,,43.0,
+ae:Blood Pressure Increased,AdverseEvent,Blood Pressure Increased,,,,,43.0,
+ae:Hypertension,AdverseEvent,Hypertension,,,,,42.0,
+ae:Disease Progression,AdverseEvent,Disease Progression,,,,,39.0,
+ae:White Blood Cell Count Decreased,AdverseEvent,White Blood Cell Count Decreased,,,,,35.0,
+ae:Pneumonia,AdverseEvent,Pneumonia,,,,,33.0,
+ae:No Adverse Event,AdverseEvent,No Adverse Event,,,,,33.0,
+ae:Pyrexia,AdverseEvent,Pyrexia,,,,,31.0,
+ae:Hospitalisation,AdverseEvent,Hospitalisation,,,,,30.0,
+ae:Cough,AdverseEvent,Cough,,,,,28.0,
+ae:Dizziness,AdverseEvent,Dizziness,,,,,26.0,
+ae:Nausea,AdverseEvent,Nausea,,,,,26.0,
+ae:Dyspnoea,AdverseEvent,Dyspnoea,,,,,25.0,
+ae:Pneumonitis,AdverseEvent,Pneumonitis,,,,,24.0,
+ae:Dry Mouth,AdverseEvent,Dry Mouth,,,,,24.0,
+ae:Platelet Count Decreased,AdverseEvent,Platelet Count Decreased,,,,,23.0,
+ae:Arthralgia,AdverseEvent,Arthralgia,,,,,21.0,
+ae:Pain,AdverseEvent,Pain,,,,,21.0,
+ae:Hepatic Function Abnormal,AdverseEvent,Hepatic Function Abnormal,,,,,20.0,
+ae:Interstitial Lung Disease,AdverseEvent,Interstitial Lung Disease,,,,,18.0,
+ae:Rash,AdverseEvent,Rash,,,,,18.0,
+ae:Product Dose Omission Issue,AdverseEvent,Product Dose Omission Issue,,,,,18.0,
+ae:Decreased Appetite,AdverseEvent,Decreased Appetite,,,,,18.0,
+ae:Headache,AdverseEvent,Headache,,,,,18.0,
+ae:Neutropenia,AdverseEvent,Neutropenia,,,,,17.0,
+ae:Haemoglobin Decreased,AdverseEvent,Haemoglobin Decreased,,,,,16.0,
+ae:Stomatitis,AdverseEvent,Stomatitis,,,,,16.0,
+ae:Back Pain,AdverseEvent,Back Pain,,,,,15.0,
+ae:Renal Impairment,AdverseEvent,Renal Impairment,,,,,15.0,
+ae:Oedema,AdverseEvent,Oedema,,,,,15.0,
+ae:Taste Disorder,AdverseEvent,Taste Disorder,,,,,15.0,
+ae:Vomiting,AdverseEvent,Vomiting,,,,,15.0,
+ae:Urinary Tract Infection,AdverseEvent,Urinary Tract Infection,,,,,14.0,
+ae:Fall,AdverseEvent,Fall,,,,,13.0,
+ae:Covid-19,AdverseEvent,Covid-19,,,,,13.0,
+ae:Hepatic Enzyme Increased,AdverseEvent,Hepatic Enzyme Increased,,,,,12.0,
+ae:Dysphagia,AdverseEvent,Dysphagia,,,,,12.0,
+ae:Drug Ineffective,AdverseEvent,Drug Ineffective,,,,,12.0,
+ae:Red Blood Cell Count Decreased,AdverseEvent,Red Blood Cell Count Decreased,,,,,12.0,
+ae:Malaise,AdverseEvent,Malaise,,,,,11.0,
+ae:Oedema Peripheral,AdverseEvent,Oedema Peripheral,,,,,11.0,
+ae:Hypotension,AdverseEvent,Hypotension,,,,,11.0,
+ae:Ageusia,AdverseEvent,Ageusia,,,,,11.0,
+ae:Pleural Effusion,AdverseEvent,Pleural Effusion,,,,,11.0,
+ae:Face Oedema,AdverseEvent,Face Oedema,,,,,10.0,
+ae:Aspartate Aminotransferase Increased,AdverseEvent,Aspartate Aminotransferase Increased,,,,,10.0,
+ae:Chills,AdverseEvent,Chills,,,,,10.0,
+ae:Myalgia,AdverseEvent,Myalgia,,,,,10.0,
+ae:Pain In Extremity,AdverseEvent,Pain In Extremity,,,,,10.0,
+ae:Epistaxis,AdverseEvent,Epistaxis,,,,,10.0,
+ae:Chest Discomfort,AdverseEvent,Chest Discomfort,,,,,9.0,
+ae:Neutrophil Count Decreased,AdverseEvent,Neutrophil Count Decreased,,,,,9.0,
+ae:Mouth Ulceration,AdverseEvent,Mouth Ulceration,,,,,9.0,
+ae:General Physical Health Deterioration,AdverseEvent,General Physical Health Deterioration,,,,,9.0,
+ae:Oropharyngeal Pain,AdverseEvent,Oropharyngeal Pain,,,,,9.0,
+ae:Peripheral Swelling,AdverseEvent,Peripheral Swelling,,,,,9.0,
+ae:Weight Increased,AdverseEvent,Weight Increased,,,,,9.0,
+ae:Adverse Event,AdverseEvent,Adverse Event,,,,,9.0,
+ae:Balance Disorder,AdverseEvent,Balance Disorder,,,,,9.0,
+ae:Abdominal Pain Upper,AdverseEvent,Abdominal Pain Upper,,,,,9.0,
+ae:Neuropathy Peripheral,AdverseEvent,Neuropathy Peripheral,,,,,9.0,
+ae:Muscular Weakness,AdverseEvent,Muscular Weakness,,,,,9.0,
+ae:Gait Disturbance,AdverseEvent,Gait Disturbance,,,,,9.0,
+ae:Swelling Face,AdverseEvent,Swelling Face,,,,,8.0,
+ae:Dehydration,AdverseEvent,Dehydration,,,,,8.0,
+ae:Blood Creatinine Increased,AdverseEvent,Blood Creatinine Increased,,,,,8.0,
+ae:Insomnia,AdverseEvent,Insomnia,,,,,8.0,
+ae:Chest Pain,AdverseEvent,Chest Pain,,,,,8.0,
+ae:Gastrointestinal Disorder,AdverseEvent,Gastrointestinal Disorder,,,,,8.0,
+ae:Malignant Neoplasm Progression,AdverseEvent,Malignant Neoplasm Progression,,,,,8.0,
+ae:Ascites,AdverseEvent,Ascites,,,,,8.0,
+ae:Herpes Zoster,AdverseEvent,Herpes Zoster,,,,,8.0,
+ae:Transaminases Increased,AdverseEvent,Transaminases Increased,,,,,7.0,
+ae:Alanine Aminotransferase Increased,AdverseEvent,Alanine Aminotransferase Increased,,,,,7.0,
+ae:Myocardial Necrosis Marker Increased,AdverseEvent,Myocardial Necrosis Marker Increased,,,,,7.0,
+ae:Blood Creatine Phosphokinase Increased,AdverseEvent,Blood Creatine Phosphokinase Increased,,,,,7.0,
+ae:Pulmonary Embolism,AdverseEvent,Pulmonary Embolism,,,,,7.0,
+ae:Adverse Drug Reaction,AdverseEvent,Adverse Drug Reaction,,,,,7.0,
+ae:Condition Aggravated,AdverseEvent,Condition Aggravated,,,,,7.0,
+ae:Abdominal Discomfort,AdverseEvent,Abdominal Discomfort,,,,,7.0,
+ae:Lung Disorder,AdverseEvent,Lung Disorder,,,,,7.0,
+ae:Drug Intolerance,AdverseEvent,Drug Intolerance,,,,,7.0,
+ae:Abdominal Pain,AdverseEvent,Abdominal Pain,,,,,7.0,
+ae:Paraesthesia,AdverseEvent,Paraesthesia,,,,,7.0,
+ae:Dysphonia,AdverseEvent,Dysphonia,,,,,7.0,
+ae:Heart Rate Increased,AdverseEvent,Heart Rate Increased,,,,,7.0,
+ae:Hypoaesthesia,AdverseEvent,Hypoaesthesia,,,,,7.0,
+ae:Neoplasm Malignant,AdverseEvent,Neoplasm Malignant,,,,,7.0,
+ae:Liver Injury,AdverseEvent,Liver Injury,,,,,7.0,
+ae:Infection,AdverseEvent,Infection,,,,,6.0,
+ae:Bone Pain,AdverseEvent,Bone Pain,,,,,6.0,
+ae:Thrombosis,AdverseEvent,Thrombosis,,,,,6.0,
+ae:Loss Of Consciousness,AdverseEvent,Loss Of Consciousness,,,,,6.0,
+ae:Platelet Count Increased,AdverseEvent,Platelet Count Increased,,,,,6.0,
+ae:Blood Test Abnormal,AdverseEvent,Blood Test Abnormal,,,,,6.0,
+ae:Blood Pressure Abnormal,AdverseEvent,Blood Pressure Abnormal,,,,,6.0,
+ae:Nasopharyngitis,AdverseEvent,Nasopharyngitis,,,,,6.0,
+ae:Depression,AdverseEvent,Depression,,,,,6.0,
+ae:Syncope,AdverseEvent,Syncope,,,,,6.0,
+ae:Thrombocytopenia,AdverseEvent,Thrombocytopenia,,,,,6.0,
+ae:Vision Blurred,AdverseEvent,Vision Blurred,,,,,6.0,
+ae:Surgery,AdverseEvent,Surgery,,,,,6.0,
+ae:Myelosuppression,AdverseEvent,Myelosuppression,,,,,5.0,
+ae:Metastases To Central Nervous System,AdverseEvent,Metastases To Central Nervous System,,,,,5.0,
+ae:Sepsis,AdverseEvent,Sepsis,,,,,5.0,
+ae:Weight Decreased,AdverseEvent,Weight Decreased,,,,,5.0,
+ae:Pulmonary Oedema,AdverseEvent,Pulmonary Oedema,,,,,5.0,
+ae:Swelling Of Eyelid,AdverseEvent,Swelling Of Eyelid,,,,,5.0,
+ae:Haemorrhage,AdverseEvent,Haemorrhage,,,,,5.0,
+ae:Carcinoembryonic Antigen Increased,AdverseEvent,Carcinoembryonic Antigen Increased,,,,,5.0,
+ae:Blood Sodium Decreased,AdverseEvent,Blood Sodium Decreased,,,,,5.0,
+ae:Illness,AdverseEvent,Illness,,,,,5.0,
+ae:Hypoxia,AdverseEvent,Hypoxia,,,,,5.0,
+ae:Dyspepsia,AdverseEvent,Dyspepsia,,,,,5.0,
+ae:Pruritus,AdverseEvent,Pruritus,,,,,5.0,
+ae:Renal Function Test Abnormal,AdverseEvent,Renal Function Test Abnormal,,,,,5.0,
+ae:Ill-Defined Disorder,AdverseEvent,Ill-Defined Disorder,,,,,5.0,
+ae:Metastases To Bone,AdverseEvent,Metastases To Bone,,,,,5.0,
+ae:Lymphopenia,AdverseEvent,Lymphopenia,,,,,5.0,
+ae:Alopecia,AdverseEvent,Alopecia,,,,,5.0,
+ae:Drug Resistance,AdverseEvent,Drug Resistance,,,,,5.0,
+ae:Brain Neoplasm,AdverseEvent,Brain Neoplasm,,,,,4.0,
+ae:Confusional State,AdverseEvent,Confusional State,,,,,4.0,
+ae:Liver Function Test Increased,AdverseEvent,Liver Function Test Increased,,,,,4.0,
+ae:Pancytopenia,AdverseEvent,Pancytopenia,,,,,4.0,
+ae:Hyperhidrosis,AdverseEvent,Hyperhidrosis,,,,,4.0,
+ae:Blood Glucose Increased,AdverseEvent,Blood Glucose Increased,,,,,4.0,
+ae:Dysgeusia,AdverseEvent,Dysgeusia,,,,,4.0,
+ae:Hyponatraemia,AdverseEvent,Hyponatraemia,,,,,4.0,
+ae:Full Blood Count Abnormal,AdverseEvent,Full Blood Count Abnormal,,,,,4.0,
+ae:Febrile Neutropenia,AdverseEvent,Febrile Neutropenia,,,,,4.0,
+ae:Pneumothorax,AdverseEvent,Pneumothorax,,,,,4.0,
+ae:Hypogeusia,AdverseEvent,Hypogeusia,,,,,4.0,
+ae:Toxicity To Various Agents,AdverseEvent,Toxicity To Various Agents,,,,,4.0,
+ae:Anxiety,AdverseEvent,Anxiety,,,,,4.0,
+ae:Immunodeficiency,AdverseEvent,Immunodeficiency,,,,,4.0,
+ae:Generalised Oedema,AdverseEvent,Generalised Oedema,,,,,4.0,
+ae:Discomfort,AdverseEvent,Discomfort,,,,,4.0,
+ae:Eczema,AdverseEvent,Eczema,,,,,4.0,
+ae:Leukopenia,AdverseEvent,Leukopenia,,,,,4.0,
+ae:Neoplasm Progression,AdverseEvent,Neoplasm Progression,,,,,4.0,
+ae:Hyperpyrexia,AdverseEvent,Hyperpyrexia,,,,,4.0,
+ae:Metastatic Neoplasm,AdverseEvent,Metastatic Neoplasm,,,,,4.0,
+ae:Hypothyroidism,AdverseEvent,Hypothyroidism,,,,,4.0,
+ae:Poor Quality Sleep,AdverseEvent,Poor Quality Sleep,,,,,4.0,
+ae:Cellulitis,AdverseEvent,Cellulitis,,,,,4.0,
+ae:Hypoalbuminaemia,AdverseEvent,Hypoalbuminaemia,,,,,4.0,
+ae:Flatulence,AdverseEvent,Flatulence,,,,,4.0,
+ae:Unevaluable Event,AdverseEvent,Unevaluable Event,,,,,4.0,
+ae:Limb Discomfort,AdverseEvent,Limb Discomfort,,,,,4.0,
+ae:Haemoptysis,AdverseEvent,Haemoptysis,,,,,4.0,
+ae:Intentional Product Misuse,AdverseEvent,Intentional Product Misuse,,,,,3.0,
+ae:Gastritis,AdverseEvent,Gastritis,,,,,3.0,
+ae:Hypoaesthesia Oral,AdverseEvent,Hypoaesthesia Oral,,,,,3.0,
+ae:Tachypnoea,AdverseEvent,Tachypnoea,,,,,3.0,
+ae:Brain Fog,AdverseEvent,Brain Fog,,,,,3.0,
+ae:Periorbital Swelling,AdverseEvent,Periorbital Swelling,,,,,3.0,
+ae:Hypersomnia,AdverseEvent,Hypersomnia,,,,,3.0,
+ae:Back Disorder,AdverseEvent,Back Disorder,,,,,3.0,
+ae:Laboratory Test Abnormal,AdverseEvent,Laboratory Test Abnormal,,,,,3.0,
+ae:Myocardial Infarction,AdverseEvent,Myocardial Infarction,,,,,3.0,
+ae:Somnolence,AdverseEvent,Somnolence,,,,,3.0,
+ae:Oral Pain,AdverseEvent,Oral Pain,,,,,3.0,
+ae:Blood Alkaline Phosphatase Increased,AdverseEvent,Blood Alkaline Phosphatase Increased,,,,,3.0,
+ae:Sinusitis,AdverseEvent,Sinusitis,,,,,3.0,
+ae:Bronchopulmonary Aspergillosis,AdverseEvent,Bronchopulmonary Aspergillosis,,,,,3.0,
+ae:Mucosal Inflammation,AdverseEvent,Mucosal Inflammation,,,,,3.0,
+ae:Fungal Foot Infection,AdverseEvent,Fungal Foot Infection,,,,,3.0,
+ae:Hyperkalaemia,AdverseEvent,Hyperkalaemia,,,,,3.0,
+ae:Tumour Lysis Syndrome,AdverseEvent,Tumour Lysis Syndrome,,,,,3.0,
+ae:Palmar-Plantar Erythrodysaesthesia Syndrome,AdverseEvent,Palmar-Plantar Erythrodysaesthesia Syndrome,,,,,3.0,
+ae:Body Temperature Increased,AdverseEvent,Body Temperature Increased,,,,,3.0,
+ae:Abdominal Distension,AdverseEvent,Abdominal Distension,,,,,3.0,
+ae:Respiratory Failure,AdverseEvent,Respiratory Failure,,,,,3.0,
+ae:Musculoskeletal Chest Pain,AdverseEvent,Musculoskeletal Chest Pain,,,,,3.0,
+ae:Enterocolitis,AdverseEvent,Enterocolitis,,,,,3.0,
+ae:Dysuria,AdverseEvent,Dysuria,,,,,3.0,
+ae:Dry Throat,AdverseEvent,Dry Throat,,,,,3.0,
+ae:Liver Disorder,AdverseEvent,Liver Disorder,,,,,3.0,
+ae:Tooth Extraction,AdverseEvent,Tooth Extraction,,,,,3.0,
+ae:Pneumonia Fungal,AdverseEvent,Pneumonia Fungal,,,,,3.0,
+ae:Eye Swelling,AdverseEvent,Eye Swelling,,,,,3.0,
+ae:Initial Insomnia,AdverseEvent,Initial Insomnia,,,,,3.0,
+ae:Labile Blood Pressure,AdverseEvent,Labile Blood Pressure,,,,,3.0,
+ae:Pneumocystis Jirovecii Pneumonia,AdverseEvent,Pneumocystis Jirovecii Pneumonia,,,,,3.0,
+ae:Pneumonia Viral,AdverseEvent,Pneumonia Viral,,,,,3.0,
+ae:Emergency Care,AdverseEvent,Emergency Care,,,,,3.0,
+ae:Product Use Issue,AdverseEvent,Product Use Issue,,,,,3.0,
+ae:Muscle Spasms,AdverseEvent,Muscle Spasms,,,,,3.0,
+ae:Rash Macular,AdverseEvent,Rash Macular,,,,,3.0,
+ae:Influenza,AdverseEvent,Influenza,,,,,3.0,
+ae:Nocturia,AdverseEvent,Nocturia,,,,,3.0,
+ae:Rhabdomyolysis,AdverseEvent,Rhabdomyolysis,,,,,3.0,
+go:GO:0032760,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0032760
+go:GO:1901731,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1901731
+go:GO:0007167,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007167
+go:GO:0007259,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007259
+go:GO:0008285,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0008285
+go:GO:0010572,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0010572
+go:GO:0030099,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0030099
+go:GO:0030154,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0030154
+go:GO:0034050,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0034050
+go:GO:0035556,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0035556
+go:GO:0036016,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0036016
+go:GO:0043066,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0043066
+go:GO:0046677,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0046677
+go:GO:0060391,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0060391
+go:GO:0061180,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0061180
+go:GO:0071222,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0071222
+go:GO:0071549,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0071549
+go:GO:0097191,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0097191
+go:GO:2001235,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:2001235
+go:GO:0001774,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0001774
+go:GO:0001819,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0001819
+go:GO:0002250,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0002250
+go:GO:0002376,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0002376
+go:GO:0006325,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0006325
+go:GO:0006338,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0006338
+go:GO:0006915,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0006915
+go:GO:0006979,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0006979
+go:GO:0007155,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007155
+go:GO:0007165,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007165
+go:GO:0007204,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007204
+go:GO:0007498,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0007498
+go:GO:0008284,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0008284
+go:GO:0008631,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0008631
+go:GO:0009755,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0009755
+go:GO:0010667,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0010667
+go:GO:0010811,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0010811
+go:GO:0019221,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0019221
+go:GO:0022407,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0022407
+go:GO:0022408,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0022408
+go:GO:0030041,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0030041
+go:GO:0030218,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0030218
+go:GO:0030335,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0030335
+go:GO:0031103,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0031103
+go:GO:0031663,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0031663
+go:GO:0031959,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0031959
+go:GO:0032024,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0032024
+go:GO:0032731,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0032731
+go:GO:0033194,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0033194
+go:GO:0033209,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0033209
+go:GO:0034612,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0034612
+go:GO:0035166,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0035166
+go:GO:0035722,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0035722
+go:GO:0038043,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038043
+go:GO:0038065,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038065
+go:GO:0038155,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038155
+go:GO:0038156,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038156
+go:GO:0038157,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038157
+go:GO:0038162,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038162
+go:GO:0038163,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0038163
+go:GO:0042102,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0042102
+go:GO:0042307,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0042307
+go:GO:0042531,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0042531
+go:GO:0042976,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0042976
+go:GO:0043065,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0043065
+go:GO:0043410,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0043410
+go:GO:0043524,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0043524
+go:GO:0043687,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0043687
+go:GO:0045087,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045087
+go:GO:0045348,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045348
+go:GO:0045428,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045428
+go:GO:0045429,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045429
+go:GO:0045597,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045597
+go:GO:0045944,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0045944
+go:GO:0046425,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0046425
+go:GO:0046634,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0046634
+go:GO:0046777,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0046777
+go:GO:0048008,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0048008
+go:GO:0050727,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0050727
+go:GO:0050804,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0050804
+go:GO:0050867,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0050867
+go:GO:0051897,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0051897
+go:GO:0060333,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0060333
+go:GO:0060396,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0060396
+go:GO:0060397,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0060397
+go:GO:0060399,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0060399
+go:GO:0070102,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0070102
+go:GO:0070665,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0070665
+go:GO:0070671,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0070671
+go:GO:0070757,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0070757
+go:GO:0120162,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0120162
+go:GO:0120186,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0120186
+go:GO:0140546,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:0140546
+go:GO:1900016,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1900016
+go:GO:1902533,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1902533
+go:GO:1902728,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1902728
+go:GO:1904037,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1904037
+go:GO:1904707,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1904707
+go:GO:1905539,BiologicalProcess,Tyrosine-protein kinase JAK2,,,,,,GO:1905539
+go:GO:0000165,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0000165
+go:GO:0001657,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0001657
+go:GO:0001755,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0001755
+go:GO:0001838,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0001838
+go:GO:0007169,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007169
+go:GO:0007399,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007399
+go:GO:0010628,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0010628
+go:GO:0030182,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0030182
+go:GO:0035799,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0035799
+go:GO:0042551,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0042551
+go:GO:0045793,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0045793
+go:GO:0048484,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0048484
+go:GO:0050770,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0050770
+go:GO:0007156,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007156
+go:GO:0007158,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007158
+go:GO:0007411,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007411
+go:GO:0007497,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0007497
+go:GO:0010976,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0010976
+go:GO:0030155,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0030155
+go:GO:0033619,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0033619
+go:GO:0033630,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0033630
+go:GO:0035860,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0035860
+go:GO:0045893,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0045893
+go:GO:0048265,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0048265
+go:GO:0061146,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0061146
+go:GO:0071300,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0071300
+go:GO:0072300,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0072300
+go:GO:0097021,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0097021
+go:GO:0160144,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:0160144
+go:GO:2001241,BiologicalProcess,Proto-oncogene tyrosine-protein kinase receptor Ret,,,,,,GO:2001241
+go:GO:0030097,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0030097
+go:GO:0001776,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0001776
+go:GO:0002318,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0002318
+go:GO:0002328,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0002328
+go:GO:0007166,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0007166
+go:GO:0010604,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0010604
+go:GO:0018108,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0018108
+go:GO:0030183,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0030183
+go:GO:0035726,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0035726
+go:GO:0038084,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0038084
+go:GO:0042981,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0042981
+go:GO:0043406,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0043406
+go:GO:0046651,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0046651
+go:GO:0071345,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0071345
+go:GO:0071385,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0071385
+go:GO:0097028,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0097028
+go:GO:0097421,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0097421
+go:GO:0016477,BiologicalProcess,Receptor-type tyrosine-protein kinase FLT3,,,,,,GO:0016477
