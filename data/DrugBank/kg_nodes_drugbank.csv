@@ -1,0 +1,27 @@
+node_id,node_type,label,gene_symbol,uniprot_id,category,specific_function,source
+drug:Pralsetinib,Drug,Pralsetinib,,,,,
+protein:RET,Protein,RET,RET,P07949,target,ATP binding,DrugBank
+protein:DDR1,Protein,DDR1,DDR1,Q08345,target,ATP binding,DrugBank
+protein:NTRK3,Protein,NTRK3,NTRK3,Q16288,target,ATP binding,DrugBank
+protein:FLT3,Protein,FLT3,FLT3,P36888,target,ATP binding,DrugBank
+protein:JAK1,Protein,JAK1,JAK1,P23458,target,ATP binding,DrugBank
+protein:JAK2,Protein,JAK2,JAK2,O60674,target,acetylcholine receptor binding,DrugBank
+protein:NTRK1,Protein,NTRK1,NTRK1,P04629,target,ATP binding,DrugBank
+protein:KDR,Protein,KDR,KDR,P35968,target,ATP binding,DrugBank
+protein:PDGFRB,Protein,PDGFRB,PDGFRB,P09619,target,ATP binding,DrugBank
+protein:FGFR1,Protein,FGFR1,FGFR1,P11362,target,ATP binding,DrugBank
+protein:FGFR2,Protein,FGFR2,FGFR2,P21802,target,ATP binding,DrugBank
+protein:CYP3A4,Protein,CYP3A4,CYP3A4,P08684,enzyme,"1,8-cineole 2-exo-monooxygenase activity",DrugBank
+protein:CYP3A5,Protein,CYP3A5,CYP3A5,P20815,enzyme,estrogen 16-alpha-hydroxylase activity,DrugBank
+protein:CYP2D6,Protein,CYP2D6,CYP2D6,P10635,enzyme,"anandamide 11,12 epoxidase activity",DrugBank
+protein:CYP1A2,Protein,CYP1A2,CYP1A2,P05177,enzyme,caffeine oxidase activity,DrugBank
+protein:CYP2C8,Protein,CYP2C8,CYP2C8,P10632,enzyme,arachidonate epoxygenase activity,DrugBank
+protein:CYP2C9,Protein,CYP2C9,CYP2C9,P11712,enzyme,(R)-limonene 6-monooxygenase activity,DrugBank
+protein:ABCB1,Protein,ABCB1,ABCB1,P08183,transporter,ABC-type xenobiotic transporter activity,DrugBank
+protein:ABCG2,Protein,ABCG2,ABCG2,Q9UNQ0,transporter,ABC-type xenobiotic transporter activity,DrugBank
+protein:SLCO1B1,Protein,SLCO1B1,SLCO1B1,Q9Y6L6,transporter,bile acid transmembrane transporter activity,DrugBank
+protein:SLCO1B3,Protein,SLCO1B3,SLCO1B3,Q9NPD5,transporter,bile acid transmembrane transporter activity,DrugBank
+protein:SLC22A6,Protein,SLC22A6,SLC22A6,Q4U2R8,transporter,alpha-ketoglutarate transmembrane transporter activity,DrugBank
+protein:SLC47A1,Protein,SLC47A1,SLC47A1,Q96FL8,transporter,antiporter activity,DrugBank
+protein:SLC47A2,Protein,SLC47A2,SLC47A2,Q86VL8,transporter,antiporter activity,DrugBank
+protein:ABCB11,Protein,ABCB11,ABCB11,O95342,transporter,ABC-type bile acid transporter activity,DrugBank
