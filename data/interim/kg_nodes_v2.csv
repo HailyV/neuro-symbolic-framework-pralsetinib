@@ -1,0 +1,134 @@
+node_id,node_type,label,gene_symbol,uniprot_id,category,specific_function,source,go_id
+drug:Pralsetinib,Drug,Pralsetinib,,,,,,
+protein:RET,Protein,RET,RET,P07949,target,ATP binding,DrugBank,
+protein:DDR1,Protein,DDR1,DDR1,Q08345,target,ATP binding,DrugBank,
+protein:NTRK3,Protein,NTRK3,NTRK3,Q16288,target,ATP binding,DrugBank,
+protein:FLT3,Protein,FLT3,FLT3,P36888,target,ATP binding,DrugBank,
+protein:JAK1,Protein,JAK1,JAK1,P23458,target,ATP binding,DrugBank,
+protein:JAK2,Protein,JAK2,JAK2,O60674,target,acetylcholine receptor binding,DrugBank,
+protein:NTRK1,Protein,NTRK1,NTRK1,P04629,target,ATP binding,DrugBank,
+protein:KDR,Protein,KDR,KDR,P35968,target,ATP binding,DrugBank,
+protein:PDGFRB,Protein,PDGFRB,PDGFRB,P09619,target,ATP binding,DrugBank,
+protein:FGFR1,Protein,FGFR1,FGFR1,P11362,target,ATP binding,DrugBank,
+protein:FGFR2,Protein,FGFR2,FGFR2,P21802,target,ATP binding,DrugBank,
+protein:CYP3A4,Protein,CYP3A4,CYP3A4,P08684,enzyme,"1,8-cineole 2-exo-monooxygenase activity",DrugBank,
+protein:CYP3A5,Protein,CYP3A5,CYP3A5,P20815,enzyme,estrogen 16-alpha-hydroxylase activity,DrugBank,
+protein:CYP2D6,Protein,CYP2D6,CYP2D6,P10635,enzyme,"anandamide 11,12 epoxidase activity",DrugBank,
+protein:CYP1A2,Protein,CYP1A2,CYP1A2,P05177,enzyme,caffeine oxidase activity,DrugBank,
+protein:CYP2C8,Protein,CYP2C8,CYP2C8,P10632,enzyme,arachidonate epoxygenase activity,DrugBank,
+protein:CYP2C9,Protein,CYP2C9,CYP2C9,P11712,enzyme,(R)-limonene 6-monooxygenase activity,DrugBank,
+protein:ABCB1,Protein,ABCB1,ABCB1,P08183,transporter,ABC-type xenobiotic transporter activity,DrugBank,
+protein:ABCG2,Protein,ABCG2,ABCG2,Q9UNQ0,transporter,ABC-type xenobiotic transporter activity,DrugBank,
+protein:SLCO1B1,Protein,SLCO1B1,SLCO1B1,Q9Y6L6,transporter,bile acid transmembrane transporter activity,DrugBank,
+protein:SLCO1B3,Protein,SLCO1B3,SLCO1B3,Q9NPD5,transporter,bile acid transmembrane transporter activity,DrugBank,
+protein:SLC22A6,Protein,SLC22A6,SLC22A6,Q4U2R8,transporter,alpha-ketoglutarate transmembrane transporter activity,DrugBank,
+protein:SLC47A1,Protein,SLC47A1,SLC47A1,Q96FL8,transporter,antiporter activity,DrugBank,
+protein:SLC47A2,Protein,SLC47A2,SLC47A2,Q86VL8,transporter,antiporter activity,DrugBank,
+protein:ABCB11,Protein,ABCB11,ABCB11,O95342,transporter,ABC-type bile acid transporter activity,DrugBank,
+go:GO:0001774,GO_Process,GO:0001774,,,,,GOA,GO:0001774
+go:GO:0001819,GO_Process,GO:0001819,,,,,GOA,GO:0001819
+go:GO:0002250,GO_Process,GO:0002250,,,,,GOA,GO:0002250
+go:GO:0002376,GO_Process,GO:0002376,,,,,GOA,GO:0002376
+go:GO:0006325,GO_Process,GO:0006325,,,,,GOA,GO:0006325
+go:GO:0006338,GO_Process,GO:0006338,,,,,GOA,GO:0006338
+go:GO:0006915,GO_Process,GO:0006915,,,,,GOA,GO:0006915
+go:GO:0006979,GO_Process,GO:0006979,,,,,GOA,GO:0006979
+go:GO:0007155,GO_Process,GO:0007155,,,,,GOA,GO:0007155
+go:GO:0007165,GO_Process,GO:0007165,,,,,GOA,GO:0007165
+go:GO:0007167,GO_Process,GO:0007167,,,,,GOA,GO:0007167
+go:GO:0007204,GO_Process,GO:0007204,,,,,GOA,GO:0007204
+go:GO:0007259,GO_Process,GO:0007259,,,,,GOA,GO:0007259
+go:GO:0007498,GO_Process,GO:0007498,,,,,GOA,GO:0007498
+go:GO:0008284,GO_Process,GO:0008284,,,,,GOA,GO:0008284
+go:GO:0008285,GO_Process,GO:0008285,,,,,GOA,GO:0008285
+go:GO:0008631,GO_Process,GO:0008631,,,,,GOA,GO:0008631
+go:GO:0009755,GO_Process,GO:0009755,,,,,GOA,GO:0009755
+go:GO:0010572,GO_Process,GO:0010572,,,,,GOA,GO:0010572
+go:GO:0010667,GO_Process,GO:0010667,,,,,GOA,GO:0010667
+go:GO:0010811,GO_Process,GO:0010811,,,,,GOA,GO:0010811
+go:GO:0019221,GO_Process,GO:0019221,,,,,GOA,GO:0019221
+go:GO:0022407,GO_Process,GO:0022407,,,,,GOA,GO:0022407
+go:GO:0022408,GO_Process,GO:0022408,,,,,GOA,GO:0022408
+go:GO:0030041,GO_Process,GO:0030041,,,,,GOA,GO:0030041
+go:GO:0030099,GO_Process,GO:0030099,,,,,GOA,GO:0030099
+go:GO:0030154,GO_Process,GO:0030154,,,,,GOA,GO:0030154
+go:GO:0030218,GO_Process,GO:0030218,,,,,GOA,GO:0030218
+go:GO:0030335,GO_Process,GO:0030335,,,,,GOA,GO:0030335
+go:GO:0031103,GO_Process,GO:0031103,,,,,GOA,GO:0031103
+go:GO:0031663,GO_Process,GO:0031663,,,,,GOA,GO:0031663
+go:GO:0031959,GO_Process,GO:0031959,,,,,GOA,GO:0031959
+go:GO:0032024,GO_Process,GO:0032024,,,,,GOA,GO:0032024
+go:GO:0032731,GO_Process,GO:0032731,,,,,GOA,GO:0032731
+go:GO:0032760,GO_Process,GO:0032760,,,,,GOA,GO:0032760
+go:GO:0033194,GO_Process,GO:0033194,,,,,GOA,GO:0033194
+go:GO:0033209,GO_Process,GO:0033209,,,,,GOA,GO:0033209
+go:GO:0034050,GO_Process,GO:0034050,,,,,GOA,GO:0034050
+go:GO:0034612,GO_Process,GO:0034612,,,,,GOA,GO:0034612
+go:GO:0035166,GO_Process,GO:0035166,,,,,GOA,GO:0035166
+go:GO:0035556,GO_Process,GO:0035556,,,,,GOA,GO:0035556
+go:GO:0035722,GO_Process,GO:0035722,,,,,GOA,GO:0035722
+go:GO:0036016,GO_Process,GO:0036016,,,,,GOA,GO:0036016
+go:GO:0038043,GO_Process,GO:0038043,,,,,GOA,GO:0038043
+go:GO:0038065,GO_Process,GO:0038065,,,,,GOA,GO:0038065
+go:GO:0038155,GO_Process,GO:0038155,,,,,GOA,GO:0038155
+go:GO:0038156,GO_Process,GO:0038156,,,,,GOA,GO:0038156
+go:GO:0038157,GO_Process,GO:0038157,,,,,GOA,GO:0038157
+go:GO:0038162,GO_Process,GO:0038162,,,,,GOA,GO:0038162
+go:GO:0038163,GO_Process,GO:0038163,,,,,GOA,GO:0038163
+go:GO:0000165,GO_Process,GO:0000165,,,,,GOA,GO:0000165
+go:GO:0001657,GO_Process,GO:0001657,,,,,GOA,GO:0001657
+go:GO:0001755,GO_Process,GO:0001755,,,,,GOA,GO:0001755
+go:GO:0001838,GO_Process,GO:0001838,,,,,GOA,GO:0001838
+go:GO:0007156,GO_Process,GO:0007156,,,,,GOA,GO:0007156
+go:GO:0007158,GO_Process,GO:0007158,,,,,GOA,GO:0007158
+go:GO:0007169,GO_Process,GO:0007169,,,,,GOA,GO:0007169
+go:GO:0007399,GO_Process,GO:0007399,,,,,GOA,GO:0007399
+go:GO:0007411,GO_Process,GO:0007411,,,,,GOA,GO:0007411
+go:GO:0007497,GO_Process,GO:0007497,,,,,GOA,GO:0007497
+go:GO:0010628,GO_Process,GO:0010628,,,,,GOA,GO:0010628
+go:GO:0010976,GO_Process,GO:0010976,,,,,GOA,GO:0010976
+go:GO:0030155,GO_Process,GO:0030155,,,,,GOA,GO:0030155
+go:GO:0030182,GO_Process,GO:0030182,,,,,GOA,GO:0030182
+go:GO:0033619,GO_Process,GO:0033619,,,,,GOA,GO:0033619
+go:GO:0033630,GO_Process,GO:0033630,,,,,GOA,GO:0033630
+go:GO:0035799,GO_Process,GO:0035799,,,,,GOA,GO:0035799
+go:GO:0035860,GO_Process,GO:0035860,,,,,GOA,GO:0035860
+go:GO:0042551,GO_Process,GO:0042551,,,,,GOA,GO:0042551
+go:GO:0043410,GO_Process,GO:0043410,,,,,GOA,GO:0043410
+go:GO:0045793,GO_Process,GO:0045793,,,,,GOA,GO:0045793
+go:GO:0045893,GO_Process,GO:0045893,,,,,GOA,GO:0045893
+go:GO:0048265,GO_Process,GO:0048265,,,,,GOA,GO:0048265
+go:GO:0048484,GO_Process,GO:0048484,,,,,GOA,GO:0048484
+go:GO:0050770,GO_Process,GO:0050770,,,,,GOA,GO:0050770
+go:GO:0051897,GO_Process,GO:0051897,,,,,GOA,GO:0051897
+go:GO:0061146,GO_Process,GO:0061146,,,,,GOA,GO:0061146
+go:GO:0071300,GO_Process,GO:0071300,,,,,GOA,GO:0071300
+go:GO:0072300,GO_Process,GO:0072300,,,,,GOA,GO:0072300
+go:GO:0097021,GO_Process,GO:0097021,,,,,GOA,GO:0097021
+go:GO:0160144,GO_Process,GO:0160144,,,,,GOA,GO:0160144
+go:GO:2001241,GO_Process,GO:2001241,,,,,GOA,GO:2001241
+go:GO:0001776,GO_Process,GO:0001776,,,,,GOA,GO:0001776
+go:GO:0002318,GO_Process,GO:0002318,,,,,GOA,GO:0002318
+go:GO:0002328,GO_Process,GO:0002328,,,,,GOA,GO:0002328
+go:GO:0007166,GO_Process,GO:0007166,,,,,GOA,GO:0007166
+go:GO:0010604,GO_Process,GO:0010604,,,,,GOA,GO:0010604
+go:GO:0016477,GO_Process,GO:0016477,,,,,GOA,GO:0016477
+go:GO:0018108,GO_Process,GO:0018108,,,,,GOA,GO:0018108
+go:GO:0030097,GO_Process,GO:0030097,,,,,GOA,GO:0030097
+go:GO:0030183,GO_Process,GO:0030183,,,,,GOA,GO:0030183
+go:GO:0035726,GO_Process,GO:0035726,,,,,GOA,GO:0035726
+go:GO:0038084,GO_Process,GO:0038084,,,,,GOA,GO:0038084
+go:GO:0042531,GO_Process,GO:0042531,,,,,GOA,GO:0042531
+go:GO:0042981,GO_Process,GO:0042981,,,,,GOA,GO:0042981
+go:GO:0043406,GO_Process,GO:0043406,,,,,GOA,GO:0043406
+go:GO:0046651,GO_Process,GO:0046651,,,,,GOA,GO:0046651
+go:GO:0046777,GO_Process,GO:0046777,,,,,GOA,GO:0046777
+go:GO:0071345,GO_Process,GO:0071345,,,,,GOA,GO:0071345
+go:GO:0071385,GO_Process,GO:0071385,,,,,GOA,GO:0071385
+go:GO:0097028,GO_Process,GO:0097028,,,,,GOA,GO:0097028
+go:GO:0097421,GO_Process,GO:0097421,,,,,GOA,GO:0097421
+tox:Immune System,ToxicityTheme,Immune System,,,,,FAERS/Mapping,
+tox:Medication Error,ToxicityTheme,Medication Error,,,,,FAERS/Mapping,
+tox:Neurological,ToxicityTheme,Neurological,,,,,FAERS/Mapping,
+tox:Other / Unmapped,ToxicityTheme,Other / Unmapped,,,,,FAERS/Mapping,
+tox:Severe Outcome,ToxicityTheme,Severe Outcome,,,,,FAERS/Mapping,
