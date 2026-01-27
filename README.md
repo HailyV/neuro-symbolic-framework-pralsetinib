@@ -81,12 +81,12 @@ scripts/
 ---
 
 ## Current Pipeline Status
-- ✅ DrugBank protein extraction and curation
-- ✅ GO annotation integration (Protein → GO)
-- ✅ FAERS toxicity theme grouping
-- ✅ Knowledge Graph construction (CSV-based)
-- ⏳ GO → ToxicityTheme mapping (in progress)
-- ⏳ Path-based scoring and modeling
+- DrugBank protein extraction and curation
+- GO annotation integration (Protein → GO)
+- FAERS toxicity theme grouping
+- Knowledge Graph construction (CSV-based)
+- GO → ToxicityTheme mapping (in progress)
+- Path-based scoring and modeling
 
 ---
 
