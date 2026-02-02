@@ -15,10 +15,8 @@ K_RECS = 20
 LATENT_DIM = 16  
 
 def load_edges():
-    # --- ChEMBL edges (already in analysis/kg_files/kg_edges.csv) ---
     kg = pd.read_csv(KG_EDGES)
 
-    # Expect kg_edges.csv to have columns: source, target, edge_type OR your v2 schema
     if set(["source", "target", "edge_type"]).issubset(kg.columns):
         chembl_dt = kg[kg["edge_type"].eq("binds_to")].copy()
         chembl_dt = chembl_dt[chembl_dt["source"].str.startswith("drug:") &
@@ -26,9 +24,7 @@ def load_edges():
         chembl_dt = chembl_dt[["source", "target"]].drop_duplicates()
         chembl_dt["provenance"] = "ChEMBL"
     else:
-        # v2-like schema
         chembl_dt = kg[kg["edge_type"].eq("binds_to")].copy()
-        # keep drug -> target
         chembl_dt = chembl_dt[(chembl_dt["source_type"].str.lower() == "drug") &
                               (chembl_dt["target_type"].str.lower().isin(["target", "protein"]))]
 
@@ -37,10 +33,8 @@ def load_edges():
         chembl_dt = chembl_dt[["source", "target"]].drop_duplicates()
         chembl_dt["provenance"] = chembl_dt.get("evidence", "ChEMBL")
 
-    # --- DrugBank-derived / combined edges file you showed ---
     db_edges = pd.read_csv(DB_EDGES)
 
-    # keep drug -> protein/target interactions
     db_dt = db_edges[db_edges["edge_type"].eq("interacts_with")].copy()
     db_dt = db_dt[(db_dt["source_type"].str.lower() == "drug") &
                   (db_dt["target_type"].str.lower().isin(["protein", "target"]))]
@@ -51,7 +45,6 @@ def load_edges():
     db_dt = db_dt[["source", "target"]].drop_duplicates()
     db_dt["provenance"] = db_edges.get("evidence", "DrugBank").iloc[0] if "evidence" in db_edges.columns else "DrugBank"
 
-    # Combine
     all_dt = pd.concat([chembl_dt, db_dt], ignore_index=True).drop_duplicates()
     return all_dt
 
@@ -92,7 +85,6 @@ def recommend_for_drug(dt_edges, X, drugs, targets, drug2i, U, V, drug_id, topk=
     i = drug2i[drug_id]
     scores = U[i] @ V.T  # (n_targets,)
 
-    # exclude known targets
     known = set(dt_edges.loc[dt_edges["source"].eq(drug_id), "target"])
     cand = [(targets[j], float(scores[j])) for j in range(len(targets)) if targets[j] not in known]
     cand.sort(key=lambda x: x[1], reverse=True)
@@ -102,11 +94,8 @@ def recommend_for_drug(dt_edges, X, drugs, targets, drug2i, U, V, drug_id, topk=
 def load_goa(goa_path: str):
     goa = pd.read_csv(goa_path)
 
-    # Try common column name patterns
-    # We want: uniprot_id + go_id/go_term
     cols = {c.lower(): c for c in goa.columns}
 
-    # best guesses
     uniprot_col = cols.get("uniprot_id") or cols.get("uniprot") or cols.get("target_id") or cols.get("db_object_id")
     go_col = cols.get("go_id") or cols.get("go") or cols.get("go_term") or cols.get("go_identifier")
 
@@ -120,14 +109,11 @@ def load_goa(goa_path: str):
     return goa
 
 def rank_targets_by_go_overlap(dt_edges: pd.DataFrame, drug_id: str, goa: pd.DataFrame, topk: int = 20):
-    # known targets in "target:UNIPROT" format
     known_targets = set(dt_edges.loc[dt_edges["source"] == drug_id, "target"])
     known_uniprots = {t.split("target:", 1)[1] for t in known_targets if t.startswith("target:")}
 
-    # Build GO sets for each protein
     prot2go = goa.groupby("uniprot_id")["go_id"].apply(set).to_dict()
 
-    # Union GO terms of known targets (the "profile")
     known_go = set()
     for u in known_uniprots:
         known_go |= prot2go.get(u, set())
@@ -136,7 +122,6 @@ def rank_targets_by_go_overlap(dt_edges: pd.DataFrame, drug_id: str, goa: pd.Dat
         print("No GO terms found for known targets; can't do GO overlap ranking.")
         return [], known_targets
 
-    # Score every protein by Jaccard overlap with known_go
     candidates = []
     for u, gos in prot2go.items():
         t_id = "target:" + u
@@ -184,9 +169,8 @@ def main():
             for t, score, inter, union in recs:
                 print(f"  {t:18s}  score={score:.4f}  overlap={inter}/{union}")
 
-        return   # <-- IMPORTANT: stops execution before SVD
+        return 
 
-    # ---- NORMAL PATH: SVD (used once you have multiple drugs) ----
     X, drugs, targets, drug2i, _ = build_matrix(dt_edges)
     U, V = fit_svd(X, LATENT_DIM)
 
