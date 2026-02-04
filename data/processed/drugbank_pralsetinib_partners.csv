@@ -1,0 +1,26 @@
+drugbank_id,section,partner_type,partner_id,partner_name,gene,protein_name,organism,uniprot,actions
+DB15822,targets,target,BE0002411,Proto-oncogene tyrosine-protein kinase receptor Ret,RET,,Humans,P07949,['inhibitor']
+DB15822,targets,target,BE0001124,Epithelial discoidin domain-containing receptor 1,DDR1,,Humans,Q08345,['inhibitor']
+DB15822,targets,target,BE0009501,NT-3 growth factor receptor,NTRK3,,Humans,Q16288,['inhibitor']
+DB15822,targets,target,BE0000147,Receptor-type tyrosine-protein kinase FLT3,FLT3,,Humans,P36888,['inhibitor']
+DB15822,targets,target,BE0004145,Tyrosine-protein kinase JAK1,JAK1,,Humans,P23458,['inhibitor']
+DB15822,targets,target,BE0002408,Tyrosine-protein kinase JAK2,JAK2,,Humans,O60674,['inhibitor']
+DB15822,targets,target,BE0001039,High affinity nerve growth factor receptor,NTRK1,,Humans,P04629,['inhibitor']
+DB15822,targets,target,BE0000369,Vascular endothelial growth factor receptor 2,KDR,,Humans,P35968,['inhibitor']
+DB15822,targets,target,BE0000205,Platelet-derived growth factor receptor beta,PDGFRB,,Humans,P09619,['inhibitor']
+DB15822,targets,target,BE0002131,Fibroblast growth factor receptor 1,FGFR1,,Humans,P11362,['inhibitor']
+DB15822,targets,target,BE0000748,Fibroblast growth factor receptor 2,FGFR2,,Humans,P21802,['inhibitor']
+DB15822,enzymes,enzyme,BE0002638,Cytochrome P450 3A4,CYP3A4,,Humans,P08684,"['substrate', 'inhibitor', 'inducer']"
+DB15822,enzymes,enzyme,BE0002362,Cytochrome P450 3A5,CYP3A5,,Humans,P20815,"['inhibitor', 'inducer']"
+DB15822,enzymes,enzyme,BE0002363,Cytochrome P450 2D6,CYP2D6,,Humans,P10635,['substrate']
+DB15822,enzymes,enzyme,BE0002433,Cytochrome P450 1A2,CYP1A2,,Humans,P05177,['substrate']
+DB15822,enzymes,enzyme,BE0002887,Cytochrome P450 2C8,CYP2C8,,Humans,P10632,"['inhibitor', 'inducer']"
+DB15822,enzymes,enzyme,BE0002793,Cytochrome P450 2C9,CYP2C9,,Humans,P11712,"['inhibitor', 'inducer']"
+DB15822,transporters,transporter,BE0001032,ATP-dependent translocase ABCB1,ABCB1,,Humans,P08183,"['substrate', 'inhibitor']"
+DB15822,transporters,transporter,BE0001067,Broad substrate specificity ATP-binding cassette transporter ABCG2,ABCG2,,Humans,Q9UNQ0,"['substrate', 'inhibitor']"
+DB15822,transporters,transporter,BE0001004,Solute carrier organic anion transporter family member 1B1,SLCO1B1,,Humans,Q9Y6L6,['inhibitor']
+DB15822,transporters,transporter,BE0003659,Solute carrier organic anion transporter family member 1B3,SLCO1B3,,Humans,Q9NPD5,['inhibitor']
+DB15822,transporters,transporter,BE0001066,Solute carrier family 22 member 6,SLC22A6,,Humans,Q4U2R8,['inhibitor']
+DB15822,transporters,transporter,BE0003657,Multidrug and toxin extrusion protein 1,SLC47A1,,Humans,Q96FL8,['inhibitor']
+DB15822,transporters,transporter,BE0004752,Multidrug and toxin extrusion protein 2,SLC47A2,,Humans,Q86VL8,['inhibitor']
+DB15822,transporters,transporter,BE0000703,Bile salt export pump,ABCB11,,Humans,O95342,['inhibitor']
