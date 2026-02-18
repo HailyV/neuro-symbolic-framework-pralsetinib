@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neuro-Symbolic AI for Off-Target Toxicity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Neuro-Symbolic AI for Off-Target Toxicity Analysis</h1>
+  <p>Understanding hidden drug risks through knowledge graphs and AI</p>
+</header>
+
+<section id="intro">
+  <h2>Why This Matters</h2>
+  <p>
+    Many drugs cause unexpected side effects due to off-target protein interactions.
+    We built a knowledge graph combining DrugBank, ChEMBL, GO, Open Targets, and FAERS
+    to reason about toxicity pathways using neuro-symbolic methods.
+  </p>
+</section>
+
+<section id="methods">
+  <h2>How We Did It</h2>
+
+  <h3>Knowledge Graph Construction</h3>
+  <p>
+    We integrated drug–target interactions, biological processes,
+    and adverse event reports into a multi-layer graph.
+  </p>
+
+  <details>
+    <summary>See Technical Details</summary>
+    <p>
+      Nodes include Drugs, Targets, Diseases, GO Biological Processes,
+      and FAERS Adverse Events. Edges represent mechanistic relationships.
+    </p>
+  </details>
+
+</section>
+
+<section id="interactive">
+  <h2>Interactive Knowledge Graph</h2>
+  <p>Explore the relationships below:</p>
+
+  <iframe 
+    src="assets/kg_interactive.html"
+    width="100%" 
+    height="800px"
+    style="border:none;">
+  </iframe>
+</section>
+
+<section id="results">
+  <h2>Key Findings</h2>
+  <ul>
+    <li>Identified off-target pathway overlaps via GO similarity</li>
+    <li>Ranked novel protein targets using SVD</li>
+    <li>Mapped FAERS toxicity clusters to biological mechanisms</li>
+  </ul>
+</section>
+
+<section id="impact">
+  <h2>Why This Is Impactful</h2>
+  <p>
+    Our framework enables early detection of adverse effects
+    using mechanistic reasoning instead of purely statistical signals.
+  </p>
+</section>
+
+<section id="links">
+  <h2>Project Resources</h2>
+  <ul>
+    <li><a href="https://github.com/YOUR_REPO_LINK">GitHub Repository</a></li>
+    <li><a href="REPORT_LINK.pdf">Full Report</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>Stephanie Yue • DSC 180B • 2026</p>
+</footer>
+
+</body>
+</html>
