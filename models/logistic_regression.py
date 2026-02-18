@@ -14,7 +14,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 # Expected columns:
 # drug_id | ae | path_count | max_path_score | go_overlap | target_faers_score | label
 
-df = pd.read_csv("data/processed/drug_ae_features.csv")
+df = pd.read_csv("../data/processed/drug_ae_features.csv")
 
 FEATURE_COLS = [
     "path_count",
@@ -22,10 +22,12 @@ FEATURE_COLS = [
     "go_overlap",
     "target_faers_score"
 ]
+df = df.dropna(subset=FEATURE_COLS + ["label"])
 
 X = df[FEATURE_COLS].values
-y = df["label"].values  # binary label based on FAERS threshold k
 
+y = df["label"].values  # binary label based on FAERS threshold k
+print(df.head())
 # Train / test split
 X_train, X_test, y_train, y_test = train_test_split(
     X,
@@ -41,7 +43,7 @@ model = Pipeline([
     ("clf", LogisticRegression(
         penalty="l2",
         C=1.0,
-        solver="liblinear",
+        solver="lbfgs",
         max_iter=1000,
         class_weight="balanced"
     ))
