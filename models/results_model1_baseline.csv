@@ -1,0 +1,15 @@
+theme,faers_count,faers_pct,top_aes,n_ae_types
+Other,697.0,31.638674534725375,"[('Product Prescribing Issue', 131.0), ('Death', 81.0), ('Fatigue', 67.0)]",38
+Gastrointestinal,309.0,14.026327734906946,"[('Diarrhoea', 52.0), ('Constipation', 43.0), ('Nausea', 26.0)]",27
+Haematological,205.0,9.305492510213345,"[('Anaemia', 49.0), ('White Blood Cell Count Decreased', 35.0), ('Platelet Count Decreased', 23.0)]",16
+Pulmonary,147.0,6.672719019518839,"[('Cough', 28.0), ('Dyspnoea', 25.0), ('Pneumonitis', 24.0)]",13
+Neurological,144.0,6.536541080344985,"[('Dizziness', 26.0), ('Headache', 18.0), ('Balance Disorder', 9.0)]",20
+Cardiovascular,128.0,5.81025873808443,"[('Blood Pressure Increased', 43.0), ('Hypertension', 42.0), ('Hypotension', 11.0)]",9
+Immune/Infection,114.0,5.174761688606446,"[('Pneumonia', 33.0), ('Urinary Tract Infection', 14.0), ('Covid-19', 13.0)]",16
+Musculoskeletal,95.0,4.312301407172038,"[('Arthralgia', 21.0), ('Back Pain', 15.0), ('Myalgia', 10.0)]",12
+Hepatic,73.0,3.313663186563777,"[('Hepatic Function Abnormal', 20.0), ('Hepatic Enzyme Increased', 12.0), ('Aspartate Aminotransferase Increased', 10.0)]",9
+Proliferative,72.0,3.2682705401724923,"[('Disease Progression', 39.0), ('Malignant Neoplasm Progression', 8.0), ('Neoplasm Malignant', 7.0)]",7
+Oedema/Fluid,72.0,3.2682705401724923,"[('Oedema', 15.0), ('Oedema Peripheral', 11.0), ('Face Oedema', 10.0)]",10
+Metabolic/Endocrine,67.0,3.041307308216069,"[('Decreased Appetite', 18.0), ('Weight Increased', 9.0), ('Dehydration', 8.0)]",11
+Skin,42.0,1.9064911484339537,"[('Rash', 18.0), ('Pruritus', 5.0), ('Alopecia', 5.0)]",7
+Renal,31.0,1.407172038129823,"[('Renal Impairment', 15.0), ('Blood Creatinine Increased', 8.0), ('Renal Function Test Abnormal', 5.0)]",4
