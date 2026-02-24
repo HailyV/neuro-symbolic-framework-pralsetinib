@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pralsetinib Knowledge Graph</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" crossorigin="anonymous"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f8f9fa; height: 100vh;
+            display: flex; flex-direction: column; overflow: hidden;
+        }
+        #header {
+            background: white; border-bottom: 1px solid #dee2e6;
+            padding: 10px 16px; display: flex; align-items: center;
+            gap: 14px; flex-shrink: 0; flex-wrap: wrap;
+        }
+        #header h1 { font-size: 17px; color: #212529; white-space: nowrap; font-weight: 700; }
+        #controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; flex: 1; }
+        .ctrl-group { display: flex; align-items: center; gap: 5px; }
+        .ctrl-group label { font-size: 12px; color: #6c757d; font-weight: 600; white-space: nowrap; }
+        select, input[type="text"] {
+            padding: 5px 9px; border: 1px solid #ced4da; border-radius: 6px;
+            font-size: 13px; background: white; color: #212529; height: 30px;
+        }
+        input[type="text"] { width: 170px; }
+        button {
+            padding: 0 12px; height: 30px; border: none; border-radius: 6px;
+            font-size: 13px; cursor: pointer; font-weight: 500; transition: background 0.15s; white-space: nowrap;
+        }
+        .btn-blue { background: #4dabf7; color: white; }
+        .btn-blue:hover { background: #339af0; }
+        .btn-gray { background: #e9ecef; color: #495057; }
+        .btn-gray:hover { background: #dee2e6; }
+        #legend { display: flex; gap: 12px; align-items: center; margin-left: auto; flex-wrap: wrap; }
+        .legend-item { display: flex; align-items: center; gap: 4px; font-size: 12px; color: #555; }
+        .legend-dot  { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        #stats-bar {
+            background: #f1f3f5; border-bottom: 1px solid #dee2e6;
+            padding: 4px 16px; font-size: 12px; color: #6c757d;
+            display: flex; gap: 18px; align-items: center; flex-shrink: 0;
+        }
+        #stats-bar b { color: #495057; }
+        #main { display: flex; flex: 1; overflow: hidden; }
+        #graph-wrap { flex: 1; position: relative; min-width: 0; }
+        #mynetwork  { width: 100%; height: 100%; }
+        #loading {
+            position: absolute; inset: 0; background: rgba(248,249,250,0.92);
+            display: flex; flex-direction: column; align-items: center;
+            justify-content: center; gap: 14px; z-index: 20;
+        }
+        #loading.hidden { display: none; }
+        #loading-msg { font-size: 14px; color: #495057; }
+        #progress-track { width: 280px; height: 8px; background: #dee2e6; border-radius: 4px; overflow: hidden; }
+        #progress-fill  { height: 100%; width: 0; background: #4dabf7; border-radius: 4px; transition: width 0.1s; }
+        #toast {
+            position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+            background: #fff3cd; border: 1px solid #ffc107; color: #664d03;
+            padding: 9px 18px; border-radius: 8px; font-size: 13px;
+            display: none; z-index: 30; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        #side-panel {
+            width: 270px; background: white; border-left: 1px solid #dee2e6;
+            display: flex; flex-direction: column; flex-shrink: 0;
+            overflow: hidden; transition: width 0.2s ease;
+        }
+        #side-panel.collapsed { width: 0; border-left: none; }
+        #panel-header {
+            padding: 11px 14px; border-bottom: 1px solid #dee2e6;
+            display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;
+        }
+        #panel-title { font-size: 14px; font-weight: 700; color: #212529; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        #panel-close { cursor: pointer; color: #adb5bd; font-size: 18px; line-height: 1; flex-shrink: 0; }
+        #panel-close:hover { color: #495057; }
+        #panel-body { padding: 13px 14px; font-size: 13px; color: #495057; line-height: 1.75; overflow-y: auto; }
+        .prop-row { display: flex; gap: 6px; flex-wrap: wrap; }
+        .prop-key { font-weight: 600; color: #212529; white-space: nowrap; }
+        .badge {
+            display: inline-block; padding: 2px 9px; border-radius: 10px;
+            font-size: 11px; font-weight: 700; color: white; margin-bottom: 10px;
+        }
+        a { color: #4dabf7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        #panel-explore { margin: 0 14px 12px; width: calc(100% - 28px); }
+        #nb-section { border-top: 1px solid #dee2e6; overflow-y: auto; max-height: 300px; }
+        #nb-section h4 {
+            padding: 9px 14px 5px; font-size: 11px; font-weight: 700;
+            color: #6c757d; text-transform: uppercase; letter-spacing: 0.5px;
+            position: sticky; top: 0; background: white;
+        }
+        .nb-item {
+            padding: 6px 14px; border-bottom: 1px solid #f1f3f5;
+            cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 8px;
+        }
+        .nb-item:hover { background: #f8f9fa; }
+        .nb-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+        .nb-type { font-size: 10px; color: #adb5bd; margin-left: auto; white-space: nowrap; }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <h1>🧬 Pralsetinib Knowledge Graph</h1>
+    <div id="controls">
+        <div class="ctrl-group">
+            <label>Type</label>
+            <select id="type-filter">
+                <option value="">All</option>
+                <option value="Drug">Drug</option>
+                <option value="Target">Target</option>
+                <option value="AdverseEvent">Adverse Event</option>
+                <option value="Disease">Disease</option>
+                <option value="BiologicalProcess">Bio. Process</option>
+            </select>
+        </div>
+        <div class="ctrl-group">
+            <label>SOC</label>
+            <select id="soc-filter"><option value="">All</option></select>
+        </div>
+        <div class="ctrl-group">
+            <label>Search</label>
+            <input type="text" id="search-input" placeholder="e.g. Fatigue, RET…"/>
+        </div>
+        <button class="btn-blue" onclick="applyFilters()">Apply</button>
+        <button class="btn-gray" onclick="resetFilters()">Reset</button>
+        <button class="btn-gray" id="physics-btn" onclick="togglePhysics()">⏸ Physics</button>
+        <button class="btn-gray" onclick="network && network.fit()">Fit</button>
+        <div id="legend">
+            <div class="legend-item"><div class="legend-dot" style="background:#ff6b6b"></div>Drug</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#4dabf7"></div>Target</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#ffa94d"></div>Adverse Event</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#51cf66"></div>Disease</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#ced4da"></div>Bio. Process</div>
+        </div>
+    </div>
+</div>
+
+<div id="stats-bar">
+    <div>Showing <b id="stat-nodes">—</b> nodes, <b id="stat-edges">—</b> edges</div>
+    <div id="stat-msg" style="color:#4dabf7;font-weight:600"></div>
+</div>
+
+<div id="main">
+    <div id="graph-wrap">
+        <div id="mynetwork"></div>
+        <div id="loading">
+            <div id="loading-msg">Loading data…</div>
+            <div id="progress-track"><div id="progress-fill"></div></div>
+        </div>
+        <div id="toast"></div>
+    </div>
+    <div id="side-panel" class="collapsed">
+        <div id="panel-header">
+            <span id="panel-title">Node Detail</span>
+            <span id="panel-close" onclick="closePanel()">✕</span>
+        </div>
+        <div id="panel-body"></div>
+        <button class="btn-blue" id="panel-explore" onclick="exploreNeighbourhood()" style="display:none">
+            🔍 Explore neighbourhood
+        </button>
+        <div id="nb-section"></div>
+    </div>
+</div>
+
+<script>
+const TYPE_COLORS = {
+    Drug: "#ff6b6b", Target: "#4dabf7", AdverseEvent: "#ffa94d",
+    Disease: "#51cf66", BiologicalProcess: "#ced4da",
+};
+
+let ALL_NODES = [], ALL_EDGES = [];
+let nodes = new vis.DataSet(), edges = new vis.DataSet();
+let network = null, physicsOn = true, selectedId = null;
+
+async function init() {
+    try {
+        setLoading(true, "Loading data…");
+        const [nr, er] = await Promise.all([fetch("data/nodes.json"), fetch("data/edges.json")]);
+        if (!nr.ok) throw new Error("Could not load data/nodes.json");
+        if (!er.ok) throw new Error("Could not load data/edges.json");
+        ALL_NODES = await nr.json();
+        ALL_EDGES = await er.json();
+        populateSocFilter();
+        renderGraph(ALL_NODES, ALL_EDGES);
+    } catch (e) {
+        showToast("⚠️ " + e.message, 0);
+        setLoading(false);
+    }
+}
+
+function populateSocFilter() {
+    const socs = [...new Set(ALL_NODES.map(n => n.soc).filter(Boolean))].sort();
+    const sel  = document.getElementById("soc-filter");
+    socs.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; sel.appendChild(o); });
+}
+
+function renderGraph(nodeList, edgeList) {
+    nodes.clear(); edges.clear();
+    nodes.add(nodeList.map(n => ({ ...n, title: buildTooltip(n) })));
+    edges.add(edgeList.map(e => ({
+        ...e,
+        title: `<b>${e.label}</b>` +
+               (e.provenance ? `<br>Source: ${e.provenance}` : "") +
+               (e.score      ? `<br>Score: ${Number(e.score).toFixed(3)}` : ""),
+    })));
+    document.getElementById("stat-nodes").textContent = nodeList.length;
+    document.getElementById("stat-edges").textContent = edgeList.length;
+    if (!network) initNetwork();
+    else { setLoading(true, "Stabilizing…"); network.stabilize(200); }
+}
+
+function buildTooltip(n) {
+    let t = `<b>${n.label}</b><br>Type: ${n.node_type}`;
+    if (n.faers_count != null) t += `<br>FAERS: ${n.faers_count}`;
+    if (n.soc)       t += `<br>SOC: ${n.soc}`;
+    if (n.function)  t += `<br>Function: ${n.function}`;
+    if (n.uniprot_id) t += `<br>UniProt: ${n.uniprot_id}`;
+    if (n.chembl_id)  t += `<br>ChEMBL: ${n.chembl_id}`;
+    return t;
+}
+
+function initNetwork() {
+    network = new vis.Network(
+        document.getElementById("mynetwork"),
+        { nodes, edges },
+        {
+            physics: {
+                enabled: true,
+                stabilization: { iterations: 250, updateInterval: 25 },
+                barnesHut: { gravitationalConstant: -8000, springLength: 200, springConstant: 0.04 },
+            },
+            edges: { font: { size: 10, color: "#999", align: "middle" }, smooth: { type: "continuous" } },
+            interaction: { hover: true, tooltipDelay: 80, navigationButtons: true },
+        }
+    );
+    network.on("stabilizationProgress", p => {
+        const pct = Math.round(p.iterations / p.total * 100);
+        document.getElementById("progress-fill").style.width = pct + "%";
+        document.getElementById("loading-msg").textContent = `Stabilizing… ${pct}%`;
+    });
+    network.once("stabilizationIterationsDone", () => {
+        document.getElementById("progress-fill").style.width = "100%";
+        setTimeout(() => setLoading(false), 300);
+    });
+    network.on("click", p => { if (p.nodes.length) openPanel(p.nodes[0]); else closePanel(); });
+}
+
+function applyFilters() {
+    const typeVal   = document.getElementById("type-filter").value;
+    const socVal    = document.getElementById("soc-filter").value;
+    const searchVal = document.getElementById("search-input").value.trim().toLowerCase();
+
+    let filtered = ALL_NODES.filter(n => {
+        if (typeVal   && n.node_type !== typeVal)                    return false;
+        if (socVal    && n.soc !== socVal)                           return false;
+        if (searchVal && !n.label.toLowerCase().includes(searchVal)) return false;
+        return true;
+    });
+
+    if (searchVal) {
+        const matchIds = new Set(filtered.map(n => n.id));
+        const expand   = new Set(matchIds);
+        ALL_EDGES.forEach(e => {
+            if (matchIds.has(e.from)) expand.add(e.to);
+            if (matchIds.has(e.to))   expand.add(e.from);
+        });
+        filtered = ALL_NODES.filter(n => expand.has(n.id));
+    }
+
+    const nodeIds = new Set(filtered.map(n => n.id));
+    const filteredEdges = ALL_EDGES.filter(e => nodeIds.has(e.from) && nodeIds.has(e.to));
+
+    const parts = [];
+    if (typeVal)   parts.push(`type = ${typeVal}`);
+    if (socVal)    parts.push(`SOC = ${socVal}`);
+    if (searchVal) parts.push(`"${searchVal}"`);
+    document.getElementById("stat-msg").textContent = parts.length ? `Filter: ${parts.join(", ")}` : "";
+
+    closePanel();
+    renderGraph(filtered, filteredEdges);
+}
+
+function resetFilters() {
+    document.getElementById("type-filter").value  = "";
+    document.getElementById("soc-filter").value   = "";
+    document.getElementById("search-input").value = "";
+    document.getElementById("stat-msg").textContent = "";
+    closePanel();
+    renderGraph(ALL_NODES, ALL_EDGES);
+}
+
+function openPanel(nodeId) {
+    selectedId = nodeId;
+    const n = nodes.get(nodeId);
+    if (!n) return;
+    document.getElementById("side-panel").classList.remove("collapsed");
+    document.getElementById("panel-title").textContent = n.label;
+    document.getElementById("panel-explore").style.display = "block";
+
+    const color = TYPE_COLORS[n.node_type] || "#adb5bd";
+    const conns = network ? network.getConnectedEdges(nodeId).length : "—";
+
+    const rows = [
+        ["Connections", conns],
+        n.faers_count != null ? ["FAERS count", n.faers_count] : null,
+        n.soc       ? ["SOC",      n.soc]      : null,
+        n.function  ? ["Function", n.function] : null,
+        n.category  ? ["Category", n.category] : null,
+        n.uniprot_id ? ["UniProt", `<a href="https://www.uniprot.org/uniprot/${n.uniprot_id}" target="_blank">${n.uniprot_id} ↗</a>`] : null,
+        n.chembl_id  ? ["ChEMBL",  `<a href="https://www.ebi.ac.uk/chembl/compound_report_card/${n.chembl_id}" target="_blank">${n.chembl_id} ↗</a>`] : null,
+        n.ontology_id ? ["Ontology", n.ontology_id] : null,
+    ].filter(Boolean);
+
+    let html = `<div class="badge" style="background:${color}">${n.node_type}</div>`;
+    rows.forEach(([k, v]) => { html += `<div class="prop-row"><span class="prop-key">${k}:</span><span>${v}</span></div>`; });
+    document.getElementById("panel-body").innerHTML = html;
+    showNeighbours(nodeId);
+}
+
+function showNeighbours(nodeId) {
+    const connEdgeIds = network ? network.getConnectedEdges(nodeId) : [];
+    const nbIds = new Set();
+    connEdgeIds.forEach(eid => { const e = edges.get(eid); if (e) { nbIds.add(e.from); nbIds.add(e.to); } });
+    nbIds.delete(nodeId);
+    const nbs = [...nbIds].map(id => nodes.get(id)).filter(Boolean);
+
+    if (!nbs.length) {
+        document.getElementById("nb-section").innerHTML =
+            `<h4>Connected nodes</h4><div style="padding:8px 14px;color:#adb5bd;font-size:12px">None visible</div>`;
+        return;
+    }
+    const items = nbs.slice(0, 40).map(nb => {
+        const c = TYPE_COLORS[nb.node_type] || "#adb5bd";
+        return `<div class="nb-item" onclick="openPanel(${JSON.stringify(nb.id)})">
+            <div class="nb-dot" style="background:${c}"></div>
+            <span>${nb.label}</span>
+            <span class="nb-type">${nb.node_type}</span>
+        </div>`;
+    }).join("");
+    const more = nbs.length > 40 ? `<div style="padding:5px 14px;font-size:11px;color:#adb5bd">…and ${nbs.length - 40} more</div>` : "";
+    document.getElementById("nb-section").innerHTML = `<h4>Connected nodes (${nbs.length})</h4>${items}${more}`;
+}
+
+function exploreNeighbourhood() {
+    if (!selectedId) return;
+    const matchIds = new Set([selectedId]);
+    ALL_EDGES.forEach(e => {
+        if (e.from === selectedId) matchIds.add(e.to);
+        if (e.to   === selectedId) matchIds.add(e.from);
+    });
+    const subNodes = ALL_NODES.filter(n => matchIds.has(n.id));
+    const subEdges = ALL_EDGES.filter(e => matchIds.has(e.from) && matchIds.has(e.to));
+    const label = nodes.get(selectedId)?.label || selectedId;
+    document.getElementById("stat-msg").textContent = `Neighbourhood of: ${label}`;
+    closePanel();
+    renderGraph(subNodes, subEdges);
+}
+
+function closePanel() {
+    selectedId = null;
+    document.getElementById("side-panel").classList.add("collapsed");
+    document.getElementById("panel-explore").style.display = "none";
+    document.getElementById("nb-section").innerHTML = "";
+}
+
+function togglePhysics() {
+    physicsOn = !physicsOn;
+    if (network) network.setOptions({ physics: { enabled: physicsOn } });
+    document.getElementById("physics-btn").textContent = physicsOn ? "⏸ Physics" : "▶ Physics";
+}
+
+function setLoading(on, msg = "") {
+    const el = document.getElementById("loading");
+    if (on) {
+        document.getElementById("loading-msg").textContent = msg;
+        document.getElementById("progress-fill").style.width = "0%";
+        el.classList.remove("hidden");
+    } else {
+        el.classList.add("hidden");
+    }
+}
+
+function showToast(msg, duration = 4000) {
+    const el = document.getElementById("toast");
+    el.textContent = msg; el.style.display = "block";
+    if (duration > 0) setTimeout(() => { el.style.display = "none"; }, duration);
+}
+
+document.getElementById("search-input").addEventListener("keydown", e => {
+    if (e.key === "Enter") applyFilters();
+});
+
+init();
+</script>
+</body>
+</html>
