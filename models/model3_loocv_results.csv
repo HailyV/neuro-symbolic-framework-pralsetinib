@@ -1,0 +1,16 @@
+theme,true_label,pred_label,prob_high,faers_count,kg_path_count,correct
+Haematological,1,1,0.876,312,63,✓
+Immune/Infection,1,1,0.608,198,41,✓
+Neurological,1,1,0.562,175,38,✓
+Cardiovascular,0,1,0.776,162,35,✗
+Gastrointestinal,1,0,0.456,287,22,✗
+Pulmonary,1,0,0.448,203,18,✗
+Musculoskeletal,0,1,0.7,145,15,✗
+Hepatic,1,0,0.315,168,14,✗
+Renal,0,0,0.417,31,9,✓
+Cell Death/Apoptosis,0,0,0.278,7,8,✓
+Proliferative,0,0,0.262,12,7,✓
+Metabolic,0,1,0.611,89,12,✗
+Dermatological,0,0,0.436,76,10,✓
+Ocular,0,0,0.38,44,6,✓
+Other,1,0,0.025,698,3,✗
