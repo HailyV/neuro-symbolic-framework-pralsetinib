@@ -1,0 +1,8 @@
+Theme,True Label,Pred Label,P(High),KG Paths,FAERS Count,Error Type,Biological Justification
+Cardiovascular,LOW,HIGH,0.776,35,162,Type 3: Threshold Artifact,"FAERS=162 sits at the median threshold; 35 KG paths give genuine mechanistic support — borderline labeling artifact, not a true model failure"
+Gastrointestinal,HIGH,LOW,0.456,22,287,Type 1: Attribution Bias (underreported),"GI effects likely arise from systemic drug metabolism irritation, not direct JAK2/RET/FLT3 signaling in gut epithelium — KG structural gap"
+Pulmonary,HIGH,LOW,0.448,18,203,Type 1: Attribution Bias (underreported),Known class effect across RET inhibitors (e.g. Selpercatinib); inflammation pathway falls outside current KG scope
+Musculoskeletal,LOW,HIGH,0.7,15,145,Type 3: Threshold Artifact,"Musculoskeletal symptoms in oncology patients routinely attributed to cancer progression, not drug — systematic underreporting bias"
+Hepatic,HIGH,LOW,0.315,14,168,Type 1: Attribution Bias (underreported),Liver involvement common in oncology; drug-induced hepatotoxicity underreported in FAERS relative to mechanistic expectation via JAK2 metabolic signaling
+Metabolic,LOW,HIGH,0.611,12,89,Type 2: KG Overpredicts (indirect mechanism),JAK2 regulates broad metabolic signaling; diffuse systemic effects harder to attribute and report individually
+Other,HIGH,LOW,0.025,3,698,Type 2: KG Underpredicts (indirect/class effect),"Catch-all FAERS category (697 reports, 3 KG paths) — heterogeneous events that no mechanistic model should predict; data quality issue not model failure"
