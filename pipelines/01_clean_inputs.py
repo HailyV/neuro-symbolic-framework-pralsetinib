@@ -326,6 +326,61 @@ def clean_opentargets_target_disease(raw_csv: Path, out_csv: Path) -> dict:
     return {"rows": int(df.shape[0]), "out": str(out_csv)}
 
 
+def clean_go_basic_obo(raw_obo: Path, out_csv: Path) -> dict:
+    """
+    Parse go-basic.obo into a compact CSV dictionary for stable downstream use.
+
+    Output schema:
+      go_id, go_name
+
+    Notes:
+    - Only reads [Term] blocks.
+    - Ignores obsolete flags etc. (can be added later if needed).
+    """
+    rows = []
+    go_id = None
+    go_name = None
+    in_term = False
+
+    with raw_obo.open("r", encoding="utf-8", errors="ignore") as f:
+        for line in f:
+            line = line.rstrip("\n")
+
+            if line == "[Term]":
+                in_term = True
+                go_id = None
+                go_name = None
+                continue
+
+            if not in_term:
+                continue
+
+            if line.startswith("id: GO:"):
+                go_id = line.split("id: ", 1)[1].strip()
+            elif line.startswith("name: "):
+                go_name = line.split("name: ", 1)[1].strip()
+            elif line == "":
+                if go_id and go_name:
+                    rows.append({"go_id": go_id, "go_name": go_name})
+                in_term = False
+                go_id = None
+                go_name = None
+
+    # last block
+    if in_term and go_id and go_name:
+        rows.append({"go_id": go_id, "go_name": go_name})
+
+    df = pd.DataFrame(rows).drop_duplicates(subset=["go_id"]).reset_index(drop=True)
+    _write_df(df, out_csv)
+
+    return {
+        "rows": int(df.shape[0]),
+        "unique_go": int(df["go_id"].nunique()) if not df.empty else 0,
+        "out": str(out_csv),
+    }
+
+
+
 # ----------------------------
 # Main
 # ----------------------------
@@ -402,6 +457,12 @@ def main() -> None:
     ot_in = raw / "opentargets_target_disease_long.csv"
     if ot_in.exists():
         summary["steps"]["opentargets_clean"] = clean_opentargets_target_disease(ot_in, out / "opentargets_target_disease_long.csv")
+
+    # --- Optional: GO basic ontology dictionary (recommended)
+    go_basic_in = raw / "go-basic.obo"
+    if go_basic_in.exists():
+        summary["steps"]["go_basic_clean"] = clean_go_basic_obo(go_basic_in, out / "go_basic_terms.csv")
+
 
     # Write a small manifest for traceability
     manifest_path = out / "_clean_manifest.json"

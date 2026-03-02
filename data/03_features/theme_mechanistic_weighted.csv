@@ -1,6 +1,0 @@
-theme,weighted_path_score,path_count,avg_protein_role_weight,avg_go_evidence_weight,unique_proteins,unique_go
-tox:Cell Adhesion,105.0,16,3.0,2.1875,4,13
-tox:Cell Death,57.0,14,3.0,1.3571428571428572,7,11
-tox:Immune System,153.0,25,3.0,2.04,5,22
-tox:Neurological,129.3,30,2.8,1.5866666666666667,9,21
-tox:Oxidative Stress,41.0,8,2.125,2.5,7,3

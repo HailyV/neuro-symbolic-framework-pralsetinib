@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-02T08:39:39.415915Z",
+  "timestamp": "2026-03-02T22:27:46.963798Z",
   "raw_dir": "data/00_raw",
   "out_dir": "data/01_clean",
   "drug": "pralsetinib",
@@ -28,6 +28,11 @@
     "chembl_clean": {
       "rows": 11,
       "out": "data/01_clean/pralsetinib_chembl_targets.csv"
+    },
+    "go_basic_clean": {
+      "rows": 48251,
+      "unique_go": 48251,
+      "out": "data/01_clean/go_basic_terms.csv"
     }
   }
 }

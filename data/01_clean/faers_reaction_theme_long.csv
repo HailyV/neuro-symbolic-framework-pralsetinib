@@ -1,0 +1,2840 @@
+case_id,reaction,toxicity_theme
+26272651,Death,Severe Outcome
+26267839,Death,Severe Outcome
+26152414,Death,Severe Outcome
+26152414,Hospitalisation,Severe Outcome
+26152414,Product Prescribing Issue,Medication Error
+26224683,Hospitalisation,Severe Outcome
+26224683,Product Dose Omission Issue,Medication Error
+26216685,Localised Infection,Immune System
+26216685,Product Prescribing Issue,Medication Error
+26203938,Anaemia,Other / Unmapped
+26203938,Surgery,Other / Unmapped
+26203936,Death,Severe Outcome
+26203936,Product Prescribing Issue,Medication Error
+26138980,Drug Intolerance,Other / Unmapped
+26138980,Hospitalisation,Severe Outcome
+26138980,Death,Severe Outcome
+26143952,Hospitalisation,Severe Outcome
+26143952,Anaemia,Other / Unmapped
+26143952,Product Prescribing Issue,Medication Error
+26044833,Hospitalisation,Severe Outcome
+26044833,Laboratory Test Abnormal,Other / Unmapped
+26044833,Liver Function Test Abnormal,Other / Unmapped
+26044833,White Blood Cell Count Decreased,Immune System
+26138981,Death,Severe Outcome
+26138981,Product Prescribing Issue,Medication Error
+26127279,Death,Severe Outcome
+26126953,Product Prescribing Issue,Medication Error
+26126953,Aphonia,Other / Unmapped
+25904163,Myocardial Infarction,Other / Unmapped
+25904163,Product Prescribing Issue,Medication Error
+26123104,Product Prescribing Issue,Medication Error
+26123104,Death,Severe Outcome
+26096588,Death,Severe Outcome
+25794972,Hip Fracture,Other / Unmapped
+25794972,Full Blood Count Abnormal,Other / Unmapped
+25794972,Product Prescribing Issue,Medication Error
+25794972,Fall,Other / Unmapped
+25794972,Pneumonia,Other / Unmapped
+25794972,Malaise,Other / Unmapped
+26004547,Adverse Event,Other / Unmapped
+25989000,Pneumonia,Other / Unmapped
+25989000,Dizziness,Neurological
+25988998,Fatigue,Other / Unmapped
+25988998,Back Pain,Other / Unmapped
+25988998,Arthralgia,Other / Unmapped
+25988996,Fatigue,Other / Unmapped
+25988996,Product Prescribing Issue,Medication Error
+25988986,Weight Decreased,Other / Unmapped
+25988986,Thyroid Hormones Increased,Other / Unmapped
+25988986,Blood Pressure Increased,Other / Unmapped
+25988986,Odynophagia,Other / Unmapped
+25988986,Dry Mouth,Other / Unmapped
+25988986,Dyspepsia,Other / Unmapped
+25988986,Dysphonia,Other / Unmapped
+25988986,Stomatitis,Other / Unmapped
+25988985,Feeling Abnormal,Other / Unmapped
+25988985,Constipation,Other / Unmapped
+25988985,Product Dose Omission Issue,Medication Error
+25988985,Dyspnoea,Other / Unmapped
+25988985,Urinary Tract Infection,Immune System
+25988985,Muscle Swelling,Other / Unmapped
+25988985,Hepatic Enzyme Increased,Other / Unmapped
+25988985,Oropharyngeal Pain,Other / Unmapped
+25988985,Asthenia,Other / Unmapped
+25988984,Limb Discomfort,Other / Unmapped
+25988984,Infusion,Other / Unmapped
+25988984,Musculoskeletal Discomfort,Other / Unmapped
+25988984,Ear Pain,Other / Unmapped
+25988984,Loss Of Personal Independence In Daily Activities,Other / Unmapped
+25988984,Rhinalgia,Other / Unmapped
+25988984,Pruritus,Other / Unmapped
+25988984,Headache,Neurological
+25988978,Product Prescribing Issue,Medication Error
+25988978,Urinary Tract Infection,Immune System
+25988977,Benign Prostatic Hyperplasia,Other / Unmapped
+25988976,Product Prescribing Issue,Medication Error
+25988976,Adverse Event,Other / Unmapped
+25988976,Hyperhidrosis,Other / Unmapped
+25988976,Nausea,Other / Unmapped
+25988975,Gait Disturbance,Other / Unmapped
+25988975,Pruritus,Other / Unmapped
+25988975,Product Prescribing Issue,Medication Error
+25988974,Platelet Count Decreased,Other / Unmapped
+25988974,Gastrointestinal Disorder,Other / Unmapped
+25988974,Unevaluable Event,Other / Unmapped
+25988974,Fatigue,Other / Unmapped
+25988974,Haemoglobin Decreased,Other / Unmapped
+25988974,White Blood Cell Count Decreased,Immune System
+25988974,Thyroid Hormones Decreased,Other / Unmapped
+25988974,Diarrhoea,Other / Unmapped
+25988974,Anaemia,Other / Unmapped
+25988974,Pain,Other / Unmapped
+25988974,Vomiting,Other / Unmapped
+25988974,Red Blood Cell Count Decreased,Other / Unmapped
+25988973,Hypoaesthesia,Other / Unmapped
+25988973,Product Prescribing Issue,Medication Error
+25988967,Haemoptysis,Other / Unmapped
+25988967,Product Prescribing Issue,Medication Error
+25988966,Myalgia,Other / Unmapped
+25988966,Epistaxis,Other / Unmapped
+25988966,Arthralgia,Other / Unmapped
+25988958,Lethargy,Other / Unmapped
+25988958,Product Dose Omission Issue,Medication Error
+25988958,Anaemia,Other / Unmapped
+25988958,Oropharyngeal Pain,Other / Unmapped
+25988958,Dysphagia,Other / Unmapped
+25988958,Pharyngeal Swelling,Other / Unmapped
+25988957,Product Prescribing Issue,Medication Error
+25988957,Pulmonary Embolism,Other / Unmapped
+25988956,Oesophageal Disorder,Other / Unmapped
+25988956,Fatigue,Other / Unmapped
+25988956,Dyspnoea Exertional,Other / Unmapped
+25988955,Taste Disorder,Other / Unmapped
+25988955,Hepatic Enzyme Increased,Other / Unmapped
+25988955,Decreased Appetite,Other / Unmapped
+25988946,Product Prescribing Issue,Medication Error
+25988946,Dyspnoea,Other / Unmapped
+25988946,Pneumonitis,Other / Unmapped
+25988945,Alopecia,Other / Unmapped
+25988945,Dry Mouth,Other / Unmapped
+25988944,Oxygen Therapy,Other / Unmapped
+25988944,Product Prescribing Issue,Medication Error
+25988943,Hypertension,Other / Unmapped
+25988943,Cough,Other / Unmapped
+25988943,Oedema Peripheral,Other / Unmapped
+25988943,Palpitations,Other / Unmapped
+25988943,Myalgia,Other / Unmapped
+25988942,Hypotension,Other / Unmapped
+25988942,Constipation,Other / Unmapped
+25988942,Dysphonia,Other / Unmapped
+25988942,Product Prescribing Issue,Medication Error
+25988941,Product Dose Omission Issue,Medication Error
+25988939,Red Blood Cell Count Decreased,Other / Unmapped
+25988935,Toothache,Other / Unmapped
+25988932,Product Prescribing Issue,Medication Error
+25988932,Nasopharyngitis,Other / Unmapped
+25988932,Respiratory Tract Congestion,Other / Unmapped
+25988932,Product Dose Omission Issue,Medication Error
+25988929,Unevaluable Event,Other / Unmapped
+25988929,Product Physical Issue,Other / Unmapped
+25988928,Hospice Care,Other / Unmapped
+25988928,Off Label Use,Other / Unmapped
+25988927,Product Prescribing Issue,Medication Error
+25988927,Adverse Event,Other / Unmapped
+25988923,Product Prescribing Issue,Medication Error
+25988923,Sinus Disorder,Other / Unmapped
+25988922,Covid-19,Other / Unmapped
+25988922,Sinusitis,Other / Unmapped
+25988920,Dyspnoea,Other / Unmapped
+25988920,Blood Potassium Abnormal,Other / Unmapped
+25988920,Blood Phosphorus Abnormal,Other / Unmapped
+25988920,Irritability,Other / Unmapped
+25988920,Limb Discomfort,Other / Unmapped
+25988920,Arthralgia,Other / Unmapped
+25988920,Pain In Extremity,Other / Unmapped
+25988920,Amenorrhoea,Other / Unmapped
+25988919,Nasopharyngitis,Other / Unmapped
+25988916,Back Disorder,Other / Unmapped
+25988916,Product Prescribing Issue,Medication Error
+25988915,Headache,Neurological
+25988915,Constipation,Other / Unmapped
+25988915,Hepatic Enzyme Increased,Other / Unmapped
+25988915,Periorbital Swelling,Other / Unmapped
+25988915,Off Label Use,Other / Unmapped
+25988915,Swelling Face,Other / Unmapped
+25988912,Renal Function Test Abnormal,Other / Unmapped
+25988912,Product Prescribing Issue,Medication Error
+25988911,High Frequency Ablation,Other / Unmapped
+25988911,Contrast Media Allergy,Other / Unmapped
+25988911,Product Prescribing Issue,Medication Error
+25988910,Fatigue,Other / Unmapped
+25988910,Product Dose Omission Issue,Medication Error
+25988910,Product Prescribing Issue,Medication Error
+25988910,Insomnia,Neurological
+25988910,Nausea,Other / Unmapped
+25988910,Hypertension,Other / Unmapped
+25988909,Muscular Weakness,Other / Unmapped
+25988909,Taste Disorder,Other / Unmapped
+25988909,White Blood Cell Count Decreased,Immune System
+25988909,Visual Impairment,Other / Unmapped
+25988909,Asthenia,Other / Unmapped
+25988909,Blood Pressure Increased,Other / Unmapped
+25988909,Red Blood Cell Count Decreased,Other / Unmapped
+25988909,Aphonia,Other / Unmapped
+25988909,Oropharyngeal Pain,Other / Unmapped
+25988909,Wrong Technique In Product Usage Process,Other / Unmapped
+25988908,Dry Mouth,Other / Unmapped
+25988908,Vitamin D Decreased,Other / Unmapped
+25988907,Constipation,Other / Unmapped
+25988907,Blood Pressure Increased,Other / Unmapped
+25988906,Pneumonia Bacterial,Other / Unmapped
+25988906,Product Prescribing Issue,Medication Error
+25988905,Drug Intolerance,Other / Unmapped
+25988904,Off Label Use,Other / Unmapped
+25988904,Urinary Tract Infection,Immune System
+25988902,Lung Disorder,Other / Unmapped
+25988902,Product Prescribing Issue,Medication Error
+25988900,Taste Disorder,Other / Unmapped
+25988900,Tongue Blistering,Other / Unmapped
+25988900,Aphthous Ulcer,Other / Unmapped
+25988900,Product Prescribing Issue,Medication Error
+25988899,Vision Blurred,Other / Unmapped
+25988899,Eye Discharge,Other / Unmapped
+25988899,Product Prescribing Issue,Medication Error
+25988898,Choking,Other / Unmapped
+25988897,Dysgeusia,Other / Unmapped
+25988897,Product Prescribing Issue,Medication Error
+25988892,Pneumonia,Other / Unmapped
+25988892,Pleural Effusion,Other / Unmapped
+25988891,Product Prescribing Issue,Medication Error
+25988891,Red Blood Cell Count Decreased,Other / Unmapped
+25988889,Weight Decreased,Other / Unmapped
+25988889,Ill-Defined Disorder,Other / Unmapped
+25988889,Nausea,Other / Unmapped
+25988889,Dehydration,Other / Unmapped
+25988889,Product Prescribing Issue,Medication Error
+25988885,Rash Macular,Other / Unmapped
+25988884,Product Prescribing Issue,Medication Error
+25988884,Ligament Sprain,Other / Unmapped
+25988884,Fall,Other / Unmapped
+25988880,Product Prescribing Issue,Medication Error
+25988880,Hypoacusis,Other / Unmapped
+25988880,Off Label Use,Other / Unmapped
+25988879,Pain,Other / Unmapped
+25988879,Blood Pressure Decreased,Other / Unmapped
+25988879,Blood Pressure Increased,Other / Unmapped
+25988879,Abdominal Pain Upper,Other / Unmapped
+25988879,Constipation,Other / Unmapped
+25988879,Diarrhoea,Other / Unmapped
+25988878,Drug Ineffective,Other / Unmapped
+25988878,Product Prescribing Issue,Medication Error
+25988877,Escherichia Infection,Immune System
+25988877,Covid-19,Other / Unmapped
+25988877,Influenza,Other / Unmapped
+25988876,Product Use Issue,Other / Unmapped
+25988876,Headache,Neurological
+25988876,Blood Pressure Increased,Other / Unmapped
+25988876,Diarrhoea,Other / Unmapped
+25988874,Taste Disorder,Other / Unmapped
+25988873,Back Pain,Other / Unmapped
+25988873,Product Prescribing Issue,Medication Error
+25988873,Neuropathy Peripheral,Other / Unmapped
+25988870,Diarrhoea,Other / Unmapped
+25988870,Abdominal Discomfort,Other / Unmapped
+25988869,Mucosal Inflammation,Other / Unmapped
+25988868,Product Prescribing Issue,Medication Error
+25988868,Adverse Drug Reaction,Other / Unmapped
+25988865,Back Pain,Other / Unmapped
+25988865,Frequent Bowel Movements,Other / Unmapped
+25988865,Micturition Urgency,Other / Unmapped
+25988865,Off Label Use,Other / Unmapped
+25988865,Onychalgia,Other / Unmapped
+25988855,Hypertension,Other / Unmapped
+25988855,Off Label Use,Other / Unmapped
+25988853,Troponin Increased,Other / Unmapped
+25988853,Cough,Other / Unmapped
+25988853,Product Prescribing Issue,Medication Error
+25988853,Pleural Effusion,Other / Unmapped
+25988849,Product Dose Omission Issue,Medication Error
+25988849,Condition Aggravated,Other / Unmapped
+25988848,Nasopharyngitis,Other / Unmapped
+25988842,Hospice Care,Other / Unmapped
+25988841,Lymphoedema,Other / Unmapped
+25988840,Product Prescribing Issue,Medication Error
+25988840,Rash,Other / Unmapped
+25988838,Fungal Skin Infection,Immune System
+25988838,Diarrhoea,Other / Unmapped
+25988838,Stomatitis,Other / Unmapped
+25988836,Cough,Other / Unmapped
+25988835,Dehydration,Other / Unmapped
+25988835,Product Prescribing Issue,Medication Error
+25988835,Cough,Other / Unmapped
+25988834,Blood Pressure Abnormal,Other / Unmapped
+25988834,Dyspepsia,Other / Unmapped
+25988834,Cataract,Other / Unmapped
+25988834,Diarrhoea,Other / Unmapped
+25988832,Pain,Other / Unmapped
+25988832,Fall,Other / Unmapped
+25988826,Product Prescribing Issue,Medication Error
+25988826,Fatigue,Other / Unmapped
+25988826,Coccidioidomycosis,Other / Unmapped
+25988825,Product Prescribing Issue,Medication Error
+25988825,Endodontic Procedure,Other / Unmapped
+25988824,Adverse Event,Other / Unmapped
+25988823,Eye Discharge,Other / Unmapped
+25988823,Tooth Extraction,Other / Unmapped
+25988823,Emotional Disorder,Other / Unmapped
+25988823,Product Prescribing Issue,Medication Error
+25988823,Exercise Lack Of,Other / Unmapped
+25988818,Skin Hyperpigmentation,Other / Unmapped
+25988818,Off Label Use,Other / Unmapped
+25988817,Pneumonia,Other / Unmapped
+25988817,Interstitial Lung Disease,Other / Unmapped
+25988815,Blood Pressure Decreased,Other / Unmapped
+25988815,Lung Disorder,Other / Unmapped
+25988815,Blood Pressure Increased,Other / Unmapped
+25988813,Dyspepsia,Other / Unmapped
+25988813,Chills,Other / Unmapped
+25988813,Nervousness,Other / Unmapped
+25988813,Productive Cough,Other / Unmapped
+25988813,Hypertension,Other / Unmapped
+25988813,Hyperhidrosis,Other / Unmapped
+25988813,Abdominal Pain,Other / Unmapped
+25988813,Dry Mouth,Other / Unmapped
+25988813,Decreased Appetite,Other / Unmapped
+25988813,Sleep Deficit,Other / Unmapped
+25988813,Fatigue,Other / Unmapped
+25988813,Nausea,Other / Unmapped
+25988813,White Blood Cell Count Decreased,Immune System
+25988813,Dyspnoea,Other / Unmapped
+25988813,Paraesthesia,Other / Unmapped
+25988813,Balance Disorder,Other / Unmapped
+25988813,Asthenia,Other / Unmapped
+25988813,Dizziness,Neurological
+25988813,Middle Insomnia,Neurological
+25988813,Throat Irritation,Other / Unmapped
+25988811,Urinary Tract Infection,Immune System
+25988810,Product Prescribing Issue,Medication Error
+25988810,Nasopharyngitis,Other / Unmapped
+25988810,Cough,Other / Unmapped
+25988808,Nausea,Other / Unmapped
+25988808,Fatigue,Other / Unmapped
+25988808,Onychoclasis,Other / Unmapped
+25988808,Nail Bed Inflammation,Other / Unmapped
+25988808,Nail Discolouration,Other / Unmapped
+25988808,Product Prescribing Issue,Medication Error
+25988806,Swelling Face,Other / Unmapped
+25988804,Adverse Drug Reaction,Other / Unmapped
+25988803,Loss Of Personal Independence In Daily Activities,Other / Unmapped
+25988803,Product Prescribing Issue,Medication Error
+25988803,Epistaxis,Other / Unmapped
+25988802,Emergency Care,Other / Unmapped
+25988802,Product Prescribing Issue,Medication Error
+25988797,Anaemia,Other / Unmapped
+25988794,Off Label Use,Other / Unmapped
+25988794,Dyspnoea,Other / Unmapped
+25988794,Swelling Of Eyelid,Other / Unmapped
+25988794,Swelling Face,Other / Unmapped
+25988794,Chills,Other / Unmapped
+25988794,Stomatitis,Other / Unmapped
+25988792,Product Use Complaint,Other / Unmapped
+25988792,Dry Throat,Other / Unmapped
+25988790,Blood Pressure Increased,Other / Unmapped
+25988790,Product Prescribing Issue,Medication Error
+25988788,Off Label Use,Other / Unmapped
+25988788,Urinary Tract Infection,Immune System
+25988781,Cough,Other / Unmapped
+25988780,Product Prescribing Issue,Medication Error
+25988780,Ast/Alt Ratio Abnormal,Other / Unmapped
+25988780,Dry Mouth,Other / Unmapped
+25988780,Pain,Other / Unmapped
+25988780,Fatigue,Other / Unmapped
+25988780,Nocturia,Other / Unmapped
+25988780,Paraesthesia,Other / Unmapped
+25988780,Cough,Other / Unmapped
+25988780,Sputum Discoloured,Other / Unmapped
+25988780,Hypersensitivity,Other / Unmapped
+25988776,Swelling,Other / Unmapped
+25988776,Weight Increased,Other / Unmapped
+25988776,Hormone Replacement Therapy,Other / Unmapped
+25988776,Fatigue,Other / Unmapped
+25988776,Product Prescribing Issue,Medication Error
+25988776,Blood Albumin Abnormal,Other / Unmapped
+25988767,Upper Respiratory Tract Infection,Immune System
+25988766,Nausea,Other / Unmapped
+25988764,Adverse Event,Other / Unmapped
+25988762,Dental Operation,Other / Unmapped
+25988759,Early Satiety,Other / Unmapped
+25988759,Decreased Appetite,Other / Unmapped
+25988759,Product Prescribing Issue,Medication Error
+25988757,Hepatic Pain,Other / Unmapped
+25988757,Dry Throat,Other / Unmapped
+25988757,Product Use Issue,Other / Unmapped
+25988754,Anaemia,Other / Unmapped
+25988752,Vomiting,Other / Unmapped
+25988750,Amylase Decreased,Other / Unmapped
+25988750,Pneumonia,Other / Unmapped
+25988750,Off Label Use,Other / Unmapped
+25988749,Blood Test Abnormal,Other / Unmapped
+25988748,Product Prescribing Issue,Medication Error
+25988748,Emergency Care,Other / Unmapped
+25988747,Arthralgia,Other / Unmapped
+25988747,Fatigue,Other / Unmapped
+25988747,Product Prescribing Issue,Medication Error
+25988747,Dyspnoea,Other / Unmapped
+25988747,Joint Injury,Other / Unmapped
+25988746,Endoscopy,Other / Unmapped
+25988746,Blood Pressure Increased,Other / Unmapped
+25988746,Product Prescribing Issue,Medication Error
+25988745,Product Prescribing Issue,Medication Error
+25988745,Petechiae,Other / Unmapped
+25988743,Sinusitis,Other / Unmapped
+25988743,Product Prescribing Issue,Medication Error
+25988742,Pneumonitis,Other / Unmapped
+25988739,Off Label Use,Other / Unmapped
+25988739,Interstitial Lung Disease,Other / Unmapped
+25988738,Product Prescribing Issue,Medication Error
+25988737,Acne,Other / Unmapped
+25988729,Covid-19,Other / Unmapped
+25988725,Peripheral Swelling,Other / Unmapped
+25988725,Headache,Neurological
+25988721,Product Prescribing Issue,Medication Error
+25988721,Blood Pressure Increased,Other / Unmapped
+25988721,Product Dose Omission Issue,Medication Error
+25988720,Product Use Issue,Other / Unmapped
+25988720,Product Prescribing Issue,Medication Error
+25988719,Mutism,Other / Unmapped
+25988719,Malaise,Other / Unmapped
+25988719,Pyrexia,Other / Unmapped
+25988709,Monocyte Count Decreased,Other / Unmapped
+25988709,Platelet Count Decreased,Other / Unmapped
+25988709,Condition Aggravated,Other / Unmapped
+25988709,Haemoglobin Decreased,Other / Unmapped
+25988709,Haematocrit Increased,Other / Unmapped
+25988709,Fatigue,Other / Unmapped
+25988706,Product Prescribing Issue,Medication Error
+25988706,Viral Infection,Immune System
+25988705,Product Prescribing Issue,Medication Error
+25988705,Urinary Tract Infection,Immune System
+25988704,Constipation,Other / Unmapped
+25988704,Product Prescribing Issue,Medication Error
+25988704,Neoplasm Malignant,Other / Unmapped
+25988678,Dysgeusia,Other / Unmapped
+25988678,Diarrhoea,Other / Unmapped
+25988675,Product Prescribing Issue,Medication Error
+25988675,Muscular Weakness,Other / Unmapped
+25988671,Product Prescribing Issue,Medication Error
+25988669,Toxicity To Various Agents,Other / Unmapped
+25988662,Urinary Tract Infection,Immune System
+25988659,Liver Function Test Increased,Other / Unmapped
+25988659,Platelet Count Increased,Other / Unmapped
+25988659,Product Prescribing Issue,Medication Error
+25988656,Coccidioidomycosis,Other / Unmapped
+25988653,Fatigue,Other / Unmapped
+25988644,Sinusitis,Other / Unmapped
+25988641,Neoplasm Malignant,Other / Unmapped
+25988641,Adverse Drug Reaction,Other / Unmapped
+25988641,Fatigue,Other / Unmapped
+25988639,Fall,Other / Unmapped
+25988639,Off Label Use,Other / Unmapped
+25988639,Loss Of Consciousness,Other / Unmapped
+25988639,Balance Disorder,Other / Unmapped
+25988639,Orthostatic Hypotension,Other / Unmapped
+25988639,Product Prescribing Issue,Medication Error
+25988639,Contusion,Other / Unmapped
+25988638,Throat Cancer,Other / Unmapped
+25988638,Product Prescribing Issue,Medication Error
+25988623,Product Prescribing Issue,Medication Error
+25988623,Fatigue,Other / Unmapped
+25988622,Infection,Immune System
+25988621,Hip Arthroplasty,Other / Unmapped
+25988619,Dizziness,Neurological
+25988613,Surgery,Other / Unmapped
+25988613,Product Prescribing Issue,Medication Error
+25988612,Product Prescribing Issue,Medication Error
+25988612,Arthroscopy,Other / Unmapped
+25988611,Pneumonia,Other / Unmapped
+25988611,Product Prescribing Issue,Medication Error
+25988610,Blood Pressure Increased,Other / Unmapped
+25988610,Anaemia,Other / Unmapped
+25988610,Burning Sensation,Other / Unmapped
+25988610,Oedema Peripheral,Other / Unmapped
+25988610,Blood Sodium Decreased,Other / Unmapped
+25988610,Herpes Zoster,Other / Unmapped
+25988609,Nephrolithiasis,Other / Unmapped
+25988606,Cough,Other / Unmapped
+25988606,Insomnia,Neurological
+25988606,Pneumonia,Other / Unmapped
+25988604,Product Prescribing Issue,Medication Error
+25988604,Tooth Extraction,Other / Unmapped
+25988604,Ligament Rupture,Other / Unmapped
+25988603,Hypertension,Other / Unmapped
+25988603,Product Prescribing Issue,Medication Error
+25988603,Blood Pressure Fluctuation,Other / Unmapped
+25988603,Memory Impairment,Other / Unmapped
+25988602,Product Prescribing Issue,Medication Error
+25988602,Vaginal Haemorrhage,Other / Unmapped
+25988599,Gait Disturbance,Other / Unmapped
+25988599,Product Dose Omission Issue,Medication Error
+25988599,Blood Test Abnormal,Other / Unmapped
+25988599,Back Pain,Other / Unmapped
+25988599,Pica,Other / Unmapped
+25988594,Product Dose Omission Issue,Medication Error
+25988594,Blood Glucose Increased,Other / Unmapped
+25988594,Product Prescribing Issue,Medication Error
+25988592,Product Prescribing Issue,Medication Error
+25988592,Constipation,Other / Unmapped
+25988586,Product Prescribing Issue,Medication Error
+25988586,Pneumonia,Other / Unmapped
+25988585,Stomatitis,Other / Unmapped
+25988585,Nausea,Other / Unmapped
+25988584,Constipation,Other / Unmapped
+25988584,Abdominal Discomfort,Other / Unmapped
+25988583,Pneumonia,Other / Unmapped
+25988583,Bone Lesion,Other / Unmapped
+25988583,Hepatic Enzyme Increased,Other / Unmapped
+25988579,Alopecia,Other / Unmapped
+25988579,Asthenia,Other / Unmapped
+25988578,Gingival Bleeding,Other / Unmapped
+25988578,Feeling Abnormal,Other / Unmapped
+25988577,Arthralgia,Other / Unmapped
+25988577,Pain In Extremity,Other / Unmapped
+25988577,Musculoskeletal Stiffness,Other / Unmapped
+25988577,Disease Progression,Other / Unmapped
+25988577,Balance Disorder,Other / Unmapped
+25988575,Product Prescribing Issue,Medication Error
+25988575,Blood Pressure Abnormal,Other / Unmapped
+25988575,Dyspnoea,Other / Unmapped
+25988573,Anaemia,Other / Unmapped
+25988572,Bone Pain,Other / Unmapped
+25988572,Myalgia,Other / Unmapped
+25988572,Product Prescribing Issue,Medication Error
+25988572,Rash,Other / Unmapped
+25988571,Emergency Care,Other / Unmapped
+25988570,Vision Blurred,Other / Unmapped
+25988570,Fatigue,Other / Unmapped
+25988570,Infection,Immune System
+25988539,Bronchitis,Other / Unmapped
+25988539,Product Prescribing Issue,Medication Error
+25988538,Blood Potassium Decreased,Other / Unmapped
+25988538,Product Prescribing Issue,Medication Error
+25988533,Fatigue,Other / Unmapped
+25988533,Viral Infection,Immune System
+25988533,Adverse Drug Reaction,Other / Unmapped
+25988533,Stomatitis,Other / Unmapped
+25988533,Dyspnoea,Other / Unmapped
+25988531,Interstitial Lung Disease,Other / Unmapped
+25988517,Unevaluable Event,Other / Unmapped
+25988517,Product Prescribing Issue,Medication Error
+25988516,Product Prescribing Issue,Medication Error
+25988516,Asthenia,Other / Unmapped
+25988515,Product Prescribing Issue,Medication Error
+25988515,Back Pain,Other / Unmapped
+25988514,Anaemia,Other / Unmapped
+25423006,Fatigue,Other / Unmapped
+25423006,Asthenia,Other / Unmapped
+25423006,Skin Discolouration,Other / Unmapped
+25423006,Blood Urine Present,Other / Unmapped
+25950973,Oedema Due To Hepatic Disease,Other / Unmapped
+25950973,Ascites,Other / Unmapped
+25950973,Hepatic Cirrhosis,Other / Unmapped
+25965715,Thrombosis,Other / Unmapped
+25951007,Death,Severe Outcome
+25951007,Fatigue,Other / Unmapped
+25874684,Capillary Fragility,Other / Unmapped
+25899823,Adverse Drug Reaction,Other / Unmapped
+25879512,Rib Fracture,Other / Unmapped
+25879512,Fall,Other / Unmapped
+25879512,Haemorrhage,Other / Unmapped
+25879512,Product Prescribing Issue,Medication Error
+25879512,Hospitalisation,Severe Outcome
+25879512,Off Label Use,Other / Unmapped
+25887109,Myocardial Infarction,Other / Unmapped
+25874666,Hip Arthroplasty,Other / Unmapped
+25846528,Chills,Other / Unmapped
+25846528,Asthenia,Other / Unmapped
+25846528,Pain,Other / Unmapped
+25846528,Death,Severe Outcome
+25846528,Urinary Incontinence,Other / Unmapped
+25844398,Malignant Neoplasm Progression,Other / Unmapped
+25821332,Influenza,Other / Unmapped
+25821332,Product Prescribing Issue,Medication Error
+25814389,Product Prescribing Issue,Medication Error
+25814389,Hospitalisation,Severe Outcome
+25814389,Disease Progression,Other / Unmapped
+25814389,Off Label Use,Other / Unmapped
+24551170,Anaemia,Other / Unmapped
+24551170,Product Prescribing Issue,Medication Error
+25771991,Pulmonary Artery Aneurysm,Other / Unmapped
+25742311,Carcinoembryonic Antigen Increased,Other / Unmapped
+25742311,Product Use Complaint,Other / Unmapped
+25742311,Blood Albumin Decreased,Other / Unmapped
+25742311,Intentional Product Use Issue,Other / Unmapped
+25742311,Rash,Other / Unmapped
+25742311,Defaecation Disorder,Other / Unmapped
+25742311,Nausea,Other / Unmapped
+25742311,Toothache,Other / Unmapped
+25742311,Diarrhoea,Other / Unmapped
+25759910,Death,Severe Outcome
+25334740,Death,Severe Outcome
+25732353,Product Dose Omission Issue,Medication Error
+25732353,Hospitalisation,Severe Outcome
+25728243,Spinal Operation,Other / Unmapped
+25722739,Tremor,Other / Unmapped
+25722739,Product Prescribing Issue,Medication Error
+25704218,Death,Severe Outcome
+25704218,Product Prescribing Issue,Medication Error
+25704218,Fatigue,Other / Unmapped
+25704218,Cough,Other / Unmapped
+25704218,Dyspnoea,Other / Unmapped
+25704215,Hospitalisation,Severe Outcome
+25704215,Product Prescribing Issue,Medication Error
+25334753,Death,Severe Outcome
+25685558,Hospitalisation,Severe Outcome
+25318084,Death,Severe Outcome
+25656567,Product Prescribing Issue,Medication Error
+25656567,Surgery,Other / Unmapped
+25337767,Off Label Use,Other / Unmapped
+25337767,Death,Severe Outcome
+25334859,Death,Severe Outcome
+25334855,Off Label Use,Other / Unmapped
+25334855,Death,Severe Outcome
+25334757,Death,Severe Outcome
+25334756,Death,Severe Outcome
+25334754,Death,Severe Outcome
+25334742,Thyroid Cancer,Other / Unmapped
+24167402,Death,Severe Outcome
+25674452,Hospitalisation,Severe Outcome
+25674452,Product Prescribing Issue,Medication Error
+25661664,Blood Glucose Decreased,Other / Unmapped
+25661664,Pneumonia,Other / Unmapped
+25661664,Anxiety,Neurological
+25661664,Mechanical Ileus,Other / Unmapped
+25661664,Oedema,Other / Unmapped
+25661664,Product Prescribing Issue,Medication Error
+25661664,Device Occlusion,Other / Unmapped
+25661664,Delirium,Other / Unmapped
+25667336,Product Prescribing Issue,Medication Error
+25667336,Hospitalisation,Severe Outcome
+25667189,Knee Operation,Other / Unmapped
+25667189,Product Prescribing Issue,Medication Error
+25579175,Hospitalisation,Severe Outcome
+25579175,Cough,Other / Unmapped
+25579175,Product Prescribing Issue,Medication Error
+25587614,Hospitalisation,Severe Outcome
+25579096,Product Prescribing Issue,Medication Error
+25579096,Spinal Operation,Other / Unmapped
+25579096,Diarrhoea,Other / Unmapped
+25579096,Back Pain,Other / Unmapped
+25579049,Hospitalisation,Severe Outcome
+25579049,Product Prescribing Issue,Medication Error
+25487415,Decreased Appetite,Other / Unmapped
+25487415,Hypotension,Other / Unmapped
+25487415,Product Dose Omission Issue,Medication Error
+25487415,Renal Disorder,Other / Unmapped
+25487415,Illness,Other / Unmapped
+25487415,Blood Magnesium Decreased,Other / Unmapped
+25487415,Nausea,Other / Unmapped
+25487415,Blood Potassium Decreased,Other / Unmapped
+25487415,Blood Calcium Decreased,Other / Unmapped
+25487415,Product Prescribing Issue,Medication Error
+25564823,Death,Severe Outcome
+25458742,Death,Severe Outcome
+25531147,Product Prescribing Issue,Medication Error
+25531147,Septic Shock,Other / Unmapped
+25531147,Off Label Use,Other / Unmapped
+25531147,Renal Impairment,Other / Unmapped
+25531147,Stomatitis,Other / Unmapped
+25377648,Product Prescribing Issue,Medication Error
+25377648,Hospitalisation,Severe Outcome
+25502692,Medical Procedure,Other / Unmapped
+25490965,Confusional State,Other / Unmapped
+25490965,Adverse Event,Other / Unmapped
+25490965,Pallor,Other / Unmapped
+25490965,Choking,Other / Unmapped
+25490965,Hypomania,Other / Unmapped
+25490965,Delirium,Other / Unmapped
+25490965,Urinary Tract Infection,Immune System
+25448989,Liver Injury,Other / Unmapped
+25448989,Hepatitis,Other / Unmapped
+25448989,Hepatitis B Reactivation,Other / Unmapped
+25448989,Immunodeficiency,Other / Unmapped
+25448989,Hepatitis B,Other / Unmapped
+25454122,Radiotherapy,Other / Unmapped
+25454122,Diarrhoea,Other / Unmapped
+25448990,Micturition Disorder,Other / Unmapped
+25448990,Diverticulitis,Other / Unmapped
+25439215,Hospitalisation,Severe Outcome
+25426933,Influenza Like Illness,Other / Unmapped
+25426933,Bone Pain,Other / Unmapped
+25426933,Abdominal Pain Upper,Other / Unmapped
+25422670,Product Prescribing Issue,Medication Error
+25422670,Anaemia,Other / Unmapped
+25419555,Neoplasm Malignant,Other / Unmapped
+25410159,Blood Creatine Phosphokinase,Other / Unmapped
+25410159,Myalgia,Other / Unmapped
+25410159,Product Prescribing Issue,Medication Error
+25410159,Paraesthesia,Other / Unmapped
+25410155,Dizziness,Neurological
+25410155,Constipation,Other / Unmapped
+25410155,Paraesthesia,Other / Unmapped
+25410155,Cardiac Disorder,Other / Unmapped
+25410155,Hypoaesthesia,Other / Unmapped
+25410155,Paraesthesia Oral,Other / Unmapped
+25410155,Blood Pressure Abnormal,Other / Unmapped
+25410155,Oral Discomfort,Other / Unmapped
+25410155,Sensory Loss,Other / Unmapped
+25410155,Ageusia,Other / Unmapped
+25232088,Oropharyngeal Pain,Other / Unmapped
+25232088,Fatigue,Other / Unmapped
+25232088,Renal Impairment,Other / Unmapped
+25232088,Wrist Fracture,Other / Unmapped
+25232088,Headache,Neurological
+25232088,Fall,Other / Unmapped
+25232088,Blood Pressure Increased,Other / Unmapped
+25232088,Gait Disturbance,Other / Unmapped
+25232088,Product Prescribing Issue,Medication Error
+25232088,Balance Disorder,Other / Unmapped
+25232088,Decreased Appetite,Other / Unmapped
+25232088,Pneumonia,Other / Unmapped
+25232088,Thyroid Cancer,Other / Unmapped
+25232088,Constipation,Other / Unmapped
+25232088,Nausea,Other / Unmapped
+25232088,Dyspnoea,Other / Unmapped
+25232088,Asthenia,Other / Unmapped
+25329148,Brain Neoplasm,Other / Unmapped
+25329148,Face Oedema,Other / Unmapped
+25329147,Brain Neoplasm,Other / Unmapped
+25326360,Renal Disorder,Other / Unmapped
+25318086,Product Prescribing Issue,Medication Error
+25318086,Hypertensive Crisis,Other / Unmapped
+25262546,Product Prescribing Issue,Medication Error
+25262546,Hospitalisation,Severe Outcome
+25175009,Product Prescribing Issue,Medication Error
+25175009,Pulmonary Thrombosis,Other / Unmapped
+25259700,Death,Severe Outcome
+25163289,Cushingoid,Other / Unmapped
+25163289,Product Prescribing Issue,Medication Error
+25163289,Aspiration Pleural Cavity,Other / Unmapped
+25163289,Diverticulitis,Other / Unmapped
+24524030,Back Pain,Other / Unmapped
+24524030,Hospitalisation,Severe Outcome
+24524030,Pain,Other / Unmapped
+24524030,Heart Rate Increased,Other / Unmapped
+24524030,Hypoxia,Other / Unmapped
+24524030,Pleural Effusion,Other / Unmapped
+24524030,Cholecystitis Acute,Other / Unmapped
+24524030,Cholelithiasis,Other / Unmapped
+24524030,Diarrhoea,Other / Unmapped
+25236316,Hospitalisation,Severe Outcome
+25236316,Product Prescribing Issue,Medication Error
+25228930,Bronchitis,Other / Unmapped
+25228903,Pyrexia,Other / Unmapped
+25228903,Adverse Event,Other / Unmapped
+25228903,Influenza,Other / Unmapped
+25228903,Product Dose Omission Issue,Medication Error
+25215698,Product Prescribing Issue,Medication Error
+25215698,Surgery,Other / Unmapped
+25206328,Hospitalisation,Severe Outcome
+25206328,Product Prescribing Issue,Medication Error
+25082035,Product Prescribing Issue,Medication Error
+25082035,Death,Severe Outcome
+25082035,Off Label Use,Other / Unmapped
+25077225,No Adverse Event,Other / Unmapped
+25067156,Death,Severe Outcome
+25039872,Death,Severe Outcome
+25025406,Drug Resistance,Other / Unmapped
+25025406,Condition Aggravated,Other / Unmapped
+25025406,Ret Gene Mutation,Other / Unmapped
+25023592,Product Prescribing Issue,Medication Error
+25023592,Death,Severe Outcome
+25022448,Blood Pressure Increased,Other / Unmapped
+25022448,Arthralgia,Other / Unmapped
+25022448,Hospitalisation,Severe Outcome
+25022448,Pain,Other / Unmapped
+25022448,Product Prescribing Issue,Medication Error
+25022448,Radiation Injury,Other / Unmapped
+24944017,Balance Disorder,Other / Unmapped
+24944017,Headache,Neurological
+24944017,Brain Neoplasm,Other / Unmapped
+24944017,Limb Discomfort,Other / Unmapped
+24944017,Fluid Retention,Other / Unmapped
+24891640,Pneumonia,Other / Unmapped
+24891640,Pneumocystis Jirovecii Infection,Immune System
+24891640,Herpes Virus Infection,Immune System
+24891640,Aspergillus Infection,Immune System
+24890389,Pulmonary Tuberculosis,Other / Unmapped
+24890389,Pneumonia Cytomegaloviral,Other / Unmapped
+25006164,Product Prescribing Issue,Medication Error
+25006164,Cerebral Disorder,Other / Unmapped
+25006164,Rash,Other / Unmapped
+24997108,Product Prescribing Issue,Medication Error
+24997108,Pneumothorax,Other / Unmapped
+24994522,Unevaluable Event,Other / Unmapped
+24994522,Product Prescribing Issue,Medication Error
+24994522,Metastases To Lymph Nodes,Other / Unmapped
+24994522,Brain Neoplasm,Other / Unmapped
+24987557,Off Label Use,Other / Unmapped
+24987557,Biopsy,Other / Unmapped
+24987557,Liver Transplant,Other / Unmapped
+24987557,Product Prescribing Issue,Medication Error
+24944018,Hypertensive Crisis,Other / Unmapped
+24927467,Product Prescribing Issue,Medication Error
+24927467,Bone Pain,Other / Unmapped
+24927467,Pneumothorax,Other / Unmapped
+24524032,Tenoplasty,Other / Unmapped
+24524032,Tendon Injury,Other / Unmapped
+24524032,Exercise Tolerance Decreased,Other / Unmapped
+24524032,Tendon Rupture,Other / Unmapped
+24524032,Constipation,Other / Unmapped
+24524032,Blood Pressure Increased,Other / Unmapped
+24733516,Hospitalisation,Severe Outcome
+24733516,Tooth Extraction,Other / Unmapped
+24807462,Calcinosis,Other / Unmapped
+24807462,Limb Amputation,Other / Unmapped
+24801415,Product Prescribing Issue,Medication Error
+24801415,Gastric Lavage,Other / Unmapped
+24795496,Product Prescribing Issue,Medication Error
+24795496,Fatigue,Other / Unmapped
+24795496,Amnesia,Other / Unmapped
+24795496,Loss Of Personal Independence In Daily Activities,Other / Unmapped
+24795496,Pain Of Skin,Other / Unmapped
+24795496,Hypercalcaemia,Other / Unmapped
+24795496,Rash,Other / Unmapped
+24795496,Hospitalisation,Severe Outcome
+24447116,Hospitalisation,Severe Outcome
+24447116,Urinary Tract Obstruction,Other / Unmapped
+24447116,Nephrostomy,Other / Unmapped
+24723821,Hepatic Function Abnormal,Other / Unmapped
+24723821,Tuberculosis,Other / Unmapped
+24723821,Platelet Count Decreased,Other / Unmapped
+24723821,White Blood Cell Count Decreased,Immune System
+24677939,Surgery,Other / Unmapped
+24677939,Product Prescribing Issue,Medication Error
+24677911,Death,Severe Outcome
+24664404,Product Prescribing Issue,Medication Error
+24664404,Pancytopenia,Other / Unmapped
+24664404,Candida Infection,Immune System
+24654908,Product Prescribing Issue,Medication Error
+24654908,Surgery,Other / Unmapped
+24626972,Blood Sodium Decreased,Other / Unmapped
+24626972,Peripheral Swelling,Other / Unmapped
+24626972,Dermatitis Contact,Other / Unmapped
+24626972,Haemoglobin Decreased,Other / Unmapped
+24626972,Red Blood Cell Count Decreased,Other / Unmapped
+24626972,Product Prescribing Issue,Medication Error
+24626972,Thrombosis,Other / Unmapped
+24626972,Abdominal Pain Upper,Other / Unmapped
+24626972,Blood Pressure Increased,Other / Unmapped
+24626972,Catheter Site Pain,Other / Unmapped
+24626972,Application Site Erythema,Other / Unmapped
+24626972,Adverse Event,Other / Unmapped
+24618474,Medical Device Removal,Other / Unmapped
+24618474,Spinal Fusion Surgery,Other / Unmapped
+24586120,Product Prescribing Issue,Medication Error
+24586120,Pneumothorax,Other / Unmapped
+24586120,Hospitalisation,Severe Outcome
+24605714,Death,Severe Outcome
+24605714,Dysphagia,Other / Unmapped
+24605714,Diarrhoea,Other / Unmapped
+24595073,Cholangitis,Other / Unmapped
+24595073,Hepatic Enzyme Increased,Other / Unmapped
+24595073,Product Prescribing Issue,Medication Error
+24579236,Product Prescribing Issue,Medication Error
+24579236,Organ Failure,Other / Unmapped
+24579236,Leg Amputation,Other / Unmapped
+24573273,Death,Severe Outcome
+24567851,Gangrene,Other / Unmapped
+24567851,Upper Gastrointestinal Haemorrhage,Other / Unmapped
+24562606,Death,Severe Outcome
+24559529,Hospitalisation,Severe Outcome
+24548116,Paracentesis,Other / Unmapped
+24547146,Cough,Other / Unmapped
+24547146,Pyrexia,Other / Unmapped
+24547146,Interstitial Lung Disease,Other / Unmapped
+24547146,Pain,Other / Unmapped
+24412879,Fall,Other / Unmapped
+24412879,Abdominal Pain,Other / Unmapped
+24412879,Head Injury,Other / Unmapped
+24412879,Balance Disorder,Other / Unmapped
+24412879,Loss Of Consciousness,Other / Unmapped
+24412879,Pneumonia,Other / Unmapped
+24413652,Product Prescribing Issue,Medication Error
+24413652,Hospitalisation,Severe Outcome
+24376538,Cough,Other / Unmapped
+24376538,Pain,Other / Unmapped
+24376538,Pneumonia,Other / Unmapped
+24376538,Pyrexia,Other / Unmapped
+24376538,Hospitalisation,Severe Outcome
+24372021,Malignant Neoplasm Progression,Other / Unmapped
+24372021,Rhabdomyolysis,Other / Unmapped
+24307202,Haematemesis,Other / Unmapped
+24307202,Gastric Haemorrhage,Other / Unmapped
+24307202,Cardiac Failure,Other / Unmapped
+24354755,Leukopenia,Other / Unmapped
+24354755,Neutropenia,Other / Unmapped
+24354755,Disease Progression,Other / Unmapped
+24354755,Drug Ineffective,Other / Unmapped
+24354755,Erythropenia,Other / Unmapped
+24172985,Full Blood Count Decreased,Other / Unmapped
+24172985,Back Pain,Other / Unmapped
+24172985,Asthenia,Other / Unmapped
+24172985,Neck Pain,Other / Unmapped
+24172985,Malaise,Other / Unmapped
+24172985,Gait Disturbance,Other / Unmapped
+24172985,Back Disorder,Other / Unmapped
+24364002,Neuropathy Peripheral,Other / Unmapped
+24364001,General Physical Health Deterioration,Other / Unmapped
+24307193,Illness,Other / Unmapped
+24307193,Malaise,Other / Unmapped
+24359483,Diarrhoea,Other / Unmapped
+24359482,Asthenia,Other / Unmapped
+24359482,Neuropathy Peripheral,Other / Unmapped
+24359481,Anaemia,Other / Unmapped
+24359480,Electrocardiogram Qt Prolonged,Other / Unmapped
+24359351,Transaminases Increased,Other / Unmapped
+24359351,Hypertension,Other / Unmapped
+24359351,Decreased Appetite,Other / Unmapped
+24359351,Heart Rate Increased,Other / Unmapped
+24359350,Pharyngeal Disorder,Other / Unmapped
+24359350,Oesophageal Disorder,Other / Unmapped
+24359349,Transaminases Increased,Other / Unmapped
+24359348,Blood Cholesterol Abnormal,Other / Unmapped
+24359347,Renal Function Test Abnormal,Other / Unmapped
+24359346,Hypotension,Other / Unmapped
+24359345,Troponin Increased,Other / Unmapped
+24359344,Tumour Excision,Other / Unmapped
+24359344,Pallor,Other / Unmapped
+24359344,Hair Texture Abnormal,Other / Unmapped
+24359344,Hair Colour Changes,Other / Unmapped
+24359344,Onychalgia,Other / Unmapped
+24359344,Gastrointestinal Motility Disorder,Other / Unmapped
+24359344,Nasal Pruritus,Other / Unmapped
+24359344,Asthenia,Other / Unmapped
+24359262,Balance Disorder,Other / Unmapped
+24359262,Headache,Neurological
+24359262,Cough,Other / Unmapped
+24359262,Dry Mouth,Other / Unmapped
+24359262,Diarrhoea,Other / Unmapped
+24359262,Hyperaesthesia Teeth,Other / Unmapped
+24359258,Covid-19,Other / Unmapped
+24359256,Weight Decreased,Other / Unmapped
+24359256,Thyroid Hormones Increased,Other / Unmapped
+24359256,Oropharyngeal Pain,Other / Unmapped
+24359256,Blood Pressure Increased,Other / Unmapped
+24359256,Odynophagia,Other / Unmapped
+24359255,Hepatic Function Abnormal,Other / Unmapped
+24359255,Swelling Of Eyelid,Other / Unmapped
+24359255,Blood Pressure Increased,Other / Unmapped
+24359255,Pyrexia,Other / Unmapped
+24359255,Pleural Effusion,Other / Unmapped
+24359255,Asthenia,Other / Unmapped
+24359255,Pain,Other / Unmapped
+24359255,Blood Creatinine Increased,Other / Unmapped
+24359253,Product Monitoring Error,Other / Unmapped
+24359253,No Adverse Event,Other / Unmapped
+24359252,Blood Creatine Phosphokinase Increased,Other / Unmapped
+24359251,Dehydration,Other / Unmapped
+24359251,Fatigue,Other / Unmapped
+24359250,Neutrophil Count Decreased,Other / Unmapped
+24359250,Hypertransaminasaemia,Other / Unmapped
+24359249,Insomnia,Neurological
+24359249,Ear Congestion,Other / Unmapped
+24359243,Temperature Intolerance,Other / Unmapped
+24359241,Hepatic Enzyme Increased,Other / Unmapped
+24359240,Mouth Ulceration,Other / Unmapped
+24359239,Anaemia,Other / Unmapped
+24359238,Oedema,Other / Unmapped
+24359237,Gait Disturbance,Other / Unmapped
+24359236,Electrocardiogram Qt Prolonged,Other / Unmapped
+24359235,Blood Pressure Increased,Other / Unmapped
+24359234,Disease Progression,Other / Unmapped
+24359233,Dizziness,Neurological
+24359233,Diarrhoea,Other / Unmapped
+24359233,Fatigue,Other / Unmapped
+24359232,Blood Pressure Increased,Other / Unmapped
+24359232,Drug Intolerance,Other / Unmapped
+24359232,Oedema,Other / Unmapped
+24359231,Platelet Count Increased,Other / Unmapped
+24359229,Platelet Count Decreased,Other / Unmapped
+24359228,Hypertension,Other / Unmapped
+24359228,Constipation,Other / Unmapped
+24359228,Product Dose Omission In Error,Other / Unmapped
+24359227,Weight Increased,Other / Unmapped
+24359227,Pruritus,Other / Unmapped
+24359226,Hypogeusia,Other / Unmapped
+24359226,Urine Flow Decreased,Other / Unmapped
+24359225,Disease Progression,Other / Unmapped
+24359224,Fatigue,Other / Unmapped
+24359223,Hypertension,Other / Unmapped
+24359223,Dizziness,Neurological
+24359223,Fatigue,Other / Unmapped
+24359222,Rash Macular,Other / Unmapped
+24359222,Vomiting,Other / Unmapped
+24359221,Anaemia,Other / Unmapped
+24359220,Product Use In Unapproved Indication,Other / Unmapped
+24359220,No Adverse Event,Other / Unmapped
+24359220,Off Label Use,Other / Unmapped
+24359219,Asthenia,Other / Unmapped
+24359219,Anaemia,Other / Unmapped
+24359219,Dizziness,Neurological
+24359218,Disease Progression,Other / Unmapped
+24359218,Fixed Eruption,Other / Unmapped
+24359217,Asthenia,Other / Unmapped
+24359217,Red Blood Cell Count Decreased,Other / Unmapped
+24359217,White Blood Cell Count Decreased,Immune System
+24359217,Generalised Oedema,Other / Unmapped
+24359216,Blood Pressure Normal,Other / Unmapped
+24359216,Blood Pressure Abnormal,Other / Unmapped
+24359215,Abdominal Pain,Other / Unmapped
+24359215,Pain,Other / Unmapped
+24359215,Malaise,Other / Unmapped
+24359215,Feeling Hot,Other / Unmapped
+24359215,Labile Blood Pressure,Other / Unmapped
+24359215,Pain In Extremity,Other / Unmapped
+24359215,Arthralgia,Other / Unmapped
+24359214,Dizziness,Neurological
+24359214,Constipation,Other / Unmapped
+24359214,Nocturia,Other / Unmapped
+24359213,Blood Creatinine Increased,Other / Unmapped
+24359213,Vertigo,Other / Unmapped
+24359212,Aspartate Aminotransferase Increased,Other / Unmapped
+24359212,Alanine Aminotransferase Increased,Other / Unmapped
+24359211,Dry Mouth,Other / Unmapped
+24359211,Off Label Use,Other / Unmapped
+24359210,Covid-19,Other / Unmapped
+24359210,Intentional Dose Omission,Other / Unmapped
+24359209,Pneumonia,Other / Unmapped
+24359208,White Blood Cell Count Decreased,Immune System
+24359208,Constipation,Other / Unmapped
+24359208,Asthenia,Other / Unmapped
+24359208,Blood Pressure Increased,Other / Unmapped
+24359207,White Blood Cell Count Decreased,Immune System
+24359204,No Adverse Event,Other / Unmapped
+24359204,Off Label Use,Other / Unmapped
+24359202,Off Label Use,Other / Unmapped
+24359202,No Adverse Event,Other / Unmapped
+24359201,Off Label Use,Other / Unmapped
+24359201,No Adverse Event,Other / Unmapped
+24359200,Neutrophil Count Decreased,Other / Unmapped
+24359199,Blood Pressure Increased,Other / Unmapped
+24359198,Disease Progression,Other / Unmapped
+24359197,Restlessness,Other / Unmapped
+24359196,Dry Mouth,Other / Unmapped
+24359195,Off Label Use,Other / Unmapped
+24359195,No Adverse Event,Other / Unmapped
+24359194,Muscular Weakness,Other / Unmapped
+24359193,Urinary Tract Infection,Immune System
+24359191,Diarrhoea,Other / Unmapped
+24359189,Blood Pressure Abnormal,Other / Unmapped
+24359188,No Adverse Event,Other / Unmapped
+24359188,Off Label Use,Other / Unmapped
+24359187,Hypertension,Other / Unmapped
+24359177,Blood Creatinine Increased,Other / Unmapped
+24359176,Thirst,Other / Unmapped
+24359176,Dry Mouth,Other / Unmapped
+24359176,Initial Insomnia,Neurological
+24359175,Asthenia,Other / Unmapped
+24359175,Discomfort,Other / Unmapped
+24359175,Abscess,Other / Unmapped
+24359173,Mouth Ulceration,Other / Unmapped
+24359173,Vomiting,Other / Unmapped
+24359173,Eczema,Other / Unmapped
+24359171,Off Label Use,Other / Unmapped
+24359171,Diarrhoea,Other / Unmapped
+24359169,Off Label Use,Other / Unmapped
+24359169,No Adverse Event,Other / Unmapped
+24359166,Face Oedema,Other / Unmapped
+24359166,Arthralgia,Other / Unmapped
+24359166,Asthenia,Other / Unmapped
+24359166,Facial Pain,Other / Unmapped
+24359165,No Adverse Event,Other / Unmapped
+24359165,Off Label Use,Other / Unmapped
+24359164,Neutrophil Count Decreased,Other / Unmapped
+24359164,Therapy Change,Other / Unmapped
+24359163,Pneumonitis,Other / Unmapped
+24359162,Pneumonia Cytomegaloviral,Other / Unmapped
+24359153,Pneumonitis,Other / Unmapped
+24359152,Swelling Of Eyelid,Other / Unmapped
+24359152,Interstitial Lung Disease,Other / Unmapped
+24359152,Ageusia,Other / Unmapped
+24359152,Pneumonia Fungal,Other / Unmapped
+24359151,White Blood Cell Count Decreased,Immune System
+24359151,Haemoglobin Decreased,Other / Unmapped
+24359151,Oedema,Other / Unmapped
+24359151,Pneumonia,Other / Unmapped
+24359149,Decreased Appetite,Other / Unmapped
+24359149,Pleural Effusion,Other / Unmapped
+24359149,Asthenia,Other / Unmapped
+24359149,Taste Disorder,Other / Unmapped
+24359149,Pyrexia,Other / Unmapped
+24359149,Interstitial Lung Disease,Other / Unmapped
+24359149,Oedema,Other / Unmapped
+24359146,Platelet Count Increased,Other / Unmapped
+24359146,Interstitial Lung Disease,Other / Unmapped
+24359145,Pneumonitis,Other / Unmapped
+24359143,No Adverse Event,Other / Unmapped
+24359143,Off Label Use,Other / Unmapped
+24359142,Adverse Drug Reaction,Other / Unmapped
+24359141,No Adverse Event,Other / Unmapped
+24359141,Off Label Use,Other / Unmapped
+24359140,Blood Pressure Increased,Other / Unmapped
+24359140,Hypoaesthesia,Other / Unmapped
+24359140,Transaminases Increased,Other / Unmapped
+24359139,Oedema,Other / Unmapped
+24359139,Condition Aggravated,Other / Unmapped
+24359139,Heart Rate Increased,Other / Unmapped
+24359139,Myalgia,Other / Unmapped
+24359139,Hypertension,Other / Unmapped
+24359138,Rash,Other / Unmapped
+24359137,Infection,Immune System
+24359136,Blood Test Abnormal,Other / Unmapped
+24359135,Eye Swelling,Other / Unmapped
+24359135,Feeding Disorder,Other / Unmapped
+24359135,Oral Pain,Other / Unmapped
+24359134,Illness,Other / Unmapped
+24359134,Cough,Other / Unmapped
+24359127,Constipation,Other / Unmapped
+24359127,Dizziness,Neurological
+24359127,Nocturia,Other / Unmapped
+24359122,Off Label Use,Other / Unmapped
+24359122,No Adverse Event,Other / Unmapped
+24359119,Rash,Other / Unmapped
+24359118,White Blood Cell Count Decreased,Immune System
+24359118,Oedema,Other / Unmapped
+24359117,Hepatic Function Abnormal,Other / Unmapped
+24359116,No Adverse Event,Other / Unmapped
+24359116,Off Label Use,Other / Unmapped
+24359115,Hepatic Enzyme Increased,Other / Unmapped
+24359114,Off Label Use,Other / Unmapped
+24359114,No Adverse Event,Other / Unmapped
+24359113,Oropharyngeal Discomfort,Other / Unmapped
+24359112,Drug Intolerance,Other / Unmapped
+24359112,Asthenia,Other / Unmapped
+24359108,Pyrexia,Other / Unmapped
+24359107,Blood Creatine Phosphokinase Increased,Other / Unmapped
+24359102,Confusional State,Other / Unmapped
+24359099,Epistaxis,Other / Unmapped
+24359098,Off Label Use,Other / Unmapped
+24359098,No Adverse Event,Other / Unmapped
+24359097,Oedema,Other / Unmapped
+24359096,Seasonal Allergy,Other / Unmapped
+24359096,Ear Infection,Immune System
+24359095,Adverse Reaction,Other / Unmapped
+24359094,No Adverse Event,Other / Unmapped
+24359094,Drug Ineffective,Other / Unmapped
+24359093,Blood Pressure Increased,Other / Unmapped
+24359092,Cardiac Disorder,Other / Unmapped
+24359091,Platelet Count Decreased,Other / Unmapped
+24359087,No Adverse Event,Other / Unmapped
+24359087,Off Label Use,Other / Unmapped
+24359083,Pneumonitis,Other / Unmapped
+24359080,Neutrophil Count Decreased,Other / Unmapped
+24359078,Pyrexia,Other / Unmapped
+24359078,Disease Progression,Other / Unmapped
+24359078,Pneumonitis,Other / Unmapped
+24359077,Anaemia,Other / Unmapped
+24359064,Pneumonia,Other / Unmapped
+24359062,Pancytopenia,Other / Unmapped
+24359062,Anaemia,Other / Unmapped
+24359060,Platelet Count Decreased,Other / Unmapped
+24359059,Musculoskeletal Pain,Other / Unmapped
+24359059,Gastrointestinal Disorder,Other / Unmapped
+24359059,Arthralgia,Other / Unmapped
+24359058,Mouth Ulceration,Other / Unmapped
+24359058,Interstitial Lung Disease,Other / Unmapped
+24359058,Pain In Extremity,Other / Unmapped
+24359058,Peripheral Swelling,Other / Unmapped
+24359057,Thrombocytopenia,Other / Unmapped
+24359057,Off Label Use,Other / Unmapped
+24359057,Asthenia,Other / Unmapped
+24359057,Pneumocystis Jirovecii Pneumonia,Other / Unmapped
+24359057,Lower Respiratory Tract Infection,Immune System
+24326103,Constipation,Other / Unmapped
+24326103,White Blood Cell Count Decreased,Immune System
+24326103,Pneumonia,Other / Unmapped
+24326103,Syncope,Neurological
+24326103,General Physical Health Deterioration,Other / Unmapped
+24326103,Femur Fracture,Other / Unmapped
+24341858,Sepsis,Immune System
+24341858,Dehydration,Other / Unmapped
+24341858,Product Dose Omission Issue,Medication Error
+24341858,Urinary Tract Infection,Immune System
+24290776,Fatigue,Other / Unmapped
+24290776,Disease Progression,Other / Unmapped
+24290776,Haemoglobin Decreased,Other / Unmapped
+24290776,Asthenia,Other / Unmapped
+24280304,Pneumonia,Other / Unmapped
+24280304,Pleural Effusion,Other / Unmapped
+24251041,Tumour Haemorrhage,Other / Unmapped
+24321725,Peripheral Swelling,Other / Unmapped
+24321725,Thrombosis,Other / Unmapped
+24321725,Dermatitis Contact,Other / Unmapped
+24321725,Abdominal Pain Upper,Other / Unmapped
+24321725,Blood Sodium Decreased,Other / Unmapped
+24321725,Application Site Erythema,Other / Unmapped
+24321725,Red Blood Cell Count Decreased,Other / Unmapped
+24321725,Catheter Site Pain,Other / Unmapped
+24321719,Malignant Neoplasm Progression,Other / Unmapped
+24136057,Neoplasm Progression,Other / Unmapped
+24136057,Metastatic Neoplasm,Other / Unmapped
+24307198,Abdominal Pain Upper,Other / Unmapped
+24307198,Erectile Dysfunction,Other / Unmapped
+24307198,Inappropriate Schedule Of Product Administration,Other / Unmapped
+24307198,Rash,Other / Unmapped
+24298061,Taste Disorder,Other / Unmapped
+24298061,Nervousness,Other / Unmapped
+24298061,Head Discomfort,Other / Unmapped
+24298061,Stomatitis,Other / Unmapped
+24298061,Dizziness,Neurological
+24298061,Anxiety,Neurological
+24298061,Decreased Appetite,Other / Unmapped
+24298061,Stress,Other / Unmapped
+24298061,Vision Blurred,Other / Unmapped
+24290768,Constipation,Other / Unmapped
+24290768,Hypertrophic Cardiomyopathy,Other / Unmapped
+24290768,Hypertension,Other / Unmapped
+24290762,Tendon Rupture,Other / Unmapped
+24290762,Constipation,Other / Unmapped
+24290762,Blood Pressure Increased,Other / Unmapped
+24269858,Pneumocystis Jirovecii Pneumonia,Other / Unmapped
+24264907,Intervertebral Discitis,Other / Unmapped
+24260794,Pseudomonas Infection,Immune System
+24253581,Gallbladder Rupture,Other / Unmapped
+24253581,Abdominal Sepsis,Immune System
+24090362,Aspartate Aminotransferase Increased,Other / Unmapped
+24090362,Neutropenia,Other / Unmapped
+24090362,Azotaemia,Other / Unmapped
+24090362,Fracture,Other / Unmapped
+24090362,Alanine Aminotransferase Increased,Other / Unmapped
+24090362,Blood Alkaline Phosphatase Increased,Other / Unmapped
+24090362,Constipation,Other / Unmapped
+24090362,Anaemia,Other / Unmapped
+24090362,Chest Discomfort,Other / Unmapped
+24203298,Pneumonia Viral,Other / Unmapped
+24203298,Pneumonia,Other / Unmapped
+24203298,Myalgia,Other / Unmapped
+24203298,Diarrhoea,Other / Unmapped
+24203298,Covid-19,Other / Unmapped
+24263228,Pneumonia,Other / Unmapped
+24263228,Fall,Other / Unmapped
+24263228,Dehydration,Other / Unmapped
+24263228,Head Injury,Other / Unmapped
+24237451,Myocardial Necrosis Marker Increased,Other / Unmapped
+24237451,Swelling Face,Other / Unmapped
+24237451,Oedema Peripheral,Other / Unmapped
+24237430,Mouth Ulceration,Other / Unmapped
+24237430,Protein Urine Present,Other / Unmapped
+24237430,Pyrexia,Other / Unmapped
+24237430,Hypertension,Other / Unmapped
+24260792,Small Cell Lung Cancer,Other / Unmapped
+24260792,Drug Resistance,Other / Unmapped
+24260792,Disease Progression,Other / Unmapped
+24243560,Liver Disorder,Other / Unmapped
+24243560,Disease Progression,Other / Unmapped
+24243559,Disease Progression,Other / Unmapped
+24237456,Sepsis,Immune System
+24225669,Taste Disorder,Other / Unmapped
+24225669,Haemoglobin Decreased,Other / Unmapped
+24225669,Covid-19,Other / Unmapped
+24225669,Dry Mouth,Other / Unmapped
+24225669,Decreased Appetite,Other / Unmapped
+24203278,Diarrhoea,Other / Unmapped
+24203278,Chest Discomfort,Other / Unmapped
+24203278,Abdominal Pain,Other / Unmapped
+24203278,Myocardial Necrosis Marker Increased,Other / Unmapped
+24204626,Diarrhoea,Other / Unmapped
+24204626,Abdominal Discomfort,Other / Unmapped
+24204626,Pulmonary Oedema,Other / Unmapped
+24204626,Cancer Pain,Other / Unmapped
+24204626,Heart Rate Increased,Other / Unmapped
+24204626,Gallbladder Disorder,Other / Unmapped
+24204626,Back Pain,Other / Unmapped
+24204626,Therapy Interrupted,Other / Unmapped
+24204626,Oxygen Saturation Decreased,Other / Unmapped
+24204613,Large Intestine Infection,Immune System
+24189290,Muscle Injury,Other / Unmapped
+24189290,Foot Fracture,Other / Unmapped
+24189290,Memory Impairment,Other / Unmapped
+24189290,Product Dose Omission Issue,Medication Error
+24189290,Fatigue,Other / Unmapped
+24189290,Dehydration,Other / Unmapped
+24189290,Muscle Spasms,Other / Unmapped
+24189290,Back Pain,Other / Unmapped
+24136082,Pneumonitis,Other / Unmapped
+24136082,Haematuria,Other / Unmapped
+24136082,Anaemia,Other / Unmapped
+24184047,Hepatitis B Reactivation,Other / Unmapped
+24172982,Gastrooesophageal Reflux Disease,Other / Unmapped
+24172982,Hypertension,Other / Unmapped
+24172982,Hypothyroidism,Other / Unmapped
+24156716,Thoracic Vertebral Fracture,Other / Unmapped
+24156716,Carcinoembryonic Antigen Increased,Other / Unmapped
+24156716,Metastases To Bone,Other / Unmapped
+24156716,Drug Resistance,Other / Unmapped
+24156716,Blood Calcitonin Increased,Other / Unmapped
+24156716,Granulocyte Count Increased,Other / Unmapped
+24156716,Diarrhoea,Other / Unmapped
+24174001,Dysuria,Other / Unmapped
+24174001,Pneumonia,Other / Unmapped
+24173984,Neuropathy Peripheral,Other / Unmapped
+24173984,Dry Mouth,Other / Unmapped
+24162507,Pneumonia Bacterial,Other / Unmapped
+24162507,Blood Pressure Increased,Other / Unmapped
+24162507,Hyperpyrexia,Other / Unmapped
+24162486,Adverse Event,Other / Unmapped
+24162317,Spinal Fusion Surgery,Other / Unmapped
+24060628,Interstitial Lung Disease,Other / Unmapped
+24060628,Hypogeusia,Other / Unmapped
+24060628,Pulmonary Fibrosis,Other / Unmapped
+24060628,Bacterial Infection,Immune System
+24060628,Decreased Appetite,Other / Unmapped
+24060628,Inflammation,Other / Unmapped
+24060628,Mouth Ulceration,Other / Unmapped
+24060628,Pyrexia,Other / Unmapped
+24060628,Neoplasm Progression,Other / Unmapped
+24060628,Fungal Infection,Immune System
+24060628,Asthenia,Other / Unmapped
+24156645,Disease Progression,Other / Unmapped
+24151462,Death,Severe Outcome
+24136073,Death,Severe Outcome
+24091602,Neoplasm Malignant,Other / Unmapped
+24106470,Muscle Disorder,Other / Unmapped
+24106470,Muscle Injury,Other / Unmapped
+24106470,Immobile,Other / Unmapped
+24106470,Coma,Other / Unmapped
+24106470,Blood Sodium Decreased,Other / Unmapped
+24106470,Coagulopathy,Other / Unmapped
+24106470,Blood Disorder,Other / Unmapped
+24102602,Anaemia,Other / Unmapped
+24102602,Abdominal Pain Lower,Other / Unmapped
+24102602,White Blood Cell Count Decreased,Immune System
+24102602,Urinary Tract Infection,Immune System
+24102602,Neutropenia,Other / Unmapped
+24102602,Tinnitus,Other / Unmapped
+24091578,Gangrene,Other / Unmapped
+24091578,Upper Gastrointestinal Haemorrhage,Other / Unmapped
+24083532,Pneumonitis,Other / Unmapped
+24083532,Abdominal Distension,Other / Unmapped
+24083532,Alanine Aminotransferase Increased,Other / Unmapped
+24083532,Neutropenia,Other / Unmapped
+24083532,Anaemia,Other / Unmapped
+24083532,Face Oedema,Other / Unmapped
+24083532,Aspartate Aminotransferase Increased,Other / Unmapped
+24083532,Covid-19,Other / Unmapped
+24083521,Brain Operation,Other / Unmapped
+24042050,Septic Shock,Other / Unmapped
+24041019,Death,Severe Outcome
+23982691,Death,Severe Outcome
+24008392,Death,Severe Outcome
+24008375,Diarrhoea,Other / Unmapped
+24008375,Decreased Appetite,Other / Unmapped
+24008375,Vomiting,Other / Unmapped
+24008375,Respiratory Symptom,Other / Unmapped
+24008375,Dysphonia,Other / Unmapped
+24008375,Listless,Other / Unmapped
+24008375,Muscular Weakness,Other / Unmapped
+24008375,Metastases To Central Nervous System,Other / Unmapped
+24008375,Dysstasia,Other / Unmapped
+24008375,Periorbital Swelling,Other / Unmapped
+24008375,Asthenia,Other / Unmapped
+24008375,Dizziness,Neurological
+24008354,Death,Severe Outcome
+24008354,Off Label Use,Other / Unmapped
+23977111,Death,Severe Outcome
+23977117,Urine Output Decreased,Other / Unmapped
+23977117,Loss Of Consciousness,Other / Unmapped
+23977117,Heart Rate Abnormal,Other / Unmapped
+23977117,Pollakiuria,Other / Unmapped
+23977117,Brain Neoplasm Malignant,Other / Unmapped
+23977117,Constipation,Other / Unmapped
+23977117,Diarrhoea,Other / Unmapped
+23977117,Dizziness,Neurological
+23977109,Death,Severe Outcome
+23970105,Vomiting,Other / Unmapped
+23970105,Aphasia,Other / Unmapped
+23970105,Myelosuppression,Other / Unmapped
+23970105,Hyperhidrosis,Other / Unmapped
+23970105,Agranulocytosis,Other / Unmapped
+23970105,Urine Output Decreased,Other / Unmapped
+23970105,Heart Rate Decreased,Other / Unmapped
+23970105,Oxygen Saturation Decreased,Other / Unmapped
+23970105,Cardiac Arrest,Other / Unmapped
+23970105,Pneumonia,Other / Unmapped
+23970105,Blood Pressure Immeasurable,Other / Unmapped
+23970105,Sinus Tachycardia,Other / Unmapped
+23970105,Asthenia,Other / Unmapped
+23970105,Mental Disorder,Other / Unmapped
+23970105,Haemoptysis,Other / Unmapped
+23970105,Death,Severe Outcome
+23970105,Decreased Appetite,Other / Unmapped
+23970105,Chest Discomfort,Other / Unmapped
+23970105,Chills,Other / Unmapped
+23970105,Electrocardiogram St Segment Abnormal,Other / Unmapped
+23913035,Death,Severe Outcome
+23877814,Malignant Neoplasm Progression,Other / Unmapped
+23877814,Fatigue,Other / Unmapped
+23895102,Death,Severe Outcome
+23932202,Death,Severe Outcome
+23853490,Death,Severe Outcome
+23927470,Bronchopulmonary Aspergillosis,Other / Unmapped
+23927469,Bronchopulmonary Aspergillosis,Other / Unmapped
+23927465,Bronchopulmonary Aspergillosis,Other / Unmapped
+23921552,Ascites,Other / Unmapped
+23921552,Enteritis,Other / Unmapped
+23921552,Cellulitis,Other / Unmapped
+23877983,Toxicity To Various Agents,Other / Unmapped
+23877983,Neutropenia,Other / Unmapped
+23877983,Chest X-Ray Abnormal,Other / Unmapped
+23877983,Skin Fissures,Other / Unmapped
+23877983,Fall,Other / Unmapped
+23877983,Mucosal Toxicity,Other / Unmapped
+23877983,Leukopenia,Other / Unmapped
+23877983,Diarrhoea,Other / Unmapped
+23877983,Herpes Zoster,Other / Unmapped
+23877983,Asthenia,Other / Unmapped
+23877983,Anaemia,Other / Unmapped
+23877983,Off Label Use,Other / Unmapped
+23877983,Bronchiolitis,Other / Unmapped
+23913047,Hypoaesthesia,Other / Unmapped
+23913047,Proteinuria,Other / Unmapped
+23913047,Respiratory Tract Infection Viral,Immune System
+23913047,Formication,Other / Unmapped
+23913047,Haemorrhoidal Haemorrhage,Other / Unmapped
+23913047,Aspartate Aminotransferase Increased,Other / Unmapped
+23913047,Blood Thyroid Stimulating Hormone Increased,Other / Unmapped
+23913047,Enterocolitis,Other / Unmapped
+23913047,Lymphopenia,Other / Unmapped
+23913047,Hyperuricaemia,Other / Unmapped
+23913047,Hypotension,Other / Unmapped
+23913047,Hypocalcaemia,Other / Unmapped
+23913047,Covid-19,Other / Unmapped
+23913047,Blood Creatine Phosphokinase Increased,Other / Unmapped
+23913047,Palmar-Plantar Erythrodysaesthesia Syndrome,Other / Unmapped
+23913047,Hypoalbuminaemia,Other / Unmapped
+23913047,Abdominal Pain,Other / Unmapped
+23913047,Diarrhoea,Other / Unmapped
+23913047,Eczema,Other / Unmapped
+23913047,Cystitis Bacterial,Other / Unmapped
+23913047,Epistaxis,Other / Unmapped
+23913047,Anaemia,Other / Unmapped
+23913047,Body Temperature Increased,Other / Unmapped
+23913047,Lung Disorder,Other / Unmapped
+23913047,Constipation,Other / Unmapped
+23913047,Neutropenia,Other / Unmapped
+23913047,Hyperkalaemia,Other / Unmapped
+23913010,Pain In Extremity,Other / Unmapped
+23913010,Abdominal Discomfort,Other / Unmapped
+23913010,Nausea,Other / Unmapped
+23913010,Poor Quality Sleep,Other / Unmapped
+23913010,Vomiting,Other / Unmapped
+23913010,Depression,Other / Unmapped
+23913010,Malignant Neoplasm Progression,Other / Unmapped
+23913010,Limb Discomfort,Other / Unmapped
+23913010,Diarrhoea,Other / Unmapped
+23892706,Pneumonitis,Other / Unmapped
+23892705,Swelling,Other / Unmapped
+23892704,Bacterial Infection,Immune System
+23892703,Alopecia,Other / Unmapped
+23892703,Taste Disorder,Other / Unmapped
+23892701,Sleep Disorder,Other / Unmapped
+23892701,Gait Disturbance,Other / Unmapped
+23892701,Pernicious Anaemia,Other / Unmapped
+23892697,Epistaxis,Other / Unmapped
+23892696,Off Label Use,Other / Unmapped
+23892696,No Adverse Event,Other / Unmapped
+23892695,Hypertension,Other / Unmapped
+23892694,Blood Glucose Increased,Other / Unmapped
+23892692,Impaired Gastric Emptying,Other / Unmapped
+23892692,Ascites,Other / Unmapped
+23892691,Oedema Peripheral,Other / Unmapped
+23864185,Fungal Foot Infection,Immune System
+23864185,Skin Exfoliation,Other / Unmapped
+23864185,Skin Fissures,Other / Unmapped
+23864185,Gait Inability,Other / Unmapped
+23844362,Myelosuppression,Other / Unmapped
+23844353,Pallor,Other / Unmapped
+23838913,Neutrophil Count Decreased,Other / Unmapped
+23827019,Off Label Use,Other / Unmapped
+23827019,Diarrhoea,Other / Unmapped
+23816275,Platelet Count Increased,Other / Unmapped
+23784647,Alanine Aminotransferase Increased,Other / Unmapped
+23784647,Aspartate Aminotransferase Increased,Other / Unmapped
+23784647,Blood Alkaline Phosphatase Increased,Other / Unmapped
+23795148,Death,Severe Outcome
+23784646,Illness,Other / Unmapped
+23779992,Anaemia,Other / Unmapped
+23738337,Pneumonia Fungal,Other / Unmapped
+23720226,Heart Rate Increased,Other / Unmapped
+23720226,Hypertension,Other / Unmapped
+23699167,Thirst,Other / Unmapped
+23699167,Dry Mouth,Other / Unmapped
+23699167,Initial Insomnia,Neurological
+23649715,No Adverse Event,Other / Unmapped
+23649715,Off Label Use,Other / Unmapped
+23758278,Blood Pressure Increased,Other / Unmapped
+23757370,Platelet Count Decreased,Other / Unmapped
+23713781,Constipation,Other / Unmapped
+23713781,Covid-19,Other / Unmapped
+23713781,Asthenia,Other / Unmapped
+23713781,Blood Creatinine Increased,Other / Unmapped
+23713781,Hyperpyrexia,Other / Unmapped
+23713781,Hypertension,Other / Unmapped
+23684536,Abscess,Other / Unmapped
+23684536,Asthenia,Other / Unmapped
+23684536,Discomfort,Other / Unmapped
+23754028,Disease Progression,Other / Unmapped
+23753824,Off Label Use,Other / Unmapped
+23753824,Dry Mouth,Other / Unmapped
+23753823,Generalised Oedema,Other / Unmapped
+23753823,Asthenia,Other / Unmapped
+23753823,White Blood Cell Count Decreased,Immune System
+23753823,Red Blood Cell Count Decreased,Other / Unmapped
+23727318,Diarrhoea,Other / Unmapped
+23724042,Sepsis,Immune System
+23649716,Mouth Ulceration,Other / Unmapped
+23649716,Vomiting,Other / Unmapped
+23649716,Eczema,Other / Unmapped
+23703768,Electrocardiogram Qt Prolonged,Other / Unmapped
+23670059,Platelet Count Increased,Other / Unmapped
+23670059,Interstitial Lung Disease,Other / Unmapped
+23660063,Hepatic Function Abnormal,Other / Unmapped
+23660063,Hypertension,Other / Unmapped
+23660063,Musculoskeletal Chest Pain,Other / Unmapped
+23660063,Renal Impairment,Other / Unmapped
+23660063,White Blood Cell Count Decreased,Immune System
+23660063,Anaemia,Other / Unmapped
+23660063,Rash,Other / Unmapped
+23693629,Off Label Use,Other / Unmapped
+23693629,No Adverse Event,Other / Unmapped
+23679856,Hepatotoxicity,Other / Unmapped
+23674722,Flatulence,Other / Unmapped
+23674722,Bone Pain,Other / Unmapped
+23674722,Transaminases Increased,Other / Unmapped
+23674722,Asthenia,Other / Unmapped
+23665070,Pneumonitis,Other / Unmapped
+23493105,Respiratory Failure,Other / Unmapped
+23493105,Circulatory Collapse,Other / Unmapped
+23607994,Anaemia,Other / Unmapped
+23607994,Hypotension,Other / Unmapped
+23607994,Hyperkalaemia,Other / Unmapped
+23607994,Enterocolitis,Other / Unmapped
+23607994,Hypoalbuminaemia,Other / Unmapped
+23607994,Neutropenia,Other / Unmapped
+23607994,Aspartate Aminotransferase Increased,Other / Unmapped
+23607994,Body Temperature Increased,Other / Unmapped
+23607994,Palmar-Plantar Erythrodysaesthesia Syndrome,Other / Unmapped
+23607994,Proteinuria,Other / Unmapped
+23607994,Hypocalcaemia,Other / Unmapped
+23607994,Covid-19,Other / Unmapped
+23607994,Epistaxis,Other / Unmapped
+23607994,Abdominal Pain,Other / Unmapped
+23607994,Cystitis Bacterial,Other / Unmapped
+23607994,Respiratory Tract Infection Viral,Immune System
+23607994,Haemorrhoidal Haemorrhage,Other / Unmapped
+23607994,Hyperuricaemia,Other / Unmapped
+23607994,Eczema,Other / Unmapped
+23607994,Lung Disorder,Other / Unmapped
+23607994,Formication,Other / Unmapped
+23607994,Blood Thyroid Stimulating Hormone Increased,Other / Unmapped
+23607994,Hypoaesthesia,Other / Unmapped
+23607994,Blood Creatine Phosphokinase Increased,Other / Unmapped
+23607994,Diarrhoea,Other / Unmapped
+23607994,Constipation,Other / Unmapped
+23607994,Lymphopenia,Other / Unmapped
+23638015,Squamous Cell Carcinoma Of Lung,Other / Unmapped
+23638015,Potentiating Drug Interaction,Other / Unmapped
+23638015,Gene Mutation Identification Test Positive,Other / Unmapped
+23593406,Anaphylactic Shock,Other / Unmapped
+23593406,Chronic Hepatitis,Other / Unmapped
+23593406,Contrast Media Allergy,Other / Unmapped
+23593406,Drug-Induced Liver Injury,Other / Unmapped
+23593169,Blood Glucose Increased,Other / Unmapped
+23593169,Liver Abscess,Other / Unmapped
+23593169,Decreased Appetite,Other / Unmapped
+23593169,Dysgeusia,Other / Unmapped
+23593169,Hypertension,Other / Unmapped
+23629145,Anxiety,Neurological
+23629145,Ill-Defined Disorder,Other / Unmapped
+23607988,Haemoglobin Decreased,Other / Unmapped
+23593220,Hepatic Function Abnormal,Other / Unmapped
+23593220,Transaminases Increased,Other / Unmapped
+23593167,Diarrhoea,Other / Unmapped
+23506384,Death,Severe Outcome
+23499160,Joint Dislocation,Other / Unmapped
+23499160,Pleural Effusion,Other / Unmapped
+23499160,Vascular Rupture,Other / Unmapped
+23499160,Rib Fracture,Other / Unmapped
+23499160,Loss Of Consciousness,Other / Unmapped
+23499160,Haemoglobin Decreased,Other / Unmapped
+23357029,Death,Severe Outcome
+23338327,Death,Severe Outcome
+21792538,Chills,Other / Unmapped
+21792538,Dyspnoea,Other / Unmapped
+21792538,Metastases To Central Nervous System,Other / Unmapped
+21792538,Metastases To Bone,Other / Unmapped
+21792538,Pyrexia,Other / Unmapped
+21792538,Myalgia,Other / Unmapped
+21792538,Neutropenia,Other / Unmapped
+21792538,Onychomadesis,Other / Unmapped
+21792538,Haemoglobin Decreased,Other / Unmapped
+21792538,Musculoskeletal Chest Pain,Other / Unmapped
+21792538,Chest Pain,Other / Unmapped
+21792538,Hypotension,Other / Unmapped
+21792538,Hepatic Enzyme Increased,Other / Unmapped
+21792538,Body Temperature Increased,Other / Unmapped
+21792538,Cough,Other / Unmapped
+21792538,Anaemia,Other / Unmapped
+21792538,Headache,Neurological
+21792538,Neuropathy Peripheral,Other / Unmapped
+21792538,Nausea,Other / Unmapped
+21792538,Syncope,Neurological
+21792538,Metastases To Liver,Other / Unmapped
+21792538,Tumour Marker Increased,Other / Unmapped
+21792538,Diarrhoea,Other / Unmapped
+21792538,Blood Calcitonin Increased,Other / Unmapped
+21792538,Blood Test Abnormal,Other / Unmapped
+21792538,Neutrophil Count Decreased,Other / Unmapped
+21792538,White Blood Cell Count Decreased,Immune System
+21792538,Blood Pressure Increased,Other / Unmapped
+23299685,Epistaxis,Other / Unmapped
+23299685,Covid-19,Other / Unmapped
+23287311,Pleural Effusion,Other / Unmapped
+23287311,Asthenia,Other / Unmapped
+23257175,General Physical Health Deterioration,Other / Unmapped
+23257175,Fungal Foot Infection,Immune System
+23295460,Infection,Immune System
+23295460,Fatigue,Other / Unmapped
+23295460,Pulmonary Embolism,Other / Unmapped
+23295460,Pneumonitis,Other / Unmapped
+23295460,Neutropenia,Other / Unmapped
+23295460,Hypertension,Other / Unmapped
+23270425,Thrombocytopenia,Other / Unmapped
+23270425,Anaemia,Other / Unmapped
+23270425,General Physical Health Deterioration,Other / Unmapped
+23265797,Tumour Lysis Syndrome,Other / Unmapped
+22826310,Death,Severe Outcome
+23229709,Hemiparesis,Other / Unmapped
+23229709,Platelet Count Increased,Other / Unmapped
+23229709,Subarachnoid Haemorrhage,Other / Unmapped
+23186195,Muscle Spasms,Other / Unmapped
+23186195,Anaemia,Other / Unmapped
+23186195,Dyspepsia,Other / Unmapped
+23186195,Salivary Hyposecretion,Other / Unmapped
+23186195,Flatulence,Other / Unmapped
+23186195,Injury,Other / Unmapped
+23186195,Off Label Use,Other / Unmapped
+23186195,Blood Glucose Decreased,Other / Unmapped
+23186195,Diabetes Mellitus,Other / Unmapped
+23123808,Vomiting,Other / Unmapped
+23123808,Pyrexia,Other / Unmapped
+23123808,Abdominal Discomfort,Other / Unmapped
+23123808,Diarrhoea,Other / Unmapped
+23123808,Pneumonia,Other / Unmapped
+23123808,Immunodeficiency,Other / Unmapped
+23170292,Disease Progression,Other / Unmapped
+22802322,Gastrointestinal Disorder,Other / Unmapped
+22802322,Fatigue,Other / Unmapped
+22802322,Diarrhoea,Other / Unmapped
+22802322,Amnesia,Other / Unmapped
+22802322,Confusional State,Other / Unmapped
+23143995,Dysphonia,Other / Unmapped
+23143995,Depression,Other / Unmapped
+23082182,Weight Increased,Other / Unmapped
+19645287,Sudden Death,Severe Outcome
+19645287,Haemorrhage,Other / Unmapped
+19645287,Herpes Zoster Reactivation,Other / Unmapped
+19645287,Erythema Multiforme,Other / Unmapped
+19645287,Anaemia,Other / Unmapped
+20099637,Respiratory Tract Infection,Immune System
+20099637,Myalgia,Other / Unmapped
+20099637,Drug Intolerance,Other / Unmapped
+20099637,Hypothyroidism,Other / Unmapped
+20099637,Choroid Melanoma,Other / Unmapped
+20099637,General Physical Health Deterioration,Other / Unmapped
+20099637,Uveal Melanoma,Other / Unmapped
+20099637,Headache,Neurological
+20099637,Paraesthesia,Other / Unmapped
+20099637,Fatigue,Other / Unmapped
+23081408,Intentional Product Use Issue,Other / Unmapped
+23081408,Disease Progression,Other / Unmapped
+22947168,Malaise,Other / Unmapped
+22947167,Fungal Foot Infection,Immune System
+22947167,Weight Increased,Other / Unmapped
+22947164,Skin Discolouration,Other / Unmapped
+22947159,Off Label Use,Other / Unmapped
+22947159,No Adverse Event,Other / Unmapped
+22822817,White Blood Cell Count Decreased,Immune System
+22822817,Anaemia,Other / Unmapped
+22822817,Haemoglobin Decreased,Other / Unmapped
+22822817,Pneumonia Viral,Other / Unmapped
+22822817,Myocardial Necrosis Marker Increased,Other / Unmapped
+22911994,Hepatic Function Abnormal,Other / Unmapped
+22911994,Hypogeusia,Other / Unmapped
+22145921,Ophthalmic Vascular Thrombosis,Other / Unmapped
+22145921,Haemoglobin Decreased,Other / Unmapped
+22893480,Death,Severe Outcome
+22097158,Pneumonitis,Other / Unmapped
+22097158,Immunodeficiency,Other / Unmapped
+22097158,Cough,Other / Unmapped
+22097158,Urinary Tract Infection,Immune System
+22097158,Diarrhoea,Other / Unmapped
+22097158,Pyrexia,Other / Unmapped
+22097158,Musculoskeletal Chest Pain,Other / Unmapped
+22097158,White Blood Cell Count Decreased,Immune System
+22770261,Cerebral Infarction,Other / Unmapped
+21996220,Labile Blood Pressure,Other / Unmapped
+21996220,Haemorrhage,Other / Unmapped
+21996220,Urinary Tract Infection,Immune System
+21996220,Syncope,Neurological
+21996220,Back Pain,Other / Unmapped
+21996220,Asthenia,Other / Unmapped
+21996220,Oedema,Other / Unmapped
+22635052,Pulmonary Mass,Other / Unmapped
+22635052,Myocardial Necrosis Marker Increased,Other / Unmapped
+22853925,White Blood Cell Count Decreased,Immune System
+22853925,Localised Oedema,Other / Unmapped
+22853925,Gastritis,Other / Unmapped
+22853925,Oedema Peripheral,Other / Unmapped
+22853925,Abdominal Pain Upper,Other / Unmapped
+22853925,Pyrexia,Other / Unmapped
+22853925,Platelet Count Decreased,Other / Unmapped
+22853925,Anaemia,Other / Unmapped
+22853925,Haemoglobin Decreased,Other / Unmapped
+22853925,Hypoalbuminaemia,Other / Unmapped
+22853237,Metastases To Central Nervous System,Other / Unmapped
+22853237,Gastroenteritis,Other / Unmapped
+22850993,Renal Impairment,Other / Unmapped
+22850993,Liver Function Test Increased,Other / Unmapped
+22268794,Lung Disorder,Other / Unmapped
+22818629,Pyrexia,Other / Unmapped
+22818629,Platelet Count Decreased,Other / Unmapped
+22818629,Constipation,Other / Unmapped
+22818629,Pneumonia,Other / Unmapped
+22619311,Anaemia,Other / Unmapped
+22619311,White Blood Cell Count Decreased,Immune System
+22619311,Angina Pectoris,Other / Unmapped
+22619311,Diarrhoea,Other / Unmapped
+22619311,Hypertension,Other / Unmapped
+22014728,Urinary Incontinence,Other / Unmapped
+22014728,Urinary Retention,Other / Unmapped
+22014728,White Blood Cell Count Decreased,Immune System
+22014728,Post Procedural Infection,Immune System
+22014728,Red Blood Cell Count Decreased,Other / Unmapped
+22014728,Anaemia,Other / Unmapped
+22014728,Asthenia,Other / Unmapped
+22701133,Hyperthermia,Other / Unmapped
+22701133,Fall,Other / Unmapped
+22701133,Pneumonia,Other / Unmapped
+22701133,Pyelonephritis,Other / Unmapped
+22701133,Femur Fracture,Other / Unmapped
+22701133,Chills,Other / Unmapped
+22787100,Thrombosis,Other / Unmapped
+22787100,Cardiac Disorder,Other / Unmapped
+22528724,Hepatic Function Abnormal,Other / Unmapped
+22528724,Protein Total Decreased,Other / Unmapped
+22528724,Lung Neoplasm Malignant,Other / Unmapped
+22528724,Sensation Of Foreign Body,Other / Unmapped
+22528724,Face Oedema,Other / Unmapped
+22528724,Anaemia,Other / Unmapped
+22528724,Renal Impairment,Other / Unmapped
+22293069,Blood Pressure Increased,Other / Unmapped
+22293069,White Blood Cell Count Decreased,Immune System
+22293069,Renal Impairment,Other / Unmapped
+22293069,Red Blood Cell Count Decreased,Other / Unmapped
+22293069,Blood Creatine Phosphokinase Increased,Other / Unmapped
+22293069,Hepatic Function Abnormal,Other / Unmapped
+22293069,Platelet Count Decreased,Other / Unmapped
+22293069,Hypothyroidism,Other / Unmapped
+22293069,Blood Albumin Decreased,Other / Unmapped
+22537483,Myocardial Injury,Other / Unmapped
+22537483,Hepatic Function Abnormal,Other / Unmapped
+22537483,Myocardial Necrosis Marker Increased,Other / Unmapped
+22754630,White Blood Cell Count Decreased,Immune System
+22754630,Pulmonary Tuberculosis,Other / Unmapped
+22754630,Hypoaesthesia,Other / Unmapped
+22754630,Haemoptysis,Other / Unmapped
+22754630,Cytokeratin 19 Increased,Other / Unmapped
+22754630,Chest Pain,Other / Unmapped
+22029010,Oedema,Other / Unmapped
+22029010,Cholecystitis,Other / Unmapped
+22029010,Metastases To Bone,Other / Unmapped
+22029010,Gallbladder Enlargement,Other / Unmapped
+22035805,Transaminases Increased,Other / Unmapped
+22035805,Blister,Other / Unmapped
+22035805,Neutrophil Count Decreased,Other / Unmapped
+22035805,Liver Injury,Other / Unmapped
+22256686,Eyelid Oedema,Other / Unmapped
+22256686,Hepatic Function Abnormal,Other / Unmapped
+22256686,Haemoglobin Decreased,Other / Unmapped
+22256686,Renal Impairment,Other / Unmapped
+22256686,Hypertension,Other / Unmapped
+22695737,Motor Dysfunction,Other / Unmapped
+22695737,Scab,Other / Unmapped
+22695737,Haemorrhage Subcutaneous,Other / Unmapped
+22695737,Gait Disturbance,Other / Unmapped
+22695737,Cough,Other / Unmapped
+22695737,Hypertension,Other / Unmapped
+22695737,Paraesthesia,Other / Unmapped
+22695737,Initial Insomnia,Neurological
+22695737,Bone Pain,Other / Unmapped
+22695737,Pain,Other / Unmapped
+22695737,Visual Acuity Reduced,Other / Unmapped
+22695737,Pain In Extremity,Other / Unmapped
+22695737,Arthralgia,Other / Unmapped
+22695737,Impaired Healing,Other / Unmapped
+22695737,Mouth Ulceration,Other / Unmapped
+22588995,Off Label Use,Other / Unmapped
+22588995,Death,Severe Outcome
+22082423,Hypertension,Other / Unmapped
+22082423,Myocardial Necrosis Marker Increased,Other / Unmapped
+22082423,Generalised Oedema,Other / Unmapped
+22635241,Organising Pneumonia,Other / Unmapped
+22635241,Toxicity To Various Agents,Other / Unmapped
+22627596,Disease Progression,Other / Unmapped
+22591678,Dysphagia,Other / Unmapped
+22591675,No Adverse Event,Other / Unmapped
+22591675,Off Label Use,Other / Unmapped
+22591674,Diarrhoea,Other / Unmapped
+22591674,Malaise,Other / Unmapped
+22591673,Dysphagia,Other / Unmapped
+22591672,Influenza Like Illness,Other / Unmapped
+22591672,Pyrexia,Other / Unmapped
+22539282,Off Label Use,Other / Unmapped
+22539282,Pneumonia,Other / Unmapped
+19375324,Vomiting,Other / Unmapped
+19375324,Subcapsular Hepatic Haematoma,Other / Unmapped
+19375324,Nausea,Other / Unmapped
+19375324,Intra-Abdominal Haemorrhage,Other / Unmapped
+22537419,Rash,Other / Unmapped
+22537419,Aspartate Aminotransferase Increased,Other / Unmapped
+22537419,Thrombocytopenia,Other / Unmapped
+22537419,Pyrexia,Other / Unmapped
+22537419,Extrapulmonary Tuberculosis,Other / Unmapped
+22537419,Constipation,Other / Unmapped
+22537419,Neutropenia,Other / Unmapped
+22537419,Anaemia,Other / Unmapped
+22537419,Alanine Aminotransferase Increased,Other / Unmapped
+22537419,Flank Pain,Other / Unmapped
+22537419,Pulmonary Embolism,Other / Unmapped
+22537419,Blood Alkaline Phosphatase Increased,Other / Unmapped
+22537419,Oedema,Other / Unmapped
+22537419,Stomatitis,Other / Unmapped
+22537419,Hypertension,Other / Unmapped
+22537419,Hyponatraemia,Other / Unmapped
+22537419,Leukopenia,Other / Unmapped
+22537419,Blood Creatine Phosphokinase Increased,Other / Unmapped
+22537419,Pneumonitis,Other / Unmapped
+22537419,Diarrhoea,Other / Unmapped
+22537419,Mucosal Inflammation,Other / Unmapped
+22537419,Hyperbilirubinaemia,Other / Unmapped
+22537419,Blood Creatinine Increased,Other / Unmapped
+22537419,Asthenia,Other / Unmapped
+22537419,Headache,Neurological
+22379707,Platelet Count Decreased,Other / Unmapped
+22379707,Myelosuppression,Other / Unmapped
+20691878,Bacterial Disease Carrier,Other / Unmapped
+20691878,Endotracheal Intubation,Other / Unmapped
+20691878,Pneumocystis Test Positive,Other / Unmapped
+20691878,Fatigue,Other / Unmapped
+20691878,Pyrexia,Other / Unmapped
+20691878,Gastric Ulcer Haemorrhage,Other / Unmapped
+20691878,Neoplasm Progression,Other / Unmapped
+20691878,Opportunistic Infection,Immune System
+20691878,Moraxella Test Positive,Other / Unmapped
+20691878,Neuropathy Peripheral,Other / Unmapped
+20691878,Death,Severe Outcome
+20691878,Diarrhoea,Other / Unmapped
+20691878,Respiratory Failure,Other / Unmapped
+22332595,Effusion,Other / Unmapped
+22079656,Hypogeusia,Other / Unmapped
+22079656,Dermatophytosis Of Nail,Other / Unmapped
+22079656,Anaemia,Other / Unmapped
+22079656,Constipation,Other / Unmapped
+22079656,Face Oedema,Other / Unmapped
+22079656,Hepatorenal Failure,Other / Unmapped
+22079656,Hypertension,Other / Unmapped
+22079656,Rash Macular,Other / Unmapped
+22079656,Hypoaesthesia Oral,Other / Unmapped
+22079656,Asthenia,Other / Unmapped
+22255007,Off Label Use,Other / Unmapped
+22255007,Myelosuppression,Other / Unmapped
+22255007,General Physical Health Deterioration,Other / Unmapped
+22255007,Pneumonia,Other / Unmapped
+22255007,Thrombocytopenia,Other / Unmapped
+22255007,Asthenia,Other / Unmapped
+22255007,Sepsis,Immune System
+22255007,Cognitive Disorder,Other / Unmapped
+22015166,Myocardial Necrosis Marker Increased,Other / Unmapped
+22076823,Hypertension,Other / Unmapped
+22076823,Platelet Count Decreased,Other / Unmapped
+22076823,Anaemia,Other / Unmapped
+22193652,General Physical Health Deterioration,Other / Unmapped
+22193652,Lymphopenia,Other / Unmapped
+22193652,Haematotoxicity,Other / Unmapped
+22193652,Pneumonia,Other / Unmapped
+22218522,Death,Severe Outcome
+21674316,Malaise,Other / Unmapped
+21674316,Pneumonia,Other / Unmapped
+22048843,White Blood Cell Count Decreased,Immune System
+22048843,Red Blood Cell Count Decreased,Other / Unmapped
+22048843,Pulmonary Tuberculosis,Other / Unmapped
+22048843,Discomfort,Other / Unmapped
+22048843,Hepatic Function Abnormal,Other / Unmapped
+22117903,Hyperphosphataemia,Other / Unmapped
+22117902,Weight Increased,Other / Unmapped
+22117902,Depression,Other / Unmapped
+22117901,Pneumonitis,Other / Unmapped
+22117900,Medication Error,Medication Error
+22117900,Intentional Product Misuse,Other / Unmapped
+22117900,No Adverse Event,Other / Unmapped
+22117899,Drug Ineffective,Other / Unmapped
+22117899,No Adverse Event,Other / Unmapped
+22109103,Non-Small Cell Lung Cancer,Other / Unmapped
+22097847,Shoulder Fracture,Other / Unmapped
+22097847,Fall,Other / Unmapped
+21258579,Lymph Node Tuberculosis,Other / Unmapped
+21258579,Platelet Count Decreased,Other / Unmapped
+21258579,White Blood Cell Count Decreased,Immune System
+21207196,Febrile Neutropenia,Other / Unmapped
+22031703,Hepatic Lesion,Other / Unmapped
+22031703,Platelet Count Decreased,Other / Unmapped
+22031703,Anaemia,Other / Unmapped
+22031703,Hypothyroidism,Other / Unmapped
+22019587,Renal Injury,Other / Unmapped
+22019587,Liver Injury,Other / Unmapped
+21930459,Disease Progression,Other / Unmapped
+21930459,Anaemia,Other / Unmapped
+21930459,Thrombocytopenia,Other / Unmapped
+21930459,Myelosuppression,Other / Unmapped
+21941334,Toxicity To Various Agents,Other / Unmapped
+21941334,Off Label Use,Other / Unmapped
+21778137,Disease Progression,Other / Unmapped
+21565505,Cholangitis,Other / Unmapped
+21565505,Pneumocystis Jirovecii Pneumonia,Other / Unmapped
+21757608,Headache,Neurological
+21757608,Decreased Appetite,Other / Unmapped
+21757608,Nausea,Other / Unmapped
+21757608,Insomnia,Neurological
+21757608,Arthralgia,Other / Unmapped
+21757608,Flatulence,Other / Unmapped
+21757607,Pain,Other / Unmapped
+21757606,No Adverse Event,Other / Unmapped
+21757606,Off Label Use,Other / Unmapped
+21757604,Disease Progression,Other / Unmapped
+21757603,Fatigue,Other / Unmapped
+21352364,No Adverse Event,Other / Unmapped
+21394823,Colitis,Other / Unmapped
+21395375,Sepsis,Immune System
+21576982,Ascites,Other / Unmapped
+21559372,Infection,Immune System
+21501781,Ascites,Other / Unmapped
+20850058,Blood Creatinine Increased,Other / Unmapped
+20850058,Renal Function Test Abnormal,Other / Unmapped
+20850058,Disease Progression,Other / Unmapped
+20850058,Face Oedema,Other / Unmapped
+20850058,Dysphonia,Other / Unmapped
+21545175,Salmonellosis,Other / Unmapped
+21482812,Malignant Neoplasm Progression,Other / Unmapped
+21482077,Death,Severe Outcome
+21459384,Death,Severe Outcome
+21459384,Therapeutic Product Effect Decreased,Other / Unmapped
+21462102,Febrile Neutropenia,Other / Unmapped
+21462102,Hypertension,Other / Unmapped
+21457607,Death,Severe Outcome
+21452494,Hepatic Function Abnormal,Other / Unmapped
+21452494,White Blood Cell Count Decreased,Immune System
+21411038,Disease Progression,Other / Unmapped
+21353279,Sinus Bradycardia,Other / Unmapped
+21353279,Neutropenia,Other / Unmapped
+21353279,Hypertension,Other / Unmapped
+21419755,Ascites,Other / Unmapped
+21369564,Therapy Cessation,Other / Unmapped
+21358229,Off Label Use,Other / Unmapped
+21358229,Renal Impairment,Other / Unmapped
+21352363,Head Discomfort,Other / Unmapped
+21352363,Abdominal Discomfort,Other / Unmapped
+21352362,Swelling Of Eyelid,Other / Unmapped
+21352362,Hypertension,Other / Unmapped
+21352361,Ageusia,Other / Unmapped
+21352361,Heart Rate Decreased,Other / Unmapped
+21352361,Dizziness,Neurological
+21352361,Vision Blurred,Other / Unmapped
+21352361,Hypotension,Other / Unmapped
+21352361,Decreased Appetite,Other / Unmapped
+21352360,Fatigue,Other / Unmapped
+21352360,Taste Disorder,Other / Unmapped
+21352360,Oral Pain,Other / Unmapped
+21352360,Ageusia,Other / Unmapped
+21352360,Nausea,Other / Unmapped
+21352360,Dry Mouth,Other / Unmapped
+21352360,Gingival Pain,Other / Unmapped
+21352360,Gastrooesophageal Reflux Disease,Other / Unmapped
+21352354,Swelling Of Eyelid,Other / Unmapped
+20059137,Diarrhoea,Other / Unmapped
+20059137,Hepatic Enzyme Increased,Other / Unmapped
+21306273,Off Label Use,Other / Unmapped
+21306273,Death,Severe Outcome
+21296993,Death,Severe Outcome
+21282995,Death,Severe Outcome
+21199480,Poor Quality Sleep,Other / Unmapped
+21199480,Hypertension,Other / Unmapped
+21199480,Abdominal Discomfort,Other / Unmapped
+21199480,Metastases To Bone,Other / Unmapped
+21199480,Chronic Gastritis,Other / Unmapped
+20000152,Myalgia,Other / Unmapped
+20000152,Blood Creatinine Increased,Other / Unmapped
+20000152,Rhabdomyolysis,Other / Unmapped
+20000152,Neutropenia,Other / Unmapped
+20000152,Blood Creatine Phosphokinase Increased,Other / Unmapped
+21263145,Pneumonia Viral,Other / Unmapped
+21263145,Pneumonia Fungal,Other / Unmapped
+20870817,Interstitial Lung Disease,Other / Unmapped
+20870817,Pleural Effusion,Other / Unmapped
+20870817,Dyspnoea Exertional,Other / Unmapped
+21246136,Peripheral Sensory Neuropathy,Other / Unmapped
+21247167,Weight Increased,Other / Unmapped
+21247167,Food Allergy,Other / Unmapped
+21243844,Hepatic Function Abnormal,Other / Unmapped
+21236842,Renal Impairment,Other / Unmapped
+21236842,Pneumonitis,Other / Unmapped
+21215104,Neoplasm Malignant,Other / Unmapped
+21215104,Off Label Use,Other / Unmapped
+21215104,Pain,Other / Unmapped
+21131156,Death,Severe Outcome
+21164968,Muscular Weakness,Other / Unmapped
+20629682,Acute Kidney Injury,Other / Unmapped
+20629682,Lymphopenia,Other / Unmapped
+20186912,Escherichia Sepsis,Immune System
+20186912,Hepatitis B Reactivation,Other / Unmapped
+19501257,Blood Bilirubin Increased,Other / Unmapped
+21159853,Keratitis,Other / Unmapped
+21148886,Febrile Neutropenia,Other / Unmapped
+21146706,Respiratory Failure,Other / Unmapped
+21146150,Dizziness,Neurological
+21146150,Hypotension,Other / Unmapped
+21146093,Cellulitis,Other / Unmapped
+21145933,Hepatic Function Abnormal,Other / Unmapped
+21145933,Flatulence,Other / Unmapped
+21140409,Condition Aggravated,Other / Unmapped
+21140354,Herpes Zoster,Other / Unmapped
+21140296,Mental Status Changes,Other / Unmapped
+21138786,Hypotension,Other / Unmapped
+21137162,Hypoxia,Other / Unmapped
+21137162,Respiratory Distress,Other / Unmapped
+21135527,Orthostatic Hypotension,Other / Unmapped
+20051423,Liver Injury,Other / Unmapped
+21133358,Myositis,Other / Unmapped
+21130525,Urosepsis,Other / Unmapped
+21130282,Tumour Lysis Syndrome,Other / Unmapped
+21051959,Carcinoembryonic Antigen Increased,Other / Unmapped
+21051959,Pyrexia,Other / Unmapped
+20444936,Diarrhoea,Other / Unmapped
+20444936,Acute Pulmonary Oedema,Other / Unmapped
+21003802,Pericardial Effusion,Other / Unmapped
+21003802,Oedema Peripheral,Other / Unmapped
+20939528,Pancytopenia,Other / Unmapped
+20992292,Hypertransaminasaemia,Other / Unmapped
+20992292,Ascites,Other / Unmapped
+20806942,Colitis,Other / Unmapped
+19828059,Gastritis,Other / Unmapped
+19828059,Pyrexia,Other / Unmapped
+19828059,Hypoalbuminaemia,Other / Unmapped
+19828059,Abdominal Pain Upper,Other / Unmapped
+19828059,Anaemia,Other / Unmapped
+19828059,Haemoglobin Decreased,Other / Unmapped
+19828059,White Blood Cell Count Decreased,Immune System
+19828059,Platelet Count Decreased,Other / Unmapped
+20983627,Intestinal Obstruction,Other / Unmapped
+20983627,Pulmonary Embolism,Other / Unmapped
+20983603,Lung Infiltration,Other / Unmapped
+20983602,Weight Increased,Other / Unmapped
+20983601,Fatigue,Other / Unmapped
+20983600,Cough,Other / Unmapped
+20983600,Dyspnoea,Other / Unmapped
+20983600,Headache,Neurological
+20983600,Chest Discomfort,Other / Unmapped
+20983599,Ill-Defined Disorder,Other / Unmapped
+20983599,Blood Glucose Increased,Other / Unmapped
+20983598,Fatigue,Other / Unmapped
+20625692,Pneumonia,Other / Unmapped
+20625692,Blood Calcium Decreased,Other / Unmapped
+20625692,Pulmonary Haemorrhage,Other / Unmapped
+20625692,Blood Phosphorus Increased,Other / Unmapped
+20625692,Blood Potassium Increased,Other / Unmapped
+20059160,Taste Disorder,Other / Unmapped
+20059160,Oropharyngeal Pain,Other / Unmapped
+20059160,Fatigue,Other / Unmapped
+20059160,Balance Disorder,Other / Unmapped
+20059160,Dysphagia,Other / Unmapped
+20059160,Nausea,Other / Unmapped
+19665243,Fatigue,Other / Unmapped
+19665243,Ageusia,Other / Unmapped
+19665243,Platelet Count Decreased,Other / Unmapped
+19574519,Deep Vein Thrombosis,Other / Unmapped
+19574519,Pneumonitis,Other / Unmapped
+19574519,Drug Ineffective,Other / Unmapped
+19574519,Disease Progression,Other / Unmapped
+20933076,Chest Discomfort,Other / Unmapped
+20933076,Face Oedema,Other / Unmapped
+20933076,Arteriosclerosis Coronary Artery,Other / Unmapped
+20933076,Asthenia,Other / Unmapped
+19928621,White Blood Cell Count Decreased,Immune System
+19928621,Nasopharyngitis,Other / Unmapped
+19928621,Neutrophil Count Decreased,Other / Unmapped
+19928621,Anaemia,Other / Unmapped
+19928621,Pyrexia,Other / Unmapped
+19928621,Asthenia,Other / Unmapped
+19928621,Pneumonitis,Other / Unmapped
+19928621,Hypertension,Other / Unmapped
+20821705,Dyspnoea,Other / Unmapped
+20821705,Atelectasis,Other / Unmapped
+20821705,Pneumonia,Other / Unmapped
+20821705,Pericardial Effusion,Other / Unmapped
+20821705,Disease Progression,Other / Unmapped
+20821705,Drug Ineffective,Other / Unmapped
+19362838,Haemoglobin Decreased,Other / Unmapped
+19362838,Rash,Other / Unmapped
+19362838,Brain Fog,Other / Unmapped
+19362838,Thyroglobulin Increased,Other / Unmapped
+19362838,Fatigue,Other / Unmapped
+19362838,Anaemia,Other / Unmapped
+19362838,Thyroid Hormones Increased,Other / Unmapped
+19362838,Diarrhoea,Other / Unmapped
+19362838,Haematocrit Decreased,Other / Unmapped
+19362838,Metastatic Neoplasm,Other / Unmapped
+19362838,Drug Ineffective,Other / Unmapped
+20893009,Cerebrovascular Accident,Other / Unmapped
+20893009,Diarrhoea,Other / Unmapped
+20893009,Dysgraphia,Other / Unmapped
+20769004,Stomatitis,Other / Unmapped
+20769004,Disease Progression,Other / Unmapped
+20769004,Pleural Effusion,Other / Unmapped
+20769004,Tachypnoea,Other / Unmapped
+20769004,Chest Discomfort,Other / Unmapped
+20506419,Neutrophil Count Decreased,Other / Unmapped
+20506419,Pneumonitis,Other / Unmapped
+20506419,Herpes Zoster,Other / Unmapped
+20506419,Lower Respiratory Tract Infection,Immune System
+20506419,Lymphocyte Count Decreased,Other / Unmapped
+20506419,White Blood Cell Count Decreased,Immune System
+20852816,Metastatic Neoplasm,Other / Unmapped
+20647693,Interstitial Lung Disease,Other / Unmapped
+20647693,Pyrexia,Other / Unmapped
+20647693,Anaemia,Other / Unmapped
+20647693,Tuberculosis,Other / Unmapped
+20647693,Cough,Other / Unmapped
+20647693,Appendicitis,Other / Unmapped
+20844986,Hyperkalaemia,Other / Unmapped
+20844986,Blood Triglycerides Increased,Other / Unmapped
+20844986,Off Label Use,Other / Unmapped
+20844986,Hyperphosphataemia,Other / Unmapped
+20709531,Seizure,Neurological
+20709531,Dry Mouth,Other / Unmapped
+20709531,Fatigue,Other / Unmapped
+20709531,Vascular Rupture,Other / Unmapped
+20709531,Hair Disorder,Other / Unmapped
+20709531,Overdose,Medication Error
+20793963,Death,Severe Outcome
+20777743,White Blood Cell Count Decreased,Immune System
+20777743,Interstitial Lung Disease,Other / Unmapped
+20687398,Death,Severe Outcome
+20771322,Chest Discomfort,Other / Unmapped
+20771322,Cough,Other / Unmapped
+20771322,Interstitial Lung Disease,Other / Unmapped
+20771322,Tachypnoea,Other / Unmapped
+20771322,Pneumothorax,Other / Unmapped
+20647575,Hyponatraemia,Other / Unmapped
+20647575,Syncope,Neurological
+20647575,Hypokalaemia,Other / Unmapped
+20647575,Disease Progression,Other / Unmapped
+20761738,Hepatic Function Abnormal,Other / Unmapped
+20761738,Cough,Other / Unmapped
+20761738,Rash Erythematous,Other / Unmapped
+20761738,White Blood Cell Count Decreased,Immune System
+20761738,Renal Impairment,Other / Unmapped
+20761738,Pustule,Other / Unmapped
+20762470,Therapy Interrupted,Other / Unmapped
+20756350,Pyrexia,Other / Unmapped
+20756350,Joint Swelling,Other / Unmapped
+20756350,Arthralgia,Other / Unmapped
+20756350,Arthritis Bacterial,Other / Unmapped
+20738717,White Blood Cell Count Decreased,Immune System
+20738717,Platelet Count Decreased,Other / Unmapped
+20732750,Nausea,Other / Unmapped
+20732750,Renal Impairment,Other / Unmapped
+20732750,Renal Failure,Other / Unmapped
+20732750,Hepatic Function Abnormal,Other / Unmapped
+20732750,Haematuria,Other / Unmapped
+20732750,Vomiting,Other / Unmapped
+20730964,Back Pain,Other / Unmapped
+20730964,Oligomenorrhoea,Other / Unmapped
+20730964,Deformity Of Orbit,Other / Unmapped
+20730964,Oedema Peripheral,Other / Unmapped
+20730964,Hair Growth Abnormal,Other / Unmapped
+20730964,Blood Oestrogen Decreased,Other / Unmapped
+20730964,Weight Increased,Other / Unmapped
+20730964,Paraesthesia,Other / Unmapped
+20730964,Face Oedema,Other / Unmapped
+20708513,Death,Severe Outcome
+20698435,White Blood Cell Count Decreased,Immune System
+20688259,Hepatic Function Abnormal,Other / Unmapped
+20688259,Anaemia,Other / Unmapped
+20686798,Arthralgia,Other / Unmapped
+20686798,Oedema,Other / Unmapped
+20686798,Decreased Appetite,Other / Unmapped
+20686798,Hyperpyrexia,Other / Unmapped
+20686798,Muscular Weakness,Other / Unmapped
+20686798,Asthenia,Other / Unmapped
+20686464,Rhabdomyolysis,Other / Unmapped
+20686464,Swelling Face,Other / Unmapped
+20686464,Atrial Fibrillation,Other / Unmapped
+20686464,Dysphagia,Other / Unmapped
+20686464,Interstitial Lung Disease,Other / Unmapped
+20686464,Myocardial Injury,Other / Unmapped
+20679814,Rash,Other / Unmapped
+20679814,Eye Swelling,Other / Unmapped
+20679814,Pharyngeal Swelling,Other / Unmapped
+20679814,Swelling Face,Other / Unmapped
+20672416,Hepatic Function Abnormal,Other / Unmapped
+20672416,Renal Impairment,Other / Unmapped
+20653371,Generalised Oedema,Other / Unmapped
+20653371,Hypoproteinaemia,Other / Unmapped
+20653371,Dehydration,Other / Unmapped
+20653371,Mouth Ulceration,Other / Unmapped
+20653371,Oedema Peripheral,Other / Unmapped
+20143954,Carcinoembryonic Antigen Increased,Other / Unmapped
+20645577,Prostatic Obstruction,Other / Unmapped
+20645577,Herpes Zoster,Other / Unmapped
+20625622,No Adverse Event,Other / Unmapped
+20625622,Off Label Use,Other / Unmapped
+20625584,Ageusia,Other / Unmapped
+20625558,Hypoaesthesia Oral,Other / Unmapped
+20625558,Dry Eye,Other / Unmapped
+20625495,Dysphagia,Other / Unmapped
+20447463,Stomatitis,Other / Unmapped
+20447463,Haemoglobin Abnormal,Other / Unmapped
+20620512,Death,Severe Outcome
+20614832,Platelet Count Decreased,Other / Unmapped
+20614832,White Blood Cell Count Decreased,Immune System
+20546968,Mallory-Weiss Syndrome,Other / Unmapped
+20546968,Oesophagitis,Other / Unmapped
+20546968,Gastritis,Other / Unmapped
+20604683,Dehydration,Other / Unmapped
+20604683,Renal Disorder,Other / Unmapped
+20604683,Covid-19,Other / Unmapped
+20604683,Fatigue,Other / Unmapped
+20604683,Diarrhoea,Other / Unmapped
+20580036,Dizziness,Neurological
+20580036,Anaemia,Other / Unmapped
+20574493,Interstitial Lung Disease,Other / Unmapped
+20574493,Ulcerative Keratitis,Other / Unmapped
+20574493,Keratitis,Other / Unmapped
+20574493,Ocular Discomfort,Other / Unmapped
+20555033,Cerebral Infarction,Other / Unmapped
+20555033,Gait Disturbance,Other / Unmapped
+20518921,Death,Severe Outcome
+20506600,Immunodeficiency,Other / Unmapped
+20506600,Oedema,Other / Unmapped
+20494980,Haemorrhage Intracranial,Other / Unmapped
+19091302,Herpes Zoster,Other / Unmapped
+19091302,Peritoneal Tuberculosis,Other / Unmapped
+19091302,Constipation,Other / Unmapped
+19091302,Pyrexia,Other / Unmapped
+19091302,Stomatitis,Other / Unmapped
+19091302,Neutropenia,Other / Unmapped
+20459951,Metastases To Abdominal Cavity,Other / Unmapped
+20459951,Lung Disorder,Other / Unmapped
+20459951,Metastases To Thorax,Other / Unmapped
+20459951,Pulmonary Oedema,Other / Unmapped
+20297426,Neutropenia,Other / Unmapped
+20297426,Pancytopenia,Other / Unmapped
+20456612,Death,Severe Outcome
+20447552,Pyrexia,Other / Unmapped
+20447545,Hypertension,Other / Unmapped
+20447502,Abdominal Distension,Other / Unmapped
+20447502,Discomfort,Other / Unmapped
+20447488,Ulcer,Other / Unmapped
+20447488,Stomatitis,Other / Unmapped
+20447484,Pain In Extremity,Other / Unmapped
+20447481,Neuropathy Peripheral,Other / Unmapped
+20447479,Dysphagia,Other / Unmapped
+20447476,Gastrointestinal Disorder,Other / Unmapped
+20447458,Therapy Change,Other / Unmapped
+20447458,Drug Intolerance,Other / Unmapped
+20447431,Off Label Use,Other / Unmapped
+20447431,No Adverse Event,Other / Unmapped
+20447413,Epistaxis,Other / Unmapped
+20447408,Skin Disorder,Other / Unmapped
+20447408,Rash,Other / Unmapped
+20447407,Off Label Use,Other / Unmapped
+20447407,No Adverse Event,Other / Unmapped
+20436489,Death,Severe Outcome
+20416757,Neutropenia,Other / Unmapped
+20416757,Pulmonary Embolism,Other / Unmapped
+20416757,Leukopenia,Other / Unmapped
+20416757,Dyspnoea,Other / Unmapped
+20393584,Pulmonary Embolism,Other / Unmapped
+20393584,Hypoxia,Other / Unmapped
+20393584,Cough,Other / Unmapped
+20393584,Dyspnoea,Other / Unmapped
+20391885,Neoplasm Progression,Other / Unmapped
+20391885,Anaemia,Other / Unmapped
+20391885,Drug Resistance,Other / Unmapped
+20391885,Hydrothorax,Other / Unmapped
+20390010,Anal Rash,Other / Unmapped
+20390010,Pruritus,Other / Unmapped
+20390010,Sudden Death,Severe Outcome
+20390010,Oedema,Other / Unmapped
+20083889,Anaemia,Other / Unmapped
+20083889,Thrombocytopenia,Other / Unmapped
+20083889,Febrile Neutropenia,Other / Unmapped
+20083889,Pneumonitis,Other / Unmapped
+20362500,Muscular Weakness,Other / Unmapped
+20362500,Dizziness,Neurological
+20362500,Mouth Ulceration,Other / Unmapped
+20362500,Blood Pressure Increased,Other / Unmapped
+20332082,Ret Gene Mutation,Other / Unmapped
+20332082,General Symptom,Other / Unmapped
+20332082,Drug Resistance,Other / Unmapped
+20331030,Interstitial Lung Disease,Other / Unmapped
+20331030,Hypoxia,Other / Unmapped
+20237168,Metastases To Liver,Other / Unmapped
+20237168,Cough,Other / Unmapped
+20237168,Metastases To Lymph Nodes,Other / Unmapped
+20237168,Platelet Count Decreased,Other / Unmapped
+20237168,White Blood Cell Count Decreased,Immune System
+20219140,Pulmonary Embolism,Other / Unmapped
+20197701,Disease Progression,Other / Unmapped
+20192968,Metastases To Meninges,Other / Unmapped
+20192968,Metastases To Central Nervous System,Other / Unmapped
+20192968,Blood Pressure Increased,Other / Unmapped
+20189154,Disease Progression,Other / Unmapped
+19879953,Constipation,Other / Unmapped
+19879953,Asthenia,Other / Unmapped
+19879953,Dry Mouth,Other / Unmapped
+19879953,Fatigue,Other / Unmapped
+19879953,Palmar-Plantar Erythrodysaesthesia Syndrome,Other / Unmapped
+19879953,Back Pain,Other / Unmapped
+19879953,Feeling Hot,Other / Unmapped
+19879953,Hepatotoxicity,Other / Unmapped
+19879953,Dizziness,Neurological
+19879953,Oedema Peripheral,Other / Unmapped
+19879953,Psychomotor Hyperactivity,Other / Unmapped
+19879953,Chills,Other / Unmapped
+19879953,Transaminases Increased,Other / Unmapped
+19879953,Mucosal Inflammation,Other / Unmapped
+19879953,Headache,Neurological
+19879953,Cellulitis,Other / Unmapped
+19879953,Hyperhidrosis,Other / Unmapped
+19879953,Flushing,Other / Unmapped
+19879953,Somnolence,Other / Unmapped
+19879953,Decreased Appetite,Other / Unmapped
+19879953,Monoparesis,Other / Unmapped
+19879953,Tumour Lysis Syndrome,Other / Unmapped
+19879953,Arthralgia,Other / Unmapped
+19879953,Vaginal Ulceration,Other / Unmapped
+19879953,Blood Calcitonin Decreased,Other / Unmapped
+19879953,Stomatitis,Other / Unmapped
+20147992,Disease Progression,Other / Unmapped
+20089017,Disease Progression,Other / Unmapped
+20061434,Oedema Peripheral,Other / Unmapped
+20061434,Cough,Other / Unmapped
+20061434,Dyspnoea,Other / Unmapped
+20061434,Respiratory Tract Oedema,Other / Unmapped
+20061434,Pain Of Skin,Other / Unmapped
+20061434,Chest Pain,Other / Unmapped
+20059176,Oral Fungal Infection,Immune System
+20059174,Poor Quality Sleep,Other / Unmapped
+20059174,Constipation,Other / Unmapped
+20059168,Nausea,Other / Unmapped
+20059168,Fatigue,Other / Unmapped
+20059168,Diarrhoea,Other / Unmapped
+20059162,Pneumonitis,Other / Unmapped
+20059147,Blood Alkaline Phosphatase Decreased,Other / Unmapped
+20059147,Protein Total Decreased,Other / Unmapped
+20059147,Fatigue,Other / Unmapped
+20059147,Blood Pressure Increased,Other / Unmapped
+20059147,Blood Potassium Increased,Other / Unmapped
+20059147,Aspartate Aminotransferase Increased,Other / Unmapped
+20059147,Diarrhoea,Other / Unmapped
+20059144,Acne Cystic,Other / Unmapped
+20059143,Fatigue,Other / Unmapped
+20059143,Dysphagia,Other / Unmapped
+20059143,Taste Disorder,Other / Unmapped
+20059143,Nausea,Other / Unmapped
+20059143,Oropharyngeal Pain,Other / Unmapped
+20059138,Malaise,Other / Unmapped
+20059133,Liver Disorder,Other / Unmapped
+20059132,Product Storage Error,Other / Unmapped
+20059132,No Adverse Event,Other / Unmapped
+20059128,Urinary Tract Infection,Immune System
+20059128,Gastrointestinal Disorder,Other / Unmapped
+20059128,Abdominal Pain Upper,Other / Unmapped
+20059127,Pyrexia,Other / Unmapped
+20059127,Productive Cough,Other / Unmapped
+20059127,Nasopharyngitis,Other / Unmapped
+20059127,Dry Mouth,Other / Unmapped
+20059122,Nasal Dryness,Other / Unmapped
+20059114,Ageusia,Other / Unmapped
+20059114,Fatigue,Other / Unmapped
+20059112,Paternal Exposure During Pregnancy,Other / Unmapped
+20059111,Vision Blurred,Other / Unmapped
+20059111,Balance Disorder,Other / Unmapped
+20059111,Gait Disturbance,Other / Unmapped
+20059111,Vomiting,Other / Unmapped
+20059107,Rash,Other / Unmapped
+20059107,Vaginal Odour,Other / Unmapped
+20059107,Burning Sensation,Other / Unmapped
+20059103,Cough,Other / Unmapped
+20059103,Dysphagia,Other / Unmapped
+20059103,Hypertension,Other / Unmapped
+20059103,Muscular Weakness,Other / Unmapped
+20059102,Mouth Haemorrhage,Other / Unmapped
+20059102,Oral Mucosal Blistering,Other / Unmapped
+20059102,Fatigue,Other / Unmapped
+20059102,Dyspnoea,Other / Unmapped
+20059100,Pneumonitis,Other / Unmapped
+20059098,Dizziness,Neurological
+20059091,Back Pain,Other / Unmapped
+20059091,Gastrointestinal Disorder,Other / Unmapped
+20059090,Chills,Other / Unmapped
+20059090,Oropharyngeal Pain,Other / Unmapped
+20059090,Dental Discomfort,Other / Unmapped
+20059090,Pain In Extremity,Other / Unmapped
+20059090,Dyspnoea,Other / Unmapped
+20059090,Vomiting,Other / Unmapped
+20059090,Chest Pain,Other / Unmapped
+20059088,Fatigue,Other / Unmapped
+20056633,Drug Ineffective,Other / Unmapped
+20056633,No Adverse Event,Other / Unmapped
+20056631,Malaise,Other / Unmapped
+20056630,Hypertension,Other / Unmapped
+20056629,Constipation,Other / Unmapped
+20056629,Poor Quality Sleep,Other / Unmapped
+19665362,Hypertension,Other / Unmapped
+19665362,Headache,Neurological
+19665355,Ageusia,Other / Unmapped
+19665355,Swelling Face,Other / Unmapped
+19665355,Fatigue,Other / Unmapped
+19665355,Hypertension,Other / Unmapped
+19665352,Dizziness,Neurological
+19665352,Blood Pressure Increased,Other / Unmapped
+19665352,Headache,Neurological
+19665348,Constipation,Other / Unmapped
+19665348,Tremor,Other / Unmapped
+19665347,Fatigue,Other / Unmapped
+19665347,Blood Pressure Increased,Other / Unmapped
+19665347,Muscular Weakness,Other / Unmapped
+19665346,Fatigue,Other / Unmapped
+19665346,Blood Pressure Increased,Other / Unmapped
+19665346,Hypersomnia,Other / Unmapped
+19665191,Liver Function Test Abnormal,Other / Unmapped
+19665185,Lip Scab,Other / Unmapped
+19665185,Scab,Other / Unmapped
+19665185,Dysphonia,Other / Unmapped
+19931552,Asthenia,Other / Unmapped
+19931552,Mass,Other / Unmapped
+19931552,Neoplasm Malignant,Other / Unmapped
+19931552,Dizziness,Neurological
+19931552,Diarrhoea,Other / Unmapped
+19931552,Loss Of Consciousness,Other / Unmapped
+20024080,Death,Severe Outcome
+20007023,Disease Progression,Other / Unmapped
+20006918,Lymphadenopathy,Other / Unmapped
+20006918,Heart Rate Increased,Other / Unmapped
+20006918,Pleural Effusion,Other / Unmapped
+20006918,Metastases To Lymph Nodes,Other / Unmapped
+20006918,Metastatic Neoplasm,Other / Unmapped
+20006918,Pneumonitis,Other / Unmapped
+20006918,Lung Opacity,Other / Unmapped
+20006918,Atelectasis,Other / Unmapped
+20006411,Liver Injury,Other / Unmapped
+20006188,Blood Potassium Decreased,Other / Unmapped
+20006188,Blood Sodium Decreased,Other / Unmapped
+20006188,Blood Test Abnormal,Other / Unmapped
+20006188,Asthenia,Other / Unmapped
+19986994,Disease Progression,Other / Unmapped
+19983693,Disease Progression,Other / Unmapped
+19981278,Disease Progression,Other / Unmapped
+19971577,Asthenia,Other / Unmapped
+19971577,Dizziness,Neurological
+19971577,Pleural Thickening,Other / Unmapped
+19971577,Condition Aggravated,Other / Unmapped
+19971577,Salivary Hyposecretion,Other / Unmapped
+19971577,Hydrothorax,Other / Unmapped
+19938449,Thrombosis,Other / Unmapped
+19921791,Ascites,Other / Unmapped
+19921791,Chylothorax,Other / Unmapped
+19921791,Oedema,Other / Unmapped
+19933547,Disease Progression,Other / Unmapped
+19573261,Disease Progression,Other / Unmapped
+19573261,Dyspnoea,Other / Unmapped
+19573261,Interstitial Lung Disease,Other / Unmapped
+19573261,Gastrointestinal Toxicity,Other / Unmapped
+19921174,Hyperpyrexia,Other / Unmapped
+19878784,Thrombosis,Other / Unmapped
+19823578,Death,Severe Outcome
+19806559,Disease Progression,Other / Unmapped
+19807084,Disease Progression,Other / Unmapped
+19791385,Chest Pain,Other / Unmapped
+19791385,Blood Test Abnormal,Other / Unmapped
+19791385,Asthenia,Other / Unmapped
+19791385,Chest Discomfort,Other / Unmapped
+19791385,Labile Blood Pressure,Other / Unmapped
+19791385,Hepatic Function Abnormal,Other / Unmapped
+19791385,Dizziness,Neurological
+19791385,Cardiomyopathy,Other / Unmapped
+19789804,Pneumonitis,Other / Unmapped
+19789804,Tachypnoea,Other / Unmapped
+19789804,Cough,Other / Unmapped
+19785292,Carcinoembryonic Antigen Increased,Other / Unmapped
+19774482,Death,Severe Outcome
+19740907,Disease Progression,Other / Unmapped
+19734367,Hepatic Function Abnormal,Other / Unmapped
+19734367,Renal Impairment,Other / Unmapped
+19714432,Off Label Use,Other / Unmapped
+19714432,Dysphagia,Other / Unmapped
+19714432,Oral Candidiasis,Other / Unmapped
+19714432,Headache,Neurological
+19714432,Vision Blurred,Other / Unmapped
+19646711,Face Oedema,Other / Unmapped
+19646711,Oedema Peripheral,Other / Unmapped
+19646711,Myocardial Infarction,Other / Unmapped
+19646711,Pyrexia,Other / Unmapped
+19689252,Lung Disorder,Other / Unmapped
+19665363,Insomnia,Neurological
+19665363,Erythema,Other / Unmapped
+19665363,Stomatitis,Other / Unmapped
+19665363,Dyspnoea,Other / Unmapped
+19665363,Peripheral Swelling,Other / Unmapped
+19665363,Pruritus,Other / Unmapped
+19665363,Constipation,Other / Unmapped
+19665363,Oral Pain,Other / Unmapped
+19665359,Hyponatraemia,Other / Unmapped
+19665349,Appetite Disorder,Other / Unmapped
+19665349,Pain,Other / Unmapped
+19665276,Pain,Other / Unmapped
+19665276,Dry Mouth,Other / Unmapped
+19665276,Taste Disorder,Other / Unmapped
+19665276,Lung Opacity,Other / Unmapped
+19665276,Ageusia,Other / Unmapped
+19665276,Chest Pain,Other / Unmapped
+19665274,Intentional Product Misuse,Other / Unmapped
+19665274,No Adverse Event,Other / Unmapped
+19665272,Pain,Other / Unmapped
+19665271,Swelling Face,Other / Unmapped
+19665271,Hypertension,Other / Unmapped
+19665271,Platelet Count Decreased,Other / Unmapped
+19665271,Periorbital Swelling,Other / Unmapped
+19665268,Cough,Other / Unmapped
+19665248,Pleurodesis,Other / Unmapped
+19665247,Hepatic Enzyme Increased,Other / Unmapped
+19665247,Blood Pressure Increased,Other / Unmapped
+19665247,Constipation,Other / Unmapped
+19665247,Liver Injury,Other / Unmapped
+19665247,Brain Fog,Other / Unmapped
+19665242,Off Label Use,Other / Unmapped
+19665242,Anaemia,Other / Unmapped
+19665240,Nausea,Other / Unmapped
+19665240,Candida Infection,Immune System
+19665240,Pneumonia,Other / Unmapped
+19665240,Vomiting,Other / Unmapped
+19665235,Rash Erythematous,Other / Unmapped
+19665231,White Blood Cell Count Decreased,Immune System
+19665225,Hunger,Other / Unmapped
+19665225,Gastrointestinal Disorder,Other / Unmapped
+19665225,Dry Throat,Other / Unmapped
+19665220,Constipation,Other / Unmapped
+19665216,Diarrhoea,Other / Unmapped
+19665216,Arthropod Bite,Other / Unmapped
+19665216,Weight Decreased,Other / Unmapped
+19665216,Infrequent Bowel Movements,Other / Unmapped
+19665216,Taste Disorder,Other / Unmapped
+19665208,Faeces Discoloured,Other / Unmapped
+19665208,Product Prescribing Error,Other / Unmapped
+19665208,Abdominal Pain,Other / Unmapped
+19665206,Dry Mouth,Other / Unmapped
+19665200,Renal Function Test Abnormal,Other / Unmapped
+19665195,Fluid Retention,Other / Unmapped
+19665195,Peripheral Swelling,Other / Unmapped
+19665195,Ill-Defined Disorder,Other / Unmapped
+19665195,Memory Impairment,Other / Unmapped
+19665190,Fatigue,Other / Unmapped
+19665187,Malaise,Other / Unmapped
+19665182,Liver Function Test Increased,Other / Unmapped
+19665180,Asthenia,Other / Unmapped
+19665180,Pain,Other / Unmapped
+19665180,Bone Pain,Other / Unmapped
+19665180,Abdominal Distension,Other / Unmapped
+19665179,Arthralgia,Other / Unmapped
+19665179,Hepatic Enzyme Increased,Other / Unmapped
+19665171,Fatigue,Other / Unmapped
+19665168,Back Pain,Other / Unmapped
+19665168,Cough,Other / Unmapped
+19665166,Hypertension,Other / Unmapped
+19665166,Dysphonia,Other / Unmapped
+19665166,Diarrhoea,Other / Unmapped
+19665165,Fatigue,Other / Unmapped
+19665164,Haemoptysis,Other / Unmapped
+19665164,Pulmonary Haemorrhage,Other / Unmapped
+19620418,Death,Severe Outcome
+19609226,Hospitalisation,Severe Outcome
+19602290,Radiation Pneumonitis,Other / Unmapped
+19547991,Back Disorder,Other / Unmapped
+19547991,Wheezing,Other / Unmapped
+19412549,Condition Aggravated,Other / Unmapped
+19412549,Fatigue,Other / Unmapped
+19412549,Constipation,Other / Unmapped
+19498564,Dysgeusia,Other / Unmapped
+19498564,Ageusia,Other / Unmapped
+19498564,Vomiting,Other / Unmapped
+19498564,Staphylococcal Infection,Immune System
+19498564,Constipation,Other / Unmapped
+19498564,Somnolence,Other / Unmapped
+19498564,Blood Pressure Increased,Other / Unmapped
+19498564,Red Blood Cell Count Decreased,Other / Unmapped
+19498564,Fatigue,Other / Unmapped
+19498564,Asthenia,Other / Unmapped
+19498564,Pain,Other / Unmapped
+19420737,Pulmonary Oedema,Other / Unmapped
+19420737,Infection,Immune System
+19420611,Pain In Extremity,Other / Unmapped
+19420611,Candida Infection,Immune System
+19420611,Neoplasm Malignant,Other / Unmapped
+19124132,Constipation,Other / Unmapped
+19124132,Dry Mouth,Other / Unmapped
+19124132,Platelet Count Decreased,Other / Unmapped
+19124132,Gingival Swelling,Other / Unmapped
+19124132,Blood Pressure Increased,Other / Unmapped
+19124132,Aspartate Aminotransferase Increased,Other / Unmapped
+19124132,Renal Impairment,Other / Unmapped
+19124132,Alanine Aminotransferase Increased,Other / Unmapped
+19124132,Dry Skin,Other / Unmapped
+19124132,Nausea,Other / Unmapped
+19124132,Haemorrhage,Other / Unmapped
+19124132,Fatigue,Other / Unmapped
+19124132,Arthralgia,Other / Unmapped
+19446506,Death,Severe Outcome
+19432687,Gastrointestinal Disorder,Other / Unmapped
+19354670,Pyrexia,Other / Unmapped
+19354670,Depressed Level Of Consciousness,Other / Unmapped
+19354670,Blood Glucose Decreased,Other / Unmapped
+19354670,Hypotension,Other / Unmapped
+19400616,Ill-Defined Disorder,Other / Unmapped
+19400616,Pain,Other / Unmapped
+19400616,Fatigue,Other / Unmapped
+19400616,Pulmonary Thrombosis,Other / Unmapped
+19400616,Dyspnoea,Other / Unmapped
+19400616,Pulmonary Pain,Other / Unmapped
+19394949,Therapy Non-Responder,Other / Unmapped
+19331975,Meniscus Injury,Other / Unmapped
+19331975,Epistaxis,Other / Unmapped
+19331975,Hypertension,Other / Unmapped
+19330420,Bone Disorder,Other / Unmapped
+19321625,Metastases To Central Nervous System,Other / Unmapped
+19321625,Hyponatraemia,Other / Unmapped
+19321625,Asthenia,Other / Unmapped
+19134808,Transfusion,Other / Unmapped
+19134808,Haemoglobin Decreased,Other / Unmapped
+19134808,Taste Disorder,Other / Unmapped
+19134808,Full Blood Count Abnormal,Other / Unmapped
+19134808,Stomatitis,Other / Unmapped
+19134808,Pyrexia,Other / Unmapped
+19134808,Neuropathy Peripheral,Other / Unmapped
+19134808,Platelet Count Decreased,Other / Unmapped
+19134808,Chest Discomfort,Other / Unmapped
+19264778,Hypoxia,Other / Unmapped
+19264778,Nausea,Other / Unmapped
+19164549,Fall,Other / Unmapped
+19164549,Syncope,Neurological
+19116988,Nausea,Other / Unmapped
+19116988,Peripheral Swelling,Other / Unmapped
+19116988,Pulmonary Oedema,Other / Unmapped
+19116988,Liver Function Test Increased,Other / Unmapped
+19118800,Lymphopenia,Other / Unmapped
+19118800,Neutropenia,Other / Unmapped
+19095423,Fatigue,Other / Unmapped
+19094270,Prostate Infection,Immune System
+19076616,Constipation,Other / Unmapped
+19076616,Alanine Aminotransferase Increased,Other / Unmapped
+19076616,Renal Impairment,Other / Unmapped
+19076616,Dry Skin,Other / Unmapped
+19076616,Gingival Swelling,Other / Unmapped
+19076616,Nausea,Other / Unmapped
+19076616,Arthralgia,Other / Unmapped
+19076616,Aspartate Aminotransferase Increased,Other / Unmapped
+19076616,Dry Mouth,Other / Unmapped
+19076616,Blood Pressure Increased,Other / Unmapped
+19076616,Fatigue,Other / Unmapped
+19067383,Off Label Use,Other / Unmapped
+19067383,Stomatitis,Other / Unmapped
+19067383,Transfusion,Other / Unmapped
+19067383,Neuropathy Peripheral,Other / Unmapped
+19067383,Full Blood Count Abnormal,Other / Unmapped
+19076682,Prostate Infection,Immune System
+19075460,Renal Function Test Abnormal,Other / Unmapped
+19074364,Diarrhoea,Other / Unmapped
+19074364,Dry Mouth,Other / Unmapped
+19070761,Drug Intolerance,Other / Unmapped
+19067718,Dizziness,Neurological
+19067360,Nausea,Other / Unmapped
+19067360,Rash,Other / Unmapped
+19067360,Peripheral Swelling,Other / Unmapped
+19066982,Drug Ineffective,Other / Unmapped
+19066982,General Physical Health Deterioration,Other / Unmapped
+18653756,Constipation,Other / Unmapped
+18653756,Brain Fog,Other / Unmapped
+18653756,Liver Injury,Other / Unmapped
+18653756,Hepatic Enzyme Increased,Other / Unmapped
+18653756,Blood Pressure Increased,Other / Unmapped
+19062122,Liver Disorder,Other / Unmapped
+19061085,Dyspnoea,Other / Unmapped
+19061085,Headache,Neurological
+19061085,Constipation,Other / Unmapped
+19061085,Blood Pressure Increased,Other / Unmapped
+19061084,Rash,Other / Unmapped
+19061084,Dizziness,Neurological
+19061084,Blood Pressure Increased,Other / Unmapped
+19061084,Adverse Drug Reaction,Other / Unmapped
+19060683,Therapeutic Response Unexpected,Other / Unmapped
+19060246,Fatigue,Other / Unmapped
+19060246,Decreased Appetite,Other / Unmapped
+19055163,Dry Mouth,Other / Unmapped
+19055143,Off Label Use,Other / Unmapped
+18973607,Chest Pain,Other / Unmapped
+18973607,Arthralgia,Other / Unmapped
+18973607,Blood Pressure Increased,Other / Unmapped
+18973607,Abdominal Pain Upper,Other / Unmapped
+19041219,Product Dose Omission Issue,Medication Error
+18972963,Peripheral Swelling,Other / Unmapped
+19039673,Blood Calcium Decreased,Other / Unmapped
+19039673,Platelet Count Decreased,Other / Unmapped
+18840572,Intentional Product Misuse,Other / Unmapped
+18840572,Feeling Abnormal,Other / Unmapped
+18840572,Dizziness,Neurological
+18840572,Blood Pressure Increased,Other / Unmapped
+19027427,Dysphagia,Other / Unmapped
+18996663,Death,Severe Outcome
+18973204,Fatigue,Other / Unmapped
+18973204,Pulmonary Oedema,Other / Unmapped
+18973204,Laboratory Test Abnormal,Other / Unmapped
+18973007,Drug Ineffective,Other / Unmapped
+18971612,Death,Severe Outcome
+18925881,Hypertension,Other / Unmapped
+18424081,Faeces Discoloured,Other / Unmapped
+18424081,Constipation,Other / Unmapped
+18424081,Herpes Zoster,Other / Unmapped
+18424081,Impaired Healing,Other / Unmapped
+18424081,Faeces Hard,Other / Unmapped
+18969085,Dyspepsia,Other / Unmapped
+18969085,Hypotension,Other / Unmapped
+18969085,Nausea,Other / Unmapped
+18966724,Cellulitis,Other / Unmapped
+18960993,Enterocolitis,Other / Unmapped
+18960993,Haematochezia,Other / Unmapped
+18654605,Productive Cough,Other / Unmapped
+18654605,Increased Upper Airway Secretion,Other / Unmapped
+18956291,Intentional Dose Omission,Other / Unmapped
+18952768,Death,Severe Outcome
+18941001,Dysstasia,Other / Unmapped
+18941001,Rash,Other / Unmapped
+18941001,Procedural Pain,Other / Unmapped
+18926086,Weight Decreased,Other / Unmapped
+18926086,Diarrhoea,Other / Unmapped
+18926086,Drug Ineffective,Other / Unmapped
+18914622,Weight Increased,Other / Unmapped
+18914622,Blood Pressure Increased,Other / Unmapped
+18914622,Fatigue,Other / Unmapped
+18765756,Dyspnoea,Other / Unmapped
+18765756,Alopecia,Other / Unmapped
+18765756,Pyrexia,Other / Unmapped
+18765756,Face Oedema,Other / Unmapped
+18765756,Dysuria,Other / Unmapped
+18765756,Swelling,Other / Unmapped
+18883277,Taste Disorder,Other / Unmapped
+18883277,Insomnia,Neurological
+18883277,Ageusia,Other / Unmapped
+18850613,Chest Pain,Other / Unmapped
+18850613,Hypoaesthesia,Other / Unmapped
+18850613,Feeling Cold,Other / Unmapped
+18850613,Pain In Extremity,Other / Unmapped
+18850613,Hypoaesthesia Oral,Other / Unmapped
+18850613,Somnolence,Other / Unmapped
+18850613,Dizziness,Neurological
+18843452,Neutropenia,Other / Unmapped
+18843452,Alopecia,Other / Unmapped
+18827254,Product Dose Omission Issue,Medication Error
+18818931,Eye Swelling,Other / Unmapped
+18791880,Haemoglobin Increased,Other / Unmapped
+18791880,Constipation,Other / Unmapped
+18791880,Arthralgia,Other / Unmapped
+18791880,Dry Mouth,Other / Unmapped
+18791880,Herpes Zoster,Other / Unmapped
+18791880,Blood Creatinine Increased,Other / Unmapped
+18766109,Incorrect Dose Administered,Other / Unmapped
+18758410,Metastases To Bone,Other / Unmapped
+18650834,Blood Creatinine Abnormal,Other / Unmapped
+18650834,Pain,Other / Unmapped
+18650834,Chills,Other / Unmapped
+18650834,Arthralgia,Other / Unmapped
+18650834,Rash,Other / Unmapped
+18650834,Blood Pressure Abnormal,Other / Unmapped
+18745792,Off Label Use,Other / Unmapped
+18745792,Hypertension,Other / Unmapped
+18741714,Death,Severe Outcome
+18660174,Depression,Other / Unmapped
+18660174,Insomnia,Neurological
+18660174,Fatigue,Other / Unmapped
+18699846,Fatigue,Other / Unmapped
+18699846,Hypersomnia,Other / Unmapped
+18699846,Full Blood Count Abnormal,Other / Unmapped
+18685423,Dyspnoea,Other / Unmapped
+18685423,Diarrhoea,Other / Unmapped
+18685423,Myalgia,Other / Unmapped
+18685423,Heart Rate Increased,Other / Unmapped
+18674294,Insomnia,Neurological
+18674294,Depression,Other / Unmapped
+18670657,Petechiae,Other / Unmapped
+18654051,Petechiae,Other / Unmapped
+18640152,Illness,Other / Unmapped
+18640152,Lethargy,Other / Unmapped
+18640152,Loss Of Consciousness,Other / Unmapped
+18640152,Hypersomnia,Other / Unmapped
+18640152,Haemorrhage,Other / Unmapped
+18640152,Laboratory Test Abnormal,Other / Unmapped
+18640152,Fall,Other / Unmapped
+18640152,Contusion,Other / Unmapped
+18640152,Product Dose Omission Issue,Medication Error
+18640152,Aspiration,Other / Unmapped
+18640152,Rib Fracture,Other / Unmapped
+18570495,Headache,Neurological
+18570482,Diarrhoea,Other / Unmapped
+18570482,Onychoclasis,Other / Unmapped
+18570482,Fatigue,Other / Unmapped
+18570482,Muscle Spasms,Other / Unmapped
+18560942,Vertigo,Other / Unmapped
+18559502,Oropharyngeal Pain,Other / Unmapped
+18559502,Arthralgia,Other / Unmapped
+18559502,Chills,Other / Unmapped
+18559502,Pyrexia,Other / Unmapped
+18557977,Hypertension,Other / Unmapped
+18552117,Death,Severe Outcome
+18402000,General Physical Health Deterioration,Other / Unmapped
+18402000,Drug Ineffective,Other / Unmapped
+18402000,Syncope,Neurological
+18402000,Malignant Neoplasm Progression,Other / Unmapped
+18375159,Malignant Neoplasm Progression,Other / Unmapped
+18514400,Dyspnoea,Other / Unmapped
+18444220,Epistaxis,Other / Unmapped
+18444055,Off Label Use,Other / Unmapped
+18444055,Death,Severe Outcome
+18371348,Asthenia,Other / Unmapped
+18371348,Dysuria,Other / Unmapped
+18371348,Anxiety,Neurological
+18371348,Constipation,Other / Unmapped
+18371348,Agitation,Other / Unmapped
+18371348,Confusional State,Other / Unmapped
+18371348,Depression,Other / Unmapped

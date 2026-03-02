@@ -3,3 +3,4 @@ drugbank_seed_proteins,25.0,25.0,data/01_clean/pralsetinib_seed_proteins.csv,,,,
 goa_subset,,25.0,data/01_clean/pralsetinib_targets_goa.csv,972437.0,1083.0,519.0,,,,,,,
 faers_clean,,,,,,,1011.0,1011.0,2839.0,690.0,data/01_clean/pralsetinib_faers_reports_clean.csv,data/01_clean/pralsetinib_faers_reactions_long.csv,data/01_clean/pralsetinib_faers_reaction_counts.csv
 chembl_clean,11.0,,data/01_clean/pralsetinib_chembl_targets.csv,,,,,,,,,,
+go_basic_clean,48251.0,,data/01_clean/go_basic_terms.csv,,,48251.0,,,,,,,
