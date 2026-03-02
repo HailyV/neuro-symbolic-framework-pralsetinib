@@ -1,0 +1,2840 @@
+case_id,reaction
+26272651,Death
+26267839,Death
+26152414,Death
+26152414,Hospitalisation
+26152414,Product Prescribing Issue
+26224683,Hospitalisation
+26224683,Product Dose Omission Issue
+26216685,Localised Infection
+26216685,Product Prescribing Issue
+26203938,Anaemia
+26203938,Surgery
+26203936,Death
+26203936,Product Prescribing Issue
+26138980,Drug Intolerance
+26138980,Hospitalisation
+26138980,Death
+26143952,Hospitalisation
+26143952,Anaemia
+26143952,Product Prescribing Issue
+26044833,Hospitalisation
+26044833,Laboratory Test Abnormal
+26044833,Liver Function Test Abnormal
+26044833,White Blood Cell Count Decreased
+26138981,Death
+26138981,Product Prescribing Issue
+26127279,Death
+26126953,Product Prescribing Issue
+26126953,Aphonia
+25904163,Myocardial Infarction
+25904163,Product Prescribing Issue
+26123104,Product Prescribing Issue
+26123104,Death
+26096588,Death
+25794972,Hip Fracture
+25794972,Full Blood Count Abnormal
+25794972,Product Prescribing Issue
+25794972,Fall
+25794972,Pneumonia
+25794972,Malaise
+26004547,Adverse Event
+25989000,Pneumonia
+25989000,Dizziness
+25988998,Fatigue
+25988998,Back Pain
+25988998,Arthralgia
+25988996,Fatigue
+25988996,Product Prescribing Issue
+25988986,Weight Decreased
+25988986,Thyroid Hormones Increased
+25988986,Blood Pressure Increased
+25988986,Odynophagia
+25988986,Dry Mouth
+25988986,Dyspepsia
+25988986,Dysphonia
+25988986,Stomatitis
+25988985,Feeling Abnormal
+25988985,Constipation
+25988985,Product Dose Omission Issue
+25988985,Dyspnoea
+25988985,Urinary Tract Infection
+25988985,Muscle Swelling
+25988985,Hepatic Enzyme Increased
+25988985,Oropharyngeal Pain
+25988985,Asthenia
+25988984,Limb Discomfort
+25988984,Infusion
+25988984,Musculoskeletal Discomfort
+25988984,Ear Pain
+25988984,Loss Of Personal Independence In Daily Activities
+25988984,Rhinalgia
+25988984,Pruritus
+25988984,Headache
+25988978,Product Prescribing Issue
+25988978,Urinary Tract Infection
+25988977,Benign Prostatic Hyperplasia
+25988976,Product Prescribing Issue
+25988976,Adverse Event
+25988976,Hyperhidrosis
+25988976,Nausea
+25988975,Gait Disturbance
+25988975,Pruritus
+25988975,Product Prescribing Issue
+25988974,Platelet Count Decreased
+25988974,Gastrointestinal Disorder
+25988974,Unevaluable Event
+25988974,Fatigue
+25988974,Haemoglobin Decreased
+25988974,White Blood Cell Count Decreased
+25988974,Thyroid Hormones Decreased
+25988974,Diarrhoea
+25988974,Anaemia
+25988974,Pain
+25988974,Vomiting
+25988974,Red Blood Cell Count Decreased
+25988973,Hypoaesthesia
+25988973,Product Prescribing Issue
+25988967,Haemoptysis
+25988967,Product Prescribing Issue
+25988966,Myalgia
+25988966,Epistaxis
+25988966,Arthralgia
+25988958,Lethargy
+25988958,Product Dose Omission Issue
+25988958,Anaemia
+25988958,Oropharyngeal Pain
+25988958,Dysphagia
+25988958,Pharyngeal Swelling
+25988957,Product Prescribing Issue
+25988957,Pulmonary Embolism
+25988956,Oesophageal Disorder
+25988956,Fatigue
+25988956,Dyspnoea Exertional
+25988955,Taste Disorder
+25988955,Hepatic Enzyme Increased
+25988955,Decreased Appetite
+25988946,Product Prescribing Issue
+25988946,Dyspnoea
+25988946,Pneumonitis
+25988945,Alopecia
+25988945,Dry Mouth
+25988944,Oxygen Therapy
+25988944,Product Prescribing Issue
+25988943,Hypertension
+25988943,Cough
+25988943,Oedema Peripheral
+25988943,Palpitations
+25988943,Myalgia
+25988942,Hypotension
+25988942,Constipation
+25988942,Dysphonia
+25988942,Product Prescribing Issue
+25988941,Product Dose Omission Issue
+25988939,Red Blood Cell Count Decreased
+25988935,Toothache
+25988932,Product Prescribing Issue
+25988932,Nasopharyngitis
+25988932,Respiratory Tract Congestion
+25988932,Product Dose Omission Issue
+25988929,Unevaluable Event
+25988929,Product Physical Issue
+25988928,Hospice Care
+25988928,Off Label Use
+25988927,Product Prescribing Issue
+25988927,Adverse Event
+25988923,Product Prescribing Issue
+25988923,Sinus Disorder
+25988922,Covid-19
+25988922,Sinusitis
+25988920,Dyspnoea
+25988920,Blood Potassium Abnormal
+25988920,Blood Phosphorus Abnormal
+25988920,Irritability
+25988920,Limb Discomfort
+25988920,Arthralgia
+25988920,Pain In Extremity
+25988920,Amenorrhoea
+25988919,Nasopharyngitis
+25988916,Back Disorder
+25988916,Product Prescribing Issue
+25988915,Headache
+25988915,Constipation
+25988915,Hepatic Enzyme Increased
+25988915,Periorbital Swelling
+25988915,Off Label Use
+25988915,Swelling Face
+25988912,Renal Function Test Abnormal
+25988912,Product Prescribing Issue
+25988911,High Frequency Ablation
+25988911,Contrast Media Allergy
+25988911,Product Prescribing Issue
+25988910,Fatigue
+25988910,Product Dose Omission Issue
+25988910,Product Prescribing Issue
+25988910,Insomnia
+25988910,Nausea
+25988910,Hypertension
+25988909,Muscular Weakness
+25988909,Taste Disorder
+25988909,White Blood Cell Count Decreased
+25988909,Visual Impairment
+25988909,Asthenia
+25988909,Blood Pressure Increased
+25988909,Red Blood Cell Count Decreased
+25988909,Aphonia
+25988909,Oropharyngeal Pain
+25988909,Wrong Technique In Product Usage Process
+25988908,Dry Mouth
+25988908,Vitamin D Decreased
+25988907,Constipation
+25988907,Blood Pressure Increased
+25988906,Pneumonia Bacterial
+25988906,Product Prescribing Issue
+25988905,Drug Intolerance
+25988904,Off Label Use
+25988904,Urinary Tract Infection
+25988902,Lung Disorder
+25988902,Product Prescribing Issue
+25988900,Taste Disorder
+25988900,Tongue Blistering
+25988900,Aphthous Ulcer
+25988900,Product Prescribing Issue
+25988899,Vision Blurred
+25988899,Eye Discharge
+25988899,Product Prescribing Issue
+25988898,Choking
+25988897,Dysgeusia
+25988897,Product Prescribing Issue
+25988892,Pneumonia
+25988892,Pleural Effusion
+25988891,Product Prescribing Issue
+25988891,Red Blood Cell Count Decreased
+25988889,Weight Decreased
+25988889,Ill-Defined Disorder
+25988889,Nausea
+25988889,Dehydration
+25988889,Product Prescribing Issue
+25988885,Rash Macular
+25988884,Product Prescribing Issue
+25988884,Ligament Sprain
+25988884,Fall
+25988880,Product Prescribing Issue
+25988880,Hypoacusis
+25988880,Off Label Use
+25988879,Pain
+25988879,Blood Pressure Decreased
+25988879,Blood Pressure Increased
+25988879,Abdominal Pain Upper
+25988879,Constipation
+25988879,Diarrhoea
+25988878,Drug Ineffective
+25988878,Product Prescribing Issue
+25988877,Escherichia Infection
+25988877,Covid-19
+25988877,Influenza
+25988876,Product Use Issue
+25988876,Headache
+25988876,Blood Pressure Increased
+25988876,Diarrhoea
+25988874,Taste Disorder
+25988873,Back Pain
+25988873,Product Prescribing Issue
+25988873,Neuropathy Peripheral
+25988870,Diarrhoea
+25988870,Abdominal Discomfort
+25988869,Mucosal Inflammation
+25988868,Product Prescribing Issue
+25988868,Adverse Drug Reaction
+25988865,Back Pain
+25988865,Frequent Bowel Movements
+25988865,Micturition Urgency
+25988865,Off Label Use
+25988865,Onychalgia
+25988855,Hypertension
+25988855,Off Label Use
+25988853,Troponin Increased
+25988853,Cough
+25988853,Product Prescribing Issue
+25988853,Pleural Effusion
+25988849,Product Dose Omission Issue
+25988849,Condition Aggravated
+25988848,Nasopharyngitis
+25988842,Hospice Care
+25988841,Lymphoedema
+25988840,Product Prescribing Issue
+25988840,Rash
+25988838,Fungal Skin Infection
+25988838,Diarrhoea
+25988838,Stomatitis
+25988836,Cough
+25988835,Dehydration
+25988835,Product Prescribing Issue
+25988835,Cough
+25988834,Blood Pressure Abnormal
+25988834,Dyspepsia
+25988834,Cataract
+25988834,Diarrhoea
+25988832,Pain
+25988832,Fall
+25988826,Product Prescribing Issue
+25988826,Fatigue
+25988826,Coccidioidomycosis
+25988825,Product Prescribing Issue
+25988825,Endodontic Procedure
+25988824,Adverse Event
+25988823,Eye Discharge
+25988823,Tooth Extraction
+25988823,Emotional Disorder
+25988823,Product Prescribing Issue
+25988823,Exercise Lack Of
+25988818,Skin Hyperpigmentation
+25988818,Off Label Use
+25988817,Pneumonia
+25988817,Interstitial Lung Disease
+25988815,Blood Pressure Decreased
+25988815,Lung Disorder
+25988815,Blood Pressure Increased
+25988813,Dyspepsia
+25988813,Chills
+25988813,Nervousness
+25988813,Productive Cough
+25988813,Hypertension
+25988813,Hyperhidrosis
+25988813,Abdominal Pain
+25988813,Dry Mouth
+25988813,Decreased Appetite
+25988813,Sleep Deficit
+25988813,Fatigue
+25988813,Nausea
+25988813,White Blood Cell Count Decreased
+25988813,Dyspnoea
+25988813,Paraesthesia
+25988813,Balance Disorder
+25988813,Asthenia
+25988813,Dizziness
+25988813,Middle Insomnia
+25988813,Throat Irritation
+25988811,Urinary Tract Infection
+25988810,Product Prescribing Issue
+25988810,Nasopharyngitis
+25988810,Cough
+25988808,Nausea
+25988808,Fatigue
+25988808,Onychoclasis
+25988808,Nail Bed Inflammation
+25988808,Nail Discolouration
+25988808,Product Prescribing Issue
+25988806,Swelling Face
+25988804,Adverse Drug Reaction
+25988803,Loss Of Personal Independence In Daily Activities
+25988803,Product Prescribing Issue
+25988803,Epistaxis
+25988802,Emergency Care
+25988802,Product Prescribing Issue
+25988797,Anaemia
+25988794,Off Label Use
+25988794,Dyspnoea
+25988794,Swelling Of Eyelid
+25988794,Swelling Face
+25988794,Chills
+25988794,Stomatitis
+25988792,Product Use Complaint
+25988792,Dry Throat
+25988790,Blood Pressure Increased
+25988790,Product Prescribing Issue
+25988788,Off Label Use
+25988788,Urinary Tract Infection
+25988781,Cough
+25988780,Product Prescribing Issue
+25988780,Ast/Alt Ratio Abnormal
+25988780,Dry Mouth
+25988780,Pain
+25988780,Fatigue
+25988780,Nocturia
+25988780,Paraesthesia
+25988780,Cough
+25988780,Sputum Discoloured
+25988780,Hypersensitivity
+25988776,Swelling
+25988776,Weight Increased
+25988776,Hormone Replacement Therapy
+25988776,Fatigue
+25988776,Product Prescribing Issue
+25988776,Blood Albumin Abnormal
+25988767,Upper Respiratory Tract Infection
+25988766,Nausea
+25988764,Adverse Event
+25988762,Dental Operation
+25988759,Early Satiety
+25988759,Decreased Appetite
+25988759,Product Prescribing Issue
+25988757,Hepatic Pain
+25988757,Dry Throat
+25988757,Product Use Issue
+25988754,Anaemia
+25988752,Vomiting
+25988750,Amylase Decreased
+25988750,Pneumonia
+25988750,Off Label Use
+25988749,Blood Test Abnormal
+25988748,Product Prescribing Issue
+25988748,Emergency Care
+25988747,Arthralgia
+25988747,Fatigue
+25988747,Product Prescribing Issue
+25988747,Dyspnoea
+25988747,Joint Injury
+25988746,Endoscopy
+25988746,Blood Pressure Increased
+25988746,Product Prescribing Issue
+25988745,Product Prescribing Issue
+25988745,Petechiae
+25988743,Sinusitis
+25988743,Product Prescribing Issue
+25988742,Pneumonitis
+25988739,Off Label Use
+25988739,Interstitial Lung Disease
+25988738,Product Prescribing Issue
+25988737,Acne
+25988729,Covid-19
+25988725,Peripheral Swelling
+25988725,Headache
+25988721,Product Prescribing Issue
+25988721,Blood Pressure Increased
+25988721,Product Dose Omission Issue
+25988720,Product Use Issue
+25988720,Product Prescribing Issue
+25988719,Mutism
+25988719,Malaise
+25988719,Pyrexia
+25988709,Monocyte Count Decreased
+25988709,Platelet Count Decreased
+25988709,Condition Aggravated
+25988709,Haemoglobin Decreased
+25988709,Haematocrit Increased
+25988709,Fatigue
+25988706,Product Prescribing Issue
+25988706,Viral Infection
+25988705,Product Prescribing Issue
+25988705,Urinary Tract Infection
+25988704,Constipation
+25988704,Product Prescribing Issue
+25988704,Neoplasm Malignant
+25988678,Dysgeusia
+25988678,Diarrhoea
+25988675,Product Prescribing Issue
+25988675,Muscular Weakness
+25988671,Product Prescribing Issue
+25988669,Toxicity To Various Agents
+25988662,Urinary Tract Infection
+25988659,Liver Function Test Increased
+25988659,Platelet Count Increased
+25988659,Product Prescribing Issue
+25988656,Coccidioidomycosis
+25988653,Fatigue
+25988644,Sinusitis
+25988641,Neoplasm Malignant
+25988641,Adverse Drug Reaction
+25988641,Fatigue
+25988639,Fall
+25988639,Off Label Use
+25988639,Loss Of Consciousness
+25988639,Balance Disorder
+25988639,Orthostatic Hypotension
+25988639,Product Prescribing Issue
+25988639,Contusion
+25988638,Throat Cancer
+25988638,Product Prescribing Issue
+25988623,Product Prescribing Issue
+25988623,Fatigue
+25988622,Infection
+25988621,Hip Arthroplasty
+25988619,Dizziness
+25988613,Surgery
+25988613,Product Prescribing Issue
+25988612,Product Prescribing Issue
+25988612,Arthroscopy
+25988611,Pneumonia
+25988611,Product Prescribing Issue
+25988610,Blood Pressure Increased
+25988610,Anaemia
+25988610,Burning Sensation
+25988610,Oedema Peripheral
+25988610,Blood Sodium Decreased
+25988610,Herpes Zoster
+25988609,Nephrolithiasis
+25988606,Cough
+25988606,Insomnia
+25988606,Pneumonia
+25988604,Product Prescribing Issue
+25988604,Tooth Extraction
+25988604,Ligament Rupture
+25988603,Hypertension
+25988603,Product Prescribing Issue
+25988603,Blood Pressure Fluctuation
+25988603,Memory Impairment
+25988602,Product Prescribing Issue
+25988602,Vaginal Haemorrhage
+25988599,Gait Disturbance
+25988599,Product Dose Omission Issue
+25988599,Blood Test Abnormal
+25988599,Back Pain
+25988599,Pica
+25988594,Product Dose Omission Issue
+25988594,Blood Glucose Increased
+25988594,Product Prescribing Issue
+25988592,Product Prescribing Issue
+25988592,Constipation
+25988586,Product Prescribing Issue
+25988586,Pneumonia
+25988585,Stomatitis
+25988585,Nausea
+25988584,Constipation
+25988584,Abdominal Discomfort
+25988583,Pneumonia
+25988583,Bone Lesion
+25988583,Hepatic Enzyme Increased
+25988579,Alopecia
+25988579,Asthenia
+25988578,Gingival Bleeding
+25988578,Feeling Abnormal
+25988577,Arthralgia
+25988577,Pain In Extremity
+25988577,Musculoskeletal Stiffness
+25988577,Disease Progression
+25988577,Balance Disorder
+25988575,Product Prescribing Issue
+25988575,Blood Pressure Abnormal
+25988575,Dyspnoea
+25988573,Anaemia
+25988572,Bone Pain
+25988572,Myalgia
+25988572,Product Prescribing Issue
+25988572,Rash
+25988571,Emergency Care
+25988570,Vision Blurred
+25988570,Fatigue
+25988570,Infection
+25988539,Bronchitis
+25988539,Product Prescribing Issue
+25988538,Blood Potassium Decreased
+25988538,Product Prescribing Issue
+25988533,Fatigue
+25988533,Viral Infection
+25988533,Adverse Drug Reaction
+25988533,Stomatitis
+25988533,Dyspnoea
+25988531,Interstitial Lung Disease
+25988517,Unevaluable Event
+25988517,Product Prescribing Issue
+25988516,Product Prescribing Issue
+25988516,Asthenia
+25988515,Product Prescribing Issue
+25988515,Back Pain
+25988514,Anaemia
+25423006,Fatigue
+25423006,Asthenia
+25423006,Skin Discolouration
+25423006,Blood Urine Present
+25950973,Oedema Due To Hepatic Disease
+25950973,Ascites
+25950973,Hepatic Cirrhosis
+25965715,Thrombosis
+25951007,Death
+25951007,Fatigue
+25874684,Capillary Fragility
+25899823,Adverse Drug Reaction
+25879512,Rib Fracture
+25879512,Fall
+25879512,Haemorrhage
+25879512,Product Prescribing Issue
+25879512,Hospitalisation
+25879512,Off Label Use
+25887109,Myocardial Infarction
+25874666,Hip Arthroplasty
+25846528,Chills
+25846528,Asthenia
+25846528,Pain
+25846528,Death
+25846528,Urinary Incontinence
+25844398,Malignant Neoplasm Progression
+25821332,Influenza
+25821332,Product Prescribing Issue
+25814389,Product Prescribing Issue
+25814389,Hospitalisation
+25814389,Disease Progression
+25814389,Off Label Use
+24551170,Anaemia
+24551170,Product Prescribing Issue
+25771991,Pulmonary Artery Aneurysm
+25742311,Carcinoembryonic Antigen Increased
+25742311,Product Use Complaint
+25742311,Blood Albumin Decreased
+25742311,Intentional Product Use Issue
+25742311,Rash
+25742311,Defaecation Disorder
+25742311,Nausea
+25742311,Toothache
+25742311,Diarrhoea
+25759910,Death
+25334740,Death
+25732353,Product Dose Omission Issue
+25732353,Hospitalisation
+25728243,Spinal Operation
+25722739,Tremor
+25722739,Product Prescribing Issue
+25704218,Death
+25704218,Product Prescribing Issue
+25704218,Fatigue
+25704218,Cough
+25704218,Dyspnoea
+25704215,Hospitalisation
+25704215,Product Prescribing Issue
+25334753,Death
+25685558,Hospitalisation
+25318084,Death
+25656567,Product Prescribing Issue
+25656567,Surgery
+25337767,Off Label Use
+25337767,Death
+25334859,Death
+25334855,Off Label Use
+25334855,Death
+25334757,Death
+25334756,Death
+25334754,Death
+25334742,Thyroid Cancer
+24167402,Death
+25674452,Hospitalisation
+25674452,Product Prescribing Issue
+25661664,Blood Glucose Decreased
+25661664,Pneumonia
+25661664,Anxiety
+25661664,Mechanical Ileus
+25661664,Oedema
+25661664,Product Prescribing Issue
+25661664,Device Occlusion
+25661664,Delirium
+25667336,Product Prescribing Issue
+25667336,Hospitalisation
+25667189,Knee Operation
+25667189,Product Prescribing Issue
+25579175,Hospitalisation
+25579175,Cough
+25579175,Product Prescribing Issue
+25587614,Hospitalisation
+25579096,Product Prescribing Issue
+25579096,Spinal Operation
+25579096,Diarrhoea
+25579096,Back Pain
+25579049,Hospitalisation
+25579049,Product Prescribing Issue
+25487415,Decreased Appetite
+25487415,Hypotension
+25487415,Product Dose Omission Issue
+25487415,Renal Disorder
+25487415,Illness
+25487415,Blood Magnesium Decreased
+25487415,Nausea
+25487415,Blood Potassium Decreased
+25487415,Blood Calcium Decreased
+25487415,Product Prescribing Issue
+25564823,Death
+25458742,Death
+25531147,Product Prescribing Issue
+25531147,Septic Shock
+25531147,Off Label Use
+25531147,Renal Impairment
+25531147,Stomatitis
+25377648,Product Prescribing Issue
+25377648,Hospitalisation
+25502692,Medical Procedure
+25490965,Confusional State
+25490965,Adverse Event
+25490965,Pallor
+25490965,Choking
+25490965,Hypomania
+25490965,Delirium
+25490965,Urinary Tract Infection
+25448989,Liver Injury
+25448989,Hepatitis
+25448989,Hepatitis B Reactivation
+25448989,Immunodeficiency
+25448989,Hepatitis B
+25454122,Radiotherapy
+25454122,Diarrhoea
+25448990,Micturition Disorder
+25448990,Diverticulitis
+25439215,Hospitalisation
+25426933,Influenza Like Illness
+25426933,Bone Pain
+25426933,Abdominal Pain Upper
+25422670,Product Prescribing Issue
+25422670,Anaemia
+25419555,Neoplasm Malignant
+25410159,Blood Creatine Phosphokinase
+25410159,Myalgia
+25410159,Product Prescribing Issue
+25410159,Paraesthesia
+25410155,Dizziness
+25410155,Constipation
+25410155,Paraesthesia
+25410155,Cardiac Disorder
+25410155,Hypoaesthesia
+25410155,Paraesthesia Oral
+25410155,Blood Pressure Abnormal
+25410155,Oral Discomfort
+25410155,Sensory Loss
+25410155,Ageusia
+25232088,Oropharyngeal Pain
+25232088,Fatigue
+25232088,Renal Impairment
+25232088,Wrist Fracture
+25232088,Headache
+25232088,Fall
+25232088,Blood Pressure Increased
+25232088,Gait Disturbance
+25232088,Product Prescribing Issue
+25232088,Balance Disorder
+25232088,Decreased Appetite
+25232088,Pneumonia
+25232088,Thyroid Cancer
+25232088,Constipation
+25232088,Nausea
+25232088,Dyspnoea
+25232088,Asthenia
+25329148,Brain Neoplasm
+25329148,Face Oedema
+25329147,Brain Neoplasm
+25326360,Renal Disorder
+25318086,Product Prescribing Issue
+25318086,Hypertensive Crisis
+25262546,Product Prescribing Issue
+25262546,Hospitalisation
+25175009,Product Prescribing Issue
+25175009,Pulmonary Thrombosis
+25259700,Death
+25163289,Cushingoid
+25163289,Product Prescribing Issue
+25163289,Aspiration Pleural Cavity
+25163289,Diverticulitis
+24524030,Back Pain
+24524030,Hospitalisation
+24524030,Pain
+24524030,Heart Rate Increased
+24524030,Hypoxia
+24524030,Pleural Effusion
+24524030,Cholecystitis Acute
+24524030,Cholelithiasis
+24524030,Diarrhoea
+25236316,Hospitalisation
+25236316,Product Prescribing Issue
+25228930,Bronchitis
+25228903,Pyrexia
+25228903,Adverse Event
+25228903,Influenza
+25228903,Product Dose Omission Issue
+25215698,Product Prescribing Issue
+25215698,Surgery
+25206328,Hospitalisation
+25206328,Product Prescribing Issue
+25082035,Product Prescribing Issue
+25082035,Death
+25082035,Off Label Use
+25077225,No Adverse Event
+25067156,Death
+25039872,Death
+25025406,Drug Resistance
+25025406,Condition Aggravated
+25025406,Ret Gene Mutation
+25023592,Product Prescribing Issue
+25023592,Death
+25022448,Blood Pressure Increased
+25022448,Arthralgia
+25022448,Hospitalisation
+25022448,Pain
+25022448,Product Prescribing Issue
+25022448,Radiation Injury
+24944017,Balance Disorder
+24944017,Headache
+24944017,Brain Neoplasm
+24944017,Limb Discomfort
+24944017,Fluid Retention
+24891640,Pneumonia
+24891640,Pneumocystis Jirovecii Infection
+24891640,Herpes Virus Infection
+24891640,Aspergillus Infection
+24890389,Pulmonary Tuberculosis
+24890389,Pneumonia Cytomegaloviral
+25006164,Product Prescribing Issue
+25006164,Cerebral Disorder
+25006164,Rash
+24997108,Product Prescribing Issue
+24997108,Pneumothorax
+24994522,Unevaluable Event
+24994522,Product Prescribing Issue
+24994522,Metastases To Lymph Nodes
+24994522,Brain Neoplasm
+24987557,Off Label Use
+24987557,Biopsy
+24987557,Liver Transplant
+24987557,Product Prescribing Issue
+24944018,Hypertensive Crisis
+24927467,Product Prescribing Issue
+24927467,Bone Pain
+24927467,Pneumothorax
+24524032,Tenoplasty
+24524032,Tendon Injury
+24524032,Exercise Tolerance Decreased
+24524032,Tendon Rupture
+24524032,Constipation
+24524032,Blood Pressure Increased
+24733516,Hospitalisation
+24733516,Tooth Extraction
+24807462,Calcinosis
+24807462,Limb Amputation
+24801415,Product Prescribing Issue
+24801415,Gastric Lavage
+24795496,Product Prescribing Issue
+24795496,Fatigue
+24795496,Amnesia
+24795496,Loss Of Personal Independence In Daily Activities
+24795496,Pain Of Skin
+24795496,Hypercalcaemia
+24795496,Rash
+24795496,Hospitalisation
+24447116,Hospitalisation
+24447116,Urinary Tract Obstruction
+24447116,Nephrostomy
+24723821,Hepatic Function Abnormal
+24723821,Tuberculosis
+24723821,Platelet Count Decreased
+24723821,White Blood Cell Count Decreased
+24677939,Surgery
+24677939,Product Prescribing Issue
+24677911,Death
+24664404,Product Prescribing Issue
+24664404,Pancytopenia
+24664404,Candida Infection
+24654908,Product Prescribing Issue
+24654908,Surgery
+24626972,Blood Sodium Decreased
+24626972,Peripheral Swelling
+24626972,Dermatitis Contact
+24626972,Haemoglobin Decreased
+24626972,Red Blood Cell Count Decreased
+24626972,Product Prescribing Issue
+24626972,Thrombosis
+24626972,Abdominal Pain Upper
+24626972,Blood Pressure Increased
+24626972,Catheter Site Pain
+24626972,Application Site Erythema
+24626972,Adverse Event
+24618474,Medical Device Removal
+24618474,Spinal Fusion Surgery
+24586120,Product Prescribing Issue
+24586120,Pneumothorax
+24586120,Hospitalisation
+24605714,Death
+24605714,Dysphagia
+24605714,Diarrhoea
+24595073,Cholangitis
+24595073,Hepatic Enzyme Increased
+24595073,Product Prescribing Issue
+24579236,Product Prescribing Issue
+24579236,Organ Failure
+24579236,Leg Amputation
+24573273,Death
+24567851,Gangrene
+24567851,Upper Gastrointestinal Haemorrhage
+24562606,Death
+24559529,Hospitalisation
+24548116,Paracentesis
+24547146,Cough
+24547146,Pyrexia
+24547146,Interstitial Lung Disease
+24547146,Pain
+24412879,Fall
+24412879,Abdominal Pain
+24412879,Head Injury
+24412879,Balance Disorder
+24412879,Loss Of Consciousness
+24412879,Pneumonia
+24413652,Product Prescribing Issue
+24413652,Hospitalisation
+24376538,Cough
+24376538,Pain
+24376538,Pneumonia
+24376538,Pyrexia
+24376538,Hospitalisation
+24372021,Malignant Neoplasm Progression
+24372021,Rhabdomyolysis
+24307202,Haematemesis
+24307202,Gastric Haemorrhage
+24307202,Cardiac Failure
+24354755,Leukopenia
+24354755,Neutropenia
+24354755,Disease Progression
+24354755,Drug Ineffective
+24354755,Erythropenia
+24172985,Full Blood Count Decreased
+24172985,Back Pain
+24172985,Asthenia
+24172985,Neck Pain
+24172985,Malaise
+24172985,Gait Disturbance
+24172985,Back Disorder
+24364002,Neuropathy Peripheral
+24364001,General Physical Health Deterioration
+24307193,Illness
+24307193,Malaise
+24359483,Diarrhoea
+24359482,Asthenia
+24359482,Neuropathy Peripheral
+24359481,Anaemia
+24359480,Electrocardiogram Qt Prolonged
+24359351,Transaminases Increased
+24359351,Hypertension
+24359351,Decreased Appetite
+24359351,Heart Rate Increased
+24359350,Pharyngeal Disorder
+24359350,Oesophageal Disorder
+24359349,Transaminases Increased
+24359348,Blood Cholesterol Abnormal
+24359347,Renal Function Test Abnormal
+24359346,Hypotension
+24359345,Troponin Increased
+24359344,Tumour Excision
+24359344,Pallor
+24359344,Hair Texture Abnormal
+24359344,Hair Colour Changes
+24359344,Onychalgia
+24359344,Gastrointestinal Motility Disorder
+24359344,Nasal Pruritus
+24359344,Asthenia
+24359262,Balance Disorder
+24359262,Headache
+24359262,Cough
+24359262,Dry Mouth
+24359262,Diarrhoea
+24359262,Hyperaesthesia Teeth
+24359258,Covid-19
+24359256,Weight Decreased
+24359256,Thyroid Hormones Increased
+24359256,Oropharyngeal Pain
+24359256,Blood Pressure Increased
+24359256,Odynophagia
+24359255,Hepatic Function Abnormal
+24359255,Swelling Of Eyelid
+24359255,Blood Pressure Increased
+24359255,Pyrexia
+24359255,Pleural Effusion
+24359255,Asthenia
+24359255,Pain
+24359255,Blood Creatinine Increased
+24359253,Product Monitoring Error
+24359253,No Adverse Event
+24359252,Blood Creatine Phosphokinase Increased
+24359251,Dehydration
+24359251,Fatigue
+24359250,Neutrophil Count Decreased
+24359250,Hypertransaminasaemia
+24359249,Insomnia
+24359249,Ear Congestion
+24359243,Temperature Intolerance
+24359241,Hepatic Enzyme Increased
+24359240,Mouth Ulceration
+24359239,Anaemia
+24359238,Oedema
+24359237,Gait Disturbance
+24359236,Electrocardiogram Qt Prolonged
+24359235,Blood Pressure Increased
+24359234,Disease Progression
+24359233,Dizziness
+24359233,Diarrhoea
+24359233,Fatigue
+24359232,Blood Pressure Increased
+24359232,Drug Intolerance
+24359232,Oedema
+24359231,Platelet Count Increased
+24359229,Platelet Count Decreased
+24359228,Hypertension
+24359228,Constipation
+24359228,Product Dose Omission In Error
+24359227,Weight Increased
+24359227,Pruritus
+24359226,Hypogeusia
+24359226,Urine Flow Decreased
+24359225,Disease Progression
+24359224,Fatigue
+24359223,Hypertension
+24359223,Dizziness
+24359223,Fatigue
+24359222,Rash Macular
+24359222,Vomiting
+24359221,Anaemia
+24359220,Product Use In Unapproved Indication
+24359220,No Adverse Event
+24359220,Off Label Use
+24359219,Asthenia
+24359219,Anaemia
+24359219,Dizziness
+24359218,Disease Progression
+24359218,Fixed Eruption
+24359217,Asthenia
+24359217,Red Blood Cell Count Decreased
+24359217,White Blood Cell Count Decreased
+24359217,Generalised Oedema
+24359216,Blood Pressure Normal
+24359216,Blood Pressure Abnormal
+24359215,Abdominal Pain
+24359215,Pain
+24359215,Malaise
+24359215,Feeling Hot
+24359215,Labile Blood Pressure
+24359215,Pain In Extremity
+24359215,Arthralgia
+24359214,Dizziness
+24359214,Constipation
+24359214,Nocturia
+24359213,Blood Creatinine Increased
+24359213,Vertigo
+24359212,Aspartate Aminotransferase Increased
+24359212,Alanine Aminotransferase Increased
+24359211,Dry Mouth
+24359211,Off Label Use
+24359210,Covid-19
+24359210,Intentional Dose Omission
+24359209,Pneumonia
+24359208,White Blood Cell Count Decreased
+24359208,Constipation
+24359208,Asthenia
+24359208,Blood Pressure Increased
+24359207,White Blood Cell Count Decreased
+24359204,No Adverse Event
+24359204,Off Label Use
+24359202,Off Label Use
+24359202,No Adverse Event
+24359201,Off Label Use
+24359201,No Adverse Event
+24359200,Neutrophil Count Decreased
+24359199,Blood Pressure Increased
+24359198,Disease Progression
+24359197,Restlessness
+24359196,Dry Mouth
+24359195,Off Label Use
+24359195,No Adverse Event
+24359194,Muscular Weakness
+24359193,Urinary Tract Infection
+24359191,Diarrhoea
+24359189,Blood Pressure Abnormal
+24359188,No Adverse Event
+24359188,Off Label Use
+24359187,Hypertension
+24359177,Blood Creatinine Increased
+24359176,Thirst
+24359176,Dry Mouth
+24359176,Initial Insomnia
+24359175,Asthenia
+24359175,Discomfort
+24359175,Abscess
+24359173,Mouth Ulceration
+24359173,Vomiting
+24359173,Eczema
+24359171,Off Label Use
+24359171,Diarrhoea
+24359169,Off Label Use
+24359169,No Adverse Event
+24359166,Face Oedema
+24359166,Arthralgia
+24359166,Asthenia
+24359166,Facial Pain
+24359165,No Adverse Event
+24359165,Off Label Use
+24359164,Neutrophil Count Decreased
+24359164,Therapy Change
+24359163,Pneumonitis
+24359162,Pneumonia Cytomegaloviral
+24359153,Pneumonitis
+24359152,Swelling Of Eyelid
+24359152,Interstitial Lung Disease
+24359152,Ageusia
+24359152,Pneumonia Fungal
+24359151,White Blood Cell Count Decreased
+24359151,Haemoglobin Decreased
+24359151,Oedema
+24359151,Pneumonia
+24359149,Decreased Appetite
+24359149,Pleural Effusion
+24359149,Asthenia
+24359149,Taste Disorder
+24359149,Pyrexia
+24359149,Interstitial Lung Disease
+24359149,Oedema
+24359146,Platelet Count Increased
+24359146,Interstitial Lung Disease
+24359145,Pneumonitis
+24359143,No Adverse Event
+24359143,Off Label Use
+24359142,Adverse Drug Reaction
+24359141,No Adverse Event
+24359141,Off Label Use
+24359140,Blood Pressure Increased
+24359140,Hypoaesthesia
+24359140,Transaminases Increased
+24359139,Oedema
+24359139,Condition Aggravated
+24359139,Heart Rate Increased
+24359139,Myalgia
+24359139,Hypertension
+24359138,Rash
+24359137,Infection
+24359136,Blood Test Abnormal
+24359135,Eye Swelling
+24359135,Feeding Disorder
+24359135,Oral Pain
+24359134,Illness
+24359134,Cough
+24359127,Constipation
+24359127,Dizziness
+24359127,Nocturia
+24359122,Off Label Use
+24359122,No Adverse Event
+24359119,Rash
+24359118,White Blood Cell Count Decreased
+24359118,Oedema
+24359117,Hepatic Function Abnormal
+24359116,No Adverse Event
+24359116,Off Label Use
+24359115,Hepatic Enzyme Increased
+24359114,Off Label Use
+24359114,No Adverse Event
+24359113,Oropharyngeal Discomfort
+24359112,Drug Intolerance
+24359112,Asthenia
+24359108,Pyrexia
+24359107,Blood Creatine Phosphokinase Increased
+24359102,Confusional State
+24359099,Epistaxis
+24359098,Off Label Use
+24359098,No Adverse Event
+24359097,Oedema
+24359096,Seasonal Allergy
+24359096,Ear Infection
+24359095,Adverse Reaction
+24359094,No Adverse Event
+24359094,Drug Ineffective
+24359093,Blood Pressure Increased
+24359092,Cardiac Disorder
+24359091,Platelet Count Decreased
+24359087,No Adverse Event
+24359087,Off Label Use
+24359083,Pneumonitis
+24359080,Neutrophil Count Decreased
+24359078,Pyrexia
+24359078,Disease Progression
+24359078,Pneumonitis
+24359077,Anaemia
+24359064,Pneumonia
+24359062,Pancytopenia
+24359062,Anaemia
+24359060,Platelet Count Decreased
+24359059,Musculoskeletal Pain
+24359059,Gastrointestinal Disorder
+24359059,Arthralgia
+24359058,Mouth Ulceration
+24359058,Interstitial Lung Disease
+24359058,Pain In Extremity
+24359058,Peripheral Swelling
+24359057,Thrombocytopenia
+24359057,Off Label Use
+24359057,Asthenia
+24359057,Pneumocystis Jirovecii Pneumonia
+24359057,Lower Respiratory Tract Infection
+24326103,Constipation
+24326103,White Blood Cell Count Decreased
+24326103,Pneumonia
+24326103,Syncope
+24326103,General Physical Health Deterioration
+24326103,Femur Fracture
+24341858,Sepsis
+24341858,Dehydration
+24341858,Product Dose Omission Issue
+24341858,Urinary Tract Infection
+24290776,Fatigue
+24290776,Disease Progression
+24290776,Haemoglobin Decreased
+24290776,Asthenia
+24280304,Pneumonia
+24280304,Pleural Effusion
+24251041,Tumour Haemorrhage
+24321725,Peripheral Swelling
+24321725,Thrombosis
+24321725,Dermatitis Contact
+24321725,Abdominal Pain Upper
+24321725,Blood Sodium Decreased
+24321725,Application Site Erythema
+24321725,Red Blood Cell Count Decreased
+24321725,Catheter Site Pain
+24321719,Malignant Neoplasm Progression
+24136057,Neoplasm Progression
+24136057,Metastatic Neoplasm
+24307198,Abdominal Pain Upper
+24307198,Erectile Dysfunction
+24307198,Inappropriate Schedule Of Product Administration
+24307198,Rash
+24298061,Taste Disorder
+24298061,Nervousness
+24298061,Head Discomfort
+24298061,Stomatitis
+24298061,Dizziness
+24298061,Anxiety
+24298061,Decreased Appetite
+24298061,Stress
+24298061,Vision Blurred
+24290768,Constipation
+24290768,Hypertrophic Cardiomyopathy
+24290768,Hypertension
+24290762,Tendon Rupture
+24290762,Constipation
+24290762,Blood Pressure Increased
+24269858,Pneumocystis Jirovecii Pneumonia
+24264907,Intervertebral Discitis
+24260794,Pseudomonas Infection
+24253581,Gallbladder Rupture
+24253581,Abdominal Sepsis
+24090362,Aspartate Aminotransferase Increased
+24090362,Neutropenia
+24090362,Azotaemia
+24090362,Fracture
+24090362,Alanine Aminotransferase Increased
+24090362,Blood Alkaline Phosphatase Increased
+24090362,Constipation
+24090362,Anaemia
+24090362,Chest Discomfort
+24203298,Pneumonia Viral
+24203298,Pneumonia
+24203298,Myalgia
+24203298,Diarrhoea
+24203298,Covid-19
+24263228,Pneumonia
+24263228,Fall
+24263228,Dehydration
+24263228,Head Injury
+24237451,Myocardial Necrosis Marker Increased
+24237451,Swelling Face
+24237451,Oedema Peripheral
+24237430,Mouth Ulceration
+24237430,Protein Urine Present
+24237430,Pyrexia
+24237430,Hypertension
+24260792,Small Cell Lung Cancer
+24260792,Drug Resistance
+24260792,Disease Progression
+24243560,Liver Disorder
+24243560,Disease Progression
+24243559,Disease Progression
+24237456,Sepsis
+24225669,Taste Disorder
+24225669,Haemoglobin Decreased
+24225669,Covid-19
+24225669,Dry Mouth
+24225669,Decreased Appetite
+24203278,Diarrhoea
+24203278,Chest Discomfort
+24203278,Abdominal Pain
+24203278,Myocardial Necrosis Marker Increased
+24204626,Diarrhoea
+24204626,Abdominal Discomfort
+24204626,Pulmonary Oedema
+24204626,Cancer Pain
+24204626,Heart Rate Increased
+24204626,Gallbladder Disorder
+24204626,Back Pain
+24204626,Therapy Interrupted
+24204626,Oxygen Saturation Decreased
+24204613,Large Intestine Infection
+24189290,Muscle Injury
+24189290,Foot Fracture
+24189290,Memory Impairment
+24189290,Product Dose Omission Issue
+24189290,Fatigue
+24189290,Dehydration
+24189290,Muscle Spasms
+24189290,Back Pain
+24136082,Pneumonitis
+24136082,Haematuria
+24136082,Anaemia
+24184047,Hepatitis B Reactivation
+24172982,Gastrooesophageal Reflux Disease
+24172982,Hypertension
+24172982,Hypothyroidism
+24156716,Thoracic Vertebral Fracture
+24156716,Carcinoembryonic Antigen Increased
+24156716,Metastases To Bone
+24156716,Drug Resistance
+24156716,Blood Calcitonin Increased
+24156716,Granulocyte Count Increased
+24156716,Diarrhoea
+24174001,Dysuria
+24174001,Pneumonia
+24173984,Neuropathy Peripheral
+24173984,Dry Mouth
+24162507,Pneumonia Bacterial
+24162507,Blood Pressure Increased
+24162507,Hyperpyrexia
+24162486,Adverse Event
+24162317,Spinal Fusion Surgery
+24060628,Interstitial Lung Disease
+24060628,Hypogeusia
+24060628,Pulmonary Fibrosis
+24060628,Bacterial Infection
+24060628,Decreased Appetite
+24060628,Inflammation
+24060628,Mouth Ulceration
+24060628,Pyrexia
+24060628,Neoplasm Progression
+24060628,Fungal Infection
+24060628,Asthenia
+24156645,Disease Progression
+24151462,Death
+24136073,Death
+24091602,Neoplasm Malignant
+24106470,Muscle Disorder
+24106470,Muscle Injury
+24106470,Immobile
+24106470,Coma
+24106470,Blood Sodium Decreased
+24106470,Coagulopathy
+24106470,Blood Disorder
+24102602,Anaemia
+24102602,Abdominal Pain Lower
+24102602,White Blood Cell Count Decreased
+24102602,Urinary Tract Infection
+24102602,Neutropenia
+24102602,Tinnitus
+24091578,Gangrene
+24091578,Upper Gastrointestinal Haemorrhage
+24083532,Pneumonitis
+24083532,Abdominal Distension
+24083532,Alanine Aminotransferase Increased
+24083532,Neutropenia
+24083532,Anaemia
+24083532,Face Oedema
+24083532,Aspartate Aminotransferase Increased
+24083532,Covid-19
+24083521,Brain Operation
+24042050,Septic Shock
+24041019,Death
+23982691,Death
+24008392,Death
+24008375,Diarrhoea
+24008375,Decreased Appetite
+24008375,Vomiting
+24008375,Respiratory Symptom
+24008375,Dysphonia
+24008375,Listless
+24008375,Muscular Weakness
+24008375,Metastases To Central Nervous System
+24008375,Dysstasia
+24008375,Periorbital Swelling
+24008375,Asthenia
+24008375,Dizziness
+24008354,Death
+24008354,Off Label Use
+23977111,Death
+23977117,Urine Output Decreased
+23977117,Loss Of Consciousness
+23977117,Heart Rate Abnormal
+23977117,Pollakiuria
+23977117,Brain Neoplasm Malignant
+23977117,Constipation
+23977117,Diarrhoea
+23977117,Dizziness
+23977109,Death
+23970105,Vomiting
+23970105,Aphasia
+23970105,Myelosuppression
+23970105,Hyperhidrosis
+23970105,Agranulocytosis
+23970105,Urine Output Decreased
+23970105,Heart Rate Decreased
+23970105,Oxygen Saturation Decreased
+23970105,Cardiac Arrest
+23970105,Pneumonia
+23970105,Blood Pressure Immeasurable
+23970105,Sinus Tachycardia
+23970105,Asthenia
+23970105,Mental Disorder
+23970105,Haemoptysis
+23970105,Death
+23970105,Decreased Appetite
+23970105,Chest Discomfort
+23970105,Chills
+23970105,Electrocardiogram St Segment Abnormal
+23913035,Death
+23877814,Malignant Neoplasm Progression
+23877814,Fatigue
+23895102,Death
+23932202,Death
+23853490,Death
+23927470,Bronchopulmonary Aspergillosis
+23927469,Bronchopulmonary Aspergillosis
+23927465,Bronchopulmonary Aspergillosis
+23921552,Ascites
+23921552,Enteritis
+23921552,Cellulitis
+23877983,Toxicity To Various Agents
+23877983,Neutropenia
+23877983,Chest X-Ray Abnormal
+23877983,Skin Fissures
+23877983,Fall
+23877983,Mucosal Toxicity
+23877983,Leukopenia
+23877983,Diarrhoea
+23877983,Herpes Zoster
+23877983,Asthenia
+23877983,Anaemia
+23877983,Off Label Use
+23877983,Bronchiolitis
+23913047,Hypoaesthesia
+23913047,Proteinuria
+23913047,Respiratory Tract Infection Viral
+23913047,Formication
+23913047,Haemorrhoidal Haemorrhage
+23913047,Aspartate Aminotransferase Increased
+23913047,Blood Thyroid Stimulating Hormone Increased
+23913047,Enterocolitis
+23913047,Lymphopenia
+23913047,Hyperuricaemia
+23913047,Hypotension
+23913047,Hypocalcaemia
+23913047,Covid-19
+23913047,Blood Creatine Phosphokinase Increased
+23913047,Palmar-Plantar Erythrodysaesthesia Syndrome
+23913047,Hypoalbuminaemia
+23913047,Abdominal Pain
+23913047,Diarrhoea
+23913047,Eczema
+23913047,Cystitis Bacterial
+23913047,Epistaxis
+23913047,Anaemia
+23913047,Body Temperature Increased
+23913047,Lung Disorder
+23913047,Constipation
+23913047,Neutropenia
+23913047,Hyperkalaemia
+23913010,Pain In Extremity
+23913010,Abdominal Discomfort
+23913010,Nausea
+23913010,Poor Quality Sleep
+23913010,Vomiting
+23913010,Depression
+23913010,Malignant Neoplasm Progression
+23913010,Limb Discomfort
+23913010,Diarrhoea
+23892706,Pneumonitis
+23892705,Swelling
+23892704,Bacterial Infection
+23892703,Alopecia
+23892703,Taste Disorder
+23892701,Sleep Disorder
+23892701,Gait Disturbance
+23892701,Pernicious Anaemia
+23892697,Epistaxis
+23892696,Off Label Use
+23892696,No Adverse Event
+23892695,Hypertension
+23892694,Blood Glucose Increased
+23892692,Impaired Gastric Emptying
+23892692,Ascites
+23892691,Oedema Peripheral
+23864185,Fungal Foot Infection
+23864185,Skin Exfoliation
+23864185,Skin Fissures
+23864185,Gait Inability
+23844362,Myelosuppression
+23844353,Pallor
+23838913,Neutrophil Count Decreased
+23827019,Off Label Use
+23827019,Diarrhoea
+23816275,Platelet Count Increased
+23784647,Alanine Aminotransferase Increased
+23784647,Aspartate Aminotransferase Increased
+23784647,Blood Alkaline Phosphatase Increased
+23795148,Death
+23784646,Illness
+23779992,Anaemia
+23738337,Pneumonia Fungal
+23720226,Heart Rate Increased
+23720226,Hypertension
+23699167,Thirst
+23699167,Dry Mouth
+23699167,Initial Insomnia
+23649715,No Adverse Event
+23649715,Off Label Use
+23758278,Blood Pressure Increased
+23757370,Platelet Count Decreased
+23713781,Constipation
+23713781,Covid-19
+23713781,Asthenia
+23713781,Blood Creatinine Increased
+23713781,Hyperpyrexia
+23713781,Hypertension
+23684536,Abscess
+23684536,Asthenia
+23684536,Discomfort
+23754028,Disease Progression
+23753824,Off Label Use
+23753824,Dry Mouth
+23753823,Generalised Oedema
+23753823,Asthenia
+23753823,White Blood Cell Count Decreased
+23753823,Red Blood Cell Count Decreased
+23727318,Diarrhoea
+23724042,Sepsis
+23649716,Mouth Ulceration
+23649716,Vomiting
+23649716,Eczema
+23703768,Electrocardiogram Qt Prolonged
+23670059,Platelet Count Increased
+23670059,Interstitial Lung Disease
+23660063,Hepatic Function Abnormal
+23660063,Hypertension
+23660063,Musculoskeletal Chest Pain
+23660063,Renal Impairment
+23660063,White Blood Cell Count Decreased
+23660063,Anaemia
+23660063,Rash
+23693629,Off Label Use
+23693629,No Adverse Event
+23679856,Hepatotoxicity
+23674722,Flatulence
+23674722,Bone Pain
+23674722,Transaminases Increased
+23674722,Asthenia
+23665070,Pneumonitis
+23493105,Respiratory Failure
+23493105,Circulatory Collapse
+23607994,Anaemia
+23607994,Hypotension
+23607994,Hyperkalaemia
+23607994,Enterocolitis
+23607994,Hypoalbuminaemia
+23607994,Neutropenia
+23607994,Aspartate Aminotransferase Increased
+23607994,Body Temperature Increased
+23607994,Palmar-Plantar Erythrodysaesthesia Syndrome
+23607994,Proteinuria
+23607994,Hypocalcaemia
+23607994,Covid-19
+23607994,Epistaxis
+23607994,Abdominal Pain
+23607994,Cystitis Bacterial
+23607994,Respiratory Tract Infection Viral
+23607994,Haemorrhoidal Haemorrhage
+23607994,Hyperuricaemia
+23607994,Eczema
+23607994,Lung Disorder
+23607994,Formication
+23607994,Blood Thyroid Stimulating Hormone Increased
+23607994,Hypoaesthesia
+23607994,Blood Creatine Phosphokinase Increased
+23607994,Diarrhoea
+23607994,Constipation
+23607994,Lymphopenia
+23638015,Squamous Cell Carcinoma Of Lung
+23638015,Potentiating Drug Interaction
+23638015,Gene Mutation Identification Test Positive
+23593406,Anaphylactic Shock
+23593406,Chronic Hepatitis
+23593406,Contrast Media Allergy
+23593406,Drug-Induced Liver Injury
+23593169,Blood Glucose Increased
+23593169,Liver Abscess
+23593169,Decreased Appetite
+23593169,Dysgeusia
+23593169,Hypertension
+23629145,Anxiety
+23629145,Ill-Defined Disorder
+23607988,Haemoglobin Decreased
+23593220,Hepatic Function Abnormal
+23593220,Transaminases Increased
+23593167,Diarrhoea
+23506384,Death
+23499160,Joint Dislocation
+23499160,Pleural Effusion
+23499160,Vascular Rupture
+23499160,Rib Fracture
+23499160,Loss Of Consciousness
+23499160,Haemoglobin Decreased
+23357029,Death
+23338327,Death
+21792538,Chills
+21792538,Dyspnoea
+21792538,Metastases To Central Nervous System
+21792538,Metastases To Bone
+21792538,Pyrexia
+21792538,Myalgia
+21792538,Neutropenia
+21792538,Onychomadesis
+21792538,Haemoglobin Decreased
+21792538,Musculoskeletal Chest Pain
+21792538,Chest Pain
+21792538,Hypotension
+21792538,Hepatic Enzyme Increased
+21792538,Body Temperature Increased
+21792538,Cough
+21792538,Anaemia
+21792538,Headache
+21792538,Neuropathy Peripheral
+21792538,Nausea
+21792538,Syncope
+21792538,Metastases To Liver
+21792538,Tumour Marker Increased
+21792538,Diarrhoea
+21792538,Blood Calcitonin Increased
+21792538,Blood Test Abnormal
+21792538,Neutrophil Count Decreased
+21792538,White Blood Cell Count Decreased
+21792538,Blood Pressure Increased
+23299685,Epistaxis
+23299685,Covid-19
+23287311,Pleural Effusion
+23287311,Asthenia
+23257175,General Physical Health Deterioration
+23257175,Fungal Foot Infection
+23295460,Infection
+23295460,Fatigue
+23295460,Pulmonary Embolism
+23295460,Pneumonitis
+23295460,Neutropenia
+23295460,Hypertension
+23270425,Thrombocytopenia
+23270425,Anaemia
+23270425,General Physical Health Deterioration
+23265797,Tumour Lysis Syndrome
+22826310,Death
+23229709,Hemiparesis
+23229709,Platelet Count Increased
+23229709,Subarachnoid Haemorrhage
+23186195,Muscle Spasms
+23186195,Anaemia
+23186195,Dyspepsia
+23186195,Salivary Hyposecretion
+23186195,Flatulence
+23186195,Injury
+23186195,Off Label Use
+23186195,Blood Glucose Decreased
+23186195,Diabetes Mellitus
+23123808,Vomiting
+23123808,Pyrexia
+23123808,Abdominal Discomfort
+23123808,Diarrhoea
+23123808,Pneumonia
+23123808,Immunodeficiency
+23170292,Disease Progression
+22802322,Gastrointestinal Disorder
+22802322,Fatigue
+22802322,Diarrhoea
+22802322,Amnesia
+22802322,Confusional State
+23143995,Dysphonia
+23143995,Depression
+23082182,Weight Increased
+19645287,Sudden Death
+19645287,Haemorrhage
+19645287,Herpes Zoster Reactivation
+19645287,Erythema Multiforme
+19645287,Anaemia
+20099637,Respiratory Tract Infection
+20099637,Myalgia
+20099637,Drug Intolerance
+20099637,Hypothyroidism
+20099637,Choroid Melanoma
+20099637,General Physical Health Deterioration
+20099637,Uveal Melanoma
+20099637,Headache
+20099637,Paraesthesia
+20099637,Fatigue
+23081408,Intentional Product Use Issue
+23081408,Disease Progression
+22947168,Malaise
+22947167,Fungal Foot Infection
+22947167,Weight Increased
+22947164,Skin Discolouration
+22947159,Off Label Use
+22947159,No Adverse Event
+22822817,White Blood Cell Count Decreased
+22822817,Anaemia
+22822817,Haemoglobin Decreased
+22822817,Pneumonia Viral
+22822817,Myocardial Necrosis Marker Increased
+22911994,Hepatic Function Abnormal
+22911994,Hypogeusia
+22145921,Ophthalmic Vascular Thrombosis
+22145921,Haemoglobin Decreased
+22893480,Death
+22097158,Pneumonitis
+22097158,Immunodeficiency
+22097158,Cough
+22097158,Urinary Tract Infection
+22097158,Diarrhoea
+22097158,Pyrexia
+22097158,Musculoskeletal Chest Pain
+22097158,White Blood Cell Count Decreased
+22770261,Cerebral Infarction
+21996220,Labile Blood Pressure
+21996220,Haemorrhage
+21996220,Urinary Tract Infection
+21996220,Syncope
+21996220,Back Pain
+21996220,Asthenia
+21996220,Oedema
+22635052,Pulmonary Mass
+22635052,Myocardial Necrosis Marker Increased
+22853925,White Blood Cell Count Decreased
+22853925,Localised Oedema
+22853925,Gastritis
+22853925,Oedema Peripheral
+22853925,Abdominal Pain Upper
+22853925,Pyrexia
+22853925,Platelet Count Decreased
+22853925,Anaemia
+22853925,Haemoglobin Decreased
+22853925,Hypoalbuminaemia
+22853237,Metastases To Central Nervous System
+22853237,Gastroenteritis
+22850993,Renal Impairment
+22850993,Liver Function Test Increased
+22268794,Lung Disorder
+22818629,Pyrexia
+22818629,Platelet Count Decreased
+22818629,Constipation
+22818629,Pneumonia
+22619311,Anaemia
+22619311,White Blood Cell Count Decreased
+22619311,Angina Pectoris
+22619311,Diarrhoea
+22619311,Hypertension
+22014728,Urinary Incontinence
+22014728,Urinary Retention
+22014728,White Blood Cell Count Decreased
+22014728,Post Procedural Infection
+22014728,Red Blood Cell Count Decreased
+22014728,Anaemia
+22014728,Asthenia
+22701133,Hyperthermia
+22701133,Fall
+22701133,Pneumonia
+22701133,Pyelonephritis
+22701133,Femur Fracture
+22701133,Chills
+22787100,Thrombosis
+22787100,Cardiac Disorder
+22528724,Hepatic Function Abnormal
+22528724,Protein Total Decreased
+22528724,Lung Neoplasm Malignant
+22528724,Sensation Of Foreign Body
+22528724,Face Oedema
+22528724,Anaemia
+22528724,Renal Impairment
+22293069,Blood Pressure Increased
+22293069,White Blood Cell Count Decreased
+22293069,Renal Impairment
+22293069,Red Blood Cell Count Decreased
+22293069,Blood Creatine Phosphokinase Increased
+22293069,Hepatic Function Abnormal
+22293069,Platelet Count Decreased
+22293069,Hypothyroidism
+22293069,Blood Albumin Decreased
+22537483,Myocardial Injury
+22537483,Hepatic Function Abnormal
+22537483,Myocardial Necrosis Marker Increased
+22754630,White Blood Cell Count Decreased
+22754630,Pulmonary Tuberculosis
+22754630,Hypoaesthesia
+22754630,Haemoptysis
+22754630,Cytokeratin 19 Increased
+22754630,Chest Pain
+22029010,Oedema
+22029010,Cholecystitis
+22029010,Metastases To Bone
+22029010,Gallbladder Enlargement
+22035805,Transaminases Increased
+22035805,Blister
+22035805,Neutrophil Count Decreased
+22035805,Liver Injury
+22256686,Eyelid Oedema
+22256686,Hepatic Function Abnormal
+22256686,Haemoglobin Decreased
+22256686,Renal Impairment
+22256686,Hypertension
+22695737,Motor Dysfunction
+22695737,Scab
+22695737,Haemorrhage Subcutaneous
+22695737,Gait Disturbance
+22695737,Cough
+22695737,Hypertension
+22695737,Paraesthesia
+22695737,Initial Insomnia
+22695737,Bone Pain
+22695737,Pain
+22695737,Visual Acuity Reduced
+22695737,Pain In Extremity
+22695737,Arthralgia
+22695737,Impaired Healing
+22695737,Mouth Ulceration
+22588995,Off Label Use
+22588995,Death
+22082423,Hypertension
+22082423,Myocardial Necrosis Marker Increased
+22082423,Generalised Oedema
+22635241,Organising Pneumonia
+22635241,Toxicity To Various Agents
+22627596,Disease Progression
+22591678,Dysphagia
+22591675,No Adverse Event
+22591675,Off Label Use
+22591674,Diarrhoea
+22591674,Malaise
+22591673,Dysphagia
+22591672,Influenza Like Illness
+22591672,Pyrexia
+22539282,Off Label Use
+22539282,Pneumonia
+19375324,Vomiting
+19375324,Subcapsular Hepatic Haematoma
+19375324,Nausea
+19375324,Intra-Abdominal Haemorrhage
+22537419,Rash
+22537419,Aspartate Aminotransferase Increased
+22537419,Thrombocytopenia
+22537419,Pyrexia
+22537419,Extrapulmonary Tuberculosis
+22537419,Constipation
+22537419,Neutropenia
+22537419,Anaemia
+22537419,Alanine Aminotransferase Increased
+22537419,Flank Pain
+22537419,Pulmonary Embolism
+22537419,Blood Alkaline Phosphatase Increased
+22537419,Oedema
+22537419,Stomatitis
+22537419,Hypertension
+22537419,Hyponatraemia
+22537419,Leukopenia
+22537419,Blood Creatine Phosphokinase Increased
+22537419,Pneumonitis
+22537419,Diarrhoea
+22537419,Mucosal Inflammation
+22537419,Hyperbilirubinaemia
+22537419,Blood Creatinine Increased
+22537419,Asthenia
+22537419,Headache
+22379707,Platelet Count Decreased
+22379707,Myelosuppression
+20691878,Bacterial Disease Carrier
+20691878,Endotracheal Intubation
+20691878,Pneumocystis Test Positive
+20691878,Fatigue
+20691878,Pyrexia
+20691878,Gastric Ulcer Haemorrhage
+20691878,Neoplasm Progression
+20691878,Opportunistic Infection
+20691878,Moraxella Test Positive
+20691878,Neuropathy Peripheral
+20691878,Death
+20691878,Diarrhoea
+20691878,Respiratory Failure
+22332595,Effusion
+22079656,Hypogeusia
+22079656,Dermatophytosis Of Nail
+22079656,Anaemia
+22079656,Constipation
+22079656,Face Oedema
+22079656,Hepatorenal Failure
+22079656,Hypertension
+22079656,Rash Macular
+22079656,Hypoaesthesia Oral
+22079656,Asthenia
+22255007,Off Label Use
+22255007,Myelosuppression
+22255007,General Physical Health Deterioration
+22255007,Pneumonia
+22255007,Thrombocytopenia
+22255007,Asthenia
+22255007,Sepsis
+22255007,Cognitive Disorder
+22015166,Myocardial Necrosis Marker Increased
+22076823,Hypertension
+22076823,Platelet Count Decreased
+22076823,Anaemia
+22193652,General Physical Health Deterioration
+22193652,Lymphopenia
+22193652,Haematotoxicity
+22193652,Pneumonia
+22218522,Death
+21674316,Malaise
+21674316,Pneumonia
+22048843,White Blood Cell Count Decreased
+22048843,Red Blood Cell Count Decreased
+22048843,Pulmonary Tuberculosis
+22048843,Discomfort
+22048843,Hepatic Function Abnormal
+22117903,Hyperphosphataemia
+22117902,Weight Increased
+22117902,Depression
+22117901,Pneumonitis
+22117900,Medication Error
+22117900,Intentional Product Misuse
+22117900,No Adverse Event
+22117899,Drug Ineffective
+22117899,No Adverse Event
+22109103,Non-Small Cell Lung Cancer
+22097847,Shoulder Fracture
+22097847,Fall
+21258579,Lymph Node Tuberculosis
+21258579,Platelet Count Decreased
+21258579,White Blood Cell Count Decreased
+21207196,Febrile Neutropenia
+22031703,Hepatic Lesion
+22031703,Platelet Count Decreased
+22031703,Anaemia
+22031703,Hypothyroidism
+22019587,Renal Injury
+22019587,Liver Injury
+21930459,Disease Progression
+21930459,Anaemia
+21930459,Thrombocytopenia
+21930459,Myelosuppression
+21941334,Toxicity To Various Agents
+21941334,Off Label Use
+21778137,Disease Progression
+21565505,Cholangitis
+21565505,Pneumocystis Jirovecii Pneumonia
+21757608,Headache
+21757608,Decreased Appetite
+21757608,Nausea
+21757608,Insomnia
+21757608,Arthralgia
+21757608,Flatulence
+21757607,Pain
+21757606,No Adverse Event
+21757606,Off Label Use
+21757604,Disease Progression
+21757603,Fatigue
+21352364,No Adverse Event
+21394823,Colitis
+21395375,Sepsis
+21576982,Ascites
+21559372,Infection
+21501781,Ascites
+20850058,Blood Creatinine Increased
+20850058,Renal Function Test Abnormal
+20850058,Disease Progression
+20850058,Face Oedema
+20850058,Dysphonia
+21545175,Salmonellosis
+21482812,Malignant Neoplasm Progression
+21482077,Death
+21459384,Death
+21459384,Therapeutic Product Effect Decreased
+21462102,Febrile Neutropenia
+21462102,Hypertension
+21457607,Death
+21452494,Hepatic Function Abnormal
+21452494,White Blood Cell Count Decreased
+21411038,Disease Progression
+21353279,Sinus Bradycardia
+21353279,Neutropenia
+21353279,Hypertension
+21419755,Ascites
+21369564,Therapy Cessation
+21358229,Off Label Use
+21358229,Renal Impairment
+21352363,Head Discomfort
+21352363,Abdominal Discomfort
+21352362,Swelling Of Eyelid
+21352362,Hypertension
+21352361,Ageusia
+21352361,Heart Rate Decreased
+21352361,Dizziness
+21352361,Vision Blurred
+21352361,Hypotension
+21352361,Decreased Appetite
+21352360,Fatigue
+21352360,Taste Disorder
+21352360,Oral Pain
+21352360,Ageusia
+21352360,Nausea
+21352360,Dry Mouth
+21352360,Gingival Pain
+21352360,Gastrooesophageal Reflux Disease
+21352354,Swelling Of Eyelid
+20059137,Diarrhoea
+20059137,Hepatic Enzyme Increased
+21306273,Off Label Use
+21306273,Death
+21296993,Death
+21282995,Death
+21199480,Poor Quality Sleep
+21199480,Hypertension
+21199480,Abdominal Discomfort
+21199480,Metastases To Bone
+21199480,Chronic Gastritis
+20000152,Myalgia
+20000152,Blood Creatinine Increased
+20000152,Rhabdomyolysis
+20000152,Neutropenia
+20000152,Blood Creatine Phosphokinase Increased
+21263145,Pneumonia Viral
+21263145,Pneumonia Fungal
+20870817,Interstitial Lung Disease
+20870817,Pleural Effusion
+20870817,Dyspnoea Exertional
+21246136,Peripheral Sensory Neuropathy
+21247167,Weight Increased
+21247167,Food Allergy
+21243844,Hepatic Function Abnormal
+21236842,Renal Impairment
+21236842,Pneumonitis
+21215104,Neoplasm Malignant
+21215104,Off Label Use
+21215104,Pain
+21131156,Death
+21164968,Muscular Weakness
+20629682,Acute Kidney Injury
+20629682,Lymphopenia
+20186912,Escherichia Sepsis
+20186912,Hepatitis B Reactivation
+19501257,Blood Bilirubin Increased
+21159853,Keratitis
+21148886,Febrile Neutropenia
+21146706,Respiratory Failure
+21146150,Dizziness
+21146150,Hypotension
+21146093,Cellulitis
+21145933,Hepatic Function Abnormal
+21145933,Flatulence
+21140409,Condition Aggravated
+21140354,Herpes Zoster
+21140296,Mental Status Changes
+21138786,Hypotension
+21137162,Hypoxia
+21137162,Respiratory Distress
+21135527,Orthostatic Hypotension
+20051423,Liver Injury
+21133358,Myositis
+21130525,Urosepsis
+21130282,Tumour Lysis Syndrome
+21051959,Carcinoembryonic Antigen Increased
+21051959,Pyrexia
+20444936,Diarrhoea
+20444936,Acute Pulmonary Oedema
+21003802,Pericardial Effusion
+21003802,Oedema Peripheral
+20939528,Pancytopenia
+20992292,Hypertransaminasaemia
+20992292,Ascites
+20806942,Colitis
+19828059,Gastritis
+19828059,Pyrexia
+19828059,Hypoalbuminaemia
+19828059,Abdominal Pain Upper
+19828059,Anaemia
+19828059,Haemoglobin Decreased
+19828059,White Blood Cell Count Decreased
+19828059,Platelet Count Decreased
+20983627,Intestinal Obstruction
+20983627,Pulmonary Embolism
+20983603,Lung Infiltration
+20983602,Weight Increased
+20983601,Fatigue
+20983600,Cough
+20983600,Dyspnoea
+20983600,Headache
+20983600,Chest Discomfort
+20983599,Ill-Defined Disorder
+20983599,Blood Glucose Increased
+20983598,Fatigue
+20625692,Pneumonia
+20625692,Blood Calcium Decreased
+20625692,Pulmonary Haemorrhage
+20625692,Blood Phosphorus Increased
+20625692,Blood Potassium Increased
+20059160,Taste Disorder
+20059160,Oropharyngeal Pain
+20059160,Fatigue
+20059160,Balance Disorder
+20059160,Dysphagia
+20059160,Nausea
+19665243,Fatigue
+19665243,Ageusia
+19665243,Platelet Count Decreased
+19574519,Deep Vein Thrombosis
+19574519,Pneumonitis
+19574519,Drug Ineffective
+19574519,Disease Progression
+20933076,Chest Discomfort
+20933076,Face Oedema
+20933076,Arteriosclerosis Coronary Artery
+20933076,Asthenia
+19928621,White Blood Cell Count Decreased
+19928621,Nasopharyngitis
+19928621,Neutrophil Count Decreased
+19928621,Anaemia
+19928621,Pyrexia
+19928621,Asthenia
+19928621,Pneumonitis
+19928621,Hypertension
+20821705,Dyspnoea
+20821705,Atelectasis
+20821705,Pneumonia
+20821705,Pericardial Effusion
+20821705,Disease Progression
+20821705,Drug Ineffective
+19362838,Haemoglobin Decreased
+19362838,Rash
+19362838,Brain Fog
+19362838,Thyroglobulin Increased
+19362838,Fatigue
+19362838,Anaemia
+19362838,Thyroid Hormones Increased
+19362838,Diarrhoea
+19362838,Haematocrit Decreased
+19362838,Metastatic Neoplasm
+19362838,Drug Ineffective
+20893009,Cerebrovascular Accident
+20893009,Diarrhoea
+20893009,Dysgraphia
+20769004,Stomatitis
+20769004,Disease Progression
+20769004,Pleural Effusion
+20769004,Tachypnoea
+20769004,Chest Discomfort
+20506419,Neutrophil Count Decreased
+20506419,Pneumonitis
+20506419,Herpes Zoster
+20506419,Lower Respiratory Tract Infection
+20506419,Lymphocyte Count Decreased
+20506419,White Blood Cell Count Decreased
+20852816,Metastatic Neoplasm
+20647693,Interstitial Lung Disease
+20647693,Pyrexia
+20647693,Anaemia
+20647693,Tuberculosis
+20647693,Cough
+20647693,Appendicitis
+20844986,Hyperkalaemia
+20844986,Blood Triglycerides Increased
+20844986,Off Label Use
+20844986,Hyperphosphataemia
+20709531,Seizure
+20709531,Dry Mouth
+20709531,Fatigue
+20709531,Vascular Rupture
+20709531,Hair Disorder
+20709531,Overdose
+20793963,Death
+20777743,White Blood Cell Count Decreased
+20777743,Interstitial Lung Disease
+20687398,Death
+20771322,Chest Discomfort
+20771322,Cough
+20771322,Interstitial Lung Disease
+20771322,Tachypnoea
+20771322,Pneumothorax
+20647575,Hyponatraemia
+20647575,Syncope
+20647575,Hypokalaemia
+20647575,Disease Progression
+20761738,Hepatic Function Abnormal
+20761738,Cough
+20761738,Rash Erythematous
+20761738,White Blood Cell Count Decreased
+20761738,Renal Impairment
+20761738,Pustule
+20762470,Therapy Interrupted
+20756350,Pyrexia
+20756350,Joint Swelling
+20756350,Arthralgia
+20756350,Arthritis Bacterial
+20738717,White Blood Cell Count Decreased
+20738717,Platelet Count Decreased
+20732750,Nausea
+20732750,Renal Impairment
+20732750,Renal Failure
+20732750,Hepatic Function Abnormal
+20732750,Haematuria
+20732750,Vomiting
+20730964,Back Pain
+20730964,Oligomenorrhoea
+20730964,Deformity Of Orbit
+20730964,Oedema Peripheral
+20730964,Hair Growth Abnormal
+20730964,Blood Oestrogen Decreased
+20730964,Weight Increased
+20730964,Paraesthesia
+20730964,Face Oedema
+20708513,Death
+20698435,White Blood Cell Count Decreased
+20688259,Hepatic Function Abnormal
+20688259,Anaemia
+20686798,Arthralgia
+20686798,Oedema
+20686798,Decreased Appetite
+20686798,Hyperpyrexia
+20686798,Muscular Weakness
+20686798,Asthenia
+20686464,Rhabdomyolysis
+20686464,Swelling Face
+20686464,Atrial Fibrillation
+20686464,Dysphagia
+20686464,Interstitial Lung Disease
+20686464,Myocardial Injury
+20679814,Rash
+20679814,Eye Swelling
+20679814,Pharyngeal Swelling
+20679814,Swelling Face
+20672416,Hepatic Function Abnormal
+20672416,Renal Impairment
+20653371,Generalised Oedema
+20653371,Hypoproteinaemia
+20653371,Dehydration
+20653371,Mouth Ulceration
+20653371,Oedema Peripheral
+20143954,Carcinoembryonic Antigen Increased
+20645577,Prostatic Obstruction
+20645577,Herpes Zoster
+20625622,No Adverse Event
+20625622,Off Label Use
+20625584,Ageusia
+20625558,Hypoaesthesia Oral
+20625558,Dry Eye
+20625495,Dysphagia
+20447463,Stomatitis
+20447463,Haemoglobin Abnormal
+20620512,Death
+20614832,Platelet Count Decreased
+20614832,White Blood Cell Count Decreased
+20546968,Mallory-Weiss Syndrome
+20546968,Oesophagitis
+20546968,Gastritis
+20604683,Dehydration
+20604683,Renal Disorder
+20604683,Covid-19
+20604683,Fatigue
+20604683,Diarrhoea
+20580036,Dizziness
+20580036,Anaemia
+20574493,Interstitial Lung Disease
+20574493,Ulcerative Keratitis
+20574493,Keratitis
+20574493,Ocular Discomfort
+20555033,Cerebral Infarction
+20555033,Gait Disturbance
+20518921,Death
+20506600,Immunodeficiency
+20506600,Oedema
+20494980,Haemorrhage Intracranial
+19091302,Herpes Zoster
+19091302,Peritoneal Tuberculosis
+19091302,Constipation
+19091302,Pyrexia
+19091302,Stomatitis
+19091302,Neutropenia
+20459951,Metastases To Abdominal Cavity
+20459951,Lung Disorder
+20459951,Metastases To Thorax
+20459951,Pulmonary Oedema
+20297426,Neutropenia
+20297426,Pancytopenia
+20456612,Death
+20447552,Pyrexia
+20447545,Hypertension
+20447502,Abdominal Distension
+20447502,Discomfort
+20447488,Ulcer
+20447488,Stomatitis
+20447484,Pain In Extremity
+20447481,Neuropathy Peripheral
+20447479,Dysphagia
+20447476,Gastrointestinal Disorder
+20447458,Therapy Change
+20447458,Drug Intolerance
+20447431,Off Label Use
+20447431,No Adverse Event
+20447413,Epistaxis
+20447408,Skin Disorder
+20447408,Rash
+20447407,Off Label Use
+20447407,No Adverse Event
+20436489,Death
+20416757,Neutropenia
+20416757,Pulmonary Embolism
+20416757,Leukopenia
+20416757,Dyspnoea
+20393584,Pulmonary Embolism
+20393584,Hypoxia
+20393584,Cough
+20393584,Dyspnoea
+20391885,Neoplasm Progression
+20391885,Anaemia
+20391885,Drug Resistance
+20391885,Hydrothorax
+20390010,Anal Rash
+20390010,Pruritus
+20390010,Sudden Death
+20390010,Oedema
+20083889,Anaemia
+20083889,Thrombocytopenia
+20083889,Febrile Neutropenia
+20083889,Pneumonitis
+20362500,Muscular Weakness
+20362500,Dizziness
+20362500,Mouth Ulceration
+20362500,Blood Pressure Increased
+20332082,Ret Gene Mutation
+20332082,General Symptom
+20332082,Drug Resistance
+20331030,Interstitial Lung Disease
+20331030,Hypoxia
+20237168,Metastases To Liver
+20237168,Cough
+20237168,Metastases To Lymph Nodes
+20237168,Platelet Count Decreased
+20237168,White Blood Cell Count Decreased
+20219140,Pulmonary Embolism
+20197701,Disease Progression
+20192968,Metastases To Meninges
+20192968,Metastases To Central Nervous System
+20192968,Blood Pressure Increased
+20189154,Disease Progression
+19879953,Constipation
+19879953,Asthenia
+19879953,Dry Mouth
+19879953,Fatigue
+19879953,Palmar-Plantar Erythrodysaesthesia Syndrome
+19879953,Back Pain
+19879953,Feeling Hot
+19879953,Hepatotoxicity
+19879953,Dizziness
+19879953,Oedema Peripheral
+19879953,Psychomotor Hyperactivity
+19879953,Chills
+19879953,Transaminases Increased
+19879953,Mucosal Inflammation
+19879953,Headache
+19879953,Cellulitis
+19879953,Hyperhidrosis
+19879953,Flushing
+19879953,Somnolence
+19879953,Decreased Appetite
+19879953,Monoparesis
+19879953,Tumour Lysis Syndrome
+19879953,Arthralgia
+19879953,Vaginal Ulceration
+19879953,Blood Calcitonin Decreased
+19879953,Stomatitis
+20147992,Disease Progression
+20089017,Disease Progression
+20061434,Oedema Peripheral
+20061434,Cough
+20061434,Dyspnoea
+20061434,Respiratory Tract Oedema
+20061434,Pain Of Skin
+20061434,Chest Pain
+20059176,Oral Fungal Infection
+20059174,Poor Quality Sleep
+20059174,Constipation
+20059168,Nausea
+20059168,Fatigue
+20059168,Diarrhoea
+20059162,Pneumonitis
+20059147,Blood Alkaline Phosphatase Decreased
+20059147,Protein Total Decreased
+20059147,Fatigue
+20059147,Blood Pressure Increased
+20059147,Blood Potassium Increased
+20059147,Aspartate Aminotransferase Increased
+20059147,Diarrhoea
+20059144,Acne Cystic
+20059143,Fatigue
+20059143,Dysphagia
+20059143,Taste Disorder
+20059143,Nausea
+20059143,Oropharyngeal Pain
+20059138,Malaise
+20059133,Liver Disorder
+20059132,Product Storage Error
+20059132,No Adverse Event
+20059128,Urinary Tract Infection
+20059128,Gastrointestinal Disorder
+20059128,Abdominal Pain Upper
+20059127,Pyrexia
+20059127,Productive Cough
+20059127,Nasopharyngitis
+20059127,Dry Mouth
+20059122,Nasal Dryness
+20059114,Ageusia
+20059114,Fatigue
+20059112,Paternal Exposure During Pregnancy
+20059111,Vision Blurred
+20059111,Balance Disorder
+20059111,Gait Disturbance
+20059111,Vomiting
+20059107,Rash
+20059107,Vaginal Odour
+20059107,Burning Sensation
+20059103,Cough
+20059103,Dysphagia
+20059103,Hypertension
+20059103,Muscular Weakness
+20059102,Mouth Haemorrhage
+20059102,Oral Mucosal Blistering
+20059102,Fatigue
+20059102,Dyspnoea
+20059100,Pneumonitis
+20059098,Dizziness
+20059091,Back Pain
+20059091,Gastrointestinal Disorder
+20059090,Chills
+20059090,Oropharyngeal Pain
+20059090,Dental Discomfort
+20059090,Pain In Extremity
+20059090,Dyspnoea
+20059090,Vomiting
+20059090,Chest Pain
+20059088,Fatigue
+20056633,Drug Ineffective
+20056633,No Adverse Event
+20056631,Malaise
+20056630,Hypertension
+20056629,Constipation
+20056629,Poor Quality Sleep
+19665362,Hypertension
+19665362,Headache
+19665355,Ageusia
+19665355,Swelling Face
+19665355,Fatigue
+19665355,Hypertension
+19665352,Dizziness
+19665352,Blood Pressure Increased
+19665352,Headache
+19665348,Constipation
+19665348,Tremor
+19665347,Fatigue
+19665347,Blood Pressure Increased
+19665347,Muscular Weakness
+19665346,Fatigue
+19665346,Blood Pressure Increased
+19665346,Hypersomnia
+19665191,Liver Function Test Abnormal
+19665185,Lip Scab
+19665185,Scab
+19665185,Dysphonia
+19931552,Asthenia
+19931552,Mass
+19931552,Neoplasm Malignant
+19931552,Dizziness
+19931552,Diarrhoea
+19931552,Loss Of Consciousness
+20024080,Death
+20007023,Disease Progression
+20006918,Lymphadenopathy
+20006918,Heart Rate Increased
+20006918,Pleural Effusion
+20006918,Metastases To Lymph Nodes
+20006918,Metastatic Neoplasm
+20006918,Pneumonitis
+20006918,Lung Opacity
+20006918,Atelectasis
+20006411,Liver Injury
+20006188,Blood Potassium Decreased
+20006188,Blood Sodium Decreased
+20006188,Blood Test Abnormal
+20006188,Asthenia
+19986994,Disease Progression
+19983693,Disease Progression
+19981278,Disease Progression
+19971577,Asthenia
+19971577,Dizziness
+19971577,Pleural Thickening
+19971577,Condition Aggravated
+19971577,Salivary Hyposecretion
+19971577,Hydrothorax
+19938449,Thrombosis
+19921791,Ascites
+19921791,Chylothorax
+19921791,Oedema
+19933547,Disease Progression
+19573261,Disease Progression
+19573261,Dyspnoea
+19573261,Interstitial Lung Disease
+19573261,Gastrointestinal Toxicity
+19921174,Hyperpyrexia
+19878784,Thrombosis
+19823578,Death
+19806559,Disease Progression
+19807084,Disease Progression
+19791385,Chest Pain
+19791385,Blood Test Abnormal
+19791385,Asthenia
+19791385,Chest Discomfort
+19791385,Labile Blood Pressure
+19791385,Hepatic Function Abnormal
+19791385,Dizziness
+19791385,Cardiomyopathy
+19789804,Pneumonitis
+19789804,Tachypnoea
+19789804,Cough
+19785292,Carcinoembryonic Antigen Increased
+19774482,Death
+19740907,Disease Progression
+19734367,Hepatic Function Abnormal
+19734367,Renal Impairment
+19714432,Off Label Use
+19714432,Dysphagia
+19714432,Oral Candidiasis
+19714432,Headache
+19714432,Vision Blurred
+19646711,Face Oedema
+19646711,Oedema Peripheral
+19646711,Myocardial Infarction
+19646711,Pyrexia
+19689252,Lung Disorder
+19665363,Insomnia
+19665363,Erythema
+19665363,Stomatitis
+19665363,Dyspnoea
+19665363,Peripheral Swelling
+19665363,Pruritus
+19665363,Constipation
+19665363,Oral Pain
+19665359,Hyponatraemia
+19665349,Appetite Disorder
+19665349,Pain
+19665276,Pain
+19665276,Dry Mouth
+19665276,Taste Disorder
+19665276,Lung Opacity
+19665276,Ageusia
+19665276,Chest Pain
+19665274,Intentional Product Misuse
+19665274,No Adverse Event
+19665272,Pain
+19665271,Swelling Face
+19665271,Hypertension
+19665271,Platelet Count Decreased
+19665271,Periorbital Swelling
+19665268,Cough
+19665248,Pleurodesis
+19665247,Hepatic Enzyme Increased
+19665247,Blood Pressure Increased
+19665247,Constipation
+19665247,Liver Injury
+19665247,Brain Fog
+19665242,Off Label Use
+19665242,Anaemia
+19665240,Nausea
+19665240,Candida Infection
+19665240,Pneumonia
+19665240,Vomiting
+19665235,Rash Erythematous
+19665231,White Blood Cell Count Decreased
+19665225,Hunger
+19665225,Gastrointestinal Disorder
+19665225,Dry Throat
+19665220,Constipation
+19665216,Diarrhoea
+19665216,Arthropod Bite
+19665216,Weight Decreased
+19665216,Infrequent Bowel Movements
+19665216,Taste Disorder
+19665208,Faeces Discoloured
+19665208,Product Prescribing Error
+19665208,Abdominal Pain
+19665206,Dry Mouth
+19665200,Renal Function Test Abnormal
+19665195,Fluid Retention
+19665195,Peripheral Swelling
+19665195,Ill-Defined Disorder
+19665195,Memory Impairment
+19665190,Fatigue
+19665187,Malaise
+19665182,Liver Function Test Increased
+19665180,Asthenia
+19665180,Pain
+19665180,Bone Pain
+19665180,Abdominal Distension
+19665179,Arthralgia
+19665179,Hepatic Enzyme Increased
+19665171,Fatigue
+19665168,Back Pain
+19665168,Cough
+19665166,Hypertension
+19665166,Dysphonia
+19665166,Diarrhoea
+19665165,Fatigue
+19665164,Haemoptysis
+19665164,Pulmonary Haemorrhage
+19620418,Death
+19609226,Hospitalisation
+19602290,Radiation Pneumonitis
+19547991,Back Disorder
+19547991,Wheezing
+19412549,Condition Aggravated
+19412549,Fatigue
+19412549,Constipation
+19498564,Dysgeusia
+19498564,Ageusia
+19498564,Vomiting
+19498564,Staphylococcal Infection
+19498564,Constipation
+19498564,Somnolence
+19498564,Blood Pressure Increased
+19498564,Red Blood Cell Count Decreased
+19498564,Fatigue
+19498564,Asthenia
+19498564,Pain
+19420737,Pulmonary Oedema
+19420737,Infection
+19420611,Pain In Extremity
+19420611,Candida Infection
+19420611,Neoplasm Malignant
+19124132,Constipation
+19124132,Dry Mouth
+19124132,Platelet Count Decreased
+19124132,Gingival Swelling
+19124132,Blood Pressure Increased
+19124132,Aspartate Aminotransferase Increased
+19124132,Renal Impairment
+19124132,Alanine Aminotransferase Increased
+19124132,Dry Skin
+19124132,Nausea
+19124132,Haemorrhage
+19124132,Fatigue
+19124132,Arthralgia
+19446506,Death
+19432687,Gastrointestinal Disorder
+19354670,Pyrexia
+19354670,Depressed Level Of Consciousness
+19354670,Blood Glucose Decreased
+19354670,Hypotension
+19400616,Ill-Defined Disorder
+19400616,Pain
+19400616,Fatigue
+19400616,Pulmonary Thrombosis
+19400616,Dyspnoea
+19400616,Pulmonary Pain
+19394949,Therapy Non-Responder
+19331975,Meniscus Injury
+19331975,Epistaxis
+19331975,Hypertension
+19330420,Bone Disorder
+19321625,Metastases To Central Nervous System
+19321625,Hyponatraemia
+19321625,Asthenia
+19134808,Transfusion
+19134808,Haemoglobin Decreased
+19134808,Taste Disorder
+19134808,Full Blood Count Abnormal
+19134808,Stomatitis
+19134808,Pyrexia
+19134808,Neuropathy Peripheral
+19134808,Platelet Count Decreased
+19134808,Chest Discomfort
+19264778,Hypoxia
+19264778,Nausea
+19164549,Fall
+19164549,Syncope
+19116988,Nausea
+19116988,Peripheral Swelling
+19116988,Pulmonary Oedema
+19116988,Liver Function Test Increased
+19118800,Lymphopenia
+19118800,Neutropenia
+19095423,Fatigue
+19094270,Prostate Infection
+19076616,Constipation
+19076616,Alanine Aminotransferase Increased
+19076616,Renal Impairment
+19076616,Dry Skin
+19076616,Gingival Swelling
+19076616,Nausea
+19076616,Arthralgia
+19076616,Aspartate Aminotransferase Increased
+19076616,Dry Mouth
+19076616,Blood Pressure Increased
+19076616,Fatigue
+19067383,Off Label Use
+19067383,Stomatitis
+19067383,Transfusion
+19067383,Neuropathy Peripheral
+19067383,Full Blood Count Abnormal
+19076682,Prostate Infection
+19075460,Renal Function Test Abnormal
+19074364,Diarrhoea
+19074364,Dry Mouth
+19070761,Drug Intolerance
+19067718,Dizziness
+19067360,Nausea
+19067360,Rash
+19067360,Peripheral Swelling
+19066982,Drug Ineffective
+19066982,General Physical Health Deterioration
+18653756,Constipation
+18653756,Brain Fog
+18653756,Liver Injury
+18653756,Hepatic Enzyme Increased
+18653756,Blood Pressure Increased
+19062122,Liver Disorder
+19061085,Dyspnoea
+19061085,Headache
+19061085,Constipation
+19061085,Blood Pressure Increased
+19061084,Rash
+19061084,Dizziness
+19061084,Blood Pressure Increased
+19061084,Adverse Drug Reaction
+19060683,Therapeutic Response Unexpected
+19060246,Fatigue
+19060246,Decreased Appetite
+19055163,Dry Mouth
+19055143,Off Label Use
+18973607,Chest Pain
+18973607,Arthralgia
+18973607,Blood Pressure Increased
+18973607,Abdominal Pain Upper
+19041219,Product Dose Omission Issue
+18972963,Peripheral Swelling
+19039673,Blood Calcium Decreased
+19039673,Platelet Count Decreased
+18840572,Intentional Product Misuse
+18840572,Feeling Abnormal
+18840572,Dizziness
+18840572,Blood Pressure Increased
+19027427,Dysphagia
+18996663,Death
+18973204,Fatigue
+18973204,Pulmonary Oedema
+18973204,Laboratory Test Abnormal
+18973007,Drug Ineffective
+18971612,Death
+18925881,Hypertension
+18424081,Faeces Discoloured
+18424081,Constipation
+18424081,Herpes Zoster
+18424081,Impaired Healing
+18424081,Faeces Hard
+18969085,Dyspepsia
+18969085,Hypotension
+18969085,Nausea
+18966724,Cellulitis
+18960993,Enterocolitis
+18960993,Haematochezia
+18654605,Productive Cough
+18654605,Increased Upper Airway Secretion
+18956291,Intentional Dose Omission
+18952768,Death
+18941001,Dysstasia
+18941001,Rash
+18941001,Procedural Pain
+18926086,Weight Decreased
+18926086,Diarrhoea
+18926086,Drug Ineffective
+18914622,Weight Increased
+18914622,Blood Pressure Increased
+18914622,Fatigue
+18765756,Dyspnoea
+18765756,Alopecia
+18765756,Pyrexia
+18765756,Face Oedema
+18765756,Dysuria
+18765756,Swelling
+18883277,Taste Disorder
+18883277,Insomnia
+18883277,Ageusia
+18850613,Chest Pain
+18850613,Hypoaesthesia
+18850613,Feeling Cold
+18850613,Pain In Extremity
+18850613,Hypoaesthesia Oral
+18850613,Somnolence
+18850613,Dizziness
+18843452,Neutropenia
+18843452,Alopecia
+18827254,Product Dose Omission Issue
+18818931,Eye Swelling
+18791880,Haemoglobin Increased
+18791880,Constipation
+18791880,Arthralgia
+18791880,Dry Mouth
+18791880,Herpes Zoster
+18791880,Blood Creatinine Increased
+18766109,Incorrect Dose Administered
+18758410,Metastases To Bone
+18650834,Blood Creatinine Abnormal
+18650834,Pain
+18650834,Chills
+18650834,Arthralgia
+18650834,Rash
+18650834,Blood Pressure Abnormal
+18745792,Off Label Use
+18745792,Hypertension
+18741714,Death
+18660174,Depression
+18660174,Insomnia
+18660174,Fatigue
+18699846,Fatigue
+18699846,Hypersomnia
+18699846,Full Blood Count Abnormal
+18685423,Dyspnoea
+18685423,Diarrhoea
+18685423,Myalgia
+18685423,Heart Rate Increased
+18674294,Insomnia
+18674294,Depression
+18670657,Petechiae
+18654051,Petechiae
+18640152,Illness
+18640152,Lethargy
+18640152,Loss Of Consciousness
+18640152,Hypersomnia
+18640152,Haemorrhage
+18640152,Laboratory Test Abnormal
+18640152,Fall
+18640152,Contusion
+18640152,Product Dose Omission Issue
+18640152,Aspiration
+18640152,Rib Fracture
+18570495,Headache
+18570482,Diarrhoea
+18570482,Onychoclasis
+18570482,Fatigue
+18570482,Muscle Spasms
+18560942,Vertigo
+18559502,Oropharyngeal Pain
+18559502,Arthralgia
+18559502,Chills
+18559502,Pyrexia
+18557977,Hypertension
+18552117,Death
+18402000,General Physical Health Deterioration
+18402000,Drug Ineffective
+18402000,Syncope
+18402000,Malignant Neoplasm Progression
+18375159,Malignant Neoplasm Progression
+18514400,Dyspnoea
+18444220,Epistaxis
+18444055,Off Label Use
+18444055,Death
+18371348,Asthenia
+18371348,Dysuria
+18371348,Anxiety
+18371348,Constipation
+18371348,Agitation
+18371348,Confusional State
+18371348,Depression

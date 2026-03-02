@@ -1,0 +1,9 @@
+theme,faers_count,kg_path_count,num_unique_go,num_unique_proteins,score_faers,score_kg,score_hybrid
+tox:Other / Unmapped,2501,0,0,0,2501,0,7.824845691026856
+tox:Immune System,60,1,1,1,60,1,6.110873864173311
+tox:Cell Adhesion,0,3,1,3,0,3,6.0
+tox:Medication Error,149,0,0,0,149,0,5.0106352940962555
+tox:Severe Outcome,113,0,0,0,113,0,4.736198448394496
+tox:Cell Death,0,2,1,2,0,2,4.0
+tox:Neurological,16,0,0,0,16,0,2.833213344056216
+tox:Oxidative Stress,0,1,1,1,0,1,2.0

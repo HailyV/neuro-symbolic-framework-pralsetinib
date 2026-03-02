@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-02T08:39:39.415915Z",
+  "raw_dir": "data/00_raw",
+  "out_dir": "data/01_clean",
+  "drug": "pralsetinib",
+  "steps": {
+    "drugbank_seed_proteins": {
+      "rows": 25,
+      "unique_uniprot": 25,
+      "out": "data/01_clean/pralsetinib_seed_proteins.csv"
+    },
+    "goa_subset": {
+      "scanned_lines": 972437,
+      "kept_rows": 1083,
+      "unique_uniprot": 25,
+      "unique_go": 519,
+      "out": "data/01_clean/pralsetinib_targets_goa.csv"
+    },
+    "faers_clean": {
+      "report_rows": 1011,
+      "unique_cases": 1011,
+      "reaction_rows": 2839,
+      "unique_reactions": 690,
+      "out_reports": "data/01_clean/pralsetinib_faers_reports_clean.csv",
+      "out_reactions_long": "data/01_clean/pralsetinib_faers_reactions_long.csv",
+      "out_reaction_counts": "data/01_clean/pralsetinib_faers_reaction_counts.csv"
+    },
+    "chembl_clean": {
+      "rows": 11,
+      "out": "data/01_clean/pralsetinib_chembl_targets.csv"
+    }
+  }
+}

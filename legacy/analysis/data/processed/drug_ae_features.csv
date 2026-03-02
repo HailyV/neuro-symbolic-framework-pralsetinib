@@ -1,0 +1,6 @@
+drug_id,ae,faers_count,path_count,max_path_score,go_overlap,target_faers_score,label
+drug:Pralsetinib,tox:Immune System,60.0,60.0,4.110873864173311,0.0,60.0,1
+drug:Pralsetinib,tox:Medication Error,149.0,149.0,5.0106352940962555,0.0,149.0,1
+drug:Pralsetinib,tox:Neurological,16.0,16.0,2.833213344056216,0.0,16.0,1
+drug:Pralsetinib,tox:Other / Unmapped,2501.0,2501.0,7.824845691026856,0.0,2501.0,1
+drug:Pralsetinib,tox:Severe Outcome,113.0,113.0,4.736198448394496,0.0,113.0,1

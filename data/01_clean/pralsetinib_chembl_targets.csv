@@ -1,0 +1,12 @@
+chembl_id,name,accessions,type,organism,tax_id
+CHEMBL612558,ADMET,,ADMET,,
+CHEMBL612545,Unchecked,,UNCHECKED,,
+CHEMBL4523582,Replicase polyprotein 1ab,P0DTD1,SINGLE PROTEIN,Severe acute respiratory syndrome coronavirus 2,2697049.0
+CHEMBL4303835,SARS-CoV-2,,ORGANISM,Severe acute respiratory syndrome coronavirus 2,2697049.0
+CHEMBL395,HepG2,,CELL-LINE,Homo sapiens,9606.0
+CHEMBL3430904,Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET,P07949|Q16204,CHIMERIC PROTEIN,Homo sapiens,9606.0
+CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,P36888,SINGLE PROTEIN,Homo sapiens,9606.0
+CHEMBL3430888,Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET,P07949|P33176,CHIMERIC PROTEIN,Homo sapiens,9606.0
+CHEMBL2971,Tyrosine-protein kinase JAK2,O60674,SINGLE PROTEIN,Homo sapiens,9606.0
+CHEMBL614524,BaF3,,CELL-LINE,Mus musculus,10090.0
+CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,P07949,SINGLE PROTEIN,Homo sapiens,9606.0

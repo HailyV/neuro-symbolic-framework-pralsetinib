@@ -1,0 +1,26 @@
+drug,gene_symbol,uniprot_id,specific_function,category
+Pralsetinib,RET,P07949,ATP binding,target
+Pralsetinib,DDR1,Q08345,ATP binding,target
+Pralsetinib,NTRK3,Q16288,ATP binding,target
+Pralsetinib,FLT3,P36888,ATP binding,target
+Pralsetinib,JAK1,P23458,ATP binding,target
+Pralsetinib,JAK2,O60674,acetylcholine receptor binding,target
+Pralsetinib,NTRK1,P04629,ATP binding,target
+Pralsetinib,KDR,P35968,ATP binding,target
+Pralsetinib,PDGFRB,P09619,ATP binding,target
+Pralsetinib,FGFR1,P11362,ATP binding,target
+Pralsetinib,FGFR2,P21802,ATP binding,target
+Pralsetinib,CYP3A4,P08684,"1,8-cineole 2-exo-monooxygenase activity",enzyme
+Pralsetinib,CYP3A5,P20815,estrogen 16-alpha-hydroxylase activity,enzyme
+Pralsetinib,CYP2D6,P10635,"anandamide 11,12 epoxidase activity",enzyme
+Pralsetinib,CYP1A2,P05177,caffeine oxidase activity,enzyme
+Pralsetinib,CYP2C8,P10632,arachidonate epoxygenase activity,enzyme
+Pralsetinib,CYP2C9,P11712,(R)-limonene 6-monooxygenase activity,enzyme
+Pralsetinib,ABCB1,P08183,ABC-type xenobiotic transporter activity,transporter
+Pralsetinib,ABCG2,Q9UNQ0,ABC-type xenobiotic transporter activity,transporter
+Pralsetinib,SLCO1B1,Q9Y6L6,bile acid transmembrane transporter activity,transporter
+Pralsetinib,SLCO1B3,Q9NPD5,bile acid transmembrane transporter activity,transporter
+Pralsetinib,SLC22A6,Q4U2R8,alpha-ketoglutarate transmembrane transporter activity,transporter
+Pralsetinib,SLC47A1,Q96FL8,antiporter activity,transporter
+Pralsetinib,SLC47A2,Q86VL8,antiporter activity,transporter
+Pralsetinib,ABCB11,O95342,ABC-type bile acid transporter activity,transporter

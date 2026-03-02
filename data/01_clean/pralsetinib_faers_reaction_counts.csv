@@ -1,0 +1,691 @@
+reaction,case_count
+Product Prescribing Issue,131
+Death,81
+Fatigue,67
+Off Label Use,65
+Diarrhoea,52
+Anaemia,49
+Asthenia,47
+Blood Pressure Increased,43
+Constipation,43
+Hypertension,42
+Disease Progression,39
+White Blood Cell Count Decreased,35
+No Adverse Event,33
+Pneumonia,33
+Pyrexia,31
+Hospitalisation,30
+Cough,28
+Dizziness,26
+Nausea,26
+Dyspnoea,25
+Dry Mouth,24
+Pneumonitis,24
+Platelet Count Decreased,23
+Arthralgia,21
+Pain,21
+Hepatic Function Abnormal,20
+Decreased Appetite,18
+Headache,18
+Interstitial Lung Disease,18
+Product Dose Omission Issue,18
+Rash,18
+Neutropenia,17
+Haemoglobin Decreased,16
+Stomatitis,16
+Back Pain,15
+Oedema,15
+Renal Impairment,15
+Taste Disorder,15
+Vomiting,15
+Urinary Tract Infection,14
+Covid-19,13
+Fall,13
+Drug Ineffective,12
+Dysphagia,12
+Hepatic Enzyme Increased,12
+Red Blood Cell Count Decreased,12
+Ageusia,11
+Hypotension,11
+Malaise,11
+Oedema Peripheral,11
+Pleural Effusion,11
+Aspartate Aminotransferase Increased,10
+Chills,10
+Epistaxis,10
+Face Oedema,10
+Myalgia,10
+Pain In Extremity,10
+Abdominal Pain Upper,9
+Adverse Event,9
+Balance Disorder,9
+Chest Discomfort,9
+Gait Disturbance,9
+General Physical Health Deterioration,9
+Mouth Ulceration,9
+Muscular Weakness,9
+Neuropathy Peripheral,9
+Neutrophil Count Decreased,9
+Oropharyngeal Pain,9
+Peripheral Swelling,9
+Weight Increased,9
+Ascites,8
+Blood Creatinine Increased,8
+Chest Pain,8
+Dehydration,8
+Gastrointestinal Disorder,8
+Herpes Zoster,8
+Insomnia,8
+Malignant Neoplasm Progression,8
+Swelling Face,8
+Abdominal Discomfort,7
+Abdominal Pain,7
+Adverse Drug Reaction,7
+Alanine Aminotransferase Increased,7
+Blood Creatine Phosphokinase Increased,7
+Condition Aggravated,7
+Drug Intolerance,7
+Dysphonia,7
+Heart Rate Increased,7
+Hypoaesthesia,7
+Liver Injury,7
+Lung Disorder,7
+Myocardial Necrosis Marker Increased,7
+Neoplasm Malignant,7
+Paraesthesia,7
+Pulmonary Embolism,7
+Transaminases Increased,7
+Blood Pressure Abnormal,6
+Blood Test Abnormal,6
+Bone Pain,6
+Depression,6
+Infection,6
+Loss Of Consciousness,6
+Nasopharyngitis,6
+Platelet Count Increased,6
+Surgery,6
+Syncope,6
+Thrombocytopenia,6
+Thrombosis,6
+Vision Blurred,6
+Alopecia,5
+Blood Sodium Decreased,5
+Carcinoembryonic Antigen Increased,5
+Drug Resistance,5
+Dyspepsia,5
+Haemorrhage,5
+Hypoxia,5
+Ill-Defined Disorder,5
+Illness,5
+Lymphopenia,5
+Metastases To Bone,5
+Metastases To Central Nervous System,5
+Myelosuppression,5
+Pruritus,5
+Pulmonary Oedema,5
+Renal Function Test Abnormal,5
+Sepsis,5
+Swelling Of Eyelid,5
+Weight Decreased,5
+Anxiety,4
+Blood Glucose Increased,4
+Brain Neoplasm,4
+Cellulitis,4
+Confusional State,4
+Discomfort,4
+Dysgeusia,4
+Eczema,4
+Febrile Neutropenia,4
+Flatulence,4
+Full Blood Count Abnormal,4
+Generalised Oedema,4
+Haemoptysis,4
+Hyperhidrosis,4
+Hyperpyrexia,4
+Hypoalbuminaemia,4
+Hypogeusia,4
+Hyponatraemia,4
+Hypothyroidism,4
+Immunodeficiency,4
+Leukopenia,4
+Limb Discomfort,4
+Liver Function Test Increased,4
+Metastatic Neoplasm,4
+Neoplasm Progression,4
+Pancytopenia,4
+Pneumothorax,4
+Poor Quality Sleep,4
+Toxicity To Various Agents,4
+Unevaluable Event,4
+Abdominal Distension,3
+Back Disorder,3
+Blood Alkaline Phosphatase Increased,3
+Blood Calcium Decreased,3
+Blood Glucose Decreased,3
+Blood Potassium Decreased,3
+Body Temperature Increased,3
+Brain Fog,3
+Bronchopulmonary Aspergillosis,3
+Candida Infection,3
+Cardiac Disorder,3
+Dry Throat,3
+Dysuria,3
+Electrocardiogram Qt Prolonged,3
+Emergency Care,3
+Enterocolitis,3
+Eye Swelling,3
+Feeling Abnormal,3
+Fungal Foot Infection,3
+Gastritis,3
+Hepatitis B Reactivation,3
+Hyperkalaemia,3
+Hypersomnia,3
+Hypoaesthesia Oral,3
+Influenza,3
+Initial Insomnia,3
+Intentional Product Misuse,3
+Labile Blood Pressure,3
+Laboratory Test Abnormal,3
+Liver Disorder,3
+Loss Of Personal Independence In Daily Activities,3
+Memory Impairment,3
+Metastases To Lymph Nodes,3
+Mucosal Inflammation,3
+Muscle Spasms,3
+Musculoskeletal Chest Pain,3
+Myocardial Infarction,3
+Nocturia,3
+Oral Pain,3
+Pallor,3
+Palmar-Plantar Erythrodysaesthesia Syndrome,3
+Periorbital Swelling,3
+Petechiae,3
+Pneumocystis Jirovecii Pneumonia,3
+Pneumonia Fungal,3
+Pneumonia Viral,3
+Product Use Issue,3
+Productive Cough,3
+Pulmonary Tuberculosis,3
+Rash Macular,3
+Renal Disorder,3
+Respiratory Failure,3
+Rhabdomyolysis,3
+Rib Fracture,3
+Sinusitis,3
+Somnolence,3
+Swelling,3
+Tachypnoea,3
+Thyroid Hormones Increased,3
+Tooth Extraction,3
+Tumour Lysis Syndrome,3
+Abscess,2
+Amnesia,2
+Aphonia,2
+Application Site Erythema,2
+Atelectasis,2
+Bacterial Infection,2
+Blood Albumin Decreased,2
+Blood Calcitonin Increased,2
+Blood Potassium Increased,2
+Blood Pressure Decreased,2
+Blood Thyroid Stimulating Hormone Increased,2
+Bronchitis,2
+Burning Sensation,2
+Catheter Site Pain,2
+Cerebral Infarction,2
+Choking,2
+Cholangitis,2
+Coccidioidomycosis,2
+Colitis,2
+Contrast Media Allergy,2
+Contusion,2
+Cystitis Bacterial,2
+Delirium,2
+Dermatitis Contact,2
+Diverticulitis,2
+Dry Skin,2
+Dyspnoea Exertional,2
+Dysstasia,2
+Eye Discharge,2
+Faeces Discoloured,2
+Feeling Hot,2
+Femur Fracture,2
+Fluid Retention,2
+Formication,2
+Gangrene,2
+Gastrooesophageal Reflux Disease,2
+Gingival Swelling,2
+Haematuria,2
+Haemorrhoidal Haemorrhage,2
+Head Discomfort,2
+Head Injury,2
+Heart Rate Decreased,2
+Hepatotoxicity,2
+Hip Arthroplasty,2
+Hospice Care,2
+Hydrothorax,2
+Hyperphosphataemia,2
+Hypertensive Crisis,2
+Hypertransaminasaemia,2
+Hyperuricaemia,2
+Hypocalcaemia,2
+Impaired Healing,2
+Influenza Like Illness,2
+Intentional Dose Omission,2
+Intentional Product Use Issue,2
+Keratitis,2
+Lethargy,2
+Liver Function Test Abnormal,2
+Lower Respiratory Tract Infection,2
+Lung Opacity,2
+Metastases To Liver,2
+Muscle Injury,2
+Myocardial Injury,2
+Nervousness,2
+Odynophagia,2
+Oesophageal Disorder,2
+Onychalgia,2
+Onychoclasis,2
+Orthostatic Hypotension,2
+Oxygen Saturation Decreased,2
+Pain Of Skin,2
+Pericardial Effusion,2
+Pharyngeal Swelling,2
+Pneumonia Bacterial,2
+Pneumonia Cytomegaloviral,2
+Product Use Complaint,2
+Prostate Infection,2
+Protein Total Decreased,2
+Proteinuria,2
+Pulmonary Haemorrhage,2
+Pulmonary Thrombosis,2
+Rash Erythematous,2
+Respiratory Tract Infection Viral,2
+Ret Gene Mutation,2
+Salivary Hyposecretion,2
+Scab,2
+Septic Shock,2
+Skin Discolouration,2
+Skin Fissures,2
+Spinal Fusion Surgery,2
+Spinal Operation,2
+Sudden Death,2
+Tendon Rupture,2
+Therapy Change,2
+Therapy Interrupted,2
+Thirst,2
+Thyroid Cancer,2
+Toothache,2
+Transfusion,2
+Tremor,2
+Troponin Increased,2
+Tuberculosis,2
+Upper Gastrointestinal Haemorrhage,2
+Urinary Incontinence,2
+Urine Output Decreased,2
+Vascular Rupture,2
+Vertigo,2
+Viral Infection,2
+Abdominal Pain Lower,1
+Abdominal Sepsis,1
+Acne,1
+Acne Cystic,1
+Acute Kidney Injury,1
+Acute Pulmonary Oedema,1
+Adverse Reaction,1
+Agitation,1
+Agranulocytosis,1
+Amenorrhoea,1
+Amylase Decreased,1
+Anal Rash,1
+Anaphylactic Shock,1
+Angina Pectoris,1
+Aphasia,1
+Aphthous Ulcer,1
+Appendicitis,1
+Appetite Disorder,1
+Arteriosclerosis Coronary Artery,1
+Arthritis Bacterial,1
+Arthropod Bite,1
+Arthroscopy,1
+Aspergillus Infection,1
+Aspiration,1
+Aspiration Pleural Cavity,1
+Ast/Alt Ratio Abnormal,1
+Atrial Fibrillation,1
+Azotaemia,1
+Bacterial Disease Carrier,1
+Benign Prostatic Hyperplasia,1
+Biopsy,1
+Blister,1
+Blood Albumin Abnormal,1
+Blood Alkaline Phosphatase Decreased,1
+Blood Bilirubin Increased,1
+Blood Calcitonin Decreased,1
+Blood Cholesterol Abnormal,1
+Blood Creatine Phosphokinase,1
+Blood Creatinine Abnormal,1
+Blood Disorder,1
+Blood Magnesium Decreased,1
+Blood Oestrogen Decreased,1
+Blood Phosphorus Abnormal,1
+Blood Phosphorus Increased,1
+Blood Potassium Abnormal,1
+Blood Pressure Fluctuation,1
+Blood Pressure Immeasurable,1
+Blood Pressure Normal,1
+Blood Triglycerides Increased,1
+Blood Urine Present,1
+Bone Disorder,1
+Bone Lesion,1
+Brain Neoplasm Malignant,1
+Brain Operation,1
+Bronchiolitis,1
+Calcinosis,1
+Cancer Pain,1
+Capillary Fragility,1
+Cardiac Arrest,1
+Cardiac Failure,1
+Cardiomyopathy,1
+Cataract,1
+Cerebral Disorder,1
+Cerebrovascular Accident,1
+Chest X-Ray Abnormal,1
+Cholecystitis,1
+Cholecystitis Acute,1
+Cholelithiasis,1
+Choroid Melanoma,1
+Chronic Gastritis,1
+Chronic Hepatitis,1
+Chylothorax,1
+Circulatory Collapse,1
+Coagulopathy,1
+Cognitive Disorder,1
+Coma,1
+Cushingoid,1
+Cytokeratin 19 Increased,1
+Deep Vein Thrombosis,1
+Defaecation Disorder,1
+Deformity Of Orbit,1
+Dental Discomfort,1
+Dental Operation,1
+Depressed Level Of Consciousness,1
+Dermatophytosis Of Nail,1
+Device Occlusion,1
+Diabetes Mellitus,1
+Drug-Induced Liver Injury,1
+Dry Eye,1
+Dysgraphia,1
+Ear Congestion,1
+Ear Infection,1
+Ear Pain,1
+Early Satiety,1
+Effusion,1
+Electrocardiogram St Segment Abnormal,1
+Emotional Disorder,1
+Endodontic Procedure,1
+Endoscopy,1
+Endotracheal Intubation,1
+Enteritis,1
+Erectile Dysfunction,1
+Erythema,1
+Erythema Multiforme,1
+Erythropenia,1
+Escherichia Infection,1
+Escherichia Sepsis,1
+Exercise Lack Of,1
+Exercise Tolerance Decreased,1
+Extrapulmonary Tuberculosis,1
+Eyelid Oedema,1
+Facial Pain,1
+Faeces Hard,1
+Feeding Disorder,1
+Feeling Cold,1
+Fixed Eruption,1
+Flank Pain,1
+Flushing,1
+Food Allergy,1
+Foot Fracture,1
+Fracture,1
+Frequent Bowel Movements,1
+Full Blood Count Decreased,1
+Fungal Infection,1
+Fungal Skin Infection,1
+Gait Inability,1
+Gallbladder Disorder,1
+Gallbladder Enlargement,1
+Gallbladder Rupture,1
+Gastric Haemorrhage,1
+Gastric Lavage,1
+Gastric Ulcer Haemorrhage,1
+Gastroenteritis,1
+Gastrointestinal Motility Disorder,1
+Gastrointestinal Toxicity,1
+Gene Mutation Identification Test Positive,1
+General Symptom,1
+Gingival Bleeding,1
+Gingival Pain,1
+Granulocyte Count Increased,1
+Haematemesis,1
+Haematochezia,1
+Haematocrit Decreased,1
+Haematocrit Increased,1
+Haematotoxicity,1
+Haemoglobin Abnormal,1
+Haemoglobin Increased,1
+Haemorrhage Intracranial,1
+Haemorrhage Subcutaneous,1
+Hair Colour Changes,1
+Hair Disorder,1
+Hair Growth Abnormal,1
+Hair Texture Abnormal,1
+Heart Rate Abnormal,1
+Hemiparesis,1
+Hepatic Cirrhosis,1
+Hepatic Lesion,1
+Hepatic Pain,1
+Hepatitis,1
+Hepatitis B,1
+Hepatorenal Failure,1
+Herpes Virus Infection,1
+Herpes Zoster Reactivation,1
+High Frequency Ablation,1
+Hip Fracture,1
+Hormone Replacement Therapy,1
+Hunger,1
+Hyperaesthesia Teeth,1
+Hyperbilirubinaemia,1
+Hypercalcaemia,1
+Hypersensitivity,1
+Hyperthermia,1
+Hypertrophic Cardiomyopathy,1
+Hypoacusis,1
+Hypokalaemia,1
+Hypomania,1
+Hypoproteinaemia,1
+Immobile,1
+Impaired Gastric Emptying,1
+Inappropriate Schedule Of Product Administration,1
+Incorrect Dose Administered,1
+Increased Upper Airway Secretion,1
+Inflammation,1
+Infrequent Bowel Movements,1
+Infusion,1
+Injury,1
+Intervertebral Discitis,1
+Intestinal Obstruction,1
+Intra-Abdominal Haemorrhage,1
+Irritability,1
+Joint Dislocation,1
+Joint Injury,1
+Joint Swelling,1
+Knee Operation,1
+Large Intestine Infection,1
+Leg Amputation,1
+Ligament Rupture,1
+Ligament Sprain,1
+Limb Amputation,1
+Lip Scab,1
+Listless,1
+Liver Abscess,1
+Liver Transplant,1
+Localised Infection,1
+Localised Oedema,1
+Lung Infiltration,1
+Lung Neoplasm Malignant,1
+Lymph Node Tuberculosis,1
+Lymphadenopathy,1
+Lymphocyte Count Decreased,1
+Lymphoedema,1
+Mallory-Weiss Syndrome,1
+Mass,1
+Mechanical Ileus,1
+Medical Device Removal,1
+Medical Procedure,1
+Medication Error,1
+Meniscus Injury,1
+Mental Disorder,1
+Mental Status Changes,1
+Metastases To Abdominal Cavity,1
+Metastases To Meninges,1
+Metastases To Thorax,1
+Micturition Disorder,1
+Micturition Urgency,1
+Middle Insomnia,1
+Monocyte Count Decreased,1
+Monoparesis,1
+Moraxella Test Positive,1
+Motor Dysfunction,1
+Mouth Haemorrhage,1
+Mucosal Toxicity,1
+Muscle Disorder,1
+Muscle Swelling,1
+Musculoskeletal Discomfort,1
+Musculoskeletal Pain,1
+Musculoskeletal Stiffness,1
+Mutism,1
+Myositis,1
+Nail Bed Inflammation,1
+Nail Discolouration,1
+Nasal Dryness,1
+Nasal Pruritus,1
+Neck Pain,1
+Nephrolithiasis,1
+Nephrostomy,1
+Non-Small Cell Lung Cancer,1
+Ocular Discomfort,1
+Oedema Due To Hepatic Disease,1
+Oesophagitis,1
+Oligomenorrhoea,1
+Onychomadesis,1
+Ophthalmic Vascular Thrombosis,1
+Opportunistic Infection,1
+Oral Candidiasis,1
+Oral Discomfort,1
+Oral Fungal Infection,1
+Oral Mucosal Blistering,1
+Organ Failure,1
+Organising Pneumonia,1
+Oropharyngeal Discomfort,1
+Overdose,1
+Oxygen Therapy,1
+Palpitations,1
+Paracentesis,1
+Paraesthesia Oral,1
+Paternal Exposure During Pregnancy,1
+Peripheral Sensory Neuropathy,1
+Peritoneal Tuberculosis,1
+Pernicious Anaemia,1
+Pharyngeal Disorder,1
+Pica,1
+Pleural Thickening,1
+Pleurodesis,1
+Pneumocystis Jirovecii Infection,1
+Pneumocystis Test Positive,1
+Pollakiuria,1
+Post Procedural Infection,1
+Potentiating Drug Interaction,1
+Procedural Pain,1
+Product Dose Omission In Error,1
+Product Monitoring Error,1
+Product Physical Issue,1
+Product Prescribing Error,1
+Product Storage Error,1
+Product Use In Unapproved Indication,1
+Prostatic Obstruction,1
+Protein Urine Present,1
+Pseudomonas Infection,1
+Psychomotor Hyperactivity,1
+Pulmonary Artery Aneurysm,1
+Pulmonary Fibrosis,1
+Pulmonary Mass,1
+Pulmonary Pain,1
+Pustule,1
+Pyelonephritis,1
+Radiation Injury,1
+Radiation Pneumonitis,1
+Radiotherapy,1
+Renal Failure,1
+Renal Injury,1
+Respiratory Distress,1
+Respiratory Symptom,1
+Respiratory Tract Congestion,1
+Respiratory Tract Infection,1
+Respiratory Tract Oedema,1
+Restlessness,1
+Rhinalgia,1
+Salmonellosis,1
+Seasonal Allergy,1
+Seizure,1
+Sensation Of Foreign Body,1
+Sensory Loss,1
+Shoulder Fracture,1
+Sinus Bradycardia,1
+Sinus Disorder,1
+Sinus Tachycardia,1
+Skin Disorder,1
+Skin Exfoliation,1
+Skin Hyperpigmentation,1
+Sleep Deficit,1
+Sleep Disorder,1
+Small Cell Lung Cancer,1
+Sputum Discoloured,1
+Squamous Cell Carcinoma Of Lung,1
+Staphylococcal Infection,1
+Stress,1
+Subarachnoid Haemorrhage,1
+Subcapsular Hepatic Haematoma,1
+Temperature Intolerance,1
+Tendon Injury,1
+Tenoplasty,1
+Therapeutic Product Effect Decreased,1
+Therapeutic Response Unexpected,1
+Therapy Cessation,1
+Therapy Non-Responder,1
+Thoracic Vertebral Fracture,1
+Throat Cancer,1
+Throat Irritation,1
+Thyroglobulin Increased,1
+Thyroid Hormones Decreased,1
+Tinnitus,1
+Tongue Blistering,1
+Tumour Excision,1
+Tumour Haemorrhage,1
+Tumour Marker Increased,1
+Ulcer,1
+Ulcerative Keratitis,1
+Upper Respiratory Tract Infection,1
+Urinary Retention,1
+Urinary Tract Obstruction,1
+Urine Flow Decreased,1
+Urosepsis,1
+Uveal Melanoma,1
+Vaginal Haemorrhage,1
+Vaginal Odour,1
+Vaginal Ulceration,1
+Visual Acuity Reduced,1
+Visual Impairment,1
+Vitamin D Decreased,1
+Wheezing,1
+Wrist Fracture,1
+Wrong Technique In Product Usage Process,1

@@ -1,0 +1,691 @@
+reaction,toxicity_theme,count
+Product Prescribing Issue,Medication Error,131
+Death,Severe Outcome,81
+Fatigue,Oxidative Stress,67
+Off Label Use,Medication Error,65
+Diarrhoea,Oxidative Stress,52
+Anaemia,Immune System,49
+Asthenia,Oxidative Stress,47
+Constipation,Other / Unmapped,43
+Blood Pressure Increased,Cell Adhesion,43
+Hypertension,Cell Adhesion,42
+Disease Progression,Cell Death,39
+White Blood Cell Count Decreased,Immune System,35
+Pneumonia,Immune System,33
+No Adverse Event,Other / Unmapped,33
+Pyrexia,Immune System,31
+Hospitalisation,Severe Outcome,30
+Cough,Immune System,28
+Dizziness,Neurological,26
+Nausea,Oxidative Stress,26
+Dyspnoea,Cell Adhesion,25
+Pneumonitis,Immune System,24
+Dry Mouth,Oxidative Stress,24
+Platelet Count Decreased,Immune System,23
+Arthralgia,Immune System,21
+Pain,Other / Unmapped,21
+Hepatic Function Abnormal,Cell Death,20
+Interstitial Lung Disease,Immune System,18
+Rash,Immune System,18
+Product Dose Omission Issue,Medication Error,18
+Decreased Appetite,Oxidative Stress,18
+Headache,Neurological,18
+Neutropenia,Immune System,17
+Haemoglobin Decreased,Immune System,16
+Stomatitis,Other / Unmapped,16
+Back Pain,Other / Unmapped,15
+Renal Impairment,Other / Unmapped,15
+Oedema,Other / Unmapped,15
+Taste Disorder,Other / Unmapped,15
+Vomiting,Other / Unmapped,15
+Urinary Tract Infection,Immune System,14
+Fall,Other / Unmapped,13
+Covid-19,Immune System,13
+Hepatic Enzyme Increased,Other / Unmapped,12
+Dysphagia,Other / Unmapped,12
+Drug Ineffective,Other / Unmapped,12
+Red Blood Cell Count Decreased,Other / Unmapped,12
+Malaise,Other / Unmapped,11
+Oedema Peripheral,Other / Unmapped,11
+Hypotension,Other / Unmapped,11
+Ageusia,Other / Unmapped,11
+Pleural Effusion,Other / Unmapped,11
+Face Oedema,Other / Unmapped,10
+Aspartate Aminotransferase Increased,Other / Unmapped,10
+Chills,Other / Unmapped,10
+Myalgia,Other / Unmapped,10
+Pain In Extremity,Other / Unmapped,10
+Epistaxis,Other / Unmapped,10
+Chest Discomfort,Other / Unmapped,9
+Neutrophil Count Decreased,Other / Unmapped,9
+Mouth Ulceration,Other / Unmapped,9
+General Physical Health Deterioration,Other / Unmapped,9
+Oropharyngeal Pain,Other / Unmapped,9
+Peripheral Swelling,Other / Unmapped,9
+Weight Increased,Other / Unmapped,9
+Adverse Event,Other / Unmapped,9
+Balance Disorder,Other / Unmapped,9
+Abdominal Pain Upper,Other / Unmapped,9
+Neuropathy Peripheral,Neurological,9
+Muscular Weakness,Other / Unmapped,9
+Gait Disturbance,Other / Unmapped,9
+Swelling Face,Other / Unmapped,8
+Dehydration,Other / Unmapped,8
+Blood Creatinine Increased,Other / Unmapped,8
+Insomnia,Other / Unmapped,8
+Chest Pain,Other / Unmapped,8
+Gastrointestinal Disorder,Other / Unmapped,8
+Malignant Neoplasm Progression,Other / Unmapped,8
+Ascites,Other / Unmapped,8
+Herpes Zoster,Other / Unmapped,8
+Transaminases Increased,Other / Unmapped,7
+Alanine Aminotransferase Increased,Other / Unmapped,7
+Myocardial Necrosis Marker Increased,Other / Unmapped,7
+Blood Creatine Phosphokinase Increased,Other / Unmapped,7
+Pulmonary Embolism,Cell Adhesion,7
+Adverse Drug Reaction,Other / Unmapped,7
+Condition Aggravated,Other / Unmapped,7
+Abdominal Discomfort,Other / Unmapped,7
+Lung Disorder,Other / Unmapped,7
+Drug Intolerance,Other / Unmapped,7
+Abdominal Pain,Other / Unmapped,7
+Paraesthesia,Other / Unmapped,7
+Dysphonia,Other / Unmapped,7
+Heart Rate Increased,Other / Unmapped,7
+Hypoaesthesia,Other / Unmapped,7
+Neoplasm Malignant,Other / Unmapped,7
+Liver Injury,Other / Unmapped,7
+Infection,Immune System,6
+Bone Pain,Other / Unmapped,6
+Thrombosis,Cell Adhesion,6
+Loss Of Consciousness,Other / Unmapped,6
+Platelet Count Increased,Other / Unmapped,6
+Blood Test Abnormal,Other / Unmapped,6
+Blood Pressure Abnormal,Other / Unmapped,6
+Nasopharyngitis,Other / Unmapped,6
+Depression,Other / Unmapped,6
+Syncope,Other / Unmapped,6
+Thrombocytopenia,Other / Unmapped,6
+Vision Blurred,Other / Unmapped,6
+Surgery,Other / Unmapped,6
+Myelosuppression,Other / Unmapped,5
+Metastases To Central Nervous System,Other / Unmapped,5
+Sepsis,Immune System,5
+Weight Decreased,Other / Unmapped,5
+Pulmonary Oedema,Other / Unmapped,5
+Swelling Of Eyelid,Other / Unmapped,5
+Haemorrhage,Other / Unmapped,5
+Carcinoembryonic Antigen Increased,Other / Unmapped,5
+Blood Sodium Decreased,Other / Unmapped,5
+Illness,Other / Unmapped,5
+Hypoxia,Other / Unmapped,5
+Dyspepsia,Other / Unmapped,5
+Pruritus,Other / Unmapped,5
+Renal Function Test Abnormal,Other / Unmapped,5
+Ill-Defined Disorder,Other / Unmapped,5
+Metastases To Bone,Other / Unmapped,5
+Lymphopenia,Other / Unmapped,5
+Alopecia,Other / Unmapped,5
+Drug Resistance,Other / Unmapped,5
+Brain Neoplasm,Other / Unmapped,4
+Confusional State,Other / Unmapped,4
+Liver Function Test Increased,Other / Unmapped,4
+Pancytopenia,Other / Unmapped,4
+Hyperhidrosis,Other / Unmapped,4
+Blood Glucose Increased,Other / Unmapped,4
+Dysgeusia,Other / Unmapped,4
+Hyponatraemia,Other / Unmapped,4
+Full Blood Count Abnormal,Other / Unmapped,4
+Febrile Neutropenia,Immune System,4
+Pneumothorax,Other / Unmapped,4
+Hypogeusia,Other / Unmapped,4
+Toxicity To Various Agents,Other / Unmapped,4
+Anxiety,Other / Unmapped,4
+Immunodeficiency,Other / Unmapped,4
+Generalised Oedema,Other / Unmapped,4
+Discomfort,Other / Unmapped,4
+Eczema,Other / Unmapped,4
+Leukopenia,Immune System,4
+Neoplasm Progression,Other / Unmapped,4
+Hyperpyrexia,Other / Unmapped,4
+Metastatic Neoplasm,Other / Unmapped,4
+Hypothyroidism,Other / Unmapped,4
+Poor Quality Sleep,Other / Unmapped,4
+Cellulitis,Other / Unmapped,4
+Hypoalbuminaemia,Other / Unmapped,4
+Flatulence,Other / Unmapped,4
+Unevaluable Event,Other / Unmapped,4
+Limb Discomfort,Other / Unmapped,4
+Haemoptysis,Other / Unmapped,4
+Intentional Product Misuse,Other / Unmapped,3
+Gastritis,Other / Unmapped,3
+Hypoaesthesia Oral,Other / Unmapped,3
+Tachypnoea,Other / Unmapped,3
+Brain Fog,Other / Unmapped,3
+Periorbital Swelling,Other / Unmapped,3
+Hypersomnia,Other / Unmapped,3
+Back Disorder,Other / Unmapped,3
+Laboratory Test Abnormal,Other / Unmapped,3
+Myocardial Infarction,Other / Unmapped,3
+Somnolence,Other / Unmapped,3
+Oral Pain,Other / Unmapped,3
+Blood Alkaline Phosphatase Increased,Other / Unmapped,3
+Sinusitis,Other / Unmapped,3
+Bronchopulmonary Aspergillosis,Other / Unmapped,3
+Mucosal Inflammation,Other / Unmapped,3
+Fungal Foot Infection,Immune System,3
+Hyperkalaemia,Other / Unmapped,3
+Tumour Lysis Syndrome,Other / Unmapped,3
+Palmar-Plantar Erythrodysaesthesia Syndrome,Other / Unmapped,3
+Body Temperature Increased,Other / Unmapped,3
+Abdominal Distension,Other / Unmapped,3
+Respiratory Failure,Other / Unmapped,3
+Musculoskeletal Chest Pain,Other / Unmapped,3
+Enterocolitis,Other / Unmapped,3
+Dysuria,Other / Unmapped,3
+Dry Throat,Other / Unmapped,3
+Liver Disorder,Other / Unmapped,3
+Tooth Extraction,Other / Unmapped,3
+Pneumonia Fungal,Immune System,3
+Eye Swelling,Other / Unmapped,3
+Initial Insomnia,Other / Unmapped,3
+Labile Blood Pressure,Other / Unmapped,3
+Pneumocystis Jirovecii Pneumonia,Immune System,3
+Pneumonia Viral,Immune System,3
+Emergency Care,Other / Unmapped,3
+Product Use Issue,Other / Unmapped,3
+Muscle Spasms,Other / Unmapped,3
+Rash Macular,Other / Unmapped,3
+Influenza,Other / Unmapped,3
+Nocturia,Other / Unmapped,3
+Rhabdomyolysis,Oxidative Stress,3
+Productive Cough,Other / Unmapped,3
+Electrocardiogram Qt Prolonged,Other / Unmapped,3
+Loss Of Personal Independence In Daily Activities,Other / Unmapped,3
+Petechiae,Other / Unmapped,3
+Memory Impairment,Other / Unmapped,3
+Cardiac Disorder,Other / Unmapped,3
+Metastases To Lymph Nodes,Other / Unmapped,3
+Pulmonary Tuberculosis,Other / Unmapped,3
+Candida Infection,Immune System,3
+Swelling,Other / Unmapped,3
+Blood Calcium Decreased,Other / Unmapped,3
+Rib Fracture,Other / Unmapped,3
+Hepatitis B Reactivation,Other / Unmapped,3
+Pallor,Other / Unmapped,3
+Blood Glucose Decreased,Other / Unmapped,3
+Renal Disorder,Other / Unmapped,3
+Blood Potassium Decreased,Other / Unmapped,3
+Thyroid Hormones Increased,Other / Unmapped,3
+Feeling Abnormal,Other / Unmapped,3
+Transfusion,Other / Unmapped,2
+Prostate Infection,Immune System,2
+Hydrothorax,Other / Unmapped,2
+Pharyngeal Swelling,Other / Unmapped,2
+Liver Function Test Abnormal,Other / Unmapped,2
+Aphonia,Other / Unmapped,2
+Delirium,Other / Unmapped,2
+Bronchitis,Other / Unmapped,2
+Skin Discolouration,Other / Unmapped,2
+Odynophagia,Other / Unmapped,2
+Rash Erythematous,Other / Unmapped,2
+Pericardial Effusion,Other / Unmapped,2
+Pulmonary Haemorrhage,Other / Unmapped,2
+Blood Potassium Increased,Other / Unmapped,2
+Atelectasis,Other / Unmapped,2
+Colitis,Other / Unmapped,2
+Keratitis,Other / Unmapped,2
+Hyperphosphataemia,Other / Unmapped,2
+Scab,Other / Unmapped,2
+Impaired Healing,Other / Unmapped,2
+Intentional Product Use Issue,Other / Unmapped,2
+Spinal Operation,Other / Unmapped,2
+Tremor,Other / Unmapped,2
+Thyroid Cancer,Other / Unmapped,2
+Urinary Incontinence,Other / Unmapped,2
+Hip Arthroplasty,Other / Unmapped,2
+Burning Sensation,Other / Unmapped,2
+Pneumonia Bacterial,Immune System,2
+Eye Discharge,Other / Unmapped,2
+Choking,Other / Unmapped,2
+Hospice Care,Other / Unmapped,2
+Protein Total Decreased,Other / Unmapped,2
+Myocardial Injury,Other / Unmapped,2
+Salivary Hyposecretion,Other / Unmapped,2
+Sudden Death,Severe Outcome,2
+Cerebral Infarction,Other / Unmapped,2
+Hepatotoxicity,Other / Unmapped,2
+Hypertensive Crisis,Other / Unmapped,2
+Pulmonary Thrombosis,Cell Adhesion,2
+Septic Shock,Other / Unmapped,2
+Diverticulitis,Other / Unmapped,2
+Blood Albumin Decreased,Other / Unmapped,2
+Vascular Rupture,Other / Unmapped,2
+Metastases To Liver,Other / Unmapped,2
+Hyperuricaemia,Other / Unmapped,2
+Hypocalcaemia,Other / Unmapped,2
+Cystitis Bacterial,Other / Unmapped,2
+Oesophageal Disorder,Other / Unmapped,2
+Dyspnoea Exertional,Other / Unmapped,2
+Toothache,Other / Unmapped,2
+Contrast Media Allergy,Other / Unmapped,2
+Skin Fissures,Other / Unmapped,2
+Influenza Like Illness,Other / Unmapped,2
+Viral Infection,Immune System,2
+Proteinuria,Other / Unmapped,2
+Respiratory Tract Infection Viral,Immune System,2
+Formication,Other / Unmapped,2
+Haemorrhoidal Haemorrhage,Other / Unmapped,2
+Blood Thyroid Stimulating Hormone Increased,Other / Unmapped,2
+Dysstasia,Other / Unmapped,2
+Urine Output Decreased,Other / Unmapped,2
+Heart Rate Decreased,Other / Unmapped,2
+Blood Calcitonin Increased,Other / Unmapped,2
+Bacterial Infection,Immune System,2
+Therapy Interrupted,Other / Unmapped,2
+Coccidioidomycosis,Other / Unmapped,2
+Blood Pressure Decreased,Other / Unmapped,2
+Oxygen Saturation Decreased,Other / Unmapped,2
+Muscle Injury,Other / Unmapped,2
+Tuberculosis,Other / Unmapped,2
+Ret Gene Mutation,Other / Unmapped,2
+Fluid Retention,Other / Unmapped,2
+Pneumonia Cytomegaloviral,Immune System,2
+Haematuria,Other / Unmapped,2
+Gastrooesophageal Reflux Disease,Other / Unmapped,2
+Head Discomfort,Other / Unmapped,2
+Onychoclasis,Other / Unmapped,2
+Product Use Complaint,Other / Unmapped,2
+Onychalgia,Other / Unmapped,2
+Troponin Increased,Other / Unmapped,2
+Lower Respiratory Tract Infection,Immune System,2
+Femur Fracture,Other / Unmapped,2
+Feeling Hot,Other / Unmapped,2
+Vertigo,Other / Unmapped,2
+Intentional Dose Omission,Other / Unmapped,2
+Thirst,Other / Unmapped,2
+Abscess,Other / Unmapped,2
+Therapy Change,Other / Unmapped,2
+Hypertransaminasaemia,Other / Unmapped,2
+Head Injury,Other / Unmapped,2
+Tendon Rupture,Other / Unmapped,2
+Amnesia,Other / Unmapped,2
+Pain Of Skin,Other / Unmapped,2
+Lethargy,Other / Unmapped,2
+Nervousness,Other / Unmapped,2
+Orthostatic Hypotension,Other / Unmapped,2
+Contusion,Other / Unmapped,2
+Dermatitis Contact,Other / Unmapped,2
+Catheter Site Pain,Other / Unmapped,2
+Application Site Erythema,Other / Unmapped,2
+Spinal Fusion Surgery,Other / Unmapped,2
+Cholangitis,Other / Unmapped,2
+Gangrene,Other / Unmapped,2
+Upper Gastrointestinal Haemorrhage,Other / Unmapped,2
+Lung Opacity,Other / Unmapped,2
+Faeces Discoloured,Other / Unmapped,2
+Gingival Swelling,Other / Unmapped,2
+Dry Skin,Other / Unmapped,2
+Agitation,Other / Unmapped,1
+Staphylococcal Infection,Immune System,1
+Wheezing,Other / Unmapped,1
+Radiation Pneumonitis,Other / Unmapped,1
+Product Prescribing Error,Other / Unmapped,1
+Infrequent Bowel Movements,Other / Unmapped,1
+Arthropod Bite,Other / Unmapped,1
+Hunger,Other / Unmapped,1
+Pleurodesis,Other / Unmapped,1
+Appetite Disorder,Other / Unmapped,1
+Erythema,Other / Unmapped,1
+Monoparesis,Other / Unmapped,1
+Knee Operation,Other / Unmapped,1
+Blood Urine Present,Other / Unmapped,1
+Oedema Due To Hepatic Disease,Other / Unmapped,1
+Hepatic Cirrhosis,Other / Unmapped,1
+Incorrect Dose Administered,Other / Unmapped,1
+Blood Creatinine Abnormal,Other / Unmapped,1
+Aspiration,Other / Unmapped,1
+Product Storage Error,Other / Unmapped,1
+Oral Candidiasis,Other / Unmapped,1
+Nasal Dryness,Other / Unmapped,1
+Paternal Exposure During Pregnancy,Other / Unmapped,1
+Vaginal Odour,Other / Unmapped,1
+Vaginal Ulceration,Other / Unmapped,1
+Blood Calcitonin Decreased,Other / Unmapped,1
+Respiratory Tract Oedema,Other / Unmapped,1
+Hypersensitivity,Other / Unmapped,1
+Hormone Replacement Therapy,Other / Unmapped,1
+Blood Albumin Abnormal,Other / Unmapped,1
+Upper Respiratory Tract Infection,Immune System,1
+Dental Operation,Other / Unmapped,1
+Early Satiety,Other / Unmapped,1
+Hepatic Pain,Other / Unmapped,1
+Hair Texture Abnormal,Other / Unmapped,1
+Hair Colour Changes,Other / Unmapped,1
+Gastrointestinal Motility Disorder,Other / Unmapped,1
+Nasal Pruritus,Other / Unmapped,1
+Medical Device Removal,Other / Unmapped,1
+Organ Failure,Cell Death,1
+Leg Amputation,Other / Unmapped,1
+Paracentesis,Other / Unmapped,1
+Therapeutic Response Unexpected,Other / Unmapped,1
+Sleep Deficit,Other / Unmapped,1
+Middle Insomnia,Other / Unmapped,1
+Urine Flow Decreased,Other / Unmapped,1
+Product Use In Unapproved Indication,Other / Unmapped,1
+Fixed Eruption,Other / Unmapped,1
+Blood Pressure Normal,Other / Unmapped,1
+Cardiac Failure,Other / Unmapped,1
+Erythropenia,Other / Unmapped,1
+Full Blood Count Decreased,Other / Unmapped,1
+Neck Pain,Other / Unmapped,1
+Pharyngeal Disorder,Other / Unmapped,1
+Blood Cholesterol Abnormal,Other / Unmapped,1
+Tumour Excision,Other / Unmapped,1
+Throat Cancer,Other / Unmapped,1
+Ast/Alt Ratio Abnormal,Other / Unmapped,1
+Sputum Discoloured,Other / Unmapped,1
+Liver Transplant,Other / Unmapped,1
+Tenoplasty,Other / Unmapped,1
+Tendon Injury,Other / Unmapped,1
+Exercise Tolerance Decreased,Other / Unmapped,1
+Calcinosis,Other / Unmapped,1
+Limb Amputation,Other / Unmapped,1
+Gastric Lavage,Other / Unmapped,1
+Hypercalcaemia,Other / Unmapped,1
+Urinary Tract Obstruction,Other / Unmapped,1
+Nephrostomy,Other / Unmapped,1
+Temperature Intolerance,Other / Unmapped,1
+Product Dose Omission In Error,Other / Unmapped,1
+Amylase Decreased,Other / Unmapped,1
+Joint Injury,Other / Unmapped,1
+Endoscopy,Other / Unmapped,1
+Thyroid Hormones Decreased,Other / Unmapped,1
+Musculoskeletal Pain,Other / Unmapped,1
+Throat Irritation,Other / Unmapped,1
+Nail Bed Inflammation,Other / Unmapped,1
+Nail Discolouration,Other / Unmapped,1
+Micturition Urgency,Other / Unmapped,1
+Lymphoedema,Other / Unmapped,1
+Fungal Skin Infection,Immune System,1
+Cataract,Other / Unmapped,1
+Tumour Haemorrhage,Other / Unmapped,1
+Restlessness,Other / Unmapped,1
+Facial Pain,Other / Unmapped,1
+Hyperaesthesia Teeth,Other / Unmapped,1
+Product Monitoring Error,Other / Unmapped,1
+Ear Congestion,Other / Unmapped,1
+Haematemesis,Other / Unmapped,1
+Gastric Haemorrhage,Other / Unmapped,1
+Erectile Dysfunction,Other / Unmapped,1
+Inappropriate Schedule Of Product Administration,Other / Unmapped,1
+Stress,Other / Unmapped,1
+Hypertrophic Cardiomyopathy,Other / Unmapped,1
+Intervertebral Discitis,Other / Unmapped,1
+Pseudomonas Infection,Immune System,1
+Gallbladder Rupture,Other / Unmapped,1
+Abdominal Sepsis,Immune System,1
+Azotaemia,Other / Unmapped,1
+Fracture,Other / Unmapped,1
+Protein Urine Present,Other / Unmapped,1
+Feeding Disorder,Other / Unmapped,1
+Oropharyngeal Discomfort,Other / Unmapped,1
+Seasonal Allergy,Other / Unmapped,1
+Ear Infection,Immune System,1
+Adverse Reaction,Other / Unmapped,1
+Escherichia Infection,Immune System,1
+Large Intestine Infection,Immune System,1
+Cholecystitis Acute,Other / Unmapped,1
+Muscle Swelling,Other / Unmapped,1
+Infusion,Other / Unmapped,1
+Musculoskeletal Discomfort,Other / Unmapped,1
+Ear Pain,Other / Unmapped,1
+Rhinalgia,Other / Unmapped,1
+Benign Prostatic Hyperplasia,Other / Unmapped,1
+Cholelithiasis,Other / Unmapped,1
+Radiation Injury,Other / Unmapped,1
+Pneumocystis Jirovecii Infection,Immune System,1
+Herpes Virus Infection,Immune System,1
+Aspergillus Infection,Immune System,1
+Foot Fracture,Other / Unmapped,1
+Thoracic Vertebral Fracture,Other / Unmapped,1
+Muscle Disorder,Other / Unmapped,1
+Immobile,Other / Unmapped,1
+Coma,Other / Unmapped,1
+Coagulopathy,Other / Unmapped,1
+Blood Disorder,Other / Unmapped,1
+Abdominal Pain Lower,Other / Unmapped,1
+Tinnitus,Other / Unmapped,1
+Small Cell Lung Cancer,Other / Unmapped,1
+Cancer Pain,Other / Unmapped,1
+Gallbladder Disorder,Other / Unmapped,1
+Endodontic Procedure,Other / Unmapped,1
+Emotional Disorder,Other / Unmapped,1
+Exercise Lack Of,Other / Unmapped,1
+Skin Hyperpigmentation,Other / Unmapped,1
+Ligament Sprain,Other / Unmapped,1
+Hypoacusis,Other / Unmapped,1
+Oral Discomfort,Other / Unmapped,1
+Brain Operation,Other / Unmapped,1
+Respiratory Symptom,Other / Unmapped,1
+Listless,Other / Unmapped,1
+Heart Rate Abnormal,Other / Unmapped,1
+Pollakiuria,Other / Unmapped,1
+Brain Neoplasm Malignant,Other / Unmapped,1
+Aphasia,Other / Unmapped,1
+Agranulocytosis,Other / Unmapped,1
+Cardiac Arrest,Cell Death,1
+Blood Pressure Immeasurable,Other / Unmapped,1
+Sinus Tachycardia,Other / Unmapped,1
+Granulocyte Count Increased,Other / Unmapped,1
+Pulmonary Fibrosis,Other / Unmapped,1
+Inflammation,Other / Unmapped,1
+Fungal Infection,Immune System,1
+Wrong Technique In Product Usage Process,Other / Unmapped,1
+Mucosal Toxicity,Other / Unmapped,1
+Bronchiolitis,Other / Unmapped,1
+Cerebral Disorder,Other / Unmapped,1
+Biopsy,Other / Unmapped,1
+Blood Creatine Phosphokinase,Other / Unmapped,1
+Paraesthesia Oral,Other / Unmapped,1
+Vaginal Haemorrhage,Other / Unmapped,1
+Pica,Other / Unmapped,1
+Bone Lesion,Other / Unmapped,1
+Gingival Bleeding,Other / Unmapped,1
+Musculoskeletal Stiffness,Other / Unmapped,1
+Acne,Other / Unmapped,1
+Mutism,Other / Unmapped,1
+Monocyte Count Decreased,Other / Unmapped,1
+Haematocrit Increased,Other / Unmapped,1
+Joint Dislocation,Other / Unmapped,1
+Onychomadesis,Other / Unmapped,1
+Sleep Disorder,Other / Unmapped,1
+Pernicious Anaemia,Other / Unmapped,1
+Impaired Gastric Emptying,Other / Unmapped,1
+Skin Exfoliation,Other / Unmapped,1
+Gait Inability,Other / Unmapped,1
+Mental Disorder,Other / Unmapped,1
+Electrocardiogram St Segment Abnormal,Other / Unmapped,1
+Enteritis,Other / Unmapped,1
+Chest X-Ray Abnormal,Other / Unmapped,1
+Frequent Bowel Movements,Other / Unmapped,1
+High Frequency Ablation,Other / Unmapped,1
+Oxygen Therapy,Other / Unmapped,1
+Palpitations,Other / Unmapped,1
+Visual Impairment,Other / Unmapped,1
+Gene Mutation Identification Test Positive,Other / Unmapped,1
+Anaphylactic Shock,Other / Unmapped,1
+Sensory Loss,Other / Unmapped,1
+Wrist Fracture,Other / Unmapped,1
+Cushingoid,Other / Unmapped,1
+Aspiration Pleural Cavity,Other / Unmapped,1
+Blood Magnesium Decreased,Other / Unmapped,1
+Medical Procedure,Other / Unmapped,1
+Hypomania,Other / Unmapped,1
+Hepatitis,Other / Unmapped,1
+Hepatitis B,Other / Unmapped,1
+Radiotherapy,Other / Unmapped,1
+Micturition Disorder,Other / Unmapped,1
+Chronic Hepatitis,Other / Unmapped,1
+Drug-Induced Liver Injury,Other / Unmapped,1
+Liver Abscess,Other / Unmapped,1
+Blister,Other / Unmapped,1
+Tumour Marker Increased,Other / Unmapped,1
+Hemiparesis,Other / Unmapped,1
+Subarachnoid Haemorrhage,Other / Unmapped,1
+Injury,Other / Unmapped,1
+Diabetes Mellitus,Other / Unmapped,1
+Herpes Zoster Reactivation,Other / Unmapped,1
+Erythema Multiforme,Other / Unmapped,1
+Respiratory Tract Infection,Immune System,1
+Choroid Melanoma,Other / Unmapped,1
+Uveal Melanoma,Other / Unmapped,1
+Ophthalmic Vascular Thrombosis,Cell Adhesion,1
+Pulmonary Mass,Other / Unmapped,1
+Circulatory Collapse,Other / Unmapped,1
+Squamous Cell Carcinoma Of Lung,Other / Unmapped,1
+Potentiating Drug Interaction,Other / Unmapped,1
+Post Procedural Infection,Immune System,1
+Vitamin D Decreased,Other / Unmapped,1
+Tongue Blistering,Other / Unmapped,1
+Aphthous Ulcer,Other / Unmapped,1
+Respiratory Tract Congestion,Other / Unmapped,1
+Product Physical Issue,Medication Error,1
+Sinus Disorder,Other / Unmapped,1
+Blood Potassium Abnormal,Other / Unmapped,1
+Blood Phosphorus Abnormal,Other / Unmapped,1
+Hyperthermia,Other / Unmapped,1
+Pyelonephritis,Other / Unmapped,1
+Lung Neoplasm Malignant,Other / Unmapped,1
+Sensation Of Foreign Body,Other / Unmapped,1
+Cytokeratin 19 Increased,Other / Unmapped,1
+Cholecystitis,Other / Unmapped,1
+Gallbladder Enlargement,Other / Unmapped,1
+Bacterial Disease Carrier,Other / Unmapped,1
+Endotracheal Intubation,Other / Unmapped,1
+Pneumocystis Test Positive,Other / Unmapped,1
+Defaecation Disorder,Other / Unmapped,1
+Capillary Fragility,Other / Unmapped,1
+Pulmonary Artery Aneurysm,Other / Unmapped,1
+Arthroscopy,Other / Unmapped,1
+Nephrolithiasis,Other / Unmapped,1
+Ligament Rupture,Other / Unmapped,1
+Blood Pressure Fluctuation,Other / Unmapped,1
+Mechanical Ileus,Other / Unmapped,1
+Device Occlusion,Other / Unmapped,1
+Localised Oedema,Other / Unmapped,1
+Gastroenteritis,Other / Unmapped,1
+Angina Pectoris,Other / Unmapped,1
+Urinary Retention,Other / Unmapped,1
+Cognitive Disorder,Other / Unmapped,1
+Haematotoxicity,Other / Unmapped,1
+Medication Error,Medication Error,1
+Non-Small Cell Lung Cancer,Other / Unmapped,1
+Shoulder Fracture,Other / Unmapped,1
+Lymph Node Tuberculosis,Other / Unmapped,1
+Eyelid Oedema,Other / Unmapped,1
+Motor Dysfunction,Other / Unmapped,1
+Haemorrhage Subcutaneous,Other / Unmapped,1
+Visual Acuity Reduced,Other / Unmapped,1
+Organising Pneumonia,Immune System,1
+Subcapsular Hepatic Haematoma,Other / Unmapped,1
+Intra-Abdominal Haemorrhage,Other / Unmapped,1
+Extrapulmonary Tuberculosis,Other / Unmapped,1
+Flank Pain,Other / Unmapped,1
+Hyperbilirubinaemia,Other / Unmapped,1
+Sinus Bradycardia,Other / Unmapped,1
+Therapy Cessation,Other / Unmapped,1
+Gingival Pain,Other / Unmapped,1
+Chronic Gastritis,Other / Unmapped,1
+Peripheral Sensory Neuropathy,Neurological,1
+Food Allergy,Other / Unmapped,1
+Acute Kidney Injury,Other / Unmapped,1
+Escherichia Sepsis,Immune System,1
+Blood Bilirubin Increased,Other / Unmapped,1
+Mental Status Changes,Other / Unmapped,1
+Gastric Ulcer Haemorrhage,Other / Unmapped,1
+Opportunistic Infection,Immune System,1
+Moraxella Test Positive,Other / Unmapped,1
+Effusion,Other / Unmapped,1
+Dermatophytosis Of Nail,Other / Unmapped,1
+Hepatorenal Failure,Other / Unmapped,1
+Oligomenorrhoea,Other / Unmapped,1
+Respiratory Distress,Other / Unmapped,1
+Myositis,Other / Unmapped,1
+Urosepsis,Other / Unmapped,1
+Acute Pulmonary Oedema,Other / Unmapped,1
+Intestinal Obstruction,Other / Unmapped,1
+Lung Infiltration,Other / Unmapped,1
+Blood Phosphorus Increased,Other / Unmapped,1
+Deep Vein Thrombosis,Cell Adhesion,1
+Arteriosclerosis Coronary Artery,Other / Unmapped,1
+Thyroglobulin Increased,Other / Unmapped,1
+Haematocrit Decreased,Other / Unmapped,1
+Hepatic Lesion,Other / Unmapped,1
+Renal Injury,Other / Unmapped,1
+Salmonellosis,Other / Unmapped,1
+Therapeutic Product Effect Decreased,Other / Unmapped,1
+Peritoneal Tuberculosis,Other / Unmapped,1
+Metastases To Abdominal Cavity,Other / Unmapped,1
+Metastases To Thorax,Other / Unmapped,1
+Cerebrovascular Accident,Other / Unmapped,1
+Dysgraphia,Other / Unmapped,1
+Lymphocyte Count Decreased,Other / Unmapped,1
+Appendicitis,Other / Unmapped,1
+Blood Triglycerides Increased,Other / Unmapped,1
+Seizure,Neurological,1
+Hair Disorder,Other / Unmapped,1
+Overdose,Other / Unmapped,1
+Hypokalaemia,Other / Unmapped,1
+Pustule,Other / Unmapped,1
+Joint Swelling,Other / Unmapped,1
+Arthritis Bacterial,Other / Unmapped,1
+Renal Failure,Other / Unmapped,1
+Oral Fungal Infection,Immune System,1
+Blood Alkaline Phosphatase Decreased,Other / Unmapped,1
+Acne Cystic,Other / Unmapped,1
+Deformity Of Orbit,Other / Unmapped,1
+Hair Growth Abnormal,Other / Unmapped,1
+Blood Oestrogen Decreased,Other / Unmapped,1
+Atrial Fibrillation,Other / Unmapped,1
+Hypoproteinaemia,Other / Unmapped,1
+Prostatic Obstruction,Other / Unmapped,1
+Dry Eye,Other / Unmapped,1
+Haemoglobin Abnormal,Other / Unmapped,1
+Mallory-Weiss Syndrome,Other / Unmapped,1
+Oesophagitis,Other / Unmapped,1
+Ulcerative Keratitis,Other / Unmapped,1
+Ocular Discomfort,Other / Unmapped,1
+Haemorrhage Intracranial,Other / Unmapped,1
+Therapy Non-Responder,Other / Unmapped,1
+Meniscus Injury,Other / Unmapped,1
+Bone Disorder,Other / Unmapped,1
+Pulmonary Pain,Other / Unmapped,1
+Depressed Level Of Consciousness,Other / Unmapped,1
+Ulcer,Other / Unmapped,1
+Skin Disorder,Other / Unmapped,1
+Anal Rash,Other / Unmapped,1
+General Symptom,Other / Unmapped,1
+Metastases To Meninges,Other / Unmapped,1
+Irritability,Other / Unmapped,1
+Amenorrhoea,Other / Unmapped,1
+Localised Infection,Immune System,1
+Hip Fracture,Other / Unmapped,1
+Psychomotor Hyperactivity,Other / Unmapped,1
+Flushing,Other / Unmapped,1
+Faeces Hard,Other / Unmapped,1
+Haematochezia,Other / Unmapped,1
+Increased Upper Airway Secretion,Other / Unmapped,1
+Procedural Pain,Other / Unmapped,1
+Feeling Cold,Other / Unmapped,1
+Haemoglobin Increased,Other / Unmapped,1
+Dental Discomfort,Other / Unmapped,1
+Lip Scab,Other / Unmapped,1
+Mass,Other / Unmapped,1
+Lymphadenopathy,Other / Unmapped,1
+Pleural Thickening,Other / Unmapped,1
+Chylothorax,Other / Unmapped,1
+Gastrointestinal Toxicity,Other / Unmapped,1
+Cardiomyopathy,Other / Unmapped,1
+Mouth Haemorrhage,Other / Unmapped,1
+Oral Mucosal Blistering,Other / Unmapped,1

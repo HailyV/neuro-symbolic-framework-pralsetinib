@@ -1,0 +1,301 @@
+ae,target_faers_score,drug_id,label
+MALIGNANT NEOPLASM PROGRESSION,56,drug:Selpercatinib,1
+DIARRHOEA,30,drug:Selpercatinib,1
+FATIGUE,23,drug:Selpercatinib,1
+BLOOD CREATININE INCREASED,21,drug:Selpercatinib,1
+HYPERTENSION,20,drug:Selpercatinib,1
+COUGH,19,drug:Selpercatinib,1
+HYPERSENSITIVITY,19,drug:Selpercatinib,1
+ALANINE AMINOTRANSFERASE INCREASED,18,drug:Selpercatinib,1
+ASCITES,18,drug:Selpercatinib,1
+ASPARTATE AMINOTRANSFERASE INCREASED,18,drug:Selpercatinib,1
+THROMBOCYTOPENIA,18,drug:Selpercatinib,1
+URINARY TRACT INFECTION,18,drug:Selpercatinib,1
+ELECTROCARDIOGRAM QT PROLONGED,17,drug:Selpercatinib,1
+PULMONARY EMBOLISM,17,drug:Selpercatinib,1
+DEATH,16,drug:Selpercatinib,1
+GENERAL PHYSICAL HEALTH DETERIORATION,15,drug:Selpercatinib,1
+HEPATIC FAILURE,15,drug:Selpercatinib,1
+RASH,15,drug:Selpercatinib,1
+DRUG INEFFECTIVE,14,drug:Selpercatinib,1
+INFECTION,14,drug:Selpercatinib,1
+DRUG RESISTANCE,13,drug:Selpercatinib,1
+OFF LABEL USE,13,drug:Selpercatinib,1
+DRUG-INDUCED LIVER INJURY,12,drug:Selpercatinib,1
+HAEMATURIA,12,drug:Selpercatinib,1
+OEDEMA PERIPHERAL,12,drug:Selpercatinib,1
+PROTEINURIA,12,drug:Selpercatinib,1
+FEBRILE INFECTION,11,drug:Selpercatinib,1
+INFLAMMATORY MARKER INCREASED,11,drug:Selpercatinib,1
+TUMOUR ASSOCIATED FEVER,11,drug:Selpercatinib,1
+URINARY TRACT INFECTION ENTEROCOCCAL,11,drug:Selpercatinib,1
+ASTHENIA,10,drug:Selpercatinib,0
+DRY MOUTH,10,drug:Selpercatinib,0
+HEPATOTOXICITY,10,drug:Selpercatinib,0
+HYPERCALCAEMIA,9,drug:Selpercatinib,0
+MUCOSAL INFLAMMATION,9,drug:Selpercatinib,0
+OEDEMA,9,drug:Selpercatinib,0
+THERAPY PARTIAL RESPONDER,9,drug:Selpercatinib,0
+VISUAL IMPAIRMENT,9,drug:Selpercatinib,0
+HYPERTRANSAMINASAEMIA,8,drug:Selpercatinib,0
+NEUTROPENIA,8,drug:Selpercatinib,0
+PNEUMONITIS,8,drug:Selpercatinib,0
+RENAL IMPAIRMENT,8,drug:Selpercatinib,0
+NAUSEA,7,drug:Selpercatinib,0
+NEOPLASM PROGRESSION,7,drug:Selpercatinib,0
+STOMATITIS,7,drug:Selpercatinib,0
+ANAEMIA,6,drug:Selpercatinib,0
+BLOOD PRESSURE INCREASED,6,drug:Selpercatinib,0
+DYSPHAGIA,6,drug:Selpercatinib,0
+DYSPNOEA,6,drug:Selpercatinib,0
+LIVER FUNCTION TEST INCREASED,6,drug:Selpercatinib,0
+PYREXIA,6,drug:Selpercatinib,0
+SOMNOLENCE,6,drug:Selpercatinib,0
+ABDOMINAL DISCOMFORT,5,drug:Selpercatinib,0
+ACQUIRED GENE MUTATION,5,drug:Selpercatinib,0
+ARTHRALGIA,5,drug:Selpercatinib,0
+BLOOD CREATINE INCREASED,5,drug:Selpercatinib,0
+BONE LESION,5,drug:Selpercatinib,0
+DECREASED APPETITE,5,drug:Selpercatinib,0
+DEHYDRATION,5,drug:Selpercatinib,0
+DISEASE PROGRESSION,5,drug:Selpercatinib,0
+GASTROINTESTINAL TOXICITY,5,drug:Selpercatinib,0
+HEADACHE,5,drug:Selpercatinib,0
+HEPATIC CYTOLYSIS,5,drug:Selpercatinib,0
+METASTASES TO CENTRAL NERVOUS SYSTEM,5,drug:Selpercatinib,0
+MYELOSUPPRESSION,5,drug:Selpercatinib,0
+NEPHROPATHY TOXIC,5,drug:Selpercatinib,0
+PLEURAL EFFUSION,5,drug:Selpercatinib,0
+POST PROCEDURAL COMPLICATION,5,drug:Selpercatinib,0
+WEIGHT DECREASED,5,drug:Selpercatinib,0
+WEIGHT INCREASED,5,drug:Selpercatinib,0
+ACUTE KIDNEY INJURY,4,drug:Selpercatinib,0
+BLOOD CREATINE PHOSPHOKINASE INCREASED,4,drug:Selpercatinib,0
+BRAIN OEDEMA,4,drug:Selpercatinib,0
+CHEST DISCOMFORT,4,drug:Selpercatinib,0
+CHYLOTHORAX,4,drug:Selpercatinib,0
+CONFUSIONAL STATE,4,drug:Selpercatinib,0
+COVID-19,4,drug:Selpercatinib,0
+DRY EYE,4,drug:Selpercatinib,0
+GAIT DISTURBANCE,4,drug:Selpercatinib,0
+HYPONATRAEMIA,4,drug:Selpercatinib,0
+LYMPHOCYTE COUNT DECREASED,4,drug:Selpercatinib,0
+MALAISE,4,drug:Selpercatinib,0
+OSTEONECROSIS OF JAW,4,drug:Selpercatinib,0
+PAIN,4,drug:Selpercatinib,0
+PNEUMONIA,4,drug:Selpercatinib,0
+RENAL FAILURE,4,drug:Selpercatinib,0
+VOMITING,4,drug:Selpercatinib,0
+ANGIOPATHY,3,drug:Selpercatinib,0
+BLOOD ALKALINE PHOSPHATASE INCREASED,3,drug:Selpercatinib,0
+BLOOD BILIRUBIN INCREASED,3,drug:Selpercatinib,0
+BLOOD CALCITONIN INCREASED,3,drug:Selpercatinib,0
+CARDIAC ARREST,3,drug:Selpercatinib,0
+CONDITION AGGRAVATED,3,drug:Selpercatinib,0
+CUTANEOUS VASCULITIS,3,drug:Selpercatinib,0
+EYE IRRITATION,3,drug:Selpercatinib,0
+FEMUR FRACTURE,3,drug:Selpercatinib,0
+FLUID INTAKE REDUCED,3,drug:Selpercatinib,0
+GAMMA-GLUTAMYLTRANSFERASE INCREASED,3,drug:Selpercatinib,0
+GASTROOESOPHAGEAL REFLUX DISEASE,3,drug:Selpercatinib,0
+GLOMERULAR FILTRATION RATE DECREASED,3,drug:Selpercatinib,0
+DIARRHOEA,102,drug:Vandetanib,1
+ELECTROCARDIOGRAM QT PROLONGED,77,drug:Vandetanib,1
+HYPERTENSION,55,drug:Vandetanib,1
+FATIGUE,51,drug:Vandetanib,1
+NAUSEA,45,drug:Vandetanib,1
+DISEASE PROGRESSION,42,drug:Vandetanib,1
+RASH,42,drug:Vandetanib,1
+HEADACHE,38,drug:Vandetanib,1
+OFF LABEL USE,38,drug:Vandetanib,1
+MALIGNANT NEOPLASM PROGRESSION,36,drug:Vandetanib,1
+PRODUCT USE IN UNAPPROVED INDICATION,34,drug:Vandetanib,1
+ALANINE AMINOTRANSFERASE INCREASED,33,drug:Vandetanib,1
+BLOOD CREATININE INCREASED,32,drug:Vandetanib,1
+ASTHENIA,30,drug:Vandetanib,1
+DEATH,30,drug:Vandetanib,1
+ACNE,29,drug:Vandetanib,1
+INSOMNIA,29,drug:Vandetanib,1
+ABDOMINAL DISTENSION,28,drug:Vandetanib,1
+HYPOPHOSPHATAEMIA,27,drug:Vandetanib,1
+METASTASES TO BONE,27,drug:Vandetanib,1
+NEUTROPHIL COUNT DECREASED,27,drug:Vandetanib,1
+PANCYTOPENIA,27,drug:Vandetanib,1
+ATAXIA,26,drug:Vandetanib,1
+METASTASES TO LIVER,26,drug:Vandetanib,1
+BLOOD CHOLESTEROL INCREASED,25,drug:Vandetanib,1
+DYSPNOEA,25,drug:Vandetanib,1
+FACIAL PARALYSIS,25,drug:Vandetanib,1
+HEMIPARESIS,25,drug:Vandetanib,1
+LYMPHOCYTE COUNT DECREASED,25,drug:Vandetanib,1
+OCULAR HYPERAEMIA,25,drug:Vandetanib,1
+WHITE BLOOD CELL COUNT DECREASED,25,drug:Vandetanib,1
+BLOOD TRIGLYCERIDES INCREASED,24,drug:Vandetanib,1
+FLATULENCE,24,drug:Vandetanib,1
+MYOCLONUS,24,drug:Vandetanib,1
+STOMATITIS,24,drug:Vandetanib,1
+ABDOMINAL PAIN,23,drug:Vandetanib,1
+BRAIN STEM GLIOMA,23,drug:Vandetanib,1
+DECREASED APPETITE,23,drug:Vandetanib,1
+GASTROOESOPHAGEAL REFLUX DISEASE,23,drug:Vandetanib,1
+HYPOPHAGIA,23,drug:Vandetanib,1
+METASTASES TO CENTRAL NERVOUS SYSTEM,23,drug:Vandetanib,1
+MUCOSAL INFLAMMATION,22,drug:Vandetanib,1
+PULMONARY EMBOLISM,22,drug:Vandetanib,1
+VOMITING,22,drug:Vandetanib,1
+BLOOD PRESSURE INCREASED,20,drug:Vandetanib,1
+REFLUX GASTRITIS,20,drug:Vandetanib,1
+ARTHRALGIA,17,drug:Vandetanib,1
+PYREXIA,17,drug:Vandetanib,1
+DEEP VEIN THROMBOSIS,16,drug:Vandetanib,1
+HYPOCALCAEMIA,16,drug:Vandetanib,1
+ACUTE KIDNEY INJURY,15,drug:Vandetanib,1
+DIZZINESS,15,drug:Vandetanib,1
+EPISTAXIS,14,drug:Vandetanib,1
+MEDICATION ERROR,14,drug:Vandetanib,1
+PHOTOSENSITIVITY REACTION,14,drug:Vandetanib,1
+ANAEMIA,13,drug:Vandetanib,1
+PAIN,13,drug:Vandetanib,1
+PALMAR-PLANTAR ERYTHRODYSAESTHESIA SYNDROME,13,drug:Vandetanib,1
+WEIGHT DECREASED,13,drug:Vandetanib,1
+CONDITION AGGRAVATED,12,drug:Vandetanib,1
+CONFUSIONAL STATE,12,drug:Vandetanib,1
+DEHYDRATION,12,drug:Vandetanib,1
+OEDEMA PERIPHERAL,12,drug:Vandetanib,1
+BACK PAIN,11,drug:Vandetanib,1
+COUGH,11,drug:Vandetanib,1
+ERYTHEMA,11,drug:Vandetanib,1
+HYPONATRAEMIA,11,drug:Vandetanib,1
+MUSCLE SPASMS,11,drug:Vandetanib,1
+MUSCULAR WEAKNESS,11,drug:Vandetanib,1
+MYALGIA,11,drug:Vandetanib,1
+NEOPLASM PROGRESSION,11,drug:Vandetanib,1
+PRURITUS,11,drug:Vandetanib,1
+ASPARTATE AMINOTRANSFERASE INCREASED,10,drug:Vandetanib,0
+DERMATITIS ACNEIFORM,10,drug:Vandetanib,0
+NEUTROPENIA,10,drug:Vandetanib,0
+PAIN IN EXTREMITY,10,drug:Vandetanib,0
+URINARY TRACT INFECTION,10,drug:Vandetanib,0
+VISION BLURRED,10,drug:Vandetanib,0
+DRUG INEFFECTIVE,9,drug:Vandetanib,0
+DRY SKIN,9,drug:Vandetanib,0
+HYPOAESTHESIA,9,drug:Vandetanib,0
+HYPOTENSION,9,drug:Vandetanib,0
+INTENTIONAL PRODUCT USE ISSUE,9,drug:Vandetanib,0
+ORAL PAIN,9,drug:Vandetanib,0
+PNEUMONIA,9,drug:Vandetanib,0
+ABDOMINAL PAIN UPPER,8,drug:Vandetanib,0
+CHEST PAIN,8,drug:Vandetanib,0
+CONSTIPATION,8,drug:Vandetanib,0
+HYPOKALAEMIA,8,drug:Vandetanib,0
+LYMPHOPENIA,8,drug:Vandetanib,0
+MALAISE,8,drug:Vandetanib,0
+THROMBOCYTOPENIA,8,drug:Vandetanib,0
+ADVERSE EVENT,7,drug:Vandetanib,0
+CHEST DISCOMFORT,7,drug:Vandetanib,0
+CIRCULATORY COLLAPSE,7,drug:Vandetanib,0
+DEPRESSION,7,drug:Vandetanib,0
+DRUG INTERACTION,7,drug:Vandetanib,0
+FALL,7,drug:Vandetanib,0
+HAEMOPTYSIS,7,drug:Vandetanib,0
+RENAL FAILURE,7,drug:Vandetanib,0
+DIARRHOEA,441,drug:Cabozantinib,1
+OFF LABEL USE,306,drug:Cabozantinib,1
+FATIGUE,297,drug:Cabozantinib,1
+MALIGNANT NEOPLASM PROGRESSION,266,drug:Cabozantinib,1
+NAUSEA,239,drug:Cabozantinib,1
+DECREASED APPETITE,223,drug:Cabozantinib,1
+ASTHENIA,178,drug:Cabozantinib,1
+HYPERTENSION,177,drug:Cabozantinib,1
+PALMAR-PLANTAR ERYTHRODYSAESTHESIA SYNDROME,159,drug:Cabozantinib,1
+STOMATITIS,157,drug:Cabozantinib,1
+DEATH,152,drug:Cabozantinib,1
+VOMITING,152,drug:Cabozantinib,1
+DRUG INEFFECTIVE,127,drug:Cabozantinib,1
+WEIGHT DECREASED,123,drug:Cabozantinib,1
+DYSPNOEA,121,drug:Cabozantinib,1
+PYREXIA,114,drug:Cabozantinib,1
+GENERAL PHYSICAL HEALTH DETERIORATION,109,drug:Cabozantinib,1
+ANAEMIA,108,drug:Cabozantinib,1
+PULMONARY EMBOLISM,99,drug:Cabozantinib,1
+ABDOMINAL PAIN,98,drug:Cabozantinib,1
+DISEASE PROGRESSION,94,drug:Cabozantinib,1
+HYPOTHYROIDISM,92,drug:Cabozantinib,1
+PNEUMONIA,91,drug:Cabozantinib,1
+CONSTIPATION,88,drug:Cabozantinib,1
+RASH,87,drug:Cabozantinib,1
+DEHYDRATION,86,drug:Cabozantinib,1
+ALANINE AMINOTRANSFERASE INCREASED,84,drug:Cabozantinib,1
+DYSGEUSIA,82,drug:Cabozantinib,1
+DYSPHONIA,82,drug:Cabozantinib,1
+SEPSIS,82,drug:Cabozantinib,1
+ACUTE KIDNEY INJURY,79,drug:Cabozantinib,1
+MUCOSAL INFLAMMATION,76,drug:Cabozantinib,1
+ASPARTATE AMINOTRANSFERASE INCREASED,75,drug:Cabozantinib,1
+HYPONATRAEMIA,75,drug:Cabozantinib,1
+PLEURAL EFFUSION,65,drug:Cabozantinib,1
+MALAISE,63,drug:Cabozantinib,1
+THROMBOCYTOPENIA,61,drug:Cabozantinib,1
+DIZZINESS,60,drug:Cabozantinib,1
+URINARY TRACT INFECTION,60,drug:Cabozantinib,1
+ABDOMINAL PAIN UPPER,57,drug:Cabozantinib,1
+HYPOTENSION,55,drug:Cabozantinib,1
+BACK PAIN,54,drug:Cabozantinib,1
+PAIN,54,drug:Cabozantinib,1
+PAIN IN EXTREMITY,54,drug:Cabozantinib,1
+ARTHRALGIA,52,drug:Cabozantinib,1
+OEDEMA PERIPHERAL,52,drug:Cabozantinib,1
+COLITIS,51,drug:Cabozantinib,1
+HYPERTHYROIDISM,50,drug:Cabozantinib,1
+HEADACHE,49,drug:Cabozantinib,1
+PNEUMONITIS,48,drug:Cabozantinib,1
+ADRENAL INSUFFICIENCY,47,drug:Cabozantinib,1
+CARDIAC FAILURE,46,drug:Cabozantinib,1
+DRY MOUTH,45,drug:Cabozantinib,1
+CONFUSIONAL STATE,44,drug:Cabozantinib,1
+BLOOD PRESSURE INCREASED,41,drug:Cabozantinib,1
+PROTEINURIA,41,drug:Cabozantinib,1
+DEEP VEIN THROMBOSIS,40,drug:Cabozantinib,1
+MUSCULAR WEAKNESS,40,drug:Cabozantinib,1
+OSTEONECROSIS OF JAW,40,drug:Cabozantinib,1
+PRURITUS,40,drug:Cabozantinib,1
+HEPATOCELLULAR CARCINOMA,39,drug:Cabozantinib,1
+ATRIAL FIBRILLATION,38,drug:Cabozantinib,1
+CEREBROVASCULAR ACCIDENT,38,drug:Cabozantinib,1
+HEPATIC CYTOLYSIS,38,drug:Cabozantinib,1
+COUGH,37,drug:Cabozantinib,1
+DRY SKIN,37,drug:Cabozantinib,1
+METASTASES TO LUNG,37,drug:Cabozantinib,1
+DYSPHAGIA,36,drug:Cabozantinib,1
+HYPOKALAEMIA,36,drug:Cabozantinib,1
+EMBOLISM,35,drug:Cabozantinib,1
+LIPASE INCREASED,35,drug:Cabozantinib,1
+ASCITES,34,drug:Cabozantinib,1
+PLATELET COUNT DECREASED,34,drug:Cabozantinib,1
+RESPIRATORY FAILURE,34,drug:Cabozantinib,1
+CHEST PAIN,33,drug:Cabozantinib,1
+COVID-19,33,drug:Cabozantinib,1
+MUSCLE SPASMS,33,drug:Cabozantinib,1
+MYOCARDIAL INFARCTION,33,drug:Cabozantinib,1
+ORAL PAIN,33,drug:Cabozantinib,1
+BLOOD BILIRUBIN INCREASED,32,drug:Cabozantinib,1
+DRUG RESISTANCE,32,drug:Cabozantinib,1
+DRUG-INDUCED LIVER INJURY,32,drug:Cabozantinib,1
+RENAL FAILURE,32,drug:Cabozantinib,1
+BLISTER,31,drug:Cabozantinib,1
+EPISTAXIS,31,drug:Cabozantinib,1
+GASTROINTESTINAL HAEMORRHAGE,31,drug:Cabozantinib,1
+HYPOCALCAEMIA,31,drug:Cabozantinib,1
+SKIN ULCER,31,drug:Cabozantinib,1
+DRUG INTERACTION,30,drug:Cabozantinib,1
+NEOPLASM PROGRESSION,30,drug:Cabozantinib,1
+BLOOD CREATININE INCREASED,29,drug:Cabozantinib,1
+ABDOMINAL DISTENSION,28,drug:Cabozantinib,1
+HAEMATURIA,28,drug:Cabozantinib,1
+HYPERKALAEMIA,28,drug:Cabozantinib,1
+METASTASES TO LIVER,28,drug:Cabozantinib,1
+NEUTROPENIA,28,drug:Cabozantinib,1
+TOXICITY TO VARIOUS AGENTS,28,drug:Cabozantinib,1
+IMMUNE-MEDIATED HEPATITIS,27,drug:Cabozantinib,1
+PNEUMOTHORAX,27,drug:Cabozantinib,1
+FALL,26,drug:Cabozantinib,1
