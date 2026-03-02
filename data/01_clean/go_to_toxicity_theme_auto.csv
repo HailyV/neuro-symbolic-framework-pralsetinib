@@ -1,0 +1,71 @@
+go_id,toxicity_theme,go_name
+GO:0001952,Cell Adhesion,regulation of cell-matrix adhesion
+GO:0007155,Cell Adhesion,cell adhesion
+GO:0007156,Cell Adhesion,homophilic cell-cell adhesion
+GO:0007158,Cell Adhesion,neuron cell-cell adhesion
+GO:0010572,Cell Adhesion,positive regulation of platelet activation
+GO:0010715,Cell Adhesion,regulation of extracellular matrix disassembly
+GO:0010811,Cell Adhesion,positive regulation of cell-substrate adhesion
+GO:0022407,Cell Adhesion,regulation of cell-cell adhesion
+GO:0022408,Cell Adhesion,negative regulation of cell-cell adhesion
+GO:0030155,Cell Adhesion,regulation of cell adhesion
+GO:0033630,Cell Adhesion,positive regulation of cell adhesion mediated by integrin
+GO:0034112,Cell Adhesion,positive regulation of homotypic cell-cell adhesion
+GO:0061302,Cell Adhesion,smooth muscle cell-matrix adhesion
+GO:0006915,Cell Death,apoptotic process
+GO:0008631,Cell Death,intrinsic apoptotic signaling pathway in response to oxidative stress
+GO:0010623,Cell Death,programmed cell death involved in cell development
+GO:0010667,Cell Death,negative regulation of cardiac muscle cell apoptotic process
+GO:0035602,Cell Death,fibroblast growth factor receptor signaling pathway involved in negative regulation of apoptotic process in bone marrow cell
+GO:0042981,Cell Death,regulation of apoptotic process
+GO:0043065,Cell Death,positive regulation of apoptotic process
+GO:0043066,Cell Death,negative regulation of apoptotic process
+GO:0043068,Cell Death,positive regulation of programmed cell death
+GO:0043524,Cell Death,negative regulation of neuron apoptotic process
+GO:2001241,Cell Death,positive regulation of extrinsic apoptotic signaling pathway in absence of ligand
+GO:0001776,Immune System,leukocyte homeostasis
+GO:0001819,Immune System,positive regulation of cytokine production
+GO:0002250,Immune System,adaptive immune response
+GO:0002328,Immune System,pro-B cell differentiation
+GO:0002376,Immune System,immune system process
+GO:0019221,Immune System,cytokine-mediated signaling pathway
+GO:0030183,Immune System,B cell differentiation
+GO:0035723,Immune System,interleukin-15-mediated signaling pathway
+GO:0035771,Immune System,interleukin-4-mediated signaling pathway
+GO:0038043,Immune System,interleukin-5-mediated signaling pathway
+GO:0038110,Immune System,interleukin-2-mediated signaling pathway
+GO:0038111,Immune System,interleukin-7-mediated signaling pathway
+GO:0038113,Immune System,interleukin-9-mediated signaling pathway
+GO:0038154,Immune System,interleukin-11-mediated signaling pathway
+GO:0046651,Immune System,lymphocyte proliferation
+GO:0060333,Immune System,type II interferon-mediated signaling pathway
+GO:0060337,Immune System,type I interferon-mediated signaling pathway
+GO:0070102,Immune System,interleukin-6-mediated signaling pathway
+GO:0071345,Immune System,cellular response to cytokine stimulus
+GO:0097021,Immune System,lymphocyte migration into lymphoid organs
+GO:0098761,Immune System,cellular response to interleukin-7
+GO:0140105,Immune System,interleukin-10-mediated signaling pathway
+GO:0001764,Neurological,neuron migration
+GO:0007411,Neurological,axon guidance
+GO:0007420,Neurological,brain development
+GO:0010976,Neurological,positive regulation of neuron projection development
+GO:0019227,Neurological,neuronal action potential propagation
+GO:0021860,Neurological,pyramidal neuron development
+GO:0022011,Neurological,myelination in peripheral nervous system
+GO:0030182,Neurological,neuron differentiation
+GO:0031103,Neurological,axon regeneration
+GO:0031175,Neurological,neuron projection development
+GO:0035860,Neurological,glial cell-derived neurotrophic factor receptor signaling pathway
+GO:0042551,Neurological,neuron maturation
+GO:0048665,Neurological,neuron fate specification
+GO:0048666,Neurological,neuron development
+GO:0048678,Neurological,response to axon injury
+GO:0048691,Neurological,positive regulation of axon extension involved in regeneration
+GO:0051965,Neurological,positive regulation of synapse assembly
+GO:0061564,Neurological,axon development
+GO:0150104,Neurological,transport across blood-brain barrier
+GO:1990138,Neurological,neuron projection extension
+GO:1990962,Neurological,xenobiotic transport across blood-brain barrier
+GO:0006979,Oxidative Stress,response to oxidative stress
+GO:0050665,Oxidative Stress,hydrogen peroxide biosynthetic process
+GO:0070989,Oxidative Stress,oxidative demethylation

@@ -1,0 +1,2 @@
+feature,mean_serious,mean_nonserious,mean_diff_serious_minus_nonserious,mannwhitney_u,p_value,cliffs_delta,cohens_d,n_serious,n_nonserious
+faers_only_sum,1752.5984990619138,1993.1087866108787,-240.51028754896493,120044.5,0.10163841673377318,-0.057639319553800625,-0.2197503794167416,533,478

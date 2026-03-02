@@ -2,7 +2,6 @@
 """
 pipelines/04_run_models.py
 
-Runs:
 A) Theme-level ranking models (baseline / KG / hybrid) from data/03_features/theme_features.csv
 B) Report-level logistic regression (predict seriousness) from data/03_features/faers_report_features.csv
 
@@ -34,13 +33,8 @@ def safe_log1p(x: pd.Series) -> pd.Series:
 def run_theme_rankings() -> None:
     df = pd.read_csv(THEME_FEATURES)
 
-    # Model 1: FAERS baseline
     df["score_faers"] = df["faers_count"]
-
-    # Model 2: KG-only
     df["score_kg"] = df["kg_path_count"]
-
-    # Model 3: Hybrid (transparent)
     df["score_hybrid"] = safe_log1p(df["faers_count"]) + 2.0 * df["kg_path_count"]
 
     out = df[
@@ -67,32 +61,37 @@ def run_theme_rankings() -> None:
 
 def run_report_logistic_regression() -> None:
     df = pd.read_csv(REPORT_FEATURES)
-
     if "y_serious" not in df.columns:
-        raise ValueError("report features missing y_serious. Run report feature builder first.")
+        raise ValueError("report features missing y_serious. Run 03b builder first.")
 
-    # Feature set: mechanistic aggregates + theme indicators (interpretable)
+    # Build feature list (prefer weighted mechanistic score)
     feature_cols: list[str] = []
 
-    # core neuro-symbolic aggregates
-    for c in ["num_reactions", "mech_sum_paths", "mech_sum_unique_go", "mech_sum_unique_proteins"]:
+    for c in ["num_reactions", "mech_weighted_sum", "mech_sum_paths", "mech_sum_unique_go", "mech_sum_unique_proteins"]:
         if c in df.columns:
             feature_cols.append(c)
 
-    # theme indicators
-    theme_cols = [c for c in df.columns if c.startswith("has_theme__")]
-    feature_cols += sorted(theme_cols)
+    # Mechanistic-only features (no theme flags)
+    feature_cols = []
+
+    for c in [
+        "num_reactions",
+        "mech_weighted_sum",
+        "mech_sum_paths",
+        "mech_sum_unique_go",
+        "mech_sum_unique_proteins",
+    ]:
+        if c in df.columns:
+            feature_cols.append(c)
 
     X = df[feature_cols].fillna(0)
     y = df["y_serious"].astype(int)
 
-    # 🚫 Remove label-leakage theme (safe even if missing)
+    # 🚫 Remove leakage feature if present
     X = X.drop(columns=["has_theme__severe_outcome"], errors="ignore")
 
-    # Regularized logistic regression
     model = LogisticRegression(max_iter=5000, solver="liblinear")
 
-    # Cross-validated AUC/ACC (stratified)
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     aucs, accs = [], []
     for train, test in skf.split(X, y):
@@ -102,10 +101,8 @@ def run_report_logistic_regression() -> None:
         aucs.append(roc_auc_score(y.iloc[test], prob))
         accs.append(accuracy_score(y.iloc[test], pred))
 
-    # Fit final model on all data for coefficient reporting
     model.fit(X, y)
 
-    # ✅ IMPORTANT: use X.columns (post-drop) so lengths match
     coef = pd.DataFrame({"feature": X.columns.to_list(), "coef": model.coef_[0]})
     coef = coef.sort_values("coef", ascending=False).reset_index(drop=True)
 

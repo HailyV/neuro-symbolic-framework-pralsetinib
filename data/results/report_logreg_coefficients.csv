@@ -1,12 +1,6 @@
 feature,coef
-has_theme__cell_death,1.2388108088607939
-num_reactions,0.4159322878562025
-has_theme__immune_system,0.2525763213177694
-mech_sum_unique_proteins,-0.039451881594436695
-mech_sum_paths,-0.039451881594436695
-mech_sum_unique_go,-0.20761982817300953
-has_theme__cell_adhesion,-0.5353214311411352
-has_theme__medication_error,-1.067107282942958
-has_theme__neurological,-1.0691003477290344
-has_theme__other___unmapped,-1.1423423850347922
-has_theme__oxidative_stress,-1.1636855272103706
+mech_sum_unique_go,0.7540237469205914
+mech_sum_unique_proteins,0.2886063482260664
+num_reactions,0.2089163517293199
+mech_weighted_sum,-0.039294000757022024
+mech_sum_paths,-0.46402806990949136
