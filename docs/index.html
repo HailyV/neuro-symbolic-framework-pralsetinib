@@ -450,6 +450,130 @@
       height: 680px !important;
     }
 
+    /* ─── 3-MODEL GRID ─── */
+    .model-compare-3 {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 20px; margin-top: 48px;
+    }
+    @media (max-width: 900px) { .model-compare-3 { grid-template-columns: 1fr; } }
+
+    .model-card-3 {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      display: flex; flex-direction: column; gap: 12px;
+      position: relative;
+    }
+    .model-card-loocv {
+      border-color: rgba(90,191,122,0.3);
+      background: rgba(90,191,122,0.02);
+    }
+    .badge-loocv { background: rgba(90,191,122,0.12); color: var(--green); font-size:10px; letter-spacing:0.2em; text-transform:uppercase; padding:3px 10px; border-radius:2px; display:inline-block; margin-bottom:8px; }
+
+    .model-metrics {
+      display: flex; gap: 12px; margin: 8px 0;
+    }
+    .mm-stat {
+      flex: 1; padding: 14px; text-align: center;
+      border: 1px solid rgba(90,191,122,0.2);
+      border-radius: 3px;
+      background: rgba(90,191,122,0.05);
+    }
+    .mm-val { display: block; font-family: "JetBrains Mono", monospace; font-size: 24px; color: var(--green); }
+    .mm-key { display: block; font-size: 10px; color: var(--ink-faint); letter-spacing: 0.1em; margin-top: 4px; }
+
+    .model-finding {
+      font-size: 13px; color: var(--ink-faint);
+      border-top: 1px solid var(--border);
+      padding-top: 12px; margin-top: auto;
+      line-height: 1.6;
+    }
+    .mf-label {
+      display: block; font-size: 10px; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--gold-dim);
+      margin-bottom: 6px;
+    }
+
+    /* ─── RESULTS ─── */
+    .results-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 2px; margin-top: 48px;
+    }
+    @media (max-width: 900px) { .results-grid { grid-template-columns: 1fr; } }
+
+    .result-card {
+      padding: 36px 32px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      position: relative; overflow: hidden;
+      transition: background 0.3s;
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .result-card:hover { background: rgba(200,169,110,0.02); }
+    .rc-accent {
+      position: absolute; top: 0; left: 0; right: 0;
+      height: 2px;
+    }
+    .rc-icon {
+      font-size: 24px; color: var(--gold-dim);
+      line-height: 1; margin-bottom: 4px;
+    }
+    .rc-callout {
+      font-size: 12px; color: var(--ink-faint);
+      padding: 12px 14px;
+      border-left: 2px solid var(--gold-dim);
+      background: rgba(200,169,110,0.04);
+      line-height: 1.6;
+    }
+
+    /* stats table */
+    .stats-table { display: flex; flex-direction: column; gap: 2px; margin: 4px 0; }
+    .st-row {
+      display: grid; grid-template-columns: 2fr 1fr 1.5fr;
+      gap: 8px; padding: 8px 10px; font-size: 12px;
+      border: 1px solid var(--border);
+    }
+    .st-head {
+      background: rgba(255,255,255,0.02);
+      font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+    .stat-up { color: var(--green); font-family: "JetBrains Mono", monospace; }
+    .stat-sig { color: var(--blue); font-family: "JetBrains Mono", monospace; }
+
+    /* performance bars */
+    .perf-bars { display: flex; flex-direction: column; gap: 12px; margin: 8px 0; }
+    .pb-row { display: flex; align-items: center; gap: 10px; }
+    .pb-label { font-size: 12px; color: var(--ink-faint); width: 70px; flex-shrink: 0; }
+    .pb-track { flex: 1; height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden; }
+    .pb-fill { height: 100%; border-radius: 3px; transition: width 1s ease; }
+    .pb-val { font-family: "JetBrains Mono", monospace; font-size: 13px; color: var(--ink-dim); width: 44px; text-align: right; flex-shrink: 0; }
+
+    /* synthesis box */
+    .synthesis-box {
+      margin-top: 48px;
+      padding: 40px 48px;
+      border-left: 3px solid var(--gold);
+      background: rgba(200,169,110,0.04);
+    }
+    .sb-label {
+      font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 12px;
+    }
+    .synthesis-box p {
+      font-family: "Cormorant Garamond", serif;
+      font-size: clamp(16px, 2vw, 20px);
+      font-weight: 300; font-style: italic;
+      color: var(--ink); line-height: 1.7; margin: 0;
+    }
+
+    code {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px; color: var(--green);
+      background: rgba(90,191,122,0.08);
+      padding: 1px 5px; border-radius: 2px;
+    }
+
     /* ─── MODELING ─── */
     .model-compare {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -584,6 +708,8 @@
     <li><a href="#challenge">Challenge</a></li>
     <li><a href="#approach">Approach</a></li>
     <li><a href="#graph">Graph</a></li>
+    <li><a href="#models">Models</a></li>
+    <li><a href="#results">Results</a></li>
     <li><a href="#findings">Findings</a></li>
   </ul>
 </nav>
@@ -1032,51 +1158,158 @@
 
 
 <!-- MODELING -->
-<div class="section-alt section-full">
+<div id="models" class="section-alt section-full">
   <div class="section-inner section">
     <div class="section-label">06 — Modeling Strategy</div>
-    <h2>From frequency ranking<br>to mechanistic paths</h2>
+    <h2>Three models, one<br>unified framework</h2>
+    <p>A progressive modeling pipeline — from frequency baseline to Bayesian hybrid scoring to logistic regression severity prediction — each layer adding mechanistic depth.</p>
 
-    <div class="model-compare fade-in">
-      <div class="model-card baseline">
-        <span class="model-badge badge-baseline">Baseline</span>
-        <h3>FAERS-Only Ranking</h3>
-        <p>Toxicity themes ranked purely by adverse event frequency. No biological reasoning incorporated — a statistical signal without mechanistic grounding.</p>
+    <div class="model-compare-3 fade-in">
+
+      <div class="model-card model-card-3 baseline">
+        <span class="model-badge badge-baseline">Model 1</span>
+        <h3>FAERS Baseline</h3>
+        <p>Toxicity themes ranked purely by adverse event report frequency. Provides a strong statistical reference point but captures <em>no</em> biological reasoning — a frequency signal without mechanistic grounding.</p>
+        <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">FAERS Report Count → Theme Rank</div>
+        <div class="model-finding">
+          <span class="mf-label">Key Output</span>
+          High-frequency themes: Pneumonia, Hepatic Injury, Infections — reflecting reporting volume, not biological plausibility.
+        </div>
       </div>
-      <div class="model-card enhanced">
-        <span class="model-badge badge-enhanced">Ontology-Grounded</span>
-        <h3>Path Scoring</h3>
-        <p>Mechanistic paths weighted by biological role and FAERS support, enabling interpretable hypothesis generation.</p>
-        <div class="path-display">Drug → Protein → GO Process → Toxicity</div>
+
+      <div class="model-card model-card-3 enhanced">
+        <span class="model-badge badge-enhanced">Model 2</span>
+        <h3>Bayesian Path Scoring</h3>
+        <p>Hybrid scoring combining FAERS frequency with knowledge graph path counts. Mechanistic paths are weighted by biological role, surfacing themes with strong pathway support that frequency-only ranking misses.</p>
+        <div class="path-display">Drug → Protein → GO Process → Toxicity Theme</div>
+        <div class="model-finding">
+          <span class="mf-label">Key Finding</span>
+          Cell Death / Apoptosis and Renal Effects emerge as high-biology / low-reporting candidates — potential underreported signals.
+        </div>
       </div>
+
+      <div class="model-card model-card-3 model-card-loocv">
+        <span class="model-badge badge-loocv">Model 3 — Partner</span>
+        <h3>Logistic Regression<br>Severity Prediction</h3>
+        <p>Predicts whether a FAERS report corresponds to a serious adverse outcome using mechanistic features extracted from the knowledge graph. Validated with 5-fold cross-validation.</p>
+        <div class="path-display" style="border-color:rgba(90,191,122,0.2); color:var(--green);">Mech. Features → Serious / Non-Serious</div>
+        <div class="model-metrics">
+          <div class="mm-stat">
+            <span class="mm-val">0.644</span>
+            <span class="mm-key">AUC ± 0.053</span>
+          </div>
+          <div class="mm-stat">
+            <span class="mm-val">56.9%</span>
+            <span class="mm-key">Accuracy ± 0.057</span>
+          </div>
+        </div>
+        <div class="model-finding">
+          <span class="mf-label">Key Finding</span>
+          Unique GO process count (<code>mech_sum_unique_go</code>) is the strongest positive predictor of serious outcomes — mechanistic diversity matters more than raw path count.
+        </div>
+      </div>
+
     </div>
 
     <details>
       <summary>Technical Architecture</summary>
       <div>
-        <p>Nodes include Drug, Protein, GO Biological Process, and Toxicity Theme. Edges encode molecular binding, pathway involvement, and real-world safety associations. Modeling includes path-based scoring and optional feature extraction for interpretable ML models.</p>
+        <p>Nodes include Drug, Protein, GO Biological Process, and Toxicity Theme. Edges encode molecular binding, pathway involvement, and real-world safety associations. Model 2 uses Bayesian path scoring weighted by biological centrality. Model 3 extracts per-report mechanistic features (unique GO terms, unique proteins, weighted path scores, reaction counts) as inputs to L1-regularized logistic regression.</p>
       </div>
     </details>
   </div>
 </div>
 
+<!-- RESULTS -->
+<section id="results" class="section">
+  <div class="section-label">07 — Results</div>
+  <h2>What the data shows</h2>
+
+  <div class="results-grid fade-in">
+
+    <div class="result-card">
+      <div class="rc-accent" style="background: linear-gradient(to right, var(--gold), transparent);"></div>
+      <div class="rc-icon">◈</div>
+      <h3>Complementarity Analysis</h3>
+      <p>KG path counts and FAERS report frequency capture <em>orthogonal</em> signals. Spearman ρ ≈ <strong style="color:var(--gold)">0.18</strong> — nearly uncorrelated. Themes like Cell Death, Cell Adhesion, and Oxidative Stress show strong mechanistic support despite low or zero FAERS frequency.</p>
+      <div class="rc-callout">High-frequency categories such as "Other / Unmapped" lack mechanistic grounding, revealing reporting noise.</div>
+    </div>
+
+    <div class="result-card">
+      <div class="rc-accent" style="background: linear-gradient(to right, var(--green), transparent);"></div>
+      <div class="rc-icon">◉</div>
+      <h3>Mechanistic Enrichment in Serious Reports</h3>
+      <p>Serious adverse event reports show significantly higher mechanistic support than non-serious reports across all three mechanistic features.</p>
+      <div class="stats-table">
+        <div class="st-row st-head">
+          <span>Feature</span><span>Δ Mean</span><span>p-value (FDR)</span>
+        </div>
+        <div class="st-row">
+          <span>Unique GO Processes</span><span class="stat-up">+3.12</span><span class="stat-sig">q = 0.00216</span>
+        </div>
+        <div class="st-row">
+          <span>Total Path Count</span><span class="stat-up">+3.20</span><span class="stat-sig">q = 0.00337</span>
+        </div>
+        <div class="st-row">
+          <span>Weighted Mech. Score</span><span class="stat-up">+18.5</span><span class="stat-sig">q = 0.00216</span>
+        </div>
+      </div>
+      <div class="rc-callout" style="margin-top:16px;">Cohen's d ≈ 0.20–0.25 · Cliff's δ ≈ 0.10–0.11 — consistent directional shift toward higher mechanistic burden in serious cases.</div>
+    </div>
+
+    <div class="result-card">
+      <div class="rc-accent" style="background: linear-gradient(to right, var(--blue), transparent);"></div>
+      <div class="rc-icon">◇</div>
+      <h3>Severity Prediction Performance</h3>
+      <p>The logistic regression model achieves above-chance performance using only mechanistic features, with broader pathway involvement the dominant predictor of clinical severity.</p>
+      <div class="perf-bars">
+        <div class="pb-row">
+          <span class="pb-label">AUC-ROC</span>
+          <div class="pb-track">
+            <div class="pb-fill" style="width:64.4%; background: var(--blue);"></div>
+          </div>
+          <span class="pb-val">0.644</span>
+        </div>
+        <div class="pb-row">
+          <span class="pb-label">Accuracy</span>
+          <div class="pb-track">
+            <div class="pb-fill" style="width:56.9%; background: var(--slate);"></div>
+          </div>
+          <span class="pb-val">56.9%</span>
+        </div>
+      </div>
+      <div class="rc-callout" style="margin-top:16px;">Mechanistic diversity features (unique GO terms, unique proteins) outperform raw path count — weighted path score alone adds limited signal.</div>
+    </div>
+
+  </div>
+
+  <div class="synthesis-box fade-in">
+    <div class="sb-label">Overall Interpretation</div>
+    <p>Ontology-based reasoning adds meaningful explanatory signal beyond simple reporting counts. Mechanistic features derived from the knowledge graph are statistically enriched in serious adverse event reports and contribute positively in severity prediction models — even when controlling for reaction frequency. The weak correlation between FAERS frequency and mechanistic path support demonstrates that these signals are non-redundant: frequency reflects reporting volume while ontology-grounded paths reflect biological pathway involvement tied to known molecular targets.</p>
+  </div>
+</section>
+
 <!-- FINDINGS -->
 <section id="findings" class="section">
-  <div class="section-label">07 — Observations</div>
-  <h2>What the graph reveals</h2>
+  <div class="section-label">08 — Key Findings</div>
+  <h2>What the framework reveals</h2>
 
   <ul class="findings-list fade-in">
     <li>
       <span class="fi-num">I</span>
-      <span class="fi-text">Ontology-grounded scoring produces biologically coherent hypotheses, connecting molecular targets to plausible toxicity themes through known pathways.</span>
+      <span class="fi-text">FAERS reporting frequency and mechanistic KG path support are nearly uncorrelated (ρ ≈ 0.18), validating the core premise of the neuro-symbolic approach — each signal captures a distinct dimension of toxicity risk.</span>
     </li>
     <li>
       <span class="fi-num">II</span>
-      <span class="fi-text">Mechanistic chains link immune signaling pathways to infection reports — providing an explanatory basis for observed FAERS adverse events.</span>
+      <span class="fi-text">Cell Death / Apoptosis and Renal Effects are strong candidates for underreported adverse events — high biological plausibility, low reporting frequency — identified exclusively through the hybrid scoring approach.</span>
     </li>
     <li>
       <span class="fi-num">III</span>
-      <span class="fi-text">Structured reasoning improves interpretability over frequency-based ranking, generating hypotheses that can be evaluated by domain experts.</span>
+      <span class="fi-text">Serious adverse events are associated with broader and stronger biological pathway involvement (FDR-corrected p &lt; 0.01), supporting the hypothesis that mechanistic complexity correlates with clinical severity.</span>
+    </li>
+    <li>
+      <span class="fi-num">IV</span>
+      <span class="fi-text">Mechanistic grounding is not random noise — diversity-based features (unique GO processes, unique proteins) show the strongest predictive utility, outperforming raw path counts in severity classification.</span>
     </li>
   </ul>
 </section>
@@ -1084,7 +1317,7 @@
 <!-- IMPACT & LIMITATIONS -->
 <div class="section-alt section-full">
   <div class="section-inner section">
-    <div class="section-label">08 — Impact & Limitations</div>
+    <div class="section-label">09 — Impact & Limitations</div>
     <div class="two-col">
       <div class="fade-in">
         <h2>Why this matters</h2>
