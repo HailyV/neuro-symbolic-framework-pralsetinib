@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Neuro-Symbolic AI for Drug Safety — Pralsetinib</title>
+  <title>Predicting Off-Target Drug Effects Using Gene and Phenotype Ontologies</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   
@@ -689,6 +689,79 @@
       margin: 20px auto;
     }
 
+    /* ─── TOOLTIPS ─── */
+    .tip {
+      border-bottom: 1px dashed var(--gold-dim);
+      cursor: help;
+      position: relative;
+      color: inherit;
+    }
+    .tip::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%; transform: translateX(-50%);
+      background: #1a2035;
+      border: 1px solid var(--border);
+      color: var(--ink);
+      font-size: 12px;
+      font-family: "DM Sans", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 1.5;
+      padding: 10px 14px;
+      border-radius: 4px;
+      width: 240px;
+      white-space: normal;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.2s;
+      z-index: 999;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+    .tip:hover::after { opacity: 1; }
+
+    /* ─── PLAIN-LANGUAGE INTRO BANNER ─── */
+    .plain-lang-bar {
+      background: rgba(200,169,110,0.07);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 48px;
+      font-size: 13px;
+      color: var(--ink-faint);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .plain-lang-bar strong { color: var(--gold); }
+
+    /* ─── GLOSSARY ─── */
+    .glossary-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2px; margin-top: 40px;
+    }
+    .glossary-card {
+      padding: 24px 28px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .glossary-card .gc-term {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px; color: var(--gold);
+      margin-bottom: 8px; display: block;
+    }
+    .glossary-card p { font-size: 13px; margin: 0; line-height: 1.6; }
+
+    /* ─── ANALOGY BOX ─── */
+    .analogy-box {
+      margin: 32px 0;
+      padding: 28px 36px;
+      border: 1px solid rgba(91,164,224,0.2);
+      background: rgba(91,164,224,0.04);
+      border-radius: 4px;
+      display: flex; gap: 16px; align-items: flex-start;
+    }
+    .analogy-icon { font-size: 24px; flex-shrink: 0; margin-top: 2px; }
+    .analogy-box p { font-size: 14px; margin: 0; color: var(--ink-dim); line-height: 1.7; }
+    .analogy-box strong { color: var(--ink); }
+
     /* ─── FADE-IN ANIMATION ─── */
     .fade-in {
       opacity: 0; transform: translateY(24px);
@@ -703,7 +776,7 @@
 
 <!-- NAV -->
 <nav>
-  <a class="nav-brand" href="#">Neuro-Symbolic AI</a>
+  <a class="nav-brand" href="#">Off-Target Drug Effects</a>
   <ul>
     <li><a href="#challenge">Challenge</a></li>
     <li><a href="#approach">Approach</a></li>
@@ -714,18 +787,23 @@
   </ul>
 </nav>
 
+<!-- PLAIN LANGUAGE BAR -->
+<div class="plain-lang-bar">
+  💡 <strong>New to biology or AI?</strong>&nbsp; Hover over any <span style="border-bottom:1px dashed var(--gold-dim); color:var(--ink-dim);">underlined term</span> for a plain-language explanation. A full glossary is available at the bottom of the page.
+</div>
+
 <!-- HERO -->
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
   <div class="hero-content fade-in">
     <div class="hero-eyebrow">DSC 180B Capstone · UC San Diego</div>
-    <h1>Neuro-Symbolic AI<br>for <em>Drug Safety</em></h1>
+    <h1>Predicting <em>Off-Target</em><br>Drug Effects</h1>
     <p class="hero-sub">
-      Mechanistically grounding off-target toxicity signals in biology
-      through knowledge graph reasoning.
+      Using gene and phenotype ontologies to uncover hidden drug side effects
+      that standard safety reporting systems miss.
     </p>
-    <div class="hero-case">CASE STUDY: PRALSETINIB</div>
+    <div class="hero-case">CASE STUDY: PRALSETINIB · LUNG CANCER DRUG</div>
   </div>
   <div class="hero-scroll">
     <div class="scroll-line"></div>
@@ -735,18 +813,24 @@
 
 <!-- CHALLENGE -->
 <section id="challenge" class="section">
-  <div class="section-label">01 — Challenge</div>
-  <h2>The limits of statistical<br>pharmacovigilance</h2>
+  <div class="section-label">01 — The Problem</div>
+  <h2>How do we know when<br>a drug is causing harm?</h2>
+
+  <div class="analogy-box">
+    <span class="analogy-icon">💊</span>
+    <p><strong>Think of it like this:</strong> When you take a medication, it's designed to hit one specific target in your body. But drugs are imprecise — they can also interact with other proteins and biological systems, causing unexpected side effects. These are called <strong>off-target effects</strong>. Our project builds a system that can predict <em>which</em> side effects are likely and <em>why</em> they happen, using biology as the explanation.</p>
+  </div>
+
   <div class="two-col fade-in">
     <div class="challenge-item">
       <span class="number">01</span>
-      <h3>Signal without explanation</h3>
-      <p>Modern pharmacovigilance systems detect statistical safety signals — but rarely explain <em>why</em> adverse events occur.</p>
+      <h3>Detection without explanation</h3>
+      <p>The FDA's <span class="tip" data-tip="FAERS = FDA Adverse Event Reporting System. A database where doctors, patients, and drugmakers report side effects observed after a drug reaches the market.">FAERS database</span> tracks which side effects get reported after a drug is approved — but it only tells us <em>what</em> happened, not <em>why</em>. A drug causing 500 liver injury reports doesn't tell us which biological pathway caused it.</p>
     </div>
     <div class="challenge-item">
       <span class="number">02</span>
-      <h3>Interpretability imperative</h3>
-      <p>When a patient develops infection or hepatic injury, what biological mechanisms connect those outcomes to molecular drug interactions? In healthcare, predictive accuracy is not enough.</p>
+      <h3>Underreporting is a real risk</h3>
+      <p>Some dangerous side effects are rarely reported — not because they don't happen, but because they're hard to connect to a drug, or simply overlooked. Our framework uses <span class="tip" data-tip="Biological pathways are the step-by-step molecular processes inside cells — like a chain reaction where protein A activates protein B, which then triggers an effect in the body.">biological pathway knowledge</span> to surface these hidden signals before they become clinical problems.</p>
     </div>
   </div>
 </section>
@@ -755,18 +839,24 @@
 <div class="section-alt section-full">
   <div class="section-inner section">
     <div class="section-label">02 — Research Question</div>
-    <h2>Can we ground AI models<br>in mechanistic biology?</h2>
+    <h2>Can biology explain<br>what statistics miss?</h2>
     <div class="rq-box fade-in">
-      <p>Can ontologies ground AI models for drug toxicity analysis by enabling mechanistically interpretable reasoning from molecular interactions to real-world adverse events?</p>
+      <p>Can we use structured knowledge about genes and biological processes to predict drug side effects — and explain <em>why</em> they happen — beyond what frequency-based reporting alone can reveal?</p>
     </div>
+    <p style="margin-top: 24px;">In simpler terms: instead of just counting how often side effects are reported, can we trace <em>the molecular chain of events</em> — from a drug binding to a protein, to a biological process going wrong, to a patient experiencing harm?</p>
   </div>
 </div>
 
 <!-- APPROACH -->
 <section id="approach" class="section">
-  <div class="section-label">03 — Approach</div>
-  <h2>A multi-layer knowledge<br>graph architecture</h2>
-  <p>We integrated curated biological databases with real-world post-marketing safety data into a unified reasoning framework.</p>
+  <div class="section-label">03 — Our Approach</div>
+  <h2>Connecting molecules<br>to patient outcomes</h2>
+  <p>We built a <span class="tip" data-tip="A knowledge graph is a network of connected facts. Like a web of relationships — 'Drug A binds Protein B', 'Protein B triggers Process C', 'Process C is linked to Side Effect D'.">knowledge graph</span> that maps the full chain from a drug's molecular interactions to real-world side effects. Instead of treating these as unrelated data points, we trace the biological route that connects them.</p>
+
+  <div class="analogy-box" style="margin-top: 24px;">
+    <span class="analogy-icon">🗺️</span>
+    <p><strong>The map analogy:</strong> Imagine navigating a city. You could guess traffic patterns by counting cars on a road (FAERS frequency). Or you could use an actual map of streets, highways, and traffic lights (our knowledge graph). The map tells you <em>why</em> the traffic is there — not just that it is.</p>
+  </div>
 
   <div class="flow-diagram fade-in">
     <div class="flow-node">
@@ -776,46 +866,47 @@
     <div class="flow-arrow"></div>
     <div class="flow-node">
       <div class="flow-bubble fb-prot">Protein<br>Target</div>
-      <span class="flow-label">DrugBank</span>
+      <span class="flow-label"><span class="tip" data-tip="DrugBank is a curated database of known drug-to-protein interactions — which proteins a drug latches onto inside the body.">DrugBank</span></span>
     </div>
     <div class="flow-arrow"></div>
     <div class="flow-node">
       <div class="flow-bubble fb-go">GO<br>Process</div>
-      <span class="flow-label">Gene Ontology</span>
+      <span class="flow-label"><span class="tip" data-tip="Gene Ontology (GO) is a standardized dictionary that classifies what biological processes each protein is involved in — things like 'cell death', 'immune response', or 'cell growth'.">Gene Ontology</span></span>
     </div>
     <div class="flow-arrow"></div>
     <div class="flow-node">
-      <div class="flow-bubble fb-tox">Toxicity<br>Theme</div>
-      <span class="flow-label">FAERS</span>
+      <div class="flow-bubble fb-tox">Side Effect<br>Theme</div>
+      <span class="flow-label"><span class="tip" data-tip="FAERS = FDA Adverse Event Reporting System. Real-world reports of side effects submitted after a drug goes to market.">FAERS</span></span>
     </div>
   </div>
 
-  <p>This structure enables path-based reasoning across molecular, biological, and clinical layers of abstraction.</p>
+  <p>Each arrow represents a known biological relationship. By chaining them together, we can reason about <em>why</em> a drug might cause a particular side effect — not just correlate the two.</p>
 </section>
 
 <!-- DATA SOURCES -->
 <div class="section-alt section-full">
   <div class="section-inner section">
-    <div class="section-label">04 — Data Integration</div>
-    <h2>Three curated sources,<br>one reasoning framework</h2>
+    <div class="section-label">04 — Data Sources</div>
+    <h2>Three datasets, one<br>connected picture</h2>
+    <p>We combined three publicly available databases to build our reasoning network — each contributing a different layer of knowledge.</p>
     <div class="data-grid fade-in">
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--red), transparent);"></div>
         <div class="dc-num">01</div>
         <h3>DrugBank</h3>
-        <p>Defines high-confidence drug–protein interactions, providing the molecular entry point for mechanistic reasoning.</p>
+        <p>Tells us which proteins Pralsetinib binds to inside the body. Think of proteins as locks — DrugBank maps which locks this drug's key fits into, including ones it wasn't designed for.</p>
       </div>
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--blue), transparent);"></div>
         <div class="dc-num">02</div>
         <h3>Gene Ontology</h3>
-        <p>Maps proteins to biological processes, enabling the mechanistic middle layer between molecular targets and clinical outcomes.</p>
+        <p>A standardized biological dictionary that categorizes what each protein <em>does</em> — whether it's involved in cell death, immune signaling, or DNA repair. This is how we connect proteins to biological processes.</p>
       </div>
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--orange), transparent);"></div>
         <div class="dc-num">03</div>
         <h3>FAERS</h3>
-        <p>Provides real-world adverse event signals from post-marketing surveillance, used as weak supervision for toxicity themes.</p>
+        <p>The FDA's real-world side effect database. After a drug hits the market, doctors, patients, and companies submit reports of observed adverse events. This is our ground-truth signal — imperfect but essential.</p>
       </div>
     </div>
   </div>
@@ -823,8 +914,8 @@
 <!-- INTERACTIVE GRAPH -->
 <section id="graph" class="section">
   <div class="section-label">05 — Knowledge Graph</div>
-  <h2>Explore the molecular<br>reasoning network</h2>
-  <p>Pralsetinib's connections to proteins, biological processes, and observed toxicity themes — interactive and explorable.</p>
+  <h2>The network of biological<br>connections</h2>
+  <p>This interactive visualization shows Pralsetinib's full web of connections — which proteins it touches, which biological processes those proteins control, and which side effects emerge at the end of those chains. <strong>Click any node</strong> to explore its neighborhood. Colors represent different types of entities in the network.</p>
 
   <div class="graph-wrapper fade-in">
     <div class="graph-header">
@@ -1161,42 +1252,45 @@
 <div id="models" class="section-alt section-full">
   <div class="section-inner section">
     <div class="section-label">06 — Modeling Strategy</div>
-    <h2>Three models, one<br>unified framework</h2>
-    <p>A progressive modeling pipeline — from frequency baseline to Bayesian hybrid scoring to logistic regression severity prediction — each layer adding mechanistic depth.</p>
+    <h2>Three models, each asking<br>a different question</h2>
+    <p>We built a progressive pipeline — starting from a simple frequency count, adding biological reasoning, and finally predicting clinical severity. Each layer adds a new dimension of insight.</p>
 
     <div class="model-compare-3 fade-in">
 
       <div class="model-card model-card-3 baseline">
-        <span class="model-badge badge-baseline">Model 1</span>
-        <h3>FAERS Baseline</h3>
-        <p>Toxicity themes ranked purely by adverse event report frequency. Provides a strong statistical reference point but captures <em>no</em> biological reasoning — a frequency signal without mechanistic grounding.</p>
-        <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">FAERS Report Count → Theme Rank</div>
+        <span class="model-badge badge-baseline">Model 1 — Baseline</span>
+        <h3>FAERS Frequency Ranking</h3>
+        <p><em>"What side effects are reported most often?"</em></p>
+        <p>We rank side effect themes purely by how many reports appear in the FDA database. This is the standard approach — useful, but limited. High counts may reflect reporting bias, not actual biological risk.</p>
+        <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">Report Count → Theme Rank</div>
         <div class="model-finding">
           <span class="mf-label">Key Output</span>
-          High-frequency themes: Pneumonia, Hepatic Injury, Infections — reflecting reporting volume, not biological plausibility.
+          Top themes by frequency: Pneumonia, Hepatic Injury, Infections. These are what the data <em>surface</em> — but are they the whole story?
         </div>
       </div>
 
       <div class="model-card model-card-3 enhanced">
-        <span class="model-badge badge-enhanced">Model 2</span>
+        <span class="model-badge badge-enhanced">Model 2 — Hybrid Scoring</span>
         <h3>Bayesian Path Scoring</h3>
-        <p>Hybrid scoring combining FAERS frequency with knowledge graph path counts. Mechanistic paths are weighted by biological role, surfacing themes with strong pathway support that frequency-only ranking misses.</p>
-        <div class="path-display">Drug → Protein → GO Process → Toxicity Theme</div>
+        <p><em>"What does biology say should be risky?"</em></p>
+        <p>We combine FAERS report frequency with the number of biological pathway connections in our knowledge graph. A side effect with few reports but many biological links gets elevated — revealing potentially <span class="tip" data-tip="Underreported adverse events are side effects that likely occur in real patients but don't appear frequently in safety databases — perhaps because they're subtle, delayed, or hard to attribute to a specific drug.">underreported signals</span>.</p>
+        <div class="path-display">Drug → Protein → <span class="tip" data-tip="GO Process = Gene Ontology biological process. A categorized biological activity like 'cell death', 'immune response', or 'DNA repair'.">GO Process</span> → Side Effect</div>
         <div class="model-finding">
           <span class="mf-label">Key Finding</span>
-          Cell Death / Apoptosis and Renal Effects emerge as high-biology / low-reporting candidates — potential underreported signals.
+          Cell Death / Apoptosis and Renal Effects emerge as high-biology / low-reporting candidates — potentially underreported adverse events invisible to Model 1.
         </div>
       </div>
 
       <div class="model-card model-card-3 model-card-loocv">
-        <span class="model-badge badge-loocv">Model 3 — Partner</span>
-        <h3>Logistic Regression<br>Severity Prediction</h3>
-        <p>Predicts whether a FAERS report corresponds to a serious adverse outcome using mechanistic features extracted from the knowledge graph. Validated with 5-fold cross-validation.</p>
-        <div class="path-display" style="border-color:rgba(90,191,122,0.2); color:var(--green);">Mech. Features → Serious / Non-Serious</div>
+        <span class="model-badge badge-loocv">Model 3 — Partner's Model</span>
+        <h3>Severity Prediction<br>(Logistic Regression)</h3>
+        <p><em>"Can we predict if a reaction will be serious?"</em></p>
+        <p>This model predicts whether a specific adverse event report describes a <em>serious</em> outcome — hospitalization, disability, or death — using biological features extracted from our knowledge graph. Built and validated with <span class="tip" data-tip="5-fold cross-validation is a testing technique where the data is split 5 ways. The model is trained on 4 parts and tested on the 5th, repeated 5 times. This gives a reliable estimate of how well it generalizes to new data.">5-fold cross-validation</span>.</p>
+        <div class="path-display" style="border-color:rgba(90,191,122,0.2); color:var(--green);">Biological Features → Serious / Non-Serious</div>
         <div class="model-metrics">
           <div class="mm-stat">
             <span class="mm-val">0.644</span>
-            <span class="mm-key">AUC ± 0.053</span>
+            <span class="mm-key"><span class="tip" data-tip="AUC (Area Under the Curve) measures how well a model distinguishes between two groups. 0.5 = random chance, 1.0 = perfect. 0.644 means the model is meaningfully better than guessing.">AUC</span> ± 0.053</span>
           </div>
           <div class="mm-stat">
             <span class="mm-val">56.9%</span>
@@ -1205,7 +1299,7 @@
         </div>
         <div class="model-finding">
           <span class="mf-label">Key Finding</span>
-          Unique GO process count (<code>mech_sum_unique_go</code>) is the strongest positive predictor of serious outcomes — mechanistic diversity matters more than raw path count.
+          The number of <em>distinct</em> biological processes involved (<code>mech_sum_unique_go</code>) is the strongest predictor of severity — breadth of biological disruption matters more than depth.
         </div>
       </div>
 
@@ -1214,7 +1308,7 @@
     <details>
       <summary>Technical Architecture</summary>
       <div>
-        <p>Nodes include Drug, Protein, GO Biological Process, and Toxicity Theme. Edges encode molecular binding, pathway involvement, and real-world safety associations. Model 2 uses Bayesian path scoring weighted by biological centrality. Model 3 extracts per-report mechanistic features (unique GO terms, unique proteins, weighted path scores, reaction counts) as inputs to L1-regularized logistic regression.</p>
+        <p>Nodes include Drug, Protein, GO Biological Process, and Toxicity Theme. Edges encode molecular binding, pathway involvement, and real-world safety associations. Model 2 uses Bayesian path scoring weighted by biological centrality. Model 3 extracts per-report mechanistic features — unique GO terms, unique proteins, weighted path scores, reaction counts — as inputs to L1-regularized logistic regression (a standard machine learning classification technique that selects only the most informative predictors).</p>
       </div>
     </details>
   </div>
@@ -1223,48 +1317,49 @@
 <!-- RESULTS -->
 <section id="results" class="section">
   <div class="section-label">07 — Results</div>
-  <h2>What the data shows</h2>
+  <h2>What we found</h2>
 
   <div class="results-grid fade-in">
 
     <div class="result-card">
       <div class="rc-accent" style="background: linear-gradient(to right, var(--gold), transparent);"></div>
       <div class="rc-icon">◈</div>
-      <h3>Complementarity Analysis</h3>
-      <p>KG path counts and FAERS report frequency capture <em>orthogonal</em> signals. Spearman ρ ≈ <strong style="color:var(--gold)">0.18</strong> — nearly uncorrelated. Themes like Cell Death, Cell Adhesion, and Oxidative Stress show strong mechanistic support despite low or zero FAERS frequency.</p>
-      <div class="rc-callout">High-frequency categories such as "Other / Unmapped" lack mechanistic grounding, revealing reporting noise.</div>
+      <h3>Two signals, not one</h3>
+      <p>Report frequency and biological pathway evidence are <em>nearly uncorrelated</em> — <span class="tip" data-tip="Spearman correlation measures how closely two rankings match. 0 = no relationship, 1 = perfect match. A value of 0.18 means the two signals share very little overlap — they're measuring different things.">Spearman ρ ≈ 0.18</span>. This means our biology-based approach isn't just replicating what FAERS already tells us — it's discovering genuinely new information.</p>
+      <p>Themes like <strong style="color:var(--ink)">Cell Death, Cell Adhesion, and Oxidative Stress</strong> have strong biological support but almost no FDA reports — exactly the kind of hidden signal we set out to find.</p>
+      <div class="rc-callout">High-reporting categories like "Other / Unmapped" lack biological grounding — suggesting those reports reflect noise, not true biological risk.</div>
     </div>
 
     <div class="result-card">
       <div class="rc-accent" style="background: linear-gradient(to right, var(--green), transparent);"></div>
       <div class="rc-icon">◉</div>
-      <h3>Mechanistic Enrichment in Serious Reports</h3>
-      <p>Serious adverse event reports show significantly higher mechanistic support than non-serious reports across all three mechanistic features.</p>
+      <h3>Serious reactions have more biological complexity</h3>
+      <p>Adverse event reports classified as <em>serious</em> (hospitalization, disability, death) show significantly more biological pathway involvement than non-serious reports. All three differences are statistically significant after correcting for multiple tests.</p>
       <div class="stats-table">
         <div class="st-row st-head">
-          <span>Feature</span><span>Δ Mean</span><span>p-value (FDR)</span>
+          <span>Feature</span><span>Δ (serious vs. not)</span><span><span class="tip" data-tip="FDR-adjusted q-value is a statistical measure of confidence. Below 0.05 means there's less than a 5% chance this result is due to random chance. Our values are well below this threshold.">FDR q-value</span></span>
         </div>
         <div class="st-row">
-          <span>Unique GO Processes</span><span class="stat-up">+3.12</span><span class="stat-sig">q = 0.00216</span>
+          <span>Unique biological processes</span><span class="stat-up">+3.12</span><span class="stat-sig">q = 0.00216</span>
         </div>
         <div class="st-row">
-          <span>Total Path Count</span><span class="stat-up">+3.20</span><span class="stat-sig">q = 0.00337</span>
+          <span>Total pathway connections</span><span class="stat-up">+3.20</span><span class="stat-sig">q = 0.00337</span>
         </div>
         <div class="st-row">
-          <span>Weighted Mech. Score</span><span class="stat-up">+18.5</span><span class="stat-sig">q = 0.00216</span>
+          <span>Weighted biological score</span><span class="stat-up">+18.5</span><span class="stat-sig">q = 0.00216</span>
         </div>
       </div>
-      <div class="rc-callout" style="margin-top:16px;">Cohen's d ≈ 0.20–0.25 · Cliff's δ ≈ 0.10–0.11 — consistent directional shift toward higher mechanistic burden in serious cases.</div>
+      <div class="rc-callout" style="margin-top:16px;"><span class="tip" data-tip="Cohen's d is a measure of effect size — how large a practical difference is. 0.20–0.25 is considered small-to-moderate. Cliff's delta is similar but more robust to outliers.">Cohen's d ≈ 0.20–0.25 · Cliff's δ ≈ 0.10–0.11</span> — a consistent shift toward greater biological disruption in serious cases.</div>
     </div>
 
     <div class="result-card">
       <div class="rc-accent" style="background: linear-gradient(to right, var(--blue), transparent);"></div>
       <div class="rc-icon">◇</div>
-      <h3>Severity Prediction Performance</h3>
-      <p>The logistic regression model achieves above-chance performance using only mechanistic features, with broader pathway involvement the dominant predictor of clinical severity.</p>
+      <h3>Biology predicts severity better than counts alone</h3>
+      <p>Using only biological features from our knowledge graph, the severity prediction model achieves meaningful predictive power above random chance. Crucially, <em>diversity</em> of biological disruption matters more than raw quantity.</p>
       <div class="perf-bars">
         <div class="pb-row">
-          <span class="pb-label">AUC-ROC</span>
+          <span class="pb-label"><span class="tip" data-tip="AUC measures how well a classifier separates two groups. 0.5 = coin flip, 1.0 = perfect. 0.644 is genuinely above chance and meaningful given that only biological features are used.">AUC-ROC</span></span>
           <div class="pb-track">
             <div class="pb-fill" style="width:64.4%; background: var(--blue);"></div>
           </div>
@@ -1278,38 +1373,38 @@
           <span class="pb-val">56.9%</span>
         </div>
       </div>
-      <div class="rc-callout" style="margin-top:16px;">Mechanistic diversity features (unique GO terms, unique proteins) outperform raw path count — weighted path score alone adds limited signal.</div>
+      <div class="rc-callout" style="margin-top:16px;">The number of <em>distinct</em> biological processes disrupted — not the total count of pathway connections — was the strongest predictor of whether a reaction would be serious.</div>
     </div>
 
   </div>
 
   <div class="synthesis-box fade-in">
-    <div class="sb-label">Overall Interpretation</div>
-    <p>Ontology-based reasoning adds meaningful explanatory signal beyond simple reporting counts. Mechanistic features derived from the knowledge graph are statistically enriched in serious adverse event reports and contribute positively in severity prediction models — even when controlling for reaction frequency. The weak correlation between FAERS frequency and mechanistic path support demonstrates that these signals are non-redundant: frequency reflects reporting volume while ontology-grounded paths reflect biological pathway involvement tied to known molecular targets.</p>
+    <div class="sb-label">The Bottom Line</div>
+    <p>Biological pathway knowledge adds real explanatory value that FDA reporting data alone cannot provide. Reports with broader biological disruption are more likely to be serious — and this signal is statistically robust. The near-zero overlap between frequency-based and biology-based signals means these two approaches are complementary, not redundant: together, they give a more complete picture of drug safety than either alone.</p>
   </div>
 </section>
 
 <!-- FINDINGS -->
 <section id="findings" class="section">
-  <div class="section-label">08 — Key Findings</div>
-  <h2>What the framework reveals</h2>
+  <div class="section-label">08 — Key Takeaways</div>
+  <h2>What this framework<br>tells us</h2>
 
   <ul class="findings-list fade-in">
     <li>
       <span class="fi-num">I</span>
-      <span class="fi-text">FAERS reporting frequency and mechanistic KG path support are nearly uncorrelated (ρ ≈ 0.18), validating the core premise of the neuro-symbolic approach — each signal captures a distinct dimension of toxicity risk.</span>
+      <span class="fi-text">Biology and reporting data are measuring <em>different things</em>. The near-zero correlation (ρ ≈ 0.18) between FDA reports and biological pathway evidence means our approach isn't redundant — it's genuinely complementary. You need both to get the full picture.</span>
     </li>
     <li>
       <span class="fi-num">II</span>
-      <span class="fi-text">Cell Death / Apoptosis and Renal Effects are strong candidates for underreported adverse events — high biological plausibility, low reporting frequency — identified exclusively through the hybrid scoring approach.</span>
+      <span class="fi-text">Two side effects — <strong style="color:var(--ink)">Cell Death / Apoptosis</strong> and <strong style="color:var(--ink)">Renal Effects</strong> — have strong biological support but low reporting frequency. These are exactly the kind of hidden signals that frequency-only approaches miss, and the kind that could cause harm if overlooked.</span>
     </li>
     <li>
       <span class="fi-num">III</span>
-      <span class="fi-text">Serious adverse events are associated with broader and stronger biological pathway involvement (FDR-corrected p &lt; 0.01), supporting the hypothesis that mechanistic complexity correlates with clinical severity.</span>
+      <span class="fi-text">When a drug disrupts more biological processes, the clinical outcome tends to be more serious. This held up with statistical rigor (FDR-corrected p &lt; 0.01) — suggesting that measuring the <em>breadth</em> of biological disruption is a meaningful proxy for clinical risk.</span>
     </li>
     <li>
       <span class="fi-num">IV</span>
-      <span class="fi-text">Mechanistic grounding is not random noise — diversity-based features (unique GO processes, unique proteins) show the strongest predictive utility, outperforming raw path counts in severity classification.</span>
+      <span class="fi-text">What matters isn't just <em>how many</em> pathway connections a drug has, but <em>how many different types</em> of biological processes it disrupts. Diversity of impact — not raw quantity — is the strongest signal of severity.</span>
     </li>
   </ul>
 </section>
@@ -1321,32 +1416,90 @@
     <div class="two-col">
       <div class="fade-in">
         <h2>Why this matters</h2>
-        <p>Most AI systems in healthcare produce probabilities. This framework produces <strong style="color:var(--ink)">mechanistic explanations</strong> — bridging molecular biology and patient-level outcomes.</p>
-        <p>Ontology-grounded reasoning improves transparency in drug safety analysis, enabling clinicians and researchers to interrogate the basis of any prediction.</p>
+        <p>Most AI tools in healthcare produce a probability — "70% chance of side effect X." This framework produces an <strong style="color:var(--ink)">explanation</strong>: "this drug causes side effect X <em>because</em> it binds protein Y, which disrupts biological process Z."</p>
+        <p>That distinction matters for clinicians, regulators, and patients who need to understand and trust safety predictions — not just receive them.</p>
         <div class="tags">
-          <span class="tag highlight">Interpretability</span>
-          <span class="tag highlight">Mechanistic AI</span>
+          <span class="tag highlight">Interpretable AI</span>
+          <span class="tag highlight">Drug Safety</span>
           <span class="tag">Pharmacovigilance</span>
           <span class="tag">Knowledge Graphs</span>
-          <span class="tag">Drug Safety</span>
+          <span class="tag">Neuro-Symbolic AI</span>
         </div>
       </div>
       <div class="fade-in">
         <h2>Limitations</h2>
-        <p>Current scope and known constraints of this work:</p>
+        <p>Known constraints of this study:</p>
         <div class="tags" style="flex-direction: column; gap: 8px;">
-          <span class="tag" style="display:block">Single-drug case study — generalization requires validation across additional compounds</span>
-          <span class="tag" style="display:block">Manual components in GO-to-toxicity alignment may introduce inconsistencies</span>
-          <span class="tag" style="display:block">Reporting bias in FAERS data can skew adverse event frequency signals</span>
+          <span class="tag" style="display:block">Single-drug case study — we studied only Pralsetinib. The framework needs testing on other drugs to confirm generalizability.</span>
+          <span class="tag" style="display:block">FAERS data has known reporting biases — some side effects are systematically over- or under-reported regardless of biology.</span>
+          <span class="tag" style="display:block">The mapping from GO biological processes to toxicity themes involves some manual judgment, which could introduce inconsistencies.</span>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- GLOSSARY -->
+<section class="section">
+  <div class="section-label">10 — Glossary</div>
+  <h2>Key terms, plainly defined</h2>
+  <p>A reference for anyone new to the biology or data science concepts in this project.</p>
+
+  <div class="glossary-grid fade-in">
+    <div class="glossary-card">
+      <span class="gc-term">Off-Target Effect</span>
+      <p>A side effect caused by a drug interacting with proteins it <em>wasn't designed</em> to interact with. Like a key accidentally opening the wrong lock.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">FAERS</span>
+      <p>FDA Adverse Event Reporting System. A database of post-market side effect reports submitted by doctors, patients, and pharmaceutical companies after a drug is approved.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Knowledge Graph</span>
+      <p>A network of connected facts represented as nodes (entities) and edges (relationships). Enables structured reasoning across large datasets by following chains of relationships.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Gene Ontology (GO)</span>
+      <p>A standardized biological dictionary that classifies what proteins do — grouping them into categories like "cell death," "immune response," or "DNA repair."</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Biological Pathway</span>
+      <p>A sequence of molecular events inside a cell — like a chain reaction where protein A activates protein B, which triggers effect C. Disrupting one step can cause downstream harm.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Neuro-Symbolic AI</span>
+      <p>An AI approach combining neural networks (which find patterns in data) with symbolic reasoning (which follows logical rules). It gains interpretability from the symbolic component.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">AUC-ROC</span>
+      <p>Area Under the Receiver Operating Characteristic curve. A measure of classifier performance — 0.5 = random guessing, 1.0 = perfect. 0.644 means meaningfully better than chance.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Spearman Correlation (ρ)</span>
+      <p>A statistical measure of how closely two rankings agree. Values near 0 mean they're essentially independent signals; near 1 means they move together perfectly.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">FDR / q-value</span>
+      <p>False Discovery Rate. When running many statistical tests, FDR adjustment controls how often we'd expect a "significant" result by pure chance. A q-value &lt; 0.05 is considered reliable.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Pralsetinib</span>
+      <p>A targeted cancer drug approved for certain types of lung and thyroid cancer. It works by blocking a specific mutated protein (RET kinase). Our case study drug.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Logistic Regression</span>
+      <p>A machine learning model that predicts a binary outcome (serious / not serious) by finding which input features best separate the two groups. Interpretable and well-suited for medical data.</p>
+    </div>
+    <div class="glossary-card">
+      <span class="gc-term">Cross-Validation</span>
+      <p>A technique for reliably estimating model performance by splitting data into multiple train/test sets. Prevents overfitting — where a model performs well on training data but fails on new data.</p>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer>
-  <div class="footer-title">Neuro-Symbolic AI for Off-Target Toxicity</div>
+  <div class="footer-title">Neuro-Symbolic Framework: Predicting Off-Target Drug Effects Using Gene and Phenotype Ontologies</div>
   <div class="footer-line"></div>
   <p>DSC 180B Capstone Project &nbsp;·&nbsp; University of California, San Diego</p>
 </footer>
