@@ -732,6 +732,69 @@
     }
     .plain-lang-bar strong { color: var(--gold); }
 
+    /* ─── TEAM ─── */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      margin-top: 48px;
+    }
+    @media (max-width: 900px) { .team-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 500px) { .team-grid { grid-template-columns: 1fr 1fr; gap: 16px; } }
+
+    .team-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 28px 20px 24px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: rgba(200,169,110,0.02);
+      transition: border-color 0.3s, background 0.3s, transform 0.3s;
+    }
+    .team-card:hover {
+      border-color: rgba(200,169,110,0.3);
+      background: rgba(200,169,110,0.04);
+      transform: translateY(-3px);
+    }
+    .team-photo-wrap {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      margin-bottom: 16px;
+      background: var(--bg-3);
+    }
+    .team-photo {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+    }
+    .team-photo-fallback {
+      display: none;
+      width: 100%; height: 100%;
+      align-items: center; justify-content: center;
+      font-family: "Cormorant Garamond", serif;
+      font-size: 28px; font-weight: 300;
+      color: var(--gold-dim);
+      background: var(--bg-3);
+    }
+    .team-info { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+    .team-name {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 18px; font-weight: 400;
+      color: var(--ink); letter-spacing: 0.03em;
+    }
+    .team-linkedin {
+      display: inline-flex; align-items: center; gap: 6px;
+      color: var(--gold-dim); text-decoration: none;
+      font-size: 12px; letter-spacing: 0.08em;
+      border: 1px solid var(--border);
+      padding: 5px 12px; border-radius: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .team-linkedin:hover { color: var(--gold); border-color: rgba(200,169,110,0.4); }
+
     /* ─── GLOSSARY ─── */
     .glossary-grid {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -783,7 +846,8 @@
     <li><a href="#graph">Graph</a></li>
     <li><a href="#models">Models</a></li>
     <li><a href="#results">Results</a></li>
-    <li><a href="#findings">Findings</a></li>
+    <li><a href="#team">Team</a></li>
+    <li></li>
   </ul>
 </nav>
 
@@ -1494,6 +1558,73 @@
       <span class="gc-term">Cross-Validation</span>
       <p>A technique for reliably estimating model performance by splitting data into multiple train/test sets. Prevents overfitting — where a model performs well on training data but fails on new data.</p>
     </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section">
+  <div class="section-label">11 — The Team</div>
+  <h2>Meet the researchers</h2>
+  <p>DSC 180B Capstone · UC San Diego · 2024–2025</p>
+
+  <div class="team-grid fade-in">
+
+    <div class="team-card">
+      <div class="team-photo-wrap">
+        <img src="hannah.jpg" alt="Hannah Lee" class="team-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="team-photo-fallback">HL</div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Hannah Lee</div>
+        <a href="https://www.linkedin.com/in/hannah1ee/" target="_blank" rel="noopener" class="team-linkedin">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-photo-wrap">
+        <img src="haily.jpg" alt="Haily Vuong" class="team-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="team-photo-fallback">HV</div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Haily Vuong</div>
+        <a href="https://www.linkedin.com/in/haily-vuong-173796245/" target="_blank" rel="noopener" class="team-linkedin">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-photo-wrap">
+        <img src="stephanie.jpg" alt="Stephanie Yue" class="team-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="team-photo-fallback">SY</div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Stephanie Yue</div>
+        <a href="https://www.linkedin.com/in/stephanieyyue/" target="_blank" rel="noopener" class="team-linkedin">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-photo-wrap">
+        <img src="zoey.jpg" alt="Zoey He" class="team-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="team-photo-fallback">ZH</div>
+      </div>
+      <div class="team-info">
+        <div class="team-name">Zoey He</div>
+        <a href="https://www.linkedin.com/in/zoey-he-1996a1251/" target="_blank" rel="noopener" class="team-linkedin">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
   </div>
 </section>
 
