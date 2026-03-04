@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import OneClassSVM
 
 # Load data
-df = pd.read_csv("../data/processed/drug_ae_features.csv")
+df = pd.read_csv("../../data/03_features/drug_ae_features.csv")
 
 FEATURE_COLS = [
     "path_count",

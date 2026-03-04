@@ -24,11 +24,14 @@ Run:
 """
 
 from __future__ import annotations
-
+import sys
 from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
+
+_HERE = Path(__file__).parent
+sys.path.insert(0, str(_HERE.parent.parent / "knowledge_graph" / "01_kg_generator"))
 
 from kg_shared import DRUG_ID, FAERS_ONLY_FILE, AE_THEME_MAP
 
@@ -176,7 +179,7 @@ def main():
               f"{r['faers_pct']:>6.1f}% {r['n_ae_types']:>10}  {top_str}")
 
     # Save results CSV
-    out = Path(__file__).parent / "results_model1_baseline.csv"
+    out = Path(__file__).parent.parent / "04_model_summaries" / "results_model1_baseline.csv"
     pd.DataFrame(results).to_csv(out, index=False)
     print(f"\n  Results saved → {out.name}")
 

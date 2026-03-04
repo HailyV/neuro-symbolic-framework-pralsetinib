@@ -48,6 +48,7 @@ import math
 from collections import defaultdict
 from pathlib import Path
 
+import sys
 import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
@@ -55,6 +56,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, average_precision_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+
+_HERE = Path(__file__).parent
+sys.path.insert(0, str(_HERE.parent.parent / "knowledge_graph" / "01_kg_generator"))
 
 from kg_shared import (
     DRUG_ID, NODES_FILE, EDGES_FILE,
@@ -494,7 +498,7 @@ def main():
                   f"{row['kg_score']:>9.3f}  {basis}")
 
     # ── SAVE ──────────────────────────────────────────────────────────────────
-    out = Path(__file__).parent
+    out = Path(__file__).parent.parent / "04_model_summaries"
     df_scored.to_csv(out / "results_model3_ae_scored.csv",          index=False)
     novel_only.to_csv(out / "results_model3_novel_candidates.csv",   index=False)
     df_theme_sorted.to_csv(out / "results_model3_theme_analysis.csv", index=False)

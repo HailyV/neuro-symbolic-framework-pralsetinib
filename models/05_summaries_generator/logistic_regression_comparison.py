@@ -8,8 +8,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import roc_auc_score, average_precision_score
 
 # Data from faers_pull.py
-comparative_path = "../data/processed/comparative_drug_ae_data.csv"
-pralsetinib_path = "../data/processed/drug_ae_features.csv"
+comparative_path = "../../data/03_features/comparative_drug_ae_data.csv"
+pralsetinib_path = "../../data/03_features/drug_ae_features.csv"
 
 df_new = pd.read_csv(comparative_path)
 df_old = pd.read_csv(pralsetinib_path)

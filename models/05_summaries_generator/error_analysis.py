@@ -18,7 +18,7 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 # ── Load data ─────────────────────────────────────────────────────────────────
-df = pd.read_csv('model3_loocv_results.csv')
+df = pd.read_csv('../04_model_summaries/model3_loocv_results.csv')
 
 # Normalize columns
 df['correct'] = df['correct'].apply(lambda x: True if str(x).strip() == '✓' else False)
@@ -133,7 +133,7 @@ fig.legend(handles=legend_patches, loc='lower center', ncol=2,
            fontsize=8.5, bbox_to_anchor=(0.5, -0.12), frameon=True)
 
 plt.tight_layout()
-plt.savefig('error_analysis_deviation.png', dpi=150, bbox_inches='tight')
+plt.savefig('../../figures/error_analysis_deviation.png', dpi=150, bbox_inches='tight')
 plt.close()
 print("  Saved: error_analysis_deviation.png")
 
@@ -173,7 +173,7 @@ ax.set_title('Model 3 — Threshold Sensitivity Analysis\n'
 ax.legend(fontsize=9)
 ax.grid(alpha=0.3)
 plt.tight_layout()
-plt.savefig('error_analysis_threshold.png', dpi=150, bbox_inches='tight')
+plt.savefig('../../figures/error_analysis_threshold.png', dpi=150, bbox_inches='tight')
 plt.close()
 print("  Saved: error_analysis_threshold.png")
 
@@ -190,7 +190,7 @@ out = misclassified[['theme', 'true_label_str', 'pred_label_str',
                       'error_type', 'justification']].copy()
 out.columns = ['Theme', 'True Label', 'Pred Label', 'P(High)', 
                'KG Paths', 'FAERS Count', 'Error Type', 'Biological Justification']
-out.to_csv('error_analysis_taxonomy.csv', index=False)
+out.to_csv('../04_model_summaries/error_analysis_taxonomy.csv', index=False)
 print("\n  Saved: error_analysis_taxonomy.csv")
 
 # ── STEP 6: Capstone writeup summary ─────────────────────────────────────────

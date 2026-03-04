@@ -24,10 +24,10 @@ from pathlib import Path
 import pandas as pd
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FILE PATHS  (all relative to models/ folder — edit here if layout changes)
+# FILE PATHS  (all relative to models/ folder)
 # ─────────────────────────────────────────────────────────────────────────────
 _HERE           = Path(__file__).parent
-DATA_DIR        = _HERE.parent / "analysis" / "kg_files"
+DATA_DIR        = _HERE.parent.parent / "knowledge_graph" / "00_kg_data"
 
 NODES_FILE      = DATA_DIR / "kg_nodes.csv"
 EDGES_FILE      = DATA_DIR / "kg_edges_with_maps_to.csv"   # full KG

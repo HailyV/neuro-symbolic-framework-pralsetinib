@@ -330,7 +330,7 @@ def plot_coefficients(df):
     ax.legend(handles=[red_patch, blue_patch], fontsize=9)
 
     plt.tight_layout()
-    plt.savefig('/Users/stephanieyue/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/neuro-symbolic-framework-pralsetinib/models/model3_coefficients.png', dpi=150,
+    plt.savefig('../../figures/model3_coefficients.png', dpi=150,
                 bbox_inches='tight')
     plt.close()
     print("Saved: model3_coefficients.png")
@@ -375,7 +375,7 @@ def run_shap(df, pipe):
     )
     plt.title('SHAP Feature Importance — Model 3')
     plt.tight_layout()
-    plt.savefig('/Users/stephanieyue/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/neuro-symbolic-framework-pralsetinib/models/model3_shap.png', dpi=150,
+    plt.savefig('../../figures/model3_shap.png', dpi=150,
                 bbox_inches='tight')
     plt.close()
     print("Saved: model3_shap.png")
@@ -445,7 +445,7 @@ def plot_quadrants(df, y_probs):
                  'Green = high FAERS  |  Red = low FAERS', fontsize=11)
 
     plt.tight_layout()
-    plt.savefig('/Users/stephanieyue/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/neuro-symbolic-framework-pralsetinib/models/model3_quadrants.png', dpi=150,
+    plt.savefig('../../figures/model3_quadrants.png', dpi=150,
                 bbox_inches='tight')
     plt.close()
     print("Saved: model3_quadrants.png")
@@ -489,7 +489,7 @@ if __name__ == '__main__':
     plot_quadrants(df, y_probs)
 
     # ── Save results ───────────────────────────────────────────────────────
-    results_df.to_csv('/Users/stephanieyue/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/neuro-symbolic-framework-pralsetinib/models/model3_loocv_results.csv', index=False)
+    results_df.to_csv('../04_model_summaries/model3_loocv_results.csv', index=False)
     print("\nSaved: model3_loocv_results.csv")
 
     print("\n" + "=" * 60)

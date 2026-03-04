@@ -34,11 +34,11 @@ from scipy import stats
 # ─────────────────────────────────────────────────────────────────────────────
 # FILE PATHS  — edit if needed
 # ─────────────────────────────────────────────────────────────────────────────
-M1_CSV    = "results_model1_baseline.csv"
-M2_CSV    = "results_model2_bayes.csv"
-M3_CSV    = "model3_loocv_results.csv"
-OUT_PNG   = "figure_all_models.png"
-OUT_PDF   = "figure_all_models.pdf"
+M1_CSV    = "../04_model_summaries/results_model1_baseline.csv"
+M2_CSV    = "../04_model_summaries/results_model2_bayes.csv"
+M3_CSV    = "../04_model_summaries/model3_loocv_results.csv"
+OUT_PNG   = "../../figures/figure_all_models.png"
+OUT_PDF   = "../../figures/figure_all_models.pdf"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # LOAD
