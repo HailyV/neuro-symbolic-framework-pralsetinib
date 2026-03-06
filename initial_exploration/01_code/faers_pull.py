@@ -36,7 +36,7 @@ if all_data:
     combined_df['label'] = (combined_df['target_faers_score'] > 10).astype(int)
 
     # Save to CSV
-    output_dir = "../data/processed"
+    output_dir = "../../data/01_clean/"
     os.makedirs(output_dir, exist_ok=True)
     
     output_path = os.path.join(output_dir, "comparative_drug_ae_data.csv")

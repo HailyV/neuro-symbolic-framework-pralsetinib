@@ -14,7 +14,7 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 # Expected columns:
 # drug_id | ae | path_count | max_path_score | go_overlap | target_faers_score | label
 
-df = pd.read_csv("../data/processed/drug_ae_features.csv")
+df = pd.read_csv("../../data/03_features/drug_ae_features.csv")
 
 FEATURE_COLS = [
     "path_count",

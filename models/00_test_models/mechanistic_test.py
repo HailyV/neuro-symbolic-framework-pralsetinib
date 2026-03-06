@@ -9,13 +9,13 @@ import scipy.stats as stats
 from statsmodels.stats.multitest import multipletests
 
 # input files
-PATH_DRUGBANK_CLEAN = "data/01_clean/drugbank_pralsetinib_proteins_cleaned.csv"
-PATH_GO_THEME_MAP   = "data/interim/go_to_toxicity_theme.csv"
-PATH_GOA_GAF_GZ     = "data/00_raw/goa_human_annotations.gaf.gz"
-PATH_GO_OBO         = "data/00_raw/go-basic.obo"
+PATH_DRUGBANK_CLEAN = "../../data/01_clean/drugbank_pralsetinib_proteins_cleaned.csv"
+PATH_GO_THEME_MAP   = "../../data/01_clean/go_to_toxicity_theme.csv"
+PATH_GOA_GAF_GZ     = "../../data/00_raw/goa_human_annotations.gaf.gz"
+PATH_GO_OBO         = "../../data/00_raw/go-basic.obo"
 
 # output files
-OUTFIG = "figures/mechanistic_enrichment_go_themes.png"
+OUTFIG = "../../figures/mechanistic_enrichment_go_themes.png"
 
 # ---- Parsing GO ontology (OBO) for descendants ----
 
@@ -227,7 +227,7 @@ def plot_mechanistic_enrichment(df: pd.DataFrame, outpath: str):
 
 
 fig = plot_mechanistic_enrichment(res, OUTFIG)
-OUTCSV = "figures/mechanistic_enrichment_results.csv"
+OUTCSV = "../04_model_summaries/mechanistic_enrichment_results.csv"
 res.to_csv(OUTCSV, index=False)
 
 # Show which targets contribute to each theme

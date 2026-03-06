@@ -22,13 +22,13 @@ random.seed(SEED)
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 
-PATH_NODES = "data/02_kg/kg_nodes_v2.csv"
-PATH_EDGES = "data/02_kg/kg_edges_v2.csv"
-PATH_DRUGBANK_CLEAN = "data/01_clean/drugbank_pralsetinib_proteins_cleaned.csv"
+PATH_NODES = "../../data/02_kg/kg_nodes_v2.csv"
+PATH_EDGES = "../../data/02_kg/kg_edges_v2.csv"
+PATH_DRUGBANK_CLEAN = "../../data/01_clean/drugbank_pralsetinib_proteins_cleaned.csv"
 
-OUT_DIR = "models/mechanistic/model_results"
+OUT_DIR = "../../models/04_model_summaries/"
 OUT_METRICS = os.path.join(OUT_DIR, "pralsetinib_baseline_vs_gnn_fair_metrics.csv")
-OUT_FIG = os.path.join(OUT_DIR, "pralsetinib_baseline_vs_gnn_fair.png")
+OUT_FIG = os.path.join(OUT_DIR, "../../figures/pralsetinib_baseline_vs_gnn_fair.png")
 OUT_GNN_SCORES = os.path.join(OUT_DIR, "pralsetinib_gnn_scores_fair.csv")
 OUT_BASELINE_SCORES = os.path.join(OUT_DIR, "pralsetinib_baseline_scores_fair.csv")
 OUT_REASONING = os.path.join(OUT_DIR, "pralsetinib_mechanistic_reasoning_example.txt")

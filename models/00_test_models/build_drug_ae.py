@@ -2,8 +2,8 @@
 import pandas as pd
 import numpy as np
 
-IN_EDGES = "../data/interim/kg_edges_with_maps_to.csv"
-OUT_FEATS = "../data/processed/drug_ae_features.csv"
+IN_EDGES = "../../data/02_kg/kg_edges_with_maps_to.csv"
+OUT_FEATS = "../../data/03_features/drug_ae_features.csv"
 
 # -----------------------------
 # Load KG

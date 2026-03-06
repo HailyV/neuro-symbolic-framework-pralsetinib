@@ -5,8 +5,8 @@ from pathlib import Path
 # -----------------------------
 # Paths
 # -----------------------------
-FAERS_PATH = Path("data/faers_data.xlsx")
-OUT_PATH = Path("outputs/faers_ontology_grouped.csv")
+FAERS_PATH = Path("../../data/00_raw/faers_pralsetinib_reports.xlsx")
+OUT_PATH = Path("../../data/01_clean/faers_ontology_grouped.csv")
 
 # -----------------------------
 # Ontology Map

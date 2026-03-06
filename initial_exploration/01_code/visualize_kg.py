@@ -4,9 +4,9 @@ from pyvis.network import Network
 from pathlib import Path
 
 # Paths
-NODES_PATH = Path("kg_files/kg_nodes.csv")
-EDGES_PATH = Path("kg_files/kg_edges.csv")
-OUT_HTML = Path("kg_files/kg_interactive.html")
+NODES_PATH = Path("../../data/02_kg/kg_nodes_v2.csv")
+EDGES_PATH = Path("../../data/02_kg/kg_edges_v2.csv")
+OUT_HTML = Path("../../figures/kg_interactive.html")
 
 nodes_df = pd.read_csv(NODES_PATH)
 edges_df = pd.read_csv(EDGES_PATH)

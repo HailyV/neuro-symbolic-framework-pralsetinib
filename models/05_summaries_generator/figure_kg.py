@@ -5,7 +5,7 @@ import matplotlib.patches as mpatches
 import numpy as np
 import os
 
-output_dir = os.path.expanduser('~/Documents/GitHub/neuro-symbolic-framework-pralsetinib/models/04_model_summaries')
+output_dir = os.path.expanduser('~/Documents/GitHub/neuro-symbolic-framework-pralsetinib/figures')
 
 # ── Colors ────────────────────────────────────────────────────────────────────
 C_KG      = '#2d6a4f'

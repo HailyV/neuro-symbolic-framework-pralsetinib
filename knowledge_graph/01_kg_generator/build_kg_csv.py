@@ -17,10 +17,10 @@ import pandas as pd
 import re
 from kg_go import build_go_components
 
-CHEMBL_PATH = Path(r"data/chembl/pralsetinib_targets_clean.csv")
-OT_PATH = Path(r"data/open_targets_target_disease_long.csv")
-FAERS_PATH = Path(r"data/faers_data.xlsx")
-OUTPUT_DIR = Path("kg_files")
+CHEMBL_PATH = Path(r"../../data/01_clean/pralsetinib_targets_clean.csv")
+OT_PATH = Path(r"../../data/00_raw/open_targets_target_disease_long.csv")
+FAERS_PATH = Path(r"../../data/00_raw/faers_pralsetinib_reports.xlsx")
+OUTPUT_DIR = Path("../00_kg_data")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 DRUG_NAME = "Pralsetinib"
@@ -143,7 +143,7 @@ def main():
         })
 
     # GO
-    GO_PATH = Path("data/raw/goa_human.gaf.gz")
+    GO_PATH = Path(r"../../data/00_raw/goa_human_annotations.gaf.gz")
     TARGET_UNIPROTS = list(uniprot_to_symbol.keys())
 
     go_nodes_df, go_edges_df = build_go_components(

@@ -3,10 +3,10 @@ import pandas as pd
 from scipy.sparse import coo_matrix
 from sklearn.decomposition import TruncatedSVD
 
-KG_EDGES = "analysis/kg_files/kg_edges.csv"
-DB_EDGES = "data/interim/kg_edges_drug_protein.csv"
-DB_NODES = "data/interim/kg_nodes_v2.csv"
-GOA_FILE = "data/interim/pralsetinib_targets_goa.csv"
+KG_EDGES = r"../../knowledge_graph/00_kg_data/kg_edges.csv"
+DB_EDGES = r"../../data/02_kg/kg_edges_drug_protein.csv"
+DB_NODES = r"../../data/02_kg/kg_nodes_v2.csv"
+GOA_FILE = r"../../data/01_clean/pralsetinib_targets_goa.csv"
 
 
 
