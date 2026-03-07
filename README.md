@@ -253,46 +253,46 @@ kg_edges.csv
 ## 3. Run the Models
 
 ### Model 1 — FAERS Baseline
-
+```
 cd models/01_base_model
 python model1_baseline.py
-
+```
 Output:
 
-models/04_model_summaries/results_model1_baseline.csv
+`models/04_model_summaries/results_model1_baseline.csv`
 
 
 ### Model 2 — Bayesian Knowledge Graph Scoring
-
+```
 cd models/02_secondary_model
 python model2_bayes_paths.py
-
+```
 Output:
 
-models/02_secondary_model/results_model2_bayes.csv
+`models/02_secondary_model/results_model2_bayes.csv`
 
 
 ### Model 3 — Hybrid / Complementarity Analysis
-
+```
 cd models/03_final_model
 python model3_ml_hybrid.py
 python loocv_logistic_regression.py
-
+```
 Outputs include:
-
+```
 models/04_model_summaries/results_model3_theme_analysis.csv
 models/04_model_summaries/results_model3_novel_candidates.csv
-
+```
 
 ## 4. Generate Summary Figures
-
+```
 cd models/05_summaries_generator
 python plot_three_models.py
 python error_analysis.py
-
+```
 Generated figures will appear in:
 
-figures/
+`figures/`
 
 ## Authors
 DSC 180B Capstone Project Team
