@@ -237,18 +237,18 @@ Dependencies include:
 
 ## 2. Build the Knowledge Graph
 
-cd knowledge_graph/01_kg_generator
-python build_kg_csv.py
+`cd knowledge_graph/01_kg_generator
+python build_kg_csv.py`
 
 Output files will be written to:
 
-knowledge_graph/00_kg_data/
+`knowledge_graph/00_kg_data/`
 
 These include:
-
+```
 kg_nodes.csv
 kg_edges.csv
-
+```
 
 ## 3. Run the Models
 
