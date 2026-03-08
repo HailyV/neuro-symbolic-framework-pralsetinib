@@ -887,7 +887,7 @@
 
   <div class="analogy-box">
     <span class="analogy-icon">💊</span>
-    <p><strong>Think of it like this:</strong> When you take a medication, it's designed to hit one specific target in your body. But drugs are imprecise — they can also interact with other proteins and biological systems, causing unexpected side effects. These are called <strong>off-target effects</strong>. Our project builds a system that can predict <em>which</em> side effects are likely and <em>why</em> they happen, using biology as the explanation.</p>
+    <p><strong>Think of it like this:</strong> When you take a medication, it's designed to hit one specific target in your body. But drugs are imprecise and they can also interact with other proteins and biological systems, causing unexpected side effects. These are called <strong>off-target effects</strong>. Our project builds a system that can predict <em>which</em> side effects are likely and <em>why</em> they happen, using biology as the explanation.</p>
   </div>
 
   <div class="two-col fade-in">
@@ -899,7 +899,7 @@
     <div class="challenge-item">
       <span class="number">02</span>
       <h3>Underreporting is a real risk</h3>
-      <p>Some dangerous side effects are rarely reported — not because they don't happen, but because they're hard to connect to a drug, or simply overlooked. Our framework uses <span class="tip" data-tip="Biological pathways are the step-by-step molecular processes inside cells — like a chain reaction where protein A activates protein B, which then triggers an effect in the body.">biological pathway knowledge</span> to surface these hidden signals before they become clinical problems.</p>
+      <p>Some dangerous side effects are rarely reported, not simply because they don't happen, but because they're hard to connect to a drug, or simply overlooked. Our framework uses <span class="tip" data-tip="Biological pathways are the step-by-step molecular processes inside cells — like a chain reaction where protein A activates protein B, which then triggers an effect in the body.">biological pathway knowledge</span> to surface these hidden signals before they become clinical problems.</p>
     </div>
   </div>
 </section>
@@ -910,9 +910,9 @@
     <div class="section-label">02 — Research Question</div>
     <h2>Can biology explain<br>what statistics miss?</h2>
     <div class="rq-box fade-in">
-      <p>Can we use structured knowledge about genes and biological processes to predict drug side effects — and explain <em>why</em> they happen — beyond what frequency-based reporting alone can reveal?</p>
+      <p>Can we use structured knowledge about genes and biological processes to predict drug side effects and use it to explain <em>why</em> they happen, beyond what frequency-based reporting alone can reveal?</p>
     </div>
-    <p style="margin-top: 24px;">In simpler terms: instead of just counting how often side effects are reported, can we trace <em>the molecular chain of events</em> — from a drug binding to a protein, to a biological process going wrong, to a patient experiencing harm?</p>
+    <p style="margin-top: 24px;">In simpler terms: instead of just counting how often side effects are reported, can we trace <em>the molecular chain of events</em>, from a drug binding to a protein, to a biological process going wrong, to a patient experiencing harm?</p>
   </div>
 </div>
 
@@ -920,7 +920,7 @@
 <section id="approach" class="section">
   <div class="section-label">03 — Our Approach</div>
   <h2>Connecting molecules<br>to patient outcomes</h2>
-  <p>We built a <span class="tip" data-tip="A knowledge graph is a network of connected facts. Like a web of relationships — 'Drug A binds Protein B', 'Protein B triggers Process C', 'Process C is linked to Side Effect D'.">knowledge graph</span> that maps the full chain from a drug's molecular interactions to real-world side effects. Instead of treating these as unrelated data points, we trace the biological route that connects them.</p>
+  <p>We built a <span class="tip" data-tip="A knowledge graph is a network of connected facts. Like a web of relationships 'Drug A binds Protein B', 'Protein B triggers Process C', 'Process C is linked to Side Effect D'.">knowledge graph</span> that maps the full chain from a drug's molecular interactions to real-world side effects. Instead of treating these as unrelated data points, we trace the biological route that connects them.</p>
 
   <div class="analogy-box" style="margin-top: 24px;">
     <span class="analogy-icon">🗺️</span>
@@ -940,7 +940,7 @@
     <div class="flow-arrow"></div>
     <div class="flow-node">
       <div class="flow-bubble fb-go">GO<br>Process</div>
-      <span class="flow-label"><span class="tip" data-tip="Gene Ontology (GO) is a standardized dictionary that classifies what biological processes each protein is involved in — things like 'cell death', 'immune response', or 'cell growth'.">Gene Ontology</span></span>
+      <span class="flow-label"><span class="tip" data-tip="Gene Ontology (GO) is a standardized dictionary that classifies what biological processes each protein is involved in things like 'cell death', 'immune response', or 'cell growth'.">Gene Ontology</span></span>
     </div>
     <div class="flow-arrow"></div>
     <div class="flow-node">
@@ -949,7 +949,7 @@
     </div>
   </div>
 
-  <p>Each arrow represents a known biological relationship. By chaining them together, we can reason about <em>why</em> a drug might cause a particular side effect — not just correlate the two.</p>
+  <p>Each arrow represents a known biological relationship. By chaining them together, we can reason about <em>why</em> a drug might cause a particular side effect, not just correlate the two.</p>
 </section>
 
 <!-- DATA SOURCES -->
@@ -957,19 +957,19 @@
   <div class="section-inner section">
     <div class="section-label">04 — Data Sources</div>
     <h2>Four datasets, one<br>connected picture</h2>
-    <p>We combined four publicly available databases to build our reasoning network and validate our findings — each contributing a different layer of knowledge.</p>
+    <p>We combined four publicly available databases to build our reasoning network and validate our findings with each contributing a different layer of knowledge.</p>
     <div class="data-grid fade-in" style="grid-template-columns: repeat(2, 1fr);">
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--red), transparent);"></div>
         <div class="dc-num">01</div>
         <h3>DrugBank</h3>
-        <p>Tells us which proteins Pralsetinib binds to inside the body. Think of proteins as locks — DrugBank maps which locks this drug's key fits into, including ones it wasn't designed for. We identified <strong style="color:var(--ink)">11 protein targets</strong> for Pralsetinib.</p>
+        <p>Tells us which proteins Pralsetinib binds to inside the body. Think of proteins as locks and DrugBank maps which locks this drug's key fits into, including ones it wasn't designed for. We identified <strong style="color:var(--ink)">11 protein targets</strong> for Pralsetinib.</p>
       </div>
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--blue), transparent);"></div>
         <div class="dc-num">02</div>
         <h3>Gene Ontology (GO)</h3>
-        <p>A standardized biological dictionary that categorizes what each protein <em>does</em> — whether it's involved in cell death, immune signaling, or DNA repair. We parsed <strong style="color:var(--ink)">38,736 GO terms</strong> and 13,909 parent-child relationships to build the knowledge graph.</p>
+        <p>A standardized biological dictionary that categorizes what each protein <em>does</em> whether it's involved in cell death, immune signaling, or DNA repair. We parsed <strong style="color:var(--ink)">38,736 GO terms</strong> and 13,909 parent-child relationships to build the knowledge graph.</p>
       </div>
       <div class="data-card">
         <div class="dc-accent" style="background: linear-gradient(to right, var(--green), transparent);"></div>
@@ -981,7 +981,7 @@
         <div class="dc-accent" style="background: linear-gradient(to right, var(--orange), transparent);"></div>
         <div class="dc-num">04</div>
         <h3>FAERS</h3>
-        <p>The FDA's real-world side effect database. After a drug hits the market, doctors, patients, and companies submit reports of observed adverse events. We extracted <strong style="color:var(--ink)">2,196 reports</strong> across 200 distinct adverse events for Pralsetinib — our ground-truth frequency signal.</p>
+        <p>The FDA's real-world side effect database. After a drug hits the market, doctors, patients, and companies submit reports of observed adverse events. We extracted <strong style="color:var(--ink)">2,196 reports</strong> across 200 distinct adverse events for Pralsetinib which is our ground-truth frequency signal.</p>
       </div>
     </div>
   </div>
@@ -990,7 +990,7 @@
 <section id="graph" class="section">
   <div class="section-label">05 — Knowledge Graph</div>
   <h2>The network of biological<br>connections</h2>
-  <p>This interactive visualization shows Pralsetinib's full web of connections — which proteins it touches, which biological processes those proteins control, and which side effects emerge at the end of those chains. <strong>Click any node</strong> to explore its neighborhood. Colors represent different types of entities in the network.</p>
+  <p>This interactive visualization shows Pralsetinib's full web of connections and which proteins it touches, which biological processes those proteins control, and which side effects emerge at the end of those chains. <strong>Click any node</strong> to explore its neighborhood. Colors represent different types of entities in the network.</p>
 
   <div class="graph-wrapper fade-in">
     <div class="graph-header">
@@ -1328,7 +1328,7 @@
   <div class="section-inner section">
     <div class="section-label">06 — Modeling Strategy</div>
     <h2>Four models, each asking<br>a different question</h2>
-    <p>We built a progressive pipeline — starting from a simple frequency count, adding biological reasoning, then directly measuring how independent those two signals are. A fourth analysis provides independent statistical validation of the biological targets the knowledge graph implicates.</p>
+    <p>We built a progressive pipeline starting from a simple frequency count, adding biological reasoning, then directly measuring how independent those two signals are. A fourth model uses the full knowledge graph topology to predict drug-target relationships using graph neural network embeddings.</p>
 
     <div class="model-compare-3 fade-in">
 
@@ -1336,11 +1336,11 @@
         <span class="model-badge badge-baseline">Model 1 — Baseline</span>
         <h3>FAERS Frequency Ranking</h3>
         <p><em>"What side effects are reported most often?"</em></p>
-        <p>We rank side effect themes purely by how many reports appear in the FDA database. This is the standard approach — useful, but limited. High counts may reflect reporting bias, not actual biological risk.</p>
+        <p>We rank side effect themes purely by how many reports appear in the FDA database. This is the standard approach which is useful, but ultimately is limited. High counts may reflect reporting bias, not actual biological risk.</p>
         <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">Report Count → Theme Rank</div>
         <div class="model-finding">
           <span class="mf-label">Key Output</span>
-          Top themes by frequency: Pneumonia, Hepatic Injury, Infections. These are what the data <em>surface</em> — but are they the whole story?
+          Top themes by frequency: Pneumonia, Hepatic Injury, Infections. These are what the data <em>surface</em> but are they the whole story?
         </div>
       </div>
 
@@ -1348,11 +1348,11 @@
         <span class="model-badge badge-enhanced">Model 2 — Hybrid Scoring</span>
         <h3>Bayesian Path Scoring</h3>
         <p><em>"What does biology say should be risky?"</em></p>
-        <p>We combine FAERS report frequency with the number of biological pathway connections in our knowledge graph. A side effect with few reports but many biological links gets elevated — revealing potentially <span class="tip" data-tip="Underreported adverse events are side effects that likely occur in real patients but don't appear frequently in safety databases — perhaps because they're subtle, delayed, or hard to attribute to a specific drug.">underreported signals</span>.</p>
+        <p>We combine FAERS report frequency with the number of biological pathway connections in our knowledge graph. A side effect with few reports but many biological links gets elevated which reveals potentially <span class="tip" data-tip="Underreported adverse events are side effects that likely occur in real patients but don't appear frequently in safety databases, perhaps because they're subtle, delayed, or hard to attribute to a specific drug.">underreported signals</span>.</p>
         <div class="path-display">Drug → Protein → <span class="tip" data-tip="GO Process = Gene Ontology biological process. A categorized biological activity like 'cell death', 'immune response', or 'DNA repair'.">GO Process</span> → Side Effect</div>
         <div class="model-finding">
           <span class="mf-label">Key Finding</span>
-          Cell Death / Apoptosis and Renal Effects emerge as high-biology / low-reporting candidates — potentially underreported adverse events invisible to Model 1.
+          Cell Death / Apoptosis and Renal Effects emerge as high-biology / low-reporting candidates, which may be potentially underreported adverse events invisible to Model 1.
         </div>
       </div>
 
@@ -1360,7 +1360,7 @@
         <span class="model-badge badge-loocv">Model 3 — Complementarity Analysis</span>
         <h3>LOOCV Logistic Regression<br>+ KG–FAERS Complementarity</h3>
         <p><em>"Are biology and reporting measuring different things?"</em></p>
-        <p>We fit two logistic regression models — one using only knowledge graph features, one adding FAERS frequency — and evaluated both with <span class="tip" data-tip="Leave-one-out cross-validation (LOOCV) holds out one theme at a time as the test case and trains on the remaining 12. This is the most rigorous test possible when working with a small dataset of 13 themes.">leave-one-out cross-validation (LOOCV)</span>. The near-chance LOOCV AUC on the KG-only model revealed that the scientific value of KG features is in their <em>structural independence</em> from FAERS — not in replacing it.</p>
+        <p>We fit two logistic regression models , one using only knowledge graph features, one adding FAERS frequency, and evaluated both with <span class="tip" data-tip="Leave-one-out cross-validation (LOOCV) holds out one theme at a time as the test case and trains on the remaining 12. This is the most rigorous test possible when working with a small dataset of 13 themes.">leave-one-out cross-validation (LOOCV)</span>. The near-chance LOOCV AUC on the KG-only model revealed that the scientific value of KG features is in their <em>structural independence</em> from FAERS and not in replacing it.</p>
         <div class="path-display" style="border-color:rgba(90,191,122,0.2); color:var(--green);">KG path count vs. FAERS count → Spearman ρ ≈ 0.18</div>
         <div class="model-metrics">
           <div class="mm-stat">
@@ -1374,17 +1374,22 @@
         </div>
         <div class="model-finding">
           <span class="mf-label">Key Finding</span>
-          KG and FAERS signals are nearly independent — they measure fundamentally different dimensions of risk. Cell Death/Apoptosis ranks 13th in FAERS but 5th in KG (12 paths, score 0.55). A 2×2 quadrant framework classifies themes as: validated, underreported, class-effect, or low-priority.
+          KG and FAERS signals are nearly independent and they measure fundamentally different dimensions of risk. Cell Death/Apoptosis ranks 13th in FAERS but 5th in KG (12 paths, score 0.55). A 2×2 quadrant framework classifies themes as: validated, underreported, class-effect, or low-priority.
         </div>
       </div>
 
       <div class="model-card model-card-3" style="border-color:rgba(138,154,181,0.3); background:rgba(138,154,181,0.02);">
-        <span class="model-badge" style="background:rgba(138,154,181,0.1); color:var(--slate);">Model 4 — Mechanistic Enrichment</span>
-        <h3>Mechanistic Enrichment<br>Analysis</h3>
-        <p><em>"Do Pralsetinib's targets cluster in dangerous biological processes?"</em></p>
-        <p>Using the GO Annotation (GOA) dataset as a background of <span class="tip" data-tip="The GOA human dataset maps 34,737 human proteins to GO biological process terms. Testing against this full background lets us ask: are Pralsetinib's 11 targets over-represented in specific processes compared to all human proteins?">34,737 human proteins</span>, we ran a one-sided <span class="tip" data-tip="Fisher's Exact Test checks whether a set of proteins is over-represented in a biological process compared to random chance. An odds ratio of 13 means the drug's targets are 13× more likely to be involved in that process than a random set of proteins.">Fisher's Exact Test</span> for each of four toxicity-relevant mechanisms. GO terms for each theme were collected by traversing the full GO ontology hierarchy downward from each seed term. P-values were corrected using Benjamini-Hochberg FDR.</p>
-        <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">DrugBank targets + GOA background → Fisher's Exact Test → FDR correction</div>
-        <div class="stats-table" style="margin-top:8px;">
+        <span class="model-badge" style="background:rgba(138,154,181,0.1); color:var(--slate);">Model 4 — Graph Neural Network</span>
+        <h3>Graph Neural Network<br>+ Mechanistic Enrichment</h3>
+        <p><em>"Can the full graph topology predict drug-target relationships?"</em></p>
+        <p>A <span class="tip" data-tip="A Graph Neural Network (GNN) learns representations of nodes by aggregating information from their neighbors in the graph. This lets it capture structural patterns like which proteins cluster together that the path-based models miss.">graph convolutional network</span> is trained on the full knowledge graph, learning node embeddings from the entire topology of drug–protein–pathway–disease connections. It predicts drug-target relationships using the structure of the graph itself, rather than hand-crafted path features.</p>
+        <div class="path-display" style="border-color:rgba(138,154,181,0.2); color:var(--slate);">Full Knowledge Graph → GNN node embeddings → Drug-target relationship prediction</div>
+        <div class="model-finding" style="margin-bottom:16px;">
+          <span class="mf-label">Key Limitation</span>
+          Reduced interpretability compared to path-based models and the GNN learns which graph structures matter, but cannot explain <em>why</em> a particular pathway drives a prediction the way Model 2 can.
+        </div>
+        <p style="font-size:13px; color:var(--ink-faint); margin-bottom:8px;">Independent validation via Mechanistic Enrichment Analysis (Fisher's Exact Test against 34,737 GOA proteins):</p>
+        <div class="stats-table" style="margin-top:4px;">
           <div class="st-row-4 st-head"><span>Mechanism</span><span>GO terms</span><span>Odds Ratio</span><span>FDR</span></div>
           <div class="st-row-4"><span>Cell Adhesion</span><span style="color:var(--ink-faint)">76</span><span class="stat-up">13.0</span><span class="stat-sig">0.010 ✓</span></div>
           <div class="st-row-4"><span>Immune System</span><span style="color:var(--ink-faint)">551</span><span class="stat-up">7.7</span><span class="stat-sig">0.010 ✓</span></div>
@@ -1393,7 +1398,7 @@
         </div>
         <div class="model-finding">
           <span class="mf-label">Key Finding</span>
-          Cell Death independently confirmed (OR=9.1, FDR=0.036) using a completely separate method from the KG — validating the KG's nomination of Cell Death/Apoptosis as an underreported candidate. Cell Adhesion (OR=13) is the strongest signal and is not currently in our KG theme taxonomy.
+          Cell Death independently confirmed (OR=9.1, FDR=0.036) using enrichment analysis against the full GOA background which is validating the KG's nomination of Cell Death/Apoptosis as an underreported candidate. Cell Adhesion (OR=13) is the strongest signal overall.
         </div>
       </div>
 
@@ -1402,7 +1407,7 @@
     <details>
       <summary>Technical Architecture</summary>
       <div>
-        <p>The knowledge graph encodes four node types: Drug (Pralsetinib, CHEMBL4582651), Protein targets (JAK2, FLT3, RET — 11 total from DrugBank), GO Biological Process terms (159 terms), and Toxicity Themes (13 categories). Model 2 uses a Bayesian noisy-OR framework: posterior ∝ prior(FAERS) × noisy-OR(KG paths), with base_prob=0.18 and alpha_prior=1.5. Model 3A uses KG-only features (path_count, go_overlap_ratio, max_path_score, mean_path_score, theme_specificity, n_proteins, has_direct_maps_to); Model 3B adds log_faers. LOOCV holds out each of the 13 themes in turn. The Mechanistic Enrichment Analysis applies one-sided Fisher's Exact Test against 34,737 annotated human proteins from the GO Annotation (GOA) database, with Benjamini-Hochberg FDR correction (threshold: FDR &lt; 0.05).</p>
+        <p>The knowledge graph encodes four node types: Drug (Pralsetinib, CHEMBL4582651), Protein targets (JAK2, FLT3, RET — 11 total from DrugBank), GO Biological Process terms (159 terms), and Toxicity Themes (13 categories). Model 2 uses a Bayesian noisy-OR framework: posterior ∝ prior(FAERS) × noisy-OR(KG paths), with base_prob=0.18 and alpha_prior=1.5. Model 3A uses KG-only features (path_count, go_overlap_ratio, max_path_score, mean_path_score, theme_specificity, n_proteins, has_direct_maps_to); Model 3B adds log_faers. LOOCV holds out each of the 13 themes in turn. Model 4 applies a graph convolutional network over the full knowledge graph topology to learn node embeddings and predict drug-target relationships; interpretability is reduced compared to path-based approaches. Independent mechanistic validation applies one-sided Fisher's Exact Test against 34,737 annotated human proteins from the GO Annotation (GOA) database, with Benjamini-Hochberg FDR correction (threshold: FDR &lt; 0.05).</p>
       </div>
     </details>
   </div>
@@ -1419,7 +1424,7 @@
       <div class="rc-accent" style="background: linear-gradient(to right, var(--gold), transparent);"></div>
       <div class="rc-icon">◈</div>
       <h3>Two signals, not one</h3>
-      <p>Report frequency and biological pathway evidence are <em>nearly uncorrelated</em> — <span class="tip" data-tip="Spearman correlation measures how closely two rankings match. 0 = no relationship, 1 = perfect match. ρ ≈ 0.18 means the two signals share almost no overlap — they are measuring fundamentally different dimensions of risk.">Spearman ρ ≈ 0.18</span> across 13 toxicity themes. This is the project's central finding: our biology-based approach isn't replicating FAERS — it's discovering genuinely new information.</p>
+      <p>Report frequency and biological pathway evidence are <em>nearly uncorrelated</em> <span class="tip" data-tip="Spearman correlation measures how closely two rankings match. 0 = no relationship, 1 = perfect match. ρ ≈ 0.18 means the two signals share almost no overlap but they are measuring fundamentally different dimensions of risk.">Spearman ρ ≈ 0.18</span> across 13 toxicity themes. This is the project's central finding: our biology-based approach isn't replicating FAERS and it's discovering genuinely new information.</p>
       <p>A <strong style="color:var(--ink)">2×2 quadrant framework</strong> classifies every theme by KG evidence vs. FAERS frequency:</p>
       <div class="stats-table">
         <div class="st-row st-head"><span>Quadrant</span><span>KG</span><span>FAERS</span></div>
@@ -1428,14 +1433,14 @@
         <div class="st-row"><span>↔ Class / indirect effect</span><span style="color:var(--red); font-family:'JetBrains Mono',monospace">Low</span><span class="stat-up">High</span></div>
         <div class="st-row"><span>— Low priority</span><span style="color:var(--ink-faint)">Low</span><span style="color:var(--ink-faint)">Low</span></div>
       </div>
-      <div class="rc-callout">Cell Death/Apoptosis, Renal, and Proliferative all fall in the <strong>underreported candidate</strong> quadrant — strong biological evidence, low FAERS representation.</div>
+      <div class="rc-callout">Cell Death/Apoptosis, Renal, and Proliferative all fall in the <strong>underreported candidate</strong> quadrant, strong biological evidence, low FAERS representation.</div>
     </div>
 
     <div class="result-card">
       <div class="rc-accent" style="background: linear-gradient(to right, var(--green), transparent);"></div>
       <div class="rc-icon">◉</div>
       <h3>Cell Death confirmed by two independent methods</h3>
-      <p>Cell Death/Apoptosis was nominated by KG path scoring (rank 5, 12 paths, score 0.55) despite ranking 13th in FAERS. A completely separate <span class="tip" data-tip="Fisher's Exact Test is a statistical test that checks whether a set of proteins is more likely to be involved in a specific biological process than you'd expect by random chance. An odds ratio of 9.1 means Pralsetinib's targets are 9× more likely to be involved in cell death than average human proteins.">Fisher's Exact Test enrichment analysis</span> independently confirmed it — testing Pralsetinib's 11 protein targets against 34,737 human proteins in the GO background:</p>
+      <p>Cell Death/Apoptosis was nominated by KG path scoring (rank 5, 12 paths, score 0.55) despite ranking 13th in FAERS. A completely separate <span class="tip" data-tip="Fisher's Exact Test is a statistical test that checks whether a set of proteins is more likely to be involved in a specific biological process than you'd expect by random chance. An odds ratio of 9.1 means Pralsetinib's targets are 9× more likely to be involved in cell death than average human proteins.">Fisher's Exact Test enrichment analysis</span> independently confirmed it and is testing Pralsetinib's 11 protein targets against 34,737 human proteins in the GO background:</p>
       <div class="stats-table">
         <div class="st-row st-head"><span>Mechanism</span><span>Odds Ratio</span><span>FDR</span></div>
         <div class="st-row"><span>Cell Adhesion</span><span class="stat-up">13.0</span><span class="stat-sig">0.010 ✓</span></div>
@@ -1443,14 +1448,14 @@
         <div class="st-row"><span>Cell Death</span><span class="stat-up">9.1</span><span class="stat-sig">0.036 ✓</span></div>
         <div class="st-row"><span>Oxidative Stress</span><span style="color:var(--ink-faint)">8.6</span><span style="color:var(--ink-faint)">0.119 —</span></div>
       </div>
-      <div class="rc-callout">Convergence across two independent methods — KG path scoring and GO enrichment testing — substantially strengthens Cell Death/Apoptosis as an underreported risk candidate.</div>
+      <div class="rc-callout">Convergence across two independent methods like KG path scoring and GO enrichment testing are substantially strengthens Cell Death/Apoptosis as an underreported risk candidate.</div>
     </div>
 
     <div class="result-card">
       <div class="rc-accent" style="background: linear-gradient(to right, var(--blue), transparent);"></div>
       <div class="rc-icon">◇</div>
       <h3>LOOCV Logistic Regression reveals complementarity, not competition</h3>
-      <p>The LOOCV logistic regression produced near-chance AUC on KG-only features — expected with 13 themes from a single drug. But this is a diagnostic finding, not a failure: when FAERS frequency is added as a feature, it captures over 95% of model weight, completely masking KG signal.</p>
+      <p>The LOOCV logistic regression produced near-chance AUC on KG-only features which is expected with 13 themes from a single drug. But this is a diagnostic finding, not a failure: when FAERS frequency is added as a feature, it captures over 95% of model weight, completely masking KG signal.</p>
       <div class="perf-bars">
         <div class="pb-row">
           <span class="pb-label" style="width:110px;">KG features</span>
@@ -1467,14 +1472,14 @@
           <span class="pb-val">4.53 coef</span>
         </div>
       </div>
-      <div class="rc-callout" style="margin-top:16px;">This confirms that KG and FAERS are not competing predictors — they are orthogonal signals. The KG's value is in the quadrant analysis and rank shifts, not within-theme classification.</div>
+      <div class="rc-callout" style="margin-top:16px;">This confirms that KG and FAERS are not competing predictors but rather they are orthogonal signals. The KG's value is in the quadrant analysis and rank shifts, not within-theme classification.</div>
     </div>
 
   </div>
 
   <div class="synthesis-box fade-in">
     <div class="sb-label">The Bottom Line</div>
-    <p>KG-derived mechanistic features and post-marketing report frequency are near-uncorrelated (ρ ≈ 0.18). Two independent analyses — KG path scoring and GO enrichment testing — both nominate Cell Death/Apoptosis as an underreported risk despite its rank-13 FAERS position. Together, these findings demonstrate that ontology integration surfaces complementary signal that frequency-based pharmacovigilance structurally cannot.</p>
+    <p>KG-derived mechanistic features and post-marketing report frequency are near-uncorrelated (ρ ≈ 0.18). Two independent analyses, KG path scoring and GO enrichment testing, which are both nominate Cell Death/Apoptosis as an underreported risk despite its rank-13 FAERS position. Together, these findings demonstrate that ontology integration surfaces complementary signal that frequency-based pharmacovigilance structurally cannot.</p>
   </div>
 </section>
 
@@ -1486,19 +1491,19 @@
   <ul class="findings-list fade-in">
     <li>
       <span class="fi-num">I</span>
-      <span class="fi-text">Biology and reporting are measuring <em>different things</em>. The near-zero Spearman correlation (ρ ≈ 0.18) between KG path count and FAERS frequency across 13 themes is the project's core result — it proves the neuro-symbolic approach adds signal that frequency analysis structurally cannot produce.</span>
+      <span class="fi-text">Biology and reporting are measuring <em>different things</em>. The near-zero Spearman correlation (ρ ≈ 0.18) between KG path count and FAERS frequency across 13 themes is the project's core result which it proves the neuro-symbolic approach adds signal that frequency analysis structurally cannot produce.</span>
     </li>
     <li>
       <span class="fi-num">II</span>
-      <span class="fi-text"><strong style="color:var(--ink)">Cell Death / Apoptosis</strong> was independently nominated as an underreported risk by two separate analyses: KG path scoring (rank 5, 12 paths) and GO enrichment testing (OR = 9.1, FDR = 0.036) — despite ranking 13th in FAERS. Convergence across orthogonal methods is the strongest form of computational evidence.</span>
+      <span class="fi-text"><strong style="color:var(--ink)">Cell Death / Apoptosis</strong> was independently nominated as an underreported risk by two separate analyses: KG path scoring (rank 5, 12 paths) and GO enrichment testing (OR = 9.1, FDR = 0.036), despite ranking 13th in FAERS. Convergence across orthogonal methods is the strongest form of computational evidence.</span>
     </li>
     <li>
       <span class="fi-num">III</span>
-      <span class="fi-text">The LOOCV logistic regression produced near-chance AUC on KG-only features — not a failure, but a diagnostic finding. It reveals that KG features are structurally independent from FAERS frequency, which is exactly why they're valuable for the quadrant analysis rather than head-to-head classification.</span>
+      <span class="fi-text">The LOOCV logistic regression produced near-chance AUC on KG-only features which is not a failure, but a diagnostic finding. It ultimately reveals that KG features are structurally independent from FAERS frequency, which is exactly why they're valuable for the quadrant analysis rather than head-to-head classification.</span>
     </li>
     <li>
       <span class="fi-num">IV</span>
-      <span class="fi-text"><strong style="color:var(--ink)">Cell Adhesion</strong> emerged as the most significantly enriched mechanism in our partner's enrichment analysis (OR = 13, FDR = 0.010) — a signal not captured in the primary KG theme taxonomy. This points to a gap worth closing in future versions of the framework.</span>
+      <span class="fi-text"><strong style="color:var(--ink)">Cell Adhesion</strong> emerged as the most significantly enriched mechanism in the Model 4 enrichment validation (OR = 13, FDR = 0.010) which is a signal not captured in the primary KG theme taxonomy. This points to a gap worth closing in future versions of the framework.</span>
     </li>
   </ul>
 </section>
@@ -1510,8 +1515,8 @@
     <div class="two-col">
       <div class="fade-in">
         <h2>Why this matters</h2>
-        <p>Most AI tools in healthcare produce a probability — "70% chance of side effect X." This framework produces an <strong style="color:var(--ink)">explanation</strong>: "this drug causes side effect X <em>because</em> it binds protein Y, which disrupts biological process Z."</p>
-        <p>That distinction matters for clinicians, regulators, and patients who need to understand and trust safety predictions — not just receive them.</p>
+        <p>Most AI tools in healthcare produce a probability such as "70% chance of side effect X." This framework produces an <strong style="color:var(--ink)">explanation</strong>: "this drug causes side effect X <em>because</em> it binds protein Y, which disrupts biological process Z."</p>
+        <p>That distinction matters for clinicians, regulators, and patients who need to understand and trust safety predictions and not just receive them.</p>
         <div class="tags">
           <span class="tag highlight">Interpretable AI</span>
           <span class="tag highlight">Drug Safety</span>
@@ -1524,10 +1529,10 @@
         <h2>Limitations</h2>
         <p>Known constraints of this study:</p>
         <div class="tags" style="flex-direction: column; gap: 8px;">
-          <span class="tag" style="display:block">Single-drug case study — the framework was applied only to Pralsetinib. Generalizability across other drugs requires further validation.</span>
-          <span class="tag" style="display:block">KG coverage is limited to 3 primary targets (JAK2, FLT3, RET). Off-target proteins like VEGFR2 — implicated in Pralsetinib's pulmonary toxicity — are absent, explaining the low KG rank of Pulmonary despite its rank-2 FAERS position.</span>
+          <span class="tag" style="display:block">Single-drug case study where the framework was applied only to Pralsetinib. Generalizability across other drugs requires further validation.</span>
+          <span class="tag" style="display:block">KG coverage is limited to 3 primary targets (JAK2, FLT3, RET). Off-target proteins like VEGFR2 which are implicated in Pralsetinib's pulmonary toxicity are absent, explaining the low KG rank of Pulmonary despite its rank-2 FAERS position.</span>
           <span class="tag" style="display:block">FAERS reflects voluntary post-market reporting. Known biases include underreporting of events attributed to cancer progression and overrepresentation of administratively common categories.</span>
-          <span class="tag" style="display:block">All findings are computational — Cell Death/Apoptosis and other nominated candidates are hypotheses for prospective monitoring, not confirmed clinical signals.</span>
+          <span class="tag" style="display:block">All findings are computational, Cell Death/Apoptosis and other nominated candidates are hypotheses for prospective monitoring, not confirmed clinical signals.</span>
         </div>
       </div>
     </div>
