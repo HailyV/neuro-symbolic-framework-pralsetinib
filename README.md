@@ -212,7 +212,7 @@ The analysis can be reproduced using the scripts provided in the repository.
 This project integrates data from DrugBank, Gene Ontology / GOA, FAERS (openFDA), and supporting curated intermediate files.
 
 - Most Processed & model ready files are included in the repository under `data/` and `knowledge_graph/`.
-- Some raw data sources require access or download if hoping to retreive on your own.
+- Some raw data sources require access or download if hoping to retrieve on your own.
   - DrugBank may require an academic license
   - FAERS / openFDA data can be retrieved from public FDA sources
   - GO / GOA files can be downloaded from Gene Ontology resources
